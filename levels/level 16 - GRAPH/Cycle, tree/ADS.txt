@@ -1,0 +1,63 @@
+ADS
+### Giải thích các biến trong code:
+
+- `cha[100001]`: Mảng lưu cha của từng đỉnh trong quá trình duyệt DFS. Nếu `cha[v] = u` nghĩa là đỉnh `v` có cha là đỉnh `u`.
+- `del[100001]`: Mảng đánh dấu các đỉnh đã bị xóa hoặc đã được duyệt trong quá trình DFS.
+- `n`: Số lượng đỉnh của đồ thị.
+- `m`: Số lượng cạnh của đồ thị.
+- `s`: Đỉnh bắt đầu (không dùng trong đoạn mã hiện tại).
+- `a[100005]`: Mảng danh sách kề, lưu các đỉnh kề của từng đỉnh.
+- `res`: Biến lưu kết quả số chu trình tìm được trong đồ thị.
+
+### Mô phỏng chương trình với đầu vào ví dụ:
+
+INPUT:
+```
+5 6
+1 2
+2 4
+4 5
+3 5
+1 3
+2 3
+```
+
+### Quy trình thực hiện:
+
+1. **Input**:
+    - Đọc số đỉnh `n = 5` và số cạnh `m = 6`.
+    - Đọc các cạnh và cập nhật danh sách kề `a`:
+      - `1 2`: `a[1] = {2}`, `a[2] = {1}`
+      - `2 4`: `a[2] = {1, 4}`, `a[4] = {2}`
+      - `4 5`: `a[4] = {2, 5}`, `a[5] = {4}`
+      - `3 5`: `a[3] = {5}`, `a[5] = {4, 3}`
+      - `1 3`: `a[1] = {2, 3}`, `a[3] = {5, 1}`
+      - `2 3`: `a[2] = {1, 4, 3}`, `a[3] = {5, 1, 2}`
+
+2. **DFS khởi tạo từ đỉnh 1**:
+    - `cha[1] = 1` (khởi tạo cha của đỉnh gốc là chính nó).
+    - Gọi `dfs(1)`:
+      - Duyệt qua các đỉnh kề của `1` là `2` và `3`.
+      - Đỉnh `2` chưa được duyệt (`cha[2] == 0`), đặt `cha[2] = 1` và gọi `dfs(2)`:
+        - Duyệt qua các đỉnh kề của `2` là `1`, `4`, `3`.
+        - Đỉnh `1` đã được duyệt và không tạo chu trình.
+        - Đỉnh `4` chưa được duyệt (`cha[4] == 0`), đặt `cha[4] = 2` và gọi `dfs(4)`:
+          - Duyệt qua các đỉnh kề của `4` là `2` và `5`.
+          - Đỉnh `2` đã được duyệt và không tạo chu trình.
+          - Đỉnh `5` chưa được duyệt (`cha[5] == 0`), đặt `cha[5] = 4` và gọi `dfs(5)`:
+            - Duyệt qua các đỉnh kề của `5` là `4` và `3`.
+            - Đỉnh `4` đã được duyệt và không tạo chu trình.
+            - Đỉnh `3` chưa được duyệt (`cha[3] == 0`), đặt `cha[3] = 5` và gọi `dfs(3)`:
+              - Duyệt qua các đỉnh kề của `3` là `5`, `1`, `2`.
+              - Đỉnh `5` đã được duyệt và tạo chu trình với `cha[3] = 5`, `res++` (res = 1).
+              - Đỉnh `1` đã được duyệt và tạo chu trình với `cha[2] = 1`, `res++` (res = 2).
+              - Đỉnh `2` đã được duyệt và không tạo chu trình.
+      - Đỉnh `3` đã được duyệt và không tạo chu trình.
+
+3. **Kết quả**:
+
+Chương trình tìm thấy 2 chu trình trong đồ thị, vì thế kết quả là `2`.
+
+### Cập nhật code tại vị trí con trỏ:
+
+Tại vị trí con trỏ `input()`, bạn cần khởi tạo `cha` và `del` với giá trị ban đầu là `0` trước khi bắt đầu đọc dữ liệu vào. Bên cạnh đó, cần gọi `dfs(1)` và in kết quả

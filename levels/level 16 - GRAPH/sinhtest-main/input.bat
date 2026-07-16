@@ -1,0 +1,16 @@
+sinh 100 108 > test01.inp
+sinh 108 172 > test02.inp
+sinh 172 275 > test03.inp
+sinh 275 440 > test04.inp
+sinh 440 704 > test05.inp
+sinh 704 1126 > test06.inp
+sinh 1126 1801 > test07.inp
+sinh 1801 2881 > test08.inp
+sinh 2881 4609 > test09.inp
+sinh 4609 7374 > test10.inp
+sinh 7374 11798 > test11.inp
+sinh 11798 18876 > test12.inp
+sinh 18876 30201 > test13.inp
+sinh 30201 48321 > test14.inp
+sinh 48321 77313 > test15.inp
+sinh 77313 100000 > test16.inp

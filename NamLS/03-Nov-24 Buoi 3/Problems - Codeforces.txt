@@ -1,0 +1,307 @@
+Buổi 3
+Trong một buổi sinh hoạt ngoại khóa, để tăng thêm phần hào hứng, ban
+tổ chức đã đưa ra trò chơi gấp giấy. Trò chơi bao gồm một tờ giấy hình
+vuông kích thước N x N được kẻ thành lưới các ô vuông đơn vị, mỗi ô
+vuông được ban tổ chức ghi sẵn một trong hai số 0 hoặc 1. Mỗi người
+tham gia trò chơi được ban tổ chức yêu cầu gấp tờ giấy một lần theo
+đường kẻ ngang và một lần theo đường kẻ dọc. Theo nếp gấp đó sẽ chia
+tờ giấy thành 4 phần. Người thắng cuộc là người tìm được cách gấp tờ
+giấy mà phần có ít số 1 nhất (trong 4 phần của tờ giấy sau khi gấp) là
+nhiều nhất so với các cách gấp khác.
+
+Statement
+is not
+available
+on
+English
+language
+
+A. BỘ BA
+
+Yêu cầu: Bạn hãy tìm một cách gấp giấy thỏa mãn yêu cầu của ban tổ
+chức sao cho bạn là người thắng cuộc.
+
+1 second, 1024 megabytes
+Cho dãy số nguyên không âm gồm N số: A1, A2, ..AN và Q truy vấn, mỗi
+truy vấn gồm hai số nguyên dương L, R (1 ≤ L ≤ R ≤ N).
+
+Input
+
+Yêu cầu: Với mỗi truy vấn, hãy đếm số bộ ba chỉ số i, j, k thỏa mãn đồng
+thời:
+
+• Dòng thứ nhất chứa một số nguyên dương N (2 ≤ N ≤ 250).
+
+• L ≤ i < j < k ≤ R.
+• Ai + Aj + Ak là một số chẵn.
+
+Vào từ tệp văn bản GAPGIAY.INP:
+
+• Tiếp theo là n dòng, mỗi dòng ghi n số: Số 0 hoặc số 1, tương ứng với
+các số được ghi trên tờ giấy. Các số ghi trên cùng một dòng cách nhau
+một kí tự trắng.
+
+Output
+
+Input
+Vào từ tệp văn bản BOBA.INP gồm:
+5
+
+Ghi ra tệp văn bản GAPGIAY.OUT gồm một dòng ghi một số nguyên là số
+lượng số 1 trên phần giấy có ít số 1 nhất của cách gấp tìm được.
+
+• Dòng đầu chứa hai số nguyên dương N và Q (N, Q ≤ 10 );
+• Dòng thứ hai chứa N số nguyên A1, A2, ..AN (0≤Ai≤106 với mọi i =
+1..N);
+• Q dòng tiếp theo, mỗi dòng chứa hai số L, R mô tả một truy vấn (1 ≤ L ≤
+R ≤ N).
+
+Output
+Ghi ra tệp văn bản BOBA.OUT gồm Q dòng là kết quả tương ứng của Q
+truy vấn.
+
+input
+6
+1
+0
+1
+0
+0
+1
+
+0
+1
+0
+1
+1
+0
+
+1
+0
+0
+1
+0
+1
+
+0
+0
+0
+0
+0
+0
+
+0
+0
+0
+0
+1
+0
+
+1
+1
+0
+1
+0
+0
+
+output
+3
+
+Ràng buộc:
+• Có 40% số điểm có N, Q ≤ 100;
+• Có 40% số điểm tiếp theo có Q ≤ 1000;
+• Có 20% số điểm còn lại không còn ràng buộc gì thêm.
+
+C. QUÀ CỦA THẮNG
+1 second, 1024 megabytes
+
+input
+6
+1
+1
+2
+1
+
+3
+2 3 4 5 6
+3
+5
+6
+
+output
+1
+2
+10
+
+Statement
+is not
+available
+on
+English
+language
+
+B. GẤP GIẤY
+1 second, 1024 megabytes
+
+Statement
+is not
+available
+on
+English
+language
+
+D. GHÉP XÂU
+1 second, 1024 megabytes
+
+Hà có hai xâu kí tự X và Y gồm các kí tự tiếng anh thường. Em muốn lấy
+một xâu con liên tiếp của xâu X (gọi là X1) và một xâu con liên tiếp của Y
+(gọi là Y1). Sau đó ghép xâu X1 với Y1 lại (tức là xâu X1 + Y1) để được
+một xâu mới là xâu đối xứng.
+
+Vào từ tệp văn bản XEPHANG.INP gồm:
+- Dòng đầu chứa số T là số bộ test (T ≤ 10);
+- Tiếp theo là T test, mỗi test gồm:
+
+Yêu cầu: Hãy giúp Hà thực hiện yêu cầu trên sao cho độ dài xâu X1 + Y1
+dài nhất. Lưu ý là xâu X1, Y1 có thể rỗng.
+
+Dòng đầu chứa hai số nguyên dương N, M (N, M ≤ 105);
+
+Input
+
+khác nhau và 1 ≤ Xi ≤ N với mọi i = 1..N);
+
+Dữ liệu: Vào từ tệp văn bản GHEPXAU.INP gồm hai dòng, dòng đầu
+chứa xâu kí tự X, dòng thứ hai chứa xâu kí tự Y (độ dài xâu X, Y không
+quá 5000).
+
+Dòng thứ ba chứa N số nguyên dương Y1, Y2, ..., YN (Yi đôi một
+
+Dòng thứ hai chứa N số nguyên dương X1, X2, .., XN (Xi đôi một
+
+khác nhau và 1 ≤ Yi ≤ N với mọi i = 1..N);
+M dòng tiếp theo, dòng thứ i ghi hai số nguyên ai và bi (1 ≤ ai, bi ≤ N
+với mọi i=1..M).
+
+Output
+Kết quả: Ghi ra tệp văn bản GHEPXAU.OUT một số nguyên là độ dài xâu
+X1 + Y1 như yêu cầu.
+Ràng buộc:
+• Có 50% số điểm có độ dài xâu X, Y không quá 100;
+• Có 50% số điểm còn lại không còn ràng buộc gì thêm.
+
+input
+
+Output
+Ghi ra tệp văn bản XEPHANG.OUT gồm T dòng là kết quả của T test, nếu
+bạn lớp trưởng có thể thực hiện được yêu cầu như mô tả thì ghi YES,
+ngược lại ghi NO.
+Ràng buộc:
+• Có 50% số điểm có N, M ≤ 100;
+• Có 50% số điểm còn lại không còn ràng buộc gì thêm.
+
+axy
+bxz
+
+input
+
+output
+3
+
+E. REQ
+1 second, 1024 megabytes
+
+2
+4
+1
+1
+3
+4
+1
+1
+2
+
+1
+3
+4
+4
+1
+3
+4
+4
+
+2 4
+2 3
+
+2 4
+2 3
+
+output
+NO
+YES
+
+Statement
+is not
+available
+on
+English
+language
+
+G. RPALIN
+1 second, 1024 megabytes
+Statement
+is not
+available
+on
+English
+language
+
+F. XẾP HÀNG
+1 second, 1024 megabytes
+Lớp 11 chuyên Tin có N học sinh được đánh số từ 1 đến N. Đầu giờ sáng
+thứ hai, cả lớp xếp thành một hàng ngang theo thứ tự là: X1, X2, .., XN.
+Thầy Khải không hài lòng với thứ tự này nên đã yêu cầu lớp trưởng cho
+một số bạn đổi chỗ cho nhau để thứ tự xếp hàng của cả lớp trở thành:
+Y1, Y2, ..., YN. Tuy nhiên, không phải hai học sinh nào cũng được đổi chỗ
+cho nhau mà Thầy Khải cho lớp trưởng M cặp vị trí đẹp là ai, bi (với
+i=1..M) và yêu cầu chỉ những cặp học sinh nào đứng ở một trong các cặp
+vị trí đẹp thì mới được đổi chỗ.
+Yêu cầu: Hãy giúp bạn lớp trưởng lớp 11 Tin xác định xem có thể thực
+hiện được yêu cầu của thầy Khải không. Biết rằng việc đổi chỗ có thể
+không thực hiện lần nào hoặc nhiều lần tùy ý.
+
+Input
+
+Mọi xâu kí tự đều có thể được ghép từ một số xâu đối xứng (palindrome).
+Ví dụ:
+acbcabca = acbca+b+c+a
+hoặc:
+= a + cbc+a+b+c+a
+Yêu cầu: Cho xâu kí tự S, hãy đếm số cách chia xâu S thành các xâu
+palindrome như trên.
+
+Input
+Vào từ file văn bản RPALIN.INP gồm một dòng chứa xâu S (độ dài không
+quá 300).
+
+Output
+Ghi ra file văn bản RPALIN.OUT một số là kết quả tìm được modulo cho
+
+109+7.
+
+Ràng buộc:
+- Có 25% số test tương ứng với 25% số điểm có |S| ⩽ 20.
+- 75% số test còn lại không có ràng buộc gì thêm.
+
+input
+
+output
+
+acbcabca
+
+3
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

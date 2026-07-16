@@ -1,0 +1,16 @@
+/* Thiết lập định dạng cho toàn bộ trang */
+body {
+    background-color: #ffffff; /* Màu nền trắng */
+    color: #4a4a4a;           /* Màu chữ xám đậm (chính) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Thiết lập định dạng riêng cho tiêu đề h1 */
+h1 {
+    color: #2c3e50;           /* Màu chữ xanh đen (khác với body) */
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #eaecef; /* Đường gạch chân trang trí */
+}

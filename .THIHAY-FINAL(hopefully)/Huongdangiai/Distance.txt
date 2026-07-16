@@ -1,0 +1,10 @@
+Vì số lượng chữ số lớn nên ta dùng xâu để lưu input.
+Viết hàm d(a, b) để tính khoảng cách giữa 2 kí tự số.
+Duyệt 2 xâu và tính khoảng cách từng cặp kí tự số ở 2 xâu và cộng lại.
+Cách tính khoảng cách của cặp kí tự số:
+- Đổi kí tự a, b thành số x, y.
+- Để tính khoảng cách giữa 2 số này ta có 3 cách:
+	+ res = |x - y|
+	+ res = x - y
+	+ res = y - x
+- Ta lấy giá trị nhỏ nhất của 3 cách.

@@ -1,0 +1,3 @@
+Vui lòng để tên các thư mục trong đường dẫn tới thư mục test/bài làm của thí sinh KHÔNG CÓ DẤU, KHÔNG CÓ DẤU CÁCH nếu chấm bài bằng Themis.
+
+Có thể tạo một folder mới là C:\THIHAY, rồi để các thư mục bài làm của thí sinh vào C:\THIHAY\thisinh, để các thư mục test của các bài ở trong C:\THIHAY\test.

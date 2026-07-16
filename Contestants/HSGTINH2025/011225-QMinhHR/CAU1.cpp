@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+bool d[1000005];
+int main()
+{
+    ios_base::sync_with_stdio();
+    cin.tie();cout.tie();
+    freopen("CAU1.inp","r",stdin);
+    freopen("CAU1.out","w",stdout);
+    long long l,r,dem=0,i,j;
+    for(i=2;i*i<=1000000;i++)
+    {
+        if(d[i]==false)
+        {
+            for(j=i*i;j<=1000000;j=j+i)
+            {
+                d[j]=true;
+            }
+        }
+    }
+    d[1]=true;
+    cin>>l>>r;
+    if(r<=500)
+    {
+        for(i=l+1;i<=r;i++)
+        {
+            for(j=l;j<=i-1;j++)
+            {
+                if(d[i*i-j*j]==false)
+                {
+                    dem++;
+                }
+            }
+        }
+        cout<<dem;
+    }
+    else
+    {
+        dem=0;
+        for(i=l+1;i<=r;i++)
+        {
+            j=i-1;
+            if(d[i*i-j*j]==false)
+            {
+                dem++;
+            }
+        }
+        cout<<dem;
+    }
+}

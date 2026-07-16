@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//Hàm tìm ước chung lớn nhất
+int UCLN(int A, int B) {
+    for(int i = min(A, B); i > 0; --i) {
+        if (A % i == 0 && B % i ==0)
+            return i;
+    }
+    //Không chạy tới đây vì A, B luôn chia hết cho 1
+}
+int main() {
+  //khai báo hai số A và B
+  int A,B;
+  //yêu cầu người dùng nhập vào hai số A và B
+  cin>>A;
+  cin>>B;
+  //Gọi hàm UCLN() rồi truyền hai số A và B vào hàm để tìm UCLN
+  cout << UCLN(A, B);
+}

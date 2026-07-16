@@ -1,0 +1,1941 @@
+Level 8 - Sort, TKNP (video)
+
+0A. XEM TÀI LIỆU
+
+- Dòng thứ nhất 2 giá trị u và v
+- Dòng thứ hai in các số nguyên trên đoạn từ u đến v không có trong dãy
+đã cho theo thứ tự tăng dần.
+
+1 s., 256 MB
+LINK TÀI LIỆU: https://docs.google.com/document/d/13wMszfWVGebklUsEQ2E4l13Rj92A65r/edit#heading=h.gjdgxs
+
+input
+5
+4 9 11 2 5
+
+VÍ DỤ CÁCH NỘP BÀI
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+Input
+
+output
+2 11
+3 6 7 8 10
+
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+Output
+
+1C. THONGKE Thống kê
+
+Ghi một số nguyên là diện tích s.
+
+1 second, 256 megabytes
+
+input
+
+Cho dãy số a gồm n số nguyên a1 , a2 , ..., an . Hãy đếm số lượng giá trị
+khác nhau có trong dãy và đưa ra số lần lặp của giá trị xuất hiện nhiều
+nhất.
+
+5 3
+
+output
+15
+
+Input
+5
+
+• Dòng đầu gồm số n (n ≤ 10 )
+
+1A. PTK Phần tử thứ k
+
+9
+
+• Dòng sau gồm n số a1 , a2 , ..., an (|ai |≤ 10 )
+
+1 second, 256 megabytes
+
+Output
+
+Xét dãy a gồm n số nguyên a1 , a2 , … , an với:
+- ai
+
+nếu 1
+
+= 1
+
+- ai
+
+= (ai−1 + ai−2 )
+
+• Dòng dầu là số giá trị khác nhau.
+
+≤ i ≤ 2
+
+• Dòng thứ hai là số lần lặp của giá trị xuất hiện nhiều nhất.
+
+mod M , nếu 2
+
+< i ≤ n
+
+Yêu cầu: Hãy cho biết nếu sắp xếp dãy a theo thứ tự không giảm thì số
+thứ k có giá trị bằng bao nhiêu?
+
+Input
+
+input
+8
+6 7 1 7 4 6 6 8
+
+output
+
+3 số nguyên n, m, k.
+
+5
+3
+
+Output
+phần tử thứ k
+
+input
+
+input
+
+11
+6 7 1 7 4 6 6 8 7 7 7
+
+4 128 3
+
+output
+
+output
+
+5
+5
+
+2
+
+Giải thích: Mảng a là: 1, 1, 2, 3 . Số hạng thứ k
+
+= 3
+
+có giá trị 2
+
+Subtask:
+3
+
+Sub 1: 25% test có N
+
+≤ 10 ; m ≤ 109; k ≤ n
+
+Sub 2: 25% test có N
+
+≤ 10 ; m ≤ 10 ; k ≤ n
+
+Sub 3: 25% test có N
+
+≤ 10 ; m ≤ 10 ; k ≤ 10
+
+Sub 4: 25% test có N
+
+≤ 10 ; m ≤ 10 ; k ≤ n
+
+5
+
+9
+
+6
+
+9
+
+7
+
+6
+
+output
+7
+4
+
+input
+
+1B. 2010 THTB DONGNAI B1. TIMSO Tìm số
+
+16
+2 2 2 2 7 1 7 4 6 6 2 2 8 3 7 7
+
+output
+
+1 second, 256 megabytes
+
+7
+6
+
+Cho dãy số nguyên gồm N số a1 , a2 , ..., an . Yêu cầu:
+a. Tìm giá trị nhỏ nhất (u) và giá trị lớn nhất (v) trong dãy
+b. In ra các số nguyên trên đoạn từ u đến v không có trong dãy.
+
+Input
+5
+
+- Dòng thứ nhất gồm 1 số N là số phần tử của dãy (N ≤ 10 )
+9
+
+- Dòng thứ hai có N số nguyên a1 , a2 , ..., an (|ai| ≤ 10 )
+
+Output
+
+input
+11
+2 7 1 7 4 6 6 8 3 7 7
+
+input
+20
+2 2 2 2 7 1 7 4 6 6 2 2 8 3 7 7 7 7 7 7
+
+output
+7
+8
+
+1D. MUSIC Soạn nhạc
+1 second, 256 megabytes
+
+Output
+một số duy nhất T
+
+input
+9
+3 5 1 7 9 0 9 -3 10
+
+output
+810
+
+2B. DONGPHUC Áo đồng phục
+1 second, 256 megabytes
+
+Khoa học đã chứng minh nếu cho bò nghe nhạc thì chúng sẽ cho sữa
+ngon hơn. Tuy vậy, không phải bản nhạc nào cũng tốt cho bò. Mới đây,
+tiến sĩ John đã tìm ra cách nhận biết một đoạn nhạc không tốt.
+Có thể coi mỗi nốt nhạc là một số nguyên từ 1 đến 88 thể hiện cao độ và
+một bản nhạc là một dãy các số, mỗi số từ 1 đến 88. John đã tìm ra một
+dãy C số nguyên A 1 , A 2 , … , A C . Một đoạn nhạc gồm C nút sẽ không
+tốt nếu nó là một hoán vị của dãy A hoặc sẽ là một hoán vị của dãy A nếu
+cộng hoặc trừ các phần tử đi cùng một đơn vị. Ví dụ với C = 3, dãy A là
+(4, 6, 7) thì các dãy (8, 5, 7), (7, 9, 10) và (3, 1, 4) đều là không tốt.
+Yêu cầu: Hãy chỉ ra các đoạn nhạc không tốt trong một bản nhạc.
+
+Input
+- Dòng 1: ghi số N ( 1 ≤ N ≤ 10000) là số nút trong bản nhạc.
+- N dòng tiếp: mỗi dòng ghi một số nguyên trong khoảng từ 1 đến 88 biểu
+diễn một nốt nhạc.
+- Dòng tiếp: ghi số C ( 1 ≤ C ≤ 100).
+- C dòng tiếp: dòng i ghi Ai ( 1 ≤ Ai ≤ 88)
+
+Lớp chuyên Tin của thầy Vinh có n học sinh. Nghe nói khoa sắp sắm
+đồng phục mới cho lớp nên ai cũng háo hức. Thầy Vinh cho mỗi bạn tự
+ghi kích cỡ của mình để chọn áo. Bạn thứ i có kích cỡ ai và sẽ mặc vừa
+các áo có kích cỡ từ ai – x đến ai + y (x, y ≥ 0). Khoa hiện đang có m
+chiếc áo đồng phục, chiếc thứ j có kích thước bj. Vậy bạn thứ i có thể
+mặc được áo thứ j nếu ai – x ≤ bj≤ ai + y.
+Yêu cầu: Hãy giúp thầy Vinh phân phát áo được cho nhiều bạn nhất. Mỗi
+áo chỉ được phát cho một bạn.
+
+Input
+
+Output
+
+5
+
+- Dòng 1: ghi số lượng đoạn nhạc không tốt.
+- Các dòng tiếp: mỗi dòng ghi một số nguyên là chỉ số bắt đầu của một
+đoạn nhạc không tốt. Ghi các chỉ số này theo thứ tự tăng dần.
+
+input
+
+• Dòng tiên chứa bốn số nguyên n, m , x và y (1 ≤ n , m ≤ 10 , 0 ≤ x, y ≤
+10^12) - số bạn trong lớp, số lượng áo và hai con số x, y.
+• Dòng thứ hai chứa n số nguyên a1 , a2 , . . . , an (1 ≤ ai ≤ 10^12) là kích
+thước của các bạn học sinh.
+• Dòng thứ ba chứa m số nguyên b1 , b2 , . . . , bm (1 ≤ bj ≤ 10^12) là kích
+thước của các áo đồng phục.
+
+6
+1
+8
+5
+7
+9
+10
+3
+4
+7
+6
+
+Output
+In một số nguyên k duy nhất - số lượng tối đa của các học sinh được
+phân phát áo.
+
+input
+5 3 0 0
+1 2 3 3 4
+1 3 5
+
+output
+
+output
+
+2
+2
+4
+
+2
+
+input
+
+2A. 2007 TS10 PTNK B1. TICHMAX Tích lớn
+nhất
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2021/10/e-thi-tuyen-sinh-lop-10-chuyentin_27.html
+Cho một dãy gồm N số nguyên. Hãy tìm 3 số trong dãy với tích T của
+chúng là lớn nhất.
+
+Input
+• Dòng đầu ghi số N (3 N 10 000).
+• Dòng thứ hai chứa N số nguyên có giá trị tuyệt đối không vượt quá
+30000.
+
+3 3 2 2
+1 5 9
+3 5 7
+
+output
+3
+
+2C. OLYMPIC Luyện tập dự thi Olympic
+1 second, 256 megabytes
+Đề thi Olympic sinh viên 2011 – Khối Cao đẳng
+
+Năm 2011 đánh dấu 20 năm hình thành và phát triển của Olympic Tin học
+sinh viên Việt Nam. Để hỗ trợ các bạn sinh viên chuẩn bị tốt cho kỳ thi
+này, trên website IT-2011 có n bài tập. Các bài được đánh số từ 1 đến n.
+Mỗi bài tập nhằm rèn luyện một số kỹ năng cho thí sinh, ví dụ như kỹ
+thuật lập trình, giải thuật, cấu trúc dữ liệu…
+Nhằm định hướng cho quá trình tự luyện tập được hiệu quả, mỗi bài tập
+có một yêu cầu tối thiểu về trình độ kỹ năng. Để giải được bài thứ i, bạn
+cần có trình độ kỹ năng tối thiểu là ai .
+Điều này có nghĩa là sinh viên có thể giải được bài thứ i khi và chỉ khi có
+trình độ kỹ năng bằng hoặc lớn hơn ai . Nếu giải được bài thứ i trình độ kỹ
+năng của sinh viên sẽ tăng thêm một lượng là bi .
+Giả sử ban đầu, trình độ kỹ năng của bạn trước khi làm bài tập là c. Các
+bài tập có thể được làm theo trình tự bất kỳ tùy chọn.
+Ví dụ, với trình độ kỹ năng ban đầu c = 1, n = 4 và các giá trị ai , bi tương
+ứng là (1 , 10),( 21, 5), (1, 10), (100, 100), bạn sẽ giải bài 1, sau đó làm
+bài 3 và cuối cùng làm bài 2. Như vậy bạn sẽ làm được tất cả là 3 bài.
+Yêu cầu: Cho các số nguyên n, c và các cặp giá trị (ai, bi), 1 ≤ i ≤ n. Hãy
+xác định số lượng bài tối đa có thể được giải.
+
+Input
+- Dòng đầu tiên chứa 2 số nguyên n (1 ≤ n ≤ 105 ) và c (0 ≤ c ≤ 109 ),
+- Dòng thứ i trong n dòng tiếp theo (1 ≤ i ≤ n) chứa 2 số nguyên ai và bi.
+(1 ≤ ai, bi ≤ 109 ).
+Các số trên cùng một dòng được ghi cách nhau bởi 1 khoảng trắng.
+
+Trường THPT XYZ cần chọn 3 học sinh để lập đội tuyển tham dự kỳ thi
+Tin học trẻ tỉnh Đồng Nai năm 2013. Cho một danh sách gồm n học sinh,
+mỗi học sinh có các thông tin sau:
+• Số thứ tự.
+• Họ tên: là một xâu kí tự độ dài không quá 30.
+• Điểm toán, điểm tin: là số nguyên trong đoạn từ 0 đến 10.
+Các học sinh được đánh giá theo các tiêu chí như sau:
+• Chọn các học sinh có tổng (điểm toán + điểm tin) cao nhất.
+• Nếu có nhiều học sinh có tổng (điểm toán + điểm tin) bằng nhau, thì
+chọn học sinh có điểm tin cao hơn.
+• Nếu có nhiều học sinh có tổng (điểm toán + điểm tin) bằng nhau và có
+điểm tin bằng nhau, thì chọn học sinh có số thứ tự nhỏ hơn.
+Yêu cầu: Hãy chọn ra 3 học sinh giỏi nhất, giỏi nhì, giỏi ba trong n học
+sinh để lập đội tuyển.
+
+Input
+• Dòng đầu tiên là số n (3 ≤ n ≤ 10
+
+5
+
+)
+
+• N nhóm dòng sau là thông tin của n học sinh theo số thứ tự từ 1 đến n.
+Thông tin mỗi học sinh ghi trên 2 dòng
+o Dòng 1: họ tên
+o Dòng 2: điểm toán và điểm tin cách nhau một khoảng trắng.
+
+Output
+
+Output
+một số nguyên – số lượng bài tối đa có thể được giải.
+
+ghi thông tin 3 học sinh được chọn theo thứ tự giỏi nhất, giỏi nhì, giỏi ba.
+Mỗi thông tin của học sinh được mô tả trên 2 dòng:
+
+input
+
+• Dòng 1: số thứ tự của học sinh đó
+
+4 1
+1 10
+21 5
+1 10
+100 100
+
+• Dòng 2: họ tên của học sinh đó.
+
+input
+
+output
+3
+
+2D. MUABI Mua bi (2018 TS10 HCM B2)
+1 second, 256 megabytes
+Link đề (bài 2): http://www.chuyentin.pro/2018/06/e-thi-tuyen-sinh-lop-10chuyen-tin.html
+
+input
+8
+5
+2
+3
+6
+
+4
+6
+3
+4
+2
+
+4
+Nguyen Van A
+6 7
+Tran Thi B
+5 8
+Lam Tam C
+5 9
+Trieu D
+6 7
+
+output
+3
+Lam Tam C
+2
+Tran Thi B
+1
+Nguyen Van A
+
+Học sinh Lam Tam C (có số thứ tự là 3) có tổng (điểm Toán + điểm Tin) =
+14 cao nhất trong các học sinh nên là học sinh giỏi nhất. 3 học sinh còn
+lại đều có tổng (điểm Toán + điểm Tin) = 13, nhưng học sinh Trần Thị B
+(số thứ tự 2) có điểm Tin = 8 cao nhất nên là học sinh giỏi thứ nhì, hai học
+sinh còn lại có cùng điểm Tin = 7, ta chọn học sinh Nguyen Van A vì có số
+thứ tự bằng 1 nhỏ hơn số thự tự của học sinh Trieu D (có số thứ tự bằng
+4)
+
+output
+42
+
+input
+7
+3
+1
+2
+
+.
+
+3
+10
+5
+5
+
+3B. SZERO Dãy con tổng bằng 0
+1 second, 256 megabytes
+
+output
+
+Cho dãy số nguyên a = (a1 , a2 , . . . . , an ) . Hãy tìm 1 dãy đoạn dài nhất
+gồm các phần tử liên tiếp trong dãy a có tổng bằng 0.
+
+45
+
+Input
+
+3A. CHON Chọn đội tuyển
+1 second, 1024 megabytes
+
+5
+
+• Dòng 1 chứa số n (1 ≤ n ≤ 10 ) • dòng sau ghi n số ai (|ai |
+
+Output
+
+4
+
+≤ 10 )
+
+2 số là số thứ tự của phần tử đầu tiên và phần tử cuối cùng của dãy liên
+tiếp có tổng bằng 0. Nếu có nhiều đoạn, xuất đoạn đầu tiên tìm được.
+Nếu không có xuất -1
+
+input
+9
+2 7 5 -3 -2 4 -9 -2 -1
+
+Vaxia đã viết được một số lớn trên một cuộn giấy dài và muốn khoe với
+anh trai Petia về thành quả vừa đạt được. Tuy nhiên, khi Vaxia vừa ra
+khỏi phòng để gọi anh trai thì cô em Kachia chạy vào phòng và xé rách
+cuộn giấy thành một số mảnh. Kết quả là trên mỗi mảnh có một hoặc vài
+kí số theo thứ tự đã viết.
+Bây giờ Vaxia không thể nhớ chính xác mình đã viết số gì. Vaxia chỉ nhớ
+rằng đó là một số rất lớn.
+
+output
+
+Để làm hài lòng cậu em trai, Petia quyết định truy tìm số nào là lớn nhất
+mà Vaxia đã có thể viết lên cuộn giây trước khi bị xé. Bạn hãy giúp Petia
+làm việc này.
+
+2 8
+
+3C. SHARE948 Mua quà
+
+Input
+
+1 second, 256 megabytes
+Sắp đến sinh nhật của Bờm, các bạn của Bờm muốn mua tặng bạn của
+mình một món quà. Sau khi tìm hiểu, họ đã biết được món quà Bờm thích
+nhưng giá của món quà quá đắt nên lớp trưởng phải phát động một
+chương trình góp tiền mặt để mua quà tặng.
+Lớp có n bạn đánh số từ 1 tới n, số tiền nhiều nhất mà bạn thứ i có thể
+đóng góp là ai . Lớp trưởng muốn việc quyên góp tiền đạt được những
+yêu cầu sau:
+Số tiền mỗi người sẽ đóng góp là một số nguyên.
+Không có ai phải trả nhiều hơn khả năng của mình.
+Chênh lệch giữa người góp tiền ít nhất và nhiều nhất là nhỏ nhất có
+thể
+
+- Ghi một hoặc nhiều dòng. Mỗi dòng ghi một dãy kí số. Số dòng không
+vượt quá 100. Mỗi dòng ghi từ 1 đến 100 kí số. Bảo đảm rằng có ít nhất
+một dòng mà kí số đầu tiên khác 0.
+
+Output
+Ghi ra số lớn nhất đã có thể viết trên cuộn giấy trước khi bị xé rách.
+
+input
+2
+20
+004
+66
+
+output
+66220004
+
+input
+
+Yêu cầu: Biết giá tiền của món quà và khả năng đóng góp của mỗi người,
+hãy xác định xem mỗi bạn cần góp bao nhiêu tiền để có được đúng số
+tiền mua quà.
+
+3
+
+Input
+
+3
+
+• Dòng đầu gồm 2 số nguyên dương n, m(n
+số người, m số tiền cần trả để mua quà.
+
+5
+
+≤ 10 , m ≤ 10
+
+• Dòng tiếp theo gồm n số a1 , a2 , … , an (0 <
+tiền nhiều nhất mà mỗi bạn có thể đóng góp.
+
+18
+
+)
+
+output
+
+với n
+
+input
+ai ≤ 10
+
+9
+
+) lần lượt là số
+
+Output
+một dòng gồm n số, số thứ i là số tiền cần đóng góp của bạn thứ i . Nếu
+không tìm được phương án chia tiền theo yêu cầu ghi trên dòng một số
+nguyên duy nhất -1.
+
+56465
+2165
+14
+231541
+1
+
+output
+564652315412165141
+
+input
+
+input
+
+4 20
+10 10 4 4
+
+32
+51
+14
+5
+12
+13
+7
+2134
+2
+1
+9
+
+output
+6 6 4 4
+
+input
+3 7
+1 1 4
+
+output
+
+output
+
+-1
+
+9755132221341413121
+
+input
+
+3E. SCHEDULE Lịch sửa chữa ô tô
+
+5 34
+9 8 9 9 4
+
+1 second, 256 megabytes
+
+output
+7 7 8 8 4
+
+3D. NUMCON Ghép số lớn
+1 second, 256 megabytes
+
+Một cơ sở sửa chữa ô tô có nhận n chiếc xe để sửa. Do các nhân viên
+làm việc quá lười nhác nên đã đến hạn trả cho khách hàng mà vẫn chưa
+tiến hành sửa được chiếc xe nào. Theo hợp đồng đã ký kết từ trước, nếu
+bàn giao xe i quá hạn ngày nào thì sẽ phải trả thêm một khoản tiền phạt là
+ai.
+Ông chủ cơ sở sữa chữa quyết định sa thải toàn bộ công nhân và thuê
+công nhân mới. Với lực lượng mới này, ông ta dự định rằng để sửa chiếc
+xe i cần bi ngày. Vấn đề đặt ra đối với ông là phải lập lịch sửa tuần tự các
+chiếc xe sao cho tổng số tiền bị phạt là ít nhất.
+
+Yêu cầu: Hãy lập lịch sửa xe giúp cho ông chủ cơ sở sửa chữa ô tô sao
+cho tổng số tiền bị phạt là ít nhất.
+
+Input
+• Dòng 1: Chứa số nguyên dương n ≤ 105
+• Dòng 2: Chứa n số nguyên dương a1 , a2 , … , an , 1
+≤n
+• Dòng 3: Chứa n số nguyên dương b1 , b2 , … , bn , 1
+≤n
+
+≤ ai
+
+≤ bi
+
+≤ 1000, 1 ≤ i
+
+≤ 1000, 1 ≤ i
+
+input
+5
+3 5
+-11 3
+-20 4
+-12 8
+2 5
+
+output
+18
+
+Output
+một số nguyên duy nhất là số tiền phạt tối thiểu theo phương án tìm
+được.
+
+4B. COVER Phủ
+2 seconds, 256 megabytes
+
+input
+
+Cho n đoạn trên trục số, đoạn thứ i là [ai , hi ] . Hãy chọn ra trong các
+đoạn kể trên một số ít nhất các đoạn để phủ hết đoạn [a, b]
+
+4
+1 3 4 2
+3 2 3 1
+
+Input
+
+output
+
+• Dòng 1: Chứa 3 số n, a, b(n
+
+44
+
+• n dòng tiếp theo, dòng thứ i chứa hai số li , hi
+
+5
+
+5
+
+≤ 10 ; 0 ≤ a ≤ b ≤ 10 )
+5
+
+(0 ≤ li ≤ h i ≤ 10 )
+
+Tiền phạt: Xe 4: muôn 1 (ngày) x 2 = 2
+
+Output
+
+Xe 2: Muộn 3 (ngày) x 3 = 9
+
+• Dòng 1: Ghi số k là số đoạn được chọn (Nếu không có cách chọn thì
+k = −1)
+
+Xe 3: Muộn 6 (ngày) x 4 = 24
+
+• Trong trường hợp có phương án thực hiện yêu cầu thì k dòng tiếp theo,
+mỗi dòng ghi chỉ số một đoạn được chọn
+
+Xe 1: Muộn 9 (ngày) x 1 = 9
+————————————
+
+input
+
+Tổng cộng: = 44
+
+8
+4
+1
+2
+1
+3
+7
+9
+8
+
+Nếu sửa theo thứ tự 1, 2, 3, 4 thì
+Xe 2: muôn 3 (ngày) x 1 = 3
+Xe 2: Muộn 5 (ngày) x 3 = 15
+Xe 3: Muộn 8 (ngày) x 4 = 32
+
+2 10
+8
+3
+3
+4
+4
+10
+11
+11
+
+Xe 4: Muộn 9 (ngày) x 2 = 9
+
+output
+
+————————————
+
+3
+4
+1
+8
+
+Tổng cộng: = 68
+
+input
+
+4A. XEPDOAN Xếp đoạn
+1 second, 256 megabytes
+Cho N đoạn thẳng trên trục số với các điểm đầu ai và độ dài di là những
+
+4
+1
+2
+4
+6
+
+1 200
+4
+5
+5
+45
+
+output
+-1
+
+9
+
+số nguyên dương trong khoảng 0 .. 10 , i = 1..N. Tính tổng chiều dài các
+đoạn đó phủ trên trục số.
+
+4C. SETS Tập S và N đoạn số nguyên
+
+Input
+
+1 second, 256 megabytes
+
+5
+
+- Dòng đầu tiên: số tự nhiên 1 < N ≤ 10 .
+- Dòng thứ i trong N dòng tiếp theo, mỗi dòng chứa hai số nguyên ai , di
+cách nhau qua dấu cách, biểu thị điểm đầu và chiều dài của đoạn thứ i, i
+
+Cho N đoạn số nguyên [ai , bi ], hãy chọn tập S gồm ít số nguyên nhất mà
+mỗi đoạn trên đều chứa ít nhất hai số trong tập S.
+
+= 1..N. |ai |
+
+Input
+
+9
+
+< 10 , 0 < d < 10
+
+9
+
+.
+
+Output
+hiển thị trên màn hình tổng chiều dài t các đoạn phủ trên trục số.
+
+input
+3
+-5 10
+0 6
+-100 10
+
+output
+21
+
+5
+
+• Dòng 1 ghi số nguyên dương N (N < 10 )
+• N dòng sau, dòng i chứa 2 số ai và bi . (ai
+
+Output
+số lượng các phần tử trong tập S.
+
+< bi
+
+và |ai |, |bi |
+
+≤ 10
+
+9
+
+)
+
+1 second, 256 megabytes
+
+input
+5
+0
+2
+4
+3
+5
+
+Thầy Vinh rất thích nghe nhạc. Ông có n bài hát trong bộ sưu tập của
+mình. Bài hát i có thời gian ti phút. Thầy Vinh thường nghe mỗi bài hát có
+khi nhiều hơn một lần. Cụ thể ông nghe bài hát thứ i là ci lần. Vì vậy, khi
+mở máy, ông tạo một danh sách thứ tự các bài hát được phát sau: bài hát
+thứ 1 lặp c1 lần, bài hát thứ 2 lặp c2 lần, ... , cuối cùng bài hát n lặp cn
+lần.
+
+10
+3
+7
+5
+8
+
+output
+
+Thầy Vinh lấy một mảnh giấy và viết ra m thời điểm trong lúc ông nghe
+nhạc. Bây giờ với mỗi thời điểm như vậy ông muốn biết bài hát đang phát
+tại thời điểm đó.
+
+4
+
+tập S có thể gồm 4 phần tử 2, 3, 5, 7
+
+4D. THUOCDOAN Thuộc nhiều đoạn nhất
+1 second, 256 megabytes
+
+Yêu cầu: Giúp thầy Vinh xác định các bài hát nhé!
+
+Input
+• Dòng đầu tiên chứa hai số nguyên n, m(1
+
+5
+
+≤ n, m ≤ 10 )
+
+.
+
+Cho N đoạn số nguyên [ai , bi ], hãy tìm một số nguyên mà số đó thuộc
+nhiều đoạn số nguyên nhất.
+
+• n dòng tiếp theo chứa các cặp số nguyên . Dòng thứ i chứa số nguyên
+
+Input
+
+gian nghe nhạc của thầy Vinh không vượt quá 10 .
+
+9
+
+ci , ti (1 ≤ ci , ti ≤ 10 )
+
+- mô tả các bài hát. Đảm bảo rằng tổng thời
+9
+
+4
+
+• Dòng đầu là số N (N ≤ 10 ) • N dòng sau, mỗi dòng gồm 2 số ai và bi (
+|ai |, |bi | ≤ 10
+
+9
+
+)
+
+Output
+
+• Dòng tiếp theo chứa m số nguyên dương v1 , v2 , . . . , vm , mô tả những
+thời điểm thầy Vinh đã viết ra.
+
+Output
+
+số lượng đoạn số nguyên nhiều nhất.
+
+In m số nguyên - số thứ i chỉ bài bài hát được phát trong phút vi .
+
+input
+
+input
+
+5
+0
+2
+4
+3
+5
+
+1 2
+2 8
+1 16
+
+10
+3
+7
+5
+8
+
+output
+1
+1
+
+output
+4
+
+input
+
+số 5 thuộc 4 đoạn [0, 10], [4, 7], [3, 5], [5, 8]
+
+4
+1
+2
+1
+2
+1
+
+5A. XUATHIEN Xuất hiện
+1 second, 256 megabytes
+Cho dãy a có m số nguyên a1 , a2 , … , am . Dãy b có n số nguyên
+b1 , b2 , … , bn . Cho biết có bao nhiêu phần tử trong dãy a xuất hiện trong
+dãy b.
+
+Input
+• Dòng đầu gồm 2 số m, n(0
+
+5
+
+< m, n ≤ 10 )
+
+• m dòng tiếp theo, dòng thứ i là số nguyên ai (|ai |
+
+9
+
+≤ 10 )
+
+• n dòng tiếp theo, dòng thứ i là số nguyên
+9
+
+bi (|bi | ≤ 10 ; b1 ≤ b2 ≤. . . ≤ bn )
+
+Output
+
+9
+2
+1
+1
+2
+2 3 4 5 6 7 8 9
+
+output
+1
+1
+2
+2
+3
+4
+4
+4
+4
+
+Subtask: 75% test đảm bảo vi
+nhạc
+
+< vi+1 (i < m)
+
+< tổng thời gian nghe
+
+Số lượng phần tử trong dãy a xuất hiện trong b.
+
+5C. NDCCARD Đánh bài
+
+input
+
+1 second, 256 megabytes
+
+3 5
+1
+2
+3
+1
+3
+3
+4
+5
+
+Blackjack là trò chơi đánh bài khá phổ biến. Mục tiêu là có được những lá
+bài mà tổng của nó lớn nhất nhưng không vượt quá 21. Từ trò chơi này,
+Giraffe và các bạn đã sáng tạo ra một phiên bản mới của trò chơi cho
+riêng mình.
+Trong phiên bản mới của trò chơi này các bạn đã viết lên mỗi lá bài một
+số nguyên dương. Người tham gia trò chơi được cung cấp một tập gồm
+N lá bài và một số nguyên dương M . Nhiệm vụ của người chơi là phải
+chọn ra 3 lá bài sao cho tổng các số trên 3 lá bài là lớn nhất và không
+vượt quá M .
+
+output
+2
+
+Giải thích: các số nguyên 1, 3 của dãy a có xuất hiện trong dãy b.
+
+5B. SONG Nghe nhạc
+
+Yêu cầu: Giraffe đang thắc mắc kết quả tốt nhất có thể có của trò chơi
+trên là bao nhiêu, các bạn hãy giúp bạn ấy tìm ra câu trả lời nhé!
+
+Input
+
+Dòng đầu tiên ghi hai số nguyên dương N và
+3
+
+9
+
+M (N <= 10 , M ≤ 10 )
+
+Dòng thứ hai ghi N số nguyên dương đôi một khác nhau là các số đôi
+một khác nhau là các số được ghi trên N lá bài (ai
+
+9
+
+.
+
+≤ 10 )
+
+Output
+Một số nguyên dương duy nhất là kết quả tốt nhất của trò chơi. Test luôn
+đảm bảo có kết quả.
+
+Each of the following n lines contains m integers — the initial matrix. All
+matrix elements are positive integers. All numbers in the initial matrix do
+not exceed 105.
+The numbers in the lines are separated by single spaces.
+
+Output
+Print a single integer — the minimum number of moves needed to get a
+prime matrix from the one you've got. If you've got a prime matrix, print 0.
+
+input
+
+input
+
+6 20
+7 9 6 2 1 5
+
+3
+1
+5
+4
+
+output
+20
+
+3
+2 3
+6 1
+4 1
+
+output
+1
+
+Giải thích: Chọn các lá bài mang số 9, 6, 5 ta có
+9 + 6 + 5 = 20 <= M .
+Subtask 1: 80% test có M
+
+≤ 10
+
+5
+
+input
+
+.
+
+5D. INTERVALS Khoảng đóng
+1 second, 256 megabytes
+
+< j)
+
+mà hai khoảng đóng i
+
+5
+
+≤ n ≤ 10 )
+
+• n dòng tiếp theo, dòng thứ i chứa hai số nguyên
+Li, Ri(−10
+
+9
+
+9
+
+≤ Li ≤ R i ≤ 10 )
+
+input
+2 2
+1 3
+4 2
+
+output
+
+Input
+• Dòng 1 chứa số nguyên dương n(2
+
+output
+3
+
+Trên trục số cho n khoảng đóng đánh số từ 1 tới n, khoảng thứ i là
+[Li , R i ] , có thể coi khoảng đóng thứ i là tập các số thực x sao cho
+Li ≤ x ≤ R i .
+Yêu cầu: Đếm số cặp khoảng đóng (i, j)(i
+và j giao nhau khác rỗng.
+
+2 3
+4 8 8
+9 2 9
+
+.
+
+Output
+một số nguyên duy nhất là số cặp khoảng đóng giao nhau khác rỗng.
+
+0
+
+In the first sample you need to increase number 1 in cell (1, 1). Thus, the
+first row will consist of prime numbers: 2, 2, 3.
+In the second sample you need to increase number 8 in cell (1, 2) three
+times. Thus, the second column will consist of prime numbers: 11, 2.
+In the third sample you don't have to do anything as the second column
+already consists of prime numbers: 3, 2.
+
+input
+3
+1 4
+5 8
+3 6
+
+6A. XEPTRUNG Xếp trứng
+1 second, 256 megabytes
+
+output
+2
+
+5E. Prime Matrix
+2 seconds, 256 megabytes
+You've got an n × m matrix. The matrix consists of integers. In one move,
+you can apply a single transformation to the matrix: choose an arbitrary
+element of the matrix and increase it by 1. Each element can be increased
+an arbitrary number of times.
+You are really curious about prime numbers. Let us remind you that a
+prime number is a positive integer that has exactly two distinct positive
+integer divisors: itself and number one. For example, numbers 2, 3, 5 are
+prime and numbers 1, 4, 6 are not.
+A matrix is prime if at least one of the two following conditions fulfills:
+the matrix has a row with prime numbers only;
+the matrix has a column with prime numbers only;
+Your task is to count the minimum number of moves needed to get a
+prime matrix from the one you've got.
+
+Input
+
+The first line contains two integers n, m (1 ≤ n, m ≤ 500) — the number
+of rows and columns in the matrix, correspondingly.
+
+Cho N quả trứng duợc đưa vào dây chuyền theo thứ tự (quả trứng thứ i
+có thể tích là ai ). Ở cuối dây chuyền đã có sẵn M thùng chứa trứng. Các
+thùng này nhận trứng theo quy tắc: chứa trứng cho đến khi đầy thì
+chuyển sang thùng khác. Hãy tính sức chứa K tối thiểu của mỗi thùng để
+M thùng này có thể chứa hết trứng theo quy trình trên.
+
+Input
+• Dòng dầu: Ghi 2 số nguyên N , M (0
+
+5
+
+9
+
+< N ≤ 10 ; M < 10 )
+
+• Các dòng tiếp theo: dãy số nguyên ai (0
+
+6
+
+< ai ≤ 10 )
+
+Output
+Một số duy nhất là số nguyên k tìm duợc.
+
+input
+5 3
+6
+5
+4
+8
+9
+
+output
+12
+
+Giải thích: thùng 1: a1 , a2 ; thùng 2: a3 , a4 , thùng 3: a5 .
+Subtask:
+• 10% test có N
+
+≤ 100; M > (a1 + a2 + … + an )
+
+• 30% test có N
+
+≤ 100
+
+.
+
+input
+6
+
+6B. CHATGO Chặt gỗ
+
+output
+
+1 second, 256 megabytes
+
+8
+
+Có N cây gỗ, có chiều cao lần lượt là A[1], A[2], . . , A[n]. Bạn cần lấy
+một lượng gỗ độ cao tối thiểu là M bằng cách chặt từ N cây theo cách
+như sau: chặt tất cả những phần thừa của các cây có độ cao lớn hơn H .
+Hãy tìm giá trị H lớn nhất để bạn có thể lấy được lượng gỗ tối thiểu là
+M.
+
+input
+21
+
+output
+26
+
+Input
+Dòng 1 chứa 2 số nguyên N M . (1
+
+6
+
+9
+
+≤ N ≤ 10 ; 1 ≤ M ≤ 2.10 )
+
+.
+
+Dòng 2 chứa N số nguyên dương A[1], A[2], … , A[n] , là chiều cao
+mỗi cây gỗ tương ứng (A[i] ≤ 109 , i = 1− > n). Giả sử luôn tồn tại
+cách chặt.
+
+Output
+
+6D. Burning Midnight Oil
+2 seconds, 256 megabytes
+One day a highly important task was commissioned to Vasya — writing a
+program in a night. The program consists of n lines of code. Vasya is
+already exhausted, so he works like that: first he writes v lines of code,
+drinks a cup of tea, then he writes as much as
+lines, drinks another
+
+Số H duy nhất.
+
+input
+
+cup of tea, then he writes
+
+4 7
+20 15 10 17
+
+The expression
+
+lines and so on:
+
+,
+
+,
+
+, ...
+
+is regarded as the integral part from dividing number
+
+a by number b.
+
+output
+
+The moment the current value
+equals 0, Vasya immediately falls
+asleep and he wakes up only in the morning, when the program should
+already be finished.
+
+15
+
+input
+5 20
+4 42 40 26 46
+
+Vasya is wondering, what minimum allowable value v can take to let him
+write not less than n lines of code before he falls asleep.
+
+output
+
+Input
+
+The input consists of two integers n and k, separated by spaces — the
+size of the program in lines and the productivity reduction coefficient,
+
+36
+
+Giải thích: ví dụ 1, chọn H = 15; Cây 1 chặt được (20 - 15)=5; Cây 4 chặt
+được (17 - 15)=2. Tổng số gỗ chặt được nếu H = 15 là 7.
+
+6C. BATDEN Bật đèn
+1 second, 256 megabytes
+Cho dãy vô hạn các bóng đèn được đánh số 1, 2, 3… được điều khiển
+bởi 1 công tắc đặc biệt.
+• Ban đầu tất cả đèn đang sáng.
+
+• Bật công tắc lần hai thì các đèn số chẵn sáng trở lại.
+• Bật công tắc lần thứ 3 thì đèn 3, 6, 9, 12, …. nếu đang sáng sẽ tắt, còn
+nếu đang tắt sẽ sáng.
+• Bật công tắc lần thứ 4 thì đèn 4, 8, 12, …. nếu đang sáng sẽ tắt, còn
+nếu đang tắt sẽ sáng.
+• Tương tự vậy với các lần 5, 6, 7,… ,
+Hãy tìm vị trí p nhỏ nhất sao cho tồn tại một thời điểm mà dãy đèn [1..p]
+có đúng k đèn sáng.
+
+Input
+Output
+Một số nguyên dương p.
+
+input
+1
+
+output
+2
+
+Output
+
+Print the only integer — the minimum value of v that lets Vasya write the
+program in one night.
+
+input
+7 2
+
+output
+4
+
+• Bật công tắc lần 1 thì cả tất cả sẽ tắt.
+
+Một số nguyên dương duy nhất k(k
+
+1 ≤ n ≤ 109, 2 ≤ k ≤ 10.
+
+<= 10
+
+18
+
+)
+
+input
+59 9
+
+output
+54
+
+In the first sample the answer is v = 4. Vasya writes the code in the
+following portions: first 4 lines, then 2, then 1, and then Vasya falls
+asleep. Thus, he manages to write 4 + 2 + 1 = 7 lines in a night and
+complete the task.
+In the second sample the answer is v = 54. Vasya writes the code in the
+following portions: 54, 6. The total sum is 54 + 6 = 60, that's even more
+than n = 59.
+
+6E. BCFRIEND Kết bạn
+1 second, 256 megabytes
+
+Theo quan niệm của người Á Đông cổ, mỗi cá nhân khi sinh ra đều ứng
+với một ngôi sao, được gọi là sao chiếu mệnh. Các hoạt động của cá
+nhân đều bị chi phối bởi ngôi sao này, kể cả quá trình kết bạn – hẹn hò.
+Theo thuyết Âm dương – Ngũ hành, hai người chỉ có thể tạo lập mối quan
+hệ bền vững khi các sao chiếu mệnh của họ không có các thuộc tính
+tương khắc. Qua hàng nghìn năm quan sát và chiêm nghiệm, các chiêm
+tinh gia đã ghi nhận được N sao và hầu hết các tính chất tương sinh –
+tương khắc giữa chúng.
+Để có thể nhanh chóng đáp ứng nhu cầu kiểm tra độ tương hợp của các
+sao, hiệp hội ABS (Association of Broker for Single) tạo lập cơ sở dữ liệu
+ghi nhận tính chất của tất cả các sao đã khảo sát được. Trong cơ sở dữ
+liệu này, các sao được đánh số từ 1 tới N; sao thứ i có một giá trị Si thể
+hiện khả năng thích nghi của sao gọi là độ thích nghi. Hai sao khác nhau
+có thể có cùng độ thích nghi. Thông qua độ thích nghi của các sao, người
+ta xác định khả năng tương hợp của chúng. Khả năng tương hợp của 2
+sao được tính bằng tổng 2 độ thích nghi của chúng.
+Yêu cầu: Cho số nguyên dương n, dãy s1 , s2 , … , sn là độ thích nghi
+của các sao và số nguyên B . Hãy xác định số lượng T các cặp sao (i, j)
+mà si + sj = B, với 1 ≤ i < j ≤ n .
+Ví dụ: trong 5 sao với độ thích nghi là 3, 5, 6, 5, 3 thì có 4 cặp có khả
+năng tương hợp bằng 8 là (s1 , s2 )(s1 , s4 )(s2 , s5 )(s4 , s5 )
+
+Input
+• Dòng đầu tiên ghi 2 số nguyên n, B(2
+
+5
+
+9
+
+≤ n ≤ 10 , |B| ≤ 10 )
+
+• Mỗi dòng trong n dòng tiếp theo ghi một số nguyên là độ thích nghi của
+31
+
+một sao, độ thích nghi có trị tuyệt đối bé hơn 2
+
+.
+
+Output
+Gồm một dòng là số nguyên T duy nhất.
+
+input
+
+output
+4
+
+input
+3
+999999999 999999998 999999997
+
+output
+0
+
+7B. FAIRPLAY Giao đấu hữu nghị
+1 second, 256 megabytes
+Để tạo không khí vui vẻ náo nhiệt, trong buổi giao lưu giữa sinh viên các
+trường tham dự OLP – ACM, trường đăng cai OLP năm tới đề xuất tổ
+chức một cuộc thi đấu game online tay đôi giữa sinh viên trường mình với
+sinh viên trường sở tại.
+Mỗi trường cử ra một đội n người, tạo thành n cặp đấu, sinh viên cùng
+trường không đấu với nhau. Trò chơi được chọn là một trò chơi rất phổ
+biến, được các bạn trẻ yêu thích, ai cũng biết và đã từng chơi nhiều trước
+đó. Mọi người đều biết chỉ số năng lực của mình trong trò chơi này và biết
+rằng nếu đấu tay đôi, ai có năng lực cao hơn sẽ thắng.
+Trong các trận đấu tay đôi, người thắng sẽ được 1 điểm, người thua – 0
+điểm. Thời gian chơi được quy định đủ để phân biệt thắng thua. Các trận
+hòa sẽ kéo dài vô hạn và sẽ bị hủy kết quả khi hết thời gian.Với tinh thần
+fair play các bạn trường đề xuất ngồi vào vị trí thi đấu, truy nhập vào hệ
+thống và gửi về máy chủ chỉ số năng lực của mình. Trưởng đoàn của
+trường sở tại có 1 giây để xử lý thông tin, phân công ai đấu với ai để tổng
+số điểm thu được là lớn nhất.
+Yêu cầu: Hãy xác định, với cách bố trí tối ưu các cặp đấu, đội của trường
+sở tại sẽ có bao nhiêu điểm.
+
+5 8
+3
+5
+6
+5
+3
+
+Input
+Dòng đầu tiên chứa số nguyên n(1
+
+5
+
+≤ n ≤ 10 )
+
+output
+
+Dòng thứ 2 chứa n số nguyên a1 , a2 , . . . , an , trong đó ai là chỉ số năng
+lực của người thứ i thuộc đội của trường đề xuất,
+
+4
+
+1 ≤ ai ≤ 10 , i = 1...n
+
+9
+
+40% số điểm có N
+
+≤ 5000; |B|, |si | ≤ 10
+
+30% số điểm có N
+
+≤ 10 ; |B|, |si | ≤ 10
+
+30% số điểm có N
+
+≤ 10 ; |B|, |si | ≤ 10
+
+5
+
+6
+
+5
+
+9
+
+Dòng thứ 3 chứa n số nguyên b1 , b2 , . . . , bn trong đó bi – chỉ số năng
+lực của người thứ i thuộc đội của trường sở tại,
+
+9
+
+9
+
+Output
+
+7A. NN Giá trị nhỏ nhất không xuất hiện
+1 second, 256 megabytes
+9
+
+Cho dãy gồm N số tự nhiên không vượt quá 10 , tìm số tự nhiên nhỏ
+nhất không xuất hiện trong dãy.
+
+Output
+Số tự nhiên nhỏ nhất không xuất hiện trong dãy.
+
+5
+5 0 3 1 4
+
+output
+2
+
+input
+6
+0 1 2 3 7 8
+
+input
+5
+10 15 30 20 25
+28 24 20 16 14
+
+4
+
+≤ 30000)
+
+Dòng thứ 2 là N số tự nhiên không vượt quá 10
+
+input
+
+một số nguyên – số điểm đội trường sở tại có thể đạt được với cách bố trí
+cặp chơi tối ưu.
+
+output
+
+Input
+Dòng đầu là số nguyên N (N
+
+.
+
+1 ≤ bi ≤ 10 , i = 1. . . n
+
+9
+
+40% test có n
+
+.
+
+≤ 20
+
+7C. NKTH Lớp năng khiếu Tin học
+1 second, 256 megabytes
+Trong kỳ thi tuyển sinh vào lớp 10 năm học 2014 - 2015 ở tỉnh XYZ, thí
+sinh phải thi 3 môn: Văn, Toán và Anh. Ngoài 3 môn thi, thí sinh còn có
+điểm cộng. Tổng điểm của thí sinh là tổng điểm của 3 môn thi và điểm
+cộng, trong đó môn Văn và Toán có hệ số 2.
+
+Có n thí sinh đăng ký dự thi vào trường THPT ABC và điểm chuẩn của
+trường là p điểm. Để trúng tuyển vào trường, thí sinh phải có tổng điểm
+lớn hơn hoặc bằng điểm chuẩn và không có môn thi nào bị 0 điểm. Trong
+năm học này, nhà trường muốn chọn ra tối đa m học sinh vào học lớp
+năng khiếu Tin học.
+Để được chọn vào lớp năng khiếu Tin học, trong hồ sơ đăng ký dự thi, thí
+sinh phải đăng ký nguyện vọng vào lớp năng khiếu Tin học và phải thi đậu
+vào trường với điểm thi môn Toán từ q điểm trở lên. Trong số các thí sinh
+thỏa điều kiện, nhà trường sẽ xét tổng điểm từ cao xuống thấp để chọn ra
+tối đa m em vào lớp năng khiếu Tin học. Em hãy giúp nhà trường tìm ra
+tổng điểm cao nhất và tổng điểm thấp nhất của các học sinh được chọn
+vào lớp năng khiếu Tin học.
+
+Input
+• Dòng đầu chứa 4 số: số nguyên dương n(n ≤ 10000), số thực
+p(p ≤ 50), số nguyên dương m(m ≤ 30) và số thực q(q ≤ 10) thể
+hiện số lượng thí sinh đăng ký dự thi, điểm chuẩn vào trường, số lượng
+học sinh lớp năng khiếu Tin học và điểm chuẩn môn Toán của lớp năng
+khiếu Tin học.
+Lưu ý: p và q là các số thực lẻ đến 0.25.
+• Dòng thứ i trong n dòng tiếp theo chứa 5 số:
+vi , ti , ai , ci , d i (1 ≤ i ≤ n) thể hiện điểm thi môn Văn, môn Toán, môn
+Anh, điểm cộng và nguyện vọng đăng ký vào lớp năng khiếu Tin học của
+học sinh thứ i .
+Lưu ý: vi , ti , ai , ci là các số thực thuộc đoạn [0..10], có thể lẻ đến 0.25
+và di là một số nguyên có giá trị là 1 nếu thí sinh có đăng ký nguyện vọng
+và có giá trị là 0 nếu thí sinh không đăng ký nguyện vọng vào lớp năng
+khiếu Tin học.
+
+Output
+chứa 2 số thực x và y thể hiện tổng điểm cao nhất và tổng điểm thấp
+nhất của các học sinh được chọn vào lớp năng khiếu Tin học.
+
+Mỗi công việc có thể được bắt đầu và kết thúc trong cùng một ngày,
+nhưng để cho sơn khô, nhiều nhất là một công việc chỉ có thể được thực
+hiện mỗi ngày.
+Các sinh viên phải đối mặt với vấn đề sau đây. Các nhà cung cấp sơn ra
+giá cho từng loại sơn ứng với từng công việc, nhưng mỗi loại sơn này lại
+tăng giá mỗi ngày. Ví dụ, họ tính phí 100 đ cho một mặt sơn lót ngày đầu
+tiên, và tăng giá 2 đ mỗi ngày, kết quả là giá 102 đ vào ngày thứ hai, 104
+đ vào ngày thứ ba , v.v... Đối với sơn chống gỉ, họ có thể tính 200 đ vào
+ngày đầu tiên, nhưng tăng giá bởi 4 đ mỗi ngày, kết quả là một mức giá
+204 đ vào ngày thứ hai, 208 đ vào ngày thứ ba , vv…
+Do các sinh viên không có chỗ để chứa sơn, nên chỉ có mua sơn vào
+ngày mà sử dụng nó. Các sinh viên muốn hoàn thành tất cả các công việc
+một cách rẻ nhất có thể .
+
+Input
+• Dòng đầu tiên của đầu vào có chứa một số nguyên n(2 ≤ n ≤ 20000)
+là số lượng công việc cần làm, các công việc được đánh số từ 1 đến n.
+• Dòng tiếp theo chứa n số, từ 1. . 1000. Số thứ i trong dòng này quy
+định cụ thể giá cho sơn cho công việc i .
+• Dòng cuối cùng chứa n số, từ 0..10 . Số thứ j trong dòng này xác định
+số tiền mà giá cho sơn cho công việc j làm tăng mỗi ngày.
+
+Output
+một số duy nhất, xác định số tiền nhỏ nhất của tiền đủ để hoàn thành tất
+cả công việc.
+
+input
+7
+100 200 500 300 400 200 100
+5 2 0 5 7 1 3
+
+output
+1837
+
+Lưu ý: x, y là 2 số thực được định dạng với phần thập phân có 2 số lẻ.
+Giải thích:
+
+input
+
+Trong ví dụ , có 7 công việc.
+
+10 38.25 4 8.00
+8.50 8.00 5.25 2.00
+7.75 8.50 9.00 1.50
+8.00 8.00 8.00 2.00
+5.00 5.00 5.00 2.00
+7.50 8.50 7.25 0.00
+8.00 8.25 8.50 1.00
+7.00 8.00 9.00 1.00
+9.25 7.00 8.50 2.00
+3.00 4.00 5.00 2.00
+7.00 8.00 8.50 1.50
+
+Vào ngày đầu tiên, giá sơn cho công việc 1 là 100 đ , cho công việc 2 là
+200 đ, v.v..
+
+1
+0
+1
+1
+0
+1
+1
+0
+0
+1
+
+Vào ngày thứ hai , giá của sơn cho công việc 1 tăng 5 đ và do đó 100 + 5
+= 105 đ, giá sơn cho công việc 2 là 200 + 2 = 202 đ, vv
+vào ngày thứ ba , giá của sơn cho công việc 1 là 100 +2 * 5 = 110 đ , giá
+của sơn cho công việc 2 là 200 +2 * 2 = 204 đ, vv
+Làm các công việc theo thứ tự 5, 4, 1, 7, 2, 6, 3
+
+output
+
+giá tiền = 400 + (300+5*1) + (100+5*2) + (100+3*3) + (200+2*4) +
+(200+1*5)+(500+0*6) = 1387
+
+42.00 40.25
+
+Giải thích ví dụ:
+Trong n = 10 học sinh, ta có 5 em đủ điều kiện vào lớp Năng khiếu Tin
+học. Tuy nhiên, do tối đa chỉ chọn m = 4 học sinh nên ta phải loại hai học
+sinh thứ 7 và thứ 10, cùng có tổng điểm là 40. Vậy ta chỉ chọn được 3 học
+sinh với tổng điểm cao nhất là 42.00 (học sinh thứ 3 và thứ 6), tổng điểm
+thấp nhất là 40.25 (học sinh thứ 1).
+Subtask: 50% số test ứng với 50% số điểm của bài có n ≤ 5000.
+
+7D. PAINT Sơn thuyền
+1 second, 256 megabytes
+Một trường cao đẳng tại Singapore vừa mua một chiếc thuyền buồm, và
+các sinh viên đội đua thuyền của trường cam kết sơn nó. Có một số công
+việc sơn phải được thực hiện trên thuyền, chẳng hạn như :
+• sơn lót trên sàn thuyền,
+• sơn chống gỉ bên dưới mực nước ,
+• vẽ boong thuyền,
+• ...
+
+8A. DOANPHU943 Đoạn được phủ dài nhất
+1 second, 256 megabytes
+Cho N đoạn thẳng có các đầu mút đánh dấu trên trục số là
+[Li , R i ], i = 1 … N . Viết chương trình tìm đoạn trục số được phủ liên
+tiếp dài nhất bởi các đoạn thẳng đã cho?
+
+Input
+Dòng đầu là số N (1
+N
+
+4
+
+≤ N ≤ 10 )
+
+dòng tiếp theo mỗi dòng biểu diễn đầu mút các đoạn thẳng là Li và
+
+R i (|Li |, |R i | ≤ 32.000)
+
+Output
+Một dòng duy nhất ghi độ dài liên tiếp lớn nhất trên trục số mà các đoạn
+thẳng đã phủ được.
+
+output
+
+input
+
+1700
+
+7
+7 12
+0 5
+20 25
+33 38
+6 8
+27 34
+11 19
+
+Giải thích:
+• Ví dụ 1: ta sẽ đặt 5 máy ATM ở công ty 1 và 2 máy ATM ở công ty 2, như
+vậy trung bình mỗi máy sẽ phục vụ 1000 người.
+• Ví dụ 2: ta sẽ đặt 1 máy ở công ty 1, 2 máy ở công ty 2 (1 máy phục vụ
+1340 người và 1 máy phục vụ 1341 người), 2 máy ở công ty 3 (mỗi máy
+phục vụ 1700 người), 1 máy ở công ty 4. Như vậy số lượng người mà
+một máy phục vụ lớn nhất là 1700.
+
+output
+13
+
+Giải thích:
+
+8D. COTBO Cột bò
+1 second, 256 megabytes
+Nông dân John có một trang trại với N cái cọc. Các cọc này được đặt
+trên một đường thẳng ở các vị trí x 1 , x 2 , … , x n .
+
+Centered unscaled image.
+
+các đoạn thẳng phủ các đoạn trên trục số là [0, 5] [6, 19] [20, 25], [27, 38]
+có độ dài lần lượt là 5, 13, 5, 11. Đoạn dài 13 là dài nhất.
+
+8C. ATM Đặt máy ATM
+1 second, 256 megabytes
+Tỉnh Đồng Nai vừa cho quy hoạch một khi công nghệ cao mới, thu hút
+hàng trăm công ty nước ngoài đầu tư xây dựng nhà máy như Google,
+Facebook, Microsoft, … Các công ty lớn như thế thì hiển nhiên là có rất
+nhiên nhân viên làm việc tại các công ty, tất cả các công ty đều hợp đồng
+với ngân hàng LTV để thực hiện dịch vụ trả lương cho nhân viên của
+mình.
+Ngân hàng LTV muốn đặt M máy ATM để phục vụ việc rút tiền của các
+nhân viên đang làm việc tại đây, để nâng cao chất lượng dịch vụ, ngân
+hàng quyết định sẽ đặt các máy ATM ngay tại các công ty, họ muốn đặt tại
+mỗi công ty một số lượng máy ATM sao cho năng suất phục vụ của các
+trạm là đồng đều nhất có thể, tránh việc một số máy tại một số công ty
+phải phục vụ quá nhiều người, trong khi một số máy ở công ty khác lại ít
+được sử dụng. Các nhân viên làm việc tại khu công nghệ cao đều có trí
+thức và trình độ cao nên khi rút tiền tại máy ATM, học cũng rất thông
+minh, luôn chọn máy có ít người đợi nhất để vào xếp hàng. Nhân viên của
+công ty này không thể vào công ty khác để rút tiền được vì mỗi công ty
+đều có hệ thống thẻ nhân viên riêng và chỉ cho phép nhân viên ra vào.
+
+Trang trại này có C con bò. Những con bò này không thích những chiếc
+cọc cho lắm. Chúng trở nên hung dữ khi bị buộc vào những chiếc cọc. Ðể
+tránh việc các con bò làm đau nhau, nông dân John muốn đặt mỗi con bò
+vào một cái cọc, sao cho khoảng cách nhỏ nhất giữa hai con bò kề nhau
+bất kì là lớn nhất. Hãy tìm giá trị lớn nhất này.
+
+Input
+• Dòng dầu tiên gồm hai số nguyên duong N và
+5
+
+C (2 ≤ C ≤ N ≤ 10 )
+
+• N dòng tiếp theo, mỗi dòng chứa một số nguyên x i mô tả vị trí của một
+cây cọc (0
+
+9
+
+≤ x i ≤ 10 )
+
+, các số được xếp tăng dần
+
+Output
+In ra giá trị lớn nhất của khoảng cách nhỏ nhất giữa hai con bò bất kì.
+
+input
+5 3
+1
+2
+4
+8
+9
+
+output
+3
+
+Giải thích ví dụ: Nông dân John có thể dặt các con bò vào các vị trí 1, 4
+và 8, khi đó, khoảng cách bé nhất giữa hai con bò bất kì là 3.
+
+Hãy giúp ngân hàng LTV tìm cách đặt các máy ATM sao cho số lượng
+người mà một máy phải phục vụ nhiều nhất là nhỏ nhất.
+
+8E. C11PNUM Số nguyên tố!
+1 second, 256 megabytes
+
+Input
+Dòng đầu tiên chứa 2 số nguyên dương N , M lần lượt là số lượng công
+ty trong khu công nghệ cao và số máy ATM mà ngân hàng LTV dự định sẽ
+lắp đặt (1
+
+.
+
+5
+
+6
+
+Cho 2 số nguyên N và K . Tìm số nguyên lớn nhất không vượt quá N và
+là tích của K số nguyên tố liên tiếp.
+
+≤ N ≤ 5 ∗ 10 , N ≤ M ≤ 2 ∗ 10 )
+
+Dòng thứ hai chứa N số nguyên dương ai là số lượng nhân viên tại các
+công ty. (1
+
+7
+
+Input
+Dòng đầu là số nguyên T tương ứng với số bộ test (1
+
+≤ ai ≤ 10 )
+
+Output
+một số nguyên dương duy nhất là số lượng người mà một máy ATM phải
+phục vụ lớn nhất trong trường hợp tốt nhất.
+
+input
+2 7
+5000 2000
+
+output
+1000
+
+input
+4 6
+120 2681 3400 200
+
+T
+
+≤ T ≤ 15)
+
+dòng tiếp theo mỗi dòng là 1 cặp số (N , K ) cách nhau 1 dấu cách.
+64
+
+(1 ≤ N ≤ 2
+
+− 1, 3 ≤ K ≤ 10)
+
+Output
+Gồm T dòng là kết quả của T bộ test tương ứng, nếu không tìm được số
+thỏa mãn in ra -1
+
+input
+2
+100 4
+110 3
+
+output
+-1
+105
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

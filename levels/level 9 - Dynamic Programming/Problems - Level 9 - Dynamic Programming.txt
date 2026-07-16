@@ -1,0 +1,1518 @@
+Level 9 - Quy hoach dong (video)
+
+00. XEM TÀI LIỆU - BÀI GIẢNG
+1 s., 256 MB
+LINK TÀI LIỆU: https://docs.google.com/document/d/1-J6937ODlUpCTC6zQGCP44kp8cNjd9L/edit
+CÁCH NỘP BÀI: http://www.chuyentin.pro/2022/05/huong-dan-nop-codec-len-trang-cham.html
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+Input
+
+Output
+In ra phần dư của số cách Lucky leo hết cầu thang khi chia cho
+14062008.
+
+input
+4 2
+2 3
+
+output
+0
+
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+input
+
+Output
+
+90000 1
+49000
+
+Ghi một số nguyên là diện tích s.
+
+input
+
+output
+4108266
+
+5 3
+
+1C. MECUNG1223 Thoát khỏi mê cung
+
+output
+15
+
+1 second, 256 megabytes
+
+1A. BACTHANG1 Bậc thang 1
+1 second, 256 megabytes
+Bờm chơi trò chơi điện tử Lucky Luke đến màn phải điều khiển Lucky leo
+lên một cầu thang gồm n bậc. Các bậc thang được đánh số từ 1 đến n từ
+dưới lên trên. Lucky có thể đi lên một bậc thang, hoặc nhảy một bước lên
+hai bậc thang. Biết ban đầu, Lucky đứng ở bậc thang số 1.
+Chơi đến đây, Bờm chợt nảy ra câu hỏi: có bao nhiêu cách để Lucky lo
+hết được cầu thang? (nghĩa là leo đến bậc thang thứ n). Bờm muốn nhờ
+bạn trả lời câu hỏi này.
+
+Input
+Gồm số nguyên n là số bậc của cầu thang (2 ≤ n ≤ 50).
+
+Output
+Số cách leo lên bậc thứ n.
+
+Trong một chuyến thám hiểm mạo hiểm, một đoàn thám hiểm không may
+lọt vào một mê cung với nhiều cạm bẫy. Trong mê cung đó chỉ có một lối
+ra duy nhất, lối ra bao gồm các ô hình vuông được xếp thành một hàng
+dài. Muốn đi được ra ngoài mọi người phải bước qua một hàng các ô
+hình vuông đó và phải bước theo quy tắc sau:
+• Quy tắc 1: Mỗi bước chỉ có thể bước một ô hoặc hai ô hoặc ba ô.
+• Quy tắc 2: Từ người thứ 2 trở đi bước theo quy tắc 1 và không được
+trùng với các cách bước của tất cả những người trước đó.
+Yêu cầu: cho biết đoàn thám hiểm đó còn lại tối thiểu bao nhiêu người
+không thể thoát ra khỏi mê cung đó được.
+
+Input
+
+- Dòng 1 ghi một số nguyên m (m ≤ 1018 ) là số người trong đoàn thám
+hiểm.
+- Dòng 2 ghi một số nguyên n (n ≤ 70) là tổng số ô vuông.
+
+Output
+
+input
+
+Gồm 1 số nguyên duy nhất là số người còn lại tối thiều không thể thoát ra
+khỏi mê cung
+
+3
+
+output
+input
+
+2
+
+1B. VSTEPS Bậc thang
+1 second, 256 megabytes
+
+20
+5
+
+output
+7
+
+Bờm chơi trò chơi điện tử Lucky Luke đến màn phải điều khiển Lucky leo
+lên một cầu thang gồm n bậc.
+Các bậc thang được đánh số từ 1 đến n từ dưới lên trên. Lucky có thể đi
+lên một bậc thang, hoặc nhảy một bước lên hai bậc thang. Tuy nhiên một
+số bậc thang đã bị thủng do cũ kỹ và Lucky không thể bước chân lên
+được. Biết ban đầu, Lucky đứng ở bậc thang số 1 (bậc thang số 1 không
+bao giờ bị thủng).
+Chơi đến đây, Bờm chợt nảy ra câu hỏi: có bao nhiêu cách để Lucky leo
+hết được cầu thang? (nghĩa là leo đến bậc thang thứ n). Bờm muốn nhờ
+bạn trả lời câu hỏi này.
+
+Input
+
+• Dòng đầu tiên: gồm 2 số nguyên n và k , là số bậc của cầu thang và số
+bậc thang bị hỏng (2 ≤ k < n ≤ 100000).
+• Dòng thứ hai: gồm k số nguyên cho biết chỉ số của các bậc thang bị
+hỏng theo thứ tự tăng dần.
+
+1D. NKCABLE Nối mạng
+1 second, 256 megabytes
+Các học sinh khi đến thực tập trong phòng máy tính thường hay chơi trò
+chơi điện tử trên mạng. Để ngăn ngừa, người trực phòng máy đã ngắt tất
+cả các máy tính ra khỏi mạng và xếp chúng thành một dãy trên một cái
+bàn dài và gắn chặt máy xuống mặt bàn rồi đánh số thứ tự các máy từ 1
+đến N theo chiều từ trái sang phải. Các học sinh tinh nghịch không chịu
+thua, họ đã quyết định tìm cách nối các máy trên bàn bởi các đoạn dây
+nối sao cho mỗi máy được nối với ít nhất một máy khác. Để tiến hành
+công việc này, họ đã đo khoảng cách giữa hai máy liên tiếp.
+Yêu cầu: Bạn hãy giúp các học sinh này tìm cách nối mạng thoả mãn yêu
+cầu đặt ra sao cho tổng độ dài cáp nối phải sử dụng là ít nhất.
+
+Input
+
+• Dòng đầu tiên chứa số lượng máy N (1 ≤ N ≤ 25000).
+
+• Dòng thứ i trong số N − 1 dòng tiếp theo chứa các khoảng cách từ
+máy i đến máy i + 1 (i = 1, 2, . . . , N − 1). Giả thiết rằng khoảng
+
+Tuy nhiên, đàn bò của nông dân John lại gây náo loạn và đứng sai vị trí.
+Có tất cả N con bò, con bò thứ k (từ đầu hàng trở xuống) hiện đang đeo
+tấm thẻ Dk (1 ≤ Dk ≤ 3). Tuy nhiên, nông dân John không quá khắt
+khe về chuyện phạt lũ bò. Anh quyết định sửa lại giá trị trên một số tấm
+thẻ sao cho điều luật trên được thỏa mãn (sau khi sửa, có thể sẽ không
+còn tấm thẻ số 1 hoặc số 2 nào).
+
+cách từ máy 1 đến máy N không vượt quá 106 .
+
+Output
+Ghi ra độ dài của cáp nối cần sử dụng.
+
+input
+
+Hãy giúp nông dân John sửa ít tấm thẻ nhất mà vẫn đảm bảo điều luật.
+Anh không thể đổi chỗ các con bò cho nhau vì kích thước quá lớn.
+
+6
+2
+2
+3
+2
+2
+
+Input
+• Dòng đầu ghi số nguyên N (0 < N ≤ 30000)
+• N sau dòng, dòng thứ k ghi số nguyên Dk (1 ≤ Dk ≤ 3)
+
+Output
+
+output
+
+Ghi số lần sửa tối thiểu.
+
+7
+
+input
+
+Máy 1 với máy 2, mất 2 đơn vị, Máy 3 với 4, mất 3 đơn vị (tức là số 3
+trong input)
+
+5
+1
+3
+2
+1
+1
+
+Máy 5 với 6, mất 2 đơn vị (tức là số 2 cuối cùng). Tổng là 7.
+
+2A. LIQLIS Dãy con tăng dài nhất
+
+output
+
+1 second, 256 megabytes
+Cho dãy a1 , a2 , ..., an có n phần tử. Dãy con của dãy a được tạo thành
+bằng các xóa một số phần tử trong dãy a và vẫn giữ nguyên các vị trí còn
+lại.
+
+1
+
+2C. SMAX Dãy con tăng tổng lớn nhất
+
+Ví dụ cho dãy a: 2 4 6 1 7
+
+1 second, 256 megabytes
+
+• Dãy 2 1 7 là một dãy con của a (xóa 4 6)
+
+Cho dãy số nguyên a1 , a2 , ..., an .
+
+• Dãy 2 4 1 là một dãy con của a (xóa 6 7)
+
+Yêu cầu: Hãy tìm một dãy con tăng có tổng lớn nhất của dãy.
+
+• Dãy 4 2 không phải là một dãy con của a.
+
+Input
+
+Yêu cầu: Hãy tìm một dãy con tăng có nhiều phần tử nhất của dãy.
+
+Gồm 2 dòng:
+
+Input
+
+• Dòng đầu là số nguyên dương n (n ≤ 5000)
+5
+
+• Dòng đầu là số nguyên dương n (n ≤ 10 )
+
+• Dòng sau gồm N số, mỗi số là một số nguyên ai của dãy
+9
+
+• Dòng sau gồm N số, mỗi số là một số nguyên ai của dãy (|ai | ≤ 10 )
+
+(−10000 ≤ ai ≤ 10000, 1 ≤ i ≤ n)
+Output
+
+Output
+
+Gồm 2 dòng
+
+• Dòng đầu ghi số lượng phần tử của dãy con
+
+• Dòng đầu là tổng lớn nhất tìm được
+
+• Dòng sau ghi chỉ số các phần tử thuộc dãy con.
+
+• Dòng thứ hai ghi số nguyên dương k là số lượng phần tử của dãy con
+
+Scoring
+
+• Sub 1: 40 test từ 1 - 40 = 40 điểm có 50% test có n ≤ 20;
+• Sub 2: 3 test từ 41 - 43 = 30 điểm có n ≤ 103 ;
+
+• Dòng sau ghi k số là chỉ số các phần tử thuộc dãy con
+
+input
+4
+
+• Sub 3: 3 test từ 44 - 46 = 30 điểm có n ≤ 3.10 .
+
+10
+5 2 3 4 1 99 5 6 7 8
+
+input
+
+output
+
+10
+5 2 3 4 9 10 5 6 7 3
+
+108
+4
+2 3 4 6
+
+output
+6
+2 3 4 7 8 9
+
+2D. TTCX Thay thế cây xanh
+2B. EGROUP Sửa số
+1 second, 256 megabytes
+
+Chỉ dẫn hàng ngày của nông dân John ghi rất rõ ràng: "Trước khi dùng
+bữa tối, đàn bò cần xếp thành 1 hàng dọc. Các con số phải được tạo
+thành 1 dãy số không tăng hoặc không giảm"
+
+1 second, 256 megabytes
+Ðề án thay thế cây xanh Hà Nội được ban hành tháng 8/2013 với mục
+tiêu chặt hạ thay thế 6.700 cây xanh tại nhiều tuyến phố nội đô. Dự án đã
+thực hiện tại một số tuyến phố Huế, Hàng Bài, Kim Mã, Giảng Võ...
+Nhưng khi thành phố Hà Nội thực hiện chặt hạ thay thế 381 cây xanh trên
+phố Nguyễn Chí Thanh thì bị dư luận phản ứng dữ dội. Chủ tịch thành
+phố Nguyễn Thế Thảo đã yêu cầu tạm dừng đề án và tổ chức thanh tra.
+
+Truớc kia, trên đường NT, có rất nhiều cây xanh. Tuy nhiên, để thực hiện
+việc xây đường sắt trên cao tuyến CL-HÐ, một số cây xanh trên đường
+cần được chặt bỏ. Mỗi cây xanh có một giá trị khác nhau. Tuy nhiên, dể
+giữ lại bóng mát cho nguời dân, chính quyền quyết định, không được chặt
+k cây liên tiếp. Nói cách khác, cứ mỗi k cây liên tiếp thì ít nhất phải còn lại
+một cây không bị chặt. Tìm phương án chặt để tổng giá trị các cây bị chặt
+là lớn nhất?
+
+• Dòng thứ hai chứa n số nguyên dương
+
+a1 , a2 , . . . , an (ai ≤ 104 , i = 1, 2, . . . , n) ghi trên băng số. Các số
+liên tiếp trên cùng dòng được ghi cách nhau bởi ít nhất một dấu cách.
+
+Output
+Một số nguyên duy nhất là số điểm lớn nhất có thể đạt được từ một lượt
+chơi.
+
+Input
+
+input
+
+Dòng dầu tiên chứa số nguyên dương n và k, trong đó n là số cây xanh
+trên đường NT (1 ≤ n ≤ 6700, 1 ≤ k ≤ 1000).
+
+7
+4 9 2 4 1 3 7
+
+• Dòng tiếp theo chứa n số nguyên dương, là giá trị của các cây xanh dọc
+theo con đường. Giá trị của mỗi cây xanh không vuợt quá 1000.
+
+Output
+In ra tổng giá trị lớn nhất của các cây bị chặt.
+
+input
+
+output
+17
+
+Giải thích: Những ô được chọn
+
+a2 − a3 + a4 − a5 + a7 = 9 − 2 + 4 − 1 + 7 = 17
+Ràng buộc: 60% số test ứng với 60% số điểm của bài có 1 ≤ n ≤ 20.
+
+5 2
+10 10 20 20 10
+
+4A. ACTIVITY Bố trí phòng họp
+
+output
+
+1 second, 256 megabytes
+
+40
+
+3A. DOIDAU Dãy đổi dấu
+1 second, 256 megabytes
+Cho dãy a1 , a2 ,…, an . Hãy tìm dãy con đổi dấu dài nhất của dãy đó. Dãy
+con đổi dấu ai1 , ai2 , …, aik phải thoả mãn các điều kiện sau:
+
+Có n cuộc họp đánh số từ 1 đến n đăng ký làm việc tại một phòng hội
+thảo. Cuộc họp thứ t cần được bắt đầu ngay sau thời điểm si và kết thúc
+tại thời điểm fi : Hỏi có thể bố trí phòng hội thảo phục vụ được nhiều nhất
+bao nhiêu cuộc họp, sao cho khoảng thời gian làm việc của hai cuộc họp
+bất kỳ là không giao nhau.
+
+Input
+5
+
+• ai1 < ai2 > ai3 < … hoặc ai1 > ai2 < ai3 > …
+
+Dòng đầu tiên chứa số nguyên dương n ≤ 10
+Dòng thứ i trong số n dòng tiếp theo chứa hai số nguyên
+
+• Các chỉ số phải cách nhau ít nhất L: i2 − i1 ≥ L, i3 − i2 ≥ L … .
+• Chênh lệch giữa 2 phần tử liên tiếp không quá U : |ai1 − ai2 | ≤ U,
+
+|ai2 − ai3 | ≤ U …
+Input
+
+• Dòng đầu tiên chứa 3 số nguyên dương n, L, U .
+
+si , fi (0 ≤ si ≤ fi ≤ 109 )
+Các số trên một dòng của Input file được ghi cách nhau ít nhất một dấu
+cách
+
+Output
+
+(1 ≤ n, L, U ≤ 10000)
+
+Dòng đầu tiên ghi số k là số các cuộc họp được chấp nhận phục vụ
+
+• Dòng thứ hai chứa n số nguyên a1 , a2 , … , an (|ai | ≤ 10000).
+
+k dòng tiếp theo liệt kê số hiệu các cuộc họp được chấp nhận theo
+thứ tự từ cuộc họp đầu tiên tới cuộc họp cuối cùng, mỗi dòng ghi số
+hiệu một cuộc họp.
+
+Output
+Số lượng phần tử trong dãy con tìm được.
+
+Scoring
+
+input
+
+sub 1 : 40 test 1− > 40 = 40 điểm có n ≤ 20;
+sub 2 : 3 test từ 41− > 43 = 30 điểm có n ≤ 3000 ;
+
+8 2 4
+10 7 12 8 4 12 9 11
+
+5
+sub 3 : 3 test từ 44− > 46 = 30 điểm có n ≤ 10
+
+output
+4
+
+input
+
+Dãy đổi dấu dài nhất là: 10 8 12 11 có độ dài 4
+
+3B. 2008 VOI B1. LINEGAME Trò chơi với băng
+số
+1 second, 256 megabytes
+Trò chơi với băng số là trò chơi tham gia trúng thưởng được mô tả như
+sau: Có một băng hình chữ nhật được chia ra làm n ô vuông, đánh số từ
+trái qua phải bắt đầu từ 1. Trên ô vuông thứ i người ta ghi một số nguyên
+dương ai , i = 1, 2, . . . , n. Ở một lượt chơi, người tham gia trò chơi
+được quyền lựa chọn một số lượng tùy ý các ô trên băng số. Giả sử theo
+thứ tự từ trái qua phải, người chơi lựa chọn các ô i1 , i2 , . . . , ik. Khi đó
+
+5
+7
+6
+1
+0
+3
+
+9
+8
+3
+6
+7
+
+output
+3
+3
+5
+1
+
+điểm số mà người chơi đạt được sẽ là: ai1 − ai2 +. . . +(−1) k−1 ai k
+Yêu cầu: Hãy tính số điểm lớn nhất có thể đạt được từ một lượt chơi.
+
+Input
+
+6
+• Dòng đầu tiên chứa số nguyên dương n(n ≤ 10 ) là số lượng ô của
+băng số;
+
+4B. THUEMAY Cho thuê máy
+
+1 second, 256 megabytes
+Trung tâm tính toán hiệu năng cao nhận được đơn đặt hàng của n khách
+hàng. Khách hàng i muốn sử dụng máy trong khoảng thời gian từ ai đến
+bi và trả tiền thuê là ci . Vì trung tâm chỉ có một máy cho thuê nên thời
+gian sử dụng máy của 2 khách hàng bất kì được phục vụ đều không giao
+nhau. (tại cùng thời điểm t , nếu khách hàng A trả máy, khách hàng B bắt
+đầu thuê máy vẫn hợp lệ, được tính là không giao nhau)
+
+Mirko có một tập hợp các đoạn nguyên. Đầu tiên, anh ấy lấy ra 1 đoạn
+bất kì. Sau đó thực hiện lấy các đoạn khác, sao cho: đoạn lấy ra nằm
+trong đoạn vừa được lấy trước nó. Mirko tiếp tục cho đến khi không tìm
+được đoạn thoả mãn nữa.
+Yêu cầu: Tìm cách chọn để được số đoạn lớn nhất.
+
+Input
+Dòng đầu tiên chứa số nguyên N , là số đoạn nguyên trong tập hợp.
+
+Yêu cầu: Hãy bố trí lịch thuê máy để tổng số tiền thu được là lớn nhất.
+
+(1 ≤ N ≤ 105 )
+Dòng thứ i trong số N dòng sau, chứa 2 số nguyên A, B biểu thị
+cho đoạn i. (1 ≤ A < B ≤ 106 )
+
+Input
+Dòng 1: Số n(0 < N < 5000)
+Dòng 2: gồm N số a1 … aN
+
+Dòng 3: gồm N số b1 … bN
+Dòng 4: gồm N số c1 … cN (0 ≤ ai , bi , ci ≤ 1000, i = 1..n)
+
+Output
+Dòng đầu ghi số K là số đoạn nhiều nhất tìm được.
+K dòng sau, mỗi dòng ghi chỉ số một đoạn lấy ra theo thứ tự bao
+nhau.
+
+Output
+Dòng 1: tổng số tiền lớn nhất
+Dòng 2: số k là số lượng khách hàng thuê máy.
+Dòng 3: gồm k số là thứ tự của khách hàng thuê
+
+Scoring
+sub 1: test 1− > 10 có n ≤ 20
+
+Scoring
+50% có N ≤ 5000
+
+input
+6
+1
+1
+1
+1
+2
+3
+
+input
+5
+1 2 3 4 5
+4 3 4 6 6
+50 20 30 50 20
+
+4
+5
+6
+7
+5
+5
+
+output
+
+output
+
+5
+4
+3
+2
+5
+6
+
+100
+2
+1 4
+
+4C. CONINT Nối khoảng
+5A. ROBOT578 Robot nhặt vàng
+
+1 second, 256 megabytes
+Cho N khoảng đóng trên trục số đánh số từ 1 → N , khoảng thứ i là
+[ai , bi ]. Hãy tìm số lượng tối đa k khoảng đóng nối nhau liên tiếp.
+Hai khoảng [a, b] và [c, d] được gọi là nối nhau nếu xếp chúng trên cùng
+một trục số thì điểm đầu của đoạn này trùng với điểm cuối của đoạn kia,
+tức là b = c hoặc a = d .
+
+Input
+
+1 second, 256 megabytes
+Cho hình chữ nhật N ∗ M ô vuông (N dòng, M cột). Mỗi ô vuông ghi
+một số nguyên có giá trị không vượt quá 100 thể hiện cho số lượng
+vàng Robot nhặt được khi vào ô đó. Một Robot đứng tại ô góc trái – trên
+muốn di chuyển xuống góc phải – dưới của hình chữ nhật. Mỗi bước
+Robot di chuyển sang ô bên phải hoặc ô phía dưới ô đang đứng.
+
+Dòng đầu tiên chứa số nguyên dương N ≤ 10 .
+N dòng tiếp theo, dòng i chứa hai số nguyên
+
+Yêu cầu: Tìm con đường Robot đi sao cho nó nhặt được số lượng vàng
+nhiều nhất và tính tổng số lượng vàng Robot nhặt được trên con đường
+đó (kể cả việc nhặt số lượng vàng tại ô đầu tiên Robot đang đứng).
+
+ai , bi (−105 ≤ ai < bi ≤ 105 ) .
+
+Input
+
+5
+
+Output
+
+Dòng đầu chứa 2 số N và M (1 ≤ N ≤ 1000; 1 ≤ M ≤ 1000).
+
+Một số nguyên duy nhất là số khoảng nối nhau liên tiếp dài nhất.
+
+N dòng sau, mỗi dòng M số thể hiện số lượng vàng tại N ∗ M ô
+vuông.
+
+input
+6
+2
+1
+8
+3
+4
+4
+
+Output
+7
+3
+10
+4
+5
+7
+
+Dòng 1 ghi số thể hiện tổng lượng vảng Robot nhặt được
+Dòng 2 ghi dãy kí tự biểu diễn đường đi của Robot, D là đi xuống, R
+đi sang phải
+
+input
+
+output
+3
+
+3 đoạn nối nhau là [1, 3]; [3, 4]; [4, 5].
+
+4D. POKLON Các đoạn lồng nhau
+1 second, 256 megabytes
+
+3
+1
+5
+9
+
+4
+1 1 1
+2 2 100
+4 2 1
+
+output
+111
+DRRRD
+
+5B. 2010 OLP304 K10 B1. ROBOT1 Robot
+
+Output
+
+1 second, 256 megabytes
+Cho một bảng vuông n ∗ n ô. Trong mỗi ô có ghi số 0 hoặc 1. Tìm đường
+đi của robot từ góc trái trên xuống góc phải dưới theo nguyên tắc chỉ
+được dịch chuyển sang phải hoặc xuống dưới sao cho các số trên đường
+đi tạo thành một số nhị phân có giá trị nhỏ nhất.
+
+Input
+Dòng đầu: số n (2 ≤ n ≤ 50).
+N dòng tiếp theo, trên mỗi dòng ghi n số 0 hoặc 1.
+
+Output
+Số nhị phân có giá trị nhỏ nhất.
+
+0
+1
+1
+1
+1
+1
+
+1
+0
+1
+1
+1
+1
+
+0
+0
+0
+1
+0
+1
+
+Dòng thứ 3 ghi đường đi: T - đi chéo lên, R - đi ngang sang phải, D
+- đi chéo xuống.
+
+input
+5
+9
+0
+8
+1
+7
+
+7
+-2
+-1
+-2
+-1
+-2
+
+6
+6
+8
+6
+6
+
+2
+7
+2
+2
+2
+
+1
+1
+5
+1
+1
+
+3
+3
+3
+6
+3
+
+4
+3
+2
+1
+7
+
+output
+41
+1 1
+DDTDDD
+
+input
+6
+1
+1
+1
+1
+1
+1
+
+Dòng đầu ghi tổng lớn nhất tìm được
+Dòng thứ hai ghi tọa độ ô xuất phát.
+
+1
+1
+1
+0
+0
+1
+
+0
+1
+0
+0
+0
+1
+
+6A. QBSTR Xâu con chung dài nhất
+1 second, 256 megabytes
+Xâu ký tự X được gọi là xâu con của xâu ký tự Y nếu ta có thể xoá đi
+một số ký tự trong xâu Y để được xâu X.
+
+output
+10100010001
+
+5C. CHESS Di chuyển quân tốt
+1 second, 256 megabytes
+Một bàn cờ kích thước N ∗ N . Người ta đặt một con chốt trắng lên ô (1,
+1) và M con tốt đen lên các ô còn lại của bản cờ sao cho không có 2 con
+tốt nào trên cùng một ô. Ta có thể di chuyển con tốt trắng đến ô bên phải
+hoặc bên dưới ô đang chứa nó nếu như ô đó không chứa tốt đen.
+Yêu cầu: tính xem có bao nhiêu cách di chuyển con tốt trắng đến ô (N,
+N). Do kết quả có thể rất lớn nên bạn chỉ cần đưa ra phần dư của kết
+quả trong phép chia cho 10^9.
+
+Input
+Dòng đầu tiên ghi 2 số nguyên N, M : 2 ≤ N ≤ 1000,
+
+0≤M ≤N∗N
+M dòng sau, dòng thứ i ghi 2 số nguyên x y là tọa độ ô đặt con tốt
+thứ i .
+Output
+Gồm 1 dòng duy nhất chứa một số nguyên là kết quả của bài toán
+
+Cho biết hai xâu ký tự A và B ít hơn 255 kí tự, hãy tìm xâu ký tự C có độ
+dài lớn nhất và là con của cả A và B .
+
+Input
+Dòng 1: chứa xâu A
+Dòng 2: chứa xâu B
+
+Output
+Dòng một ghi độ dài xâu C tìm được.
+Dòng hai ghi xâu C
+
+input
+abc1def2ghi
+abcdefghi12
+
+output
+9
+abcdefghi
+
+6B. XAUCHACHUNG Xâu cha chung ngắn nhất
+1 second, 256 megabytes
+
+input
+
+Cho 2 xâu A, B. Tìm xâu C ngắn nhất mà A, B đều là xâu con của C .
+
+2 1
+1 2
+
+Input
+
+output
+
+Dòng đầu ghi xâu A không quá 100 kí tự ′ a′ …′ z ′
+Dòng hai ghi xâu B không quá 100 kí tự ′ a′ …′ z ′
+
+1
+
+5D. QBMAX Đường đi có tổng lớn nhất
+1 second, 256 megabytes
+
+Output
+Ghi xâu C
+
+input
+
+Cho một bảng A kích thước m ∗ n (1 ≤ m, n ≤ 100) , trên đó ghi các
+số nguyên aij (|aij | ≤ 100). Một người xuất phát tại ô nào đó của cột 1,
+cần sang cột n (tại ô nào cũng được).
+
+duahau
+bunbo
+
+Quy tắc đi: Từ ô (i, j) chỉ được quyền sang một trong 3 ô (i, j + 1);
+
+dbuahaunbo
+
+(i − 1, j + 1); (i + 1, j + 1).
+Input
+Dòng 1: Ghi hai số m, n là số hàng và số cột của bảng.
+
+M dòng tiếp theo, dòng thứ i ghi đủ n số trên hàng i của bảng theo
+đúng thứ tự từ trái qua phải
+
+output
+
+6C. NUMBER461 Giá trị lớn nhất
+1 second, 256 megabytes
+
+Một số nguyên dương x gọi là con của số nguyên dương y nếu ta có thể
+xoá bớt một số chữ số của y để được x . Cho hai số nguyên dương a và
+b hãy tìm số c là con của cả a và b sao cho giá trị của c là lớn nhất có
+thể.
+
+Input
+Dòng thứ nhất chứa số a
+Dòng thứ hai chứa số b
+
+input
+5
+3
+3
+5
+9
+4
+
+11
+3
+4
+4
+10
+5
+
+output
+12
+3
+5 2 1
+
+Output
+Ghi số c trên một dòng.
+Ràng buộc: 1 ≤ a, b ≤ 101000. Dữ liệu vào luôn có nghiệm.
+
+7B. MARKET Chợ cá
+
+input
+
+1 second, 256 megabytes
+
+123456781234
+567812345678
+
+Người đánh cá Clement bắt được n con cá, khối lượng mỗi con là ai, đem
+bán ngoài chợ. Ở chợ cá, người ta không mua cá theo từng con mà mua
+theo một lượng S nào đó. Chẳng hạn 3kg, 5kg…
+
+output
+56781234
+
+6D. DC Đoạn chung
+1 second, 256 megabytes
+Hãy tìm chiều dài lớn nhất k trong số các đoạn chung của hai xâu x và y.
+Thí dụ, x =" xabcxxabcdxd ", y =" aybcyabcdydy " có chiều dài
+của đoạn chung dài nhất là 4 ứng với đoạn " abcd ".
+
+Input
+3
+Gồm 2 dòng, dòng 1 là xâu X, dòng 2 là xâu Y . Các xâu ít hơn 10 kí
+
+Ví dụ: có 3 con cá, khối lượng lần lượt là: 3, 2, 4. Mua lượng 6 kg sẽ phải
+lấy con cá thứ 2 và và thứ 3. Mua lượng 3 kg thì lấy con thứ nhất. Không
+thể mua lượng 8 kg. Nếu bạn là người đầu tiên mua cá, có bao nhiêu
+lượng S bạn có thể chọn?
+
+Input
+• Dòng 1 chứa số n. (0 < n ≤ 100)
+• Dòng tiếp theo, ghi n số a1, a2, …, ai (0 ≤ ai ≤ 100)
+
+Output
+Xuất số tổng S tạo được
+
+tự.
+
+input
+
+Output
+
+5
+1 9 3 4 7
+
+Dòng đầu, chiều dài lớn nhất k tìm được.
+Dòng sau gồm 2 số dx, dy, là vị trí bắt đầu của đoạn chung ở xâu x
+và xâu y.
+
+output
+20
+
+input
+
+input
+
+xabcxxabcdxd
+aybcyabcdydy
+
+3
+1 2 3
+
+output
+
+output
+
+4
+7 6
+
+6
+
+7C. DATCAN Đặt quả cân
+
+7A. BBAG Cái túi
+1 second, 256 megabytes
+Trong siêu thị có n đồ vật, vật thứ i có trọng lượng w[i] và giá trị v[i]. Một
+tên trộm đột nhập vào siêu thị, tên trộm mang theo một cái túi có thể
+mang được trọng lượng tối đa m.
+Yêu cầu: cho biết tên trộm sẽ lấy đi những gói hàng nào để được tổng
+giá trị lớn nhất.
+
+Input
+• Dòng 1 chứa 2 số n, m (n ≤ 2000, m ≤ 2000).
+• N dòng tiếp theo, dòng thứ i chứa 2 số nguyên dương w[i], v[i] (w[i], v[i]
+≤ 1000)
+
+Output
+• Ghi giá trị lớn nhất tên trộm có thể lấy
+
+1 second, 256 megabytes
+Cho n quả cân có trọng lượng là m1 , m2 , … , mn .
+Hãy tìm tất cả các cách đặt một số quả cân lên 2 đĩa cân sao cho thăng
+bằng
+Ví dụ: n = 3, m1 = 1, m2 = 1, m3 = 2
+Cách 1: m1 = m2
+Cách 2: m1 + m2 = m3
+Cách 3: m2 = m1
+Cách 4: m3 = m1 + m2
+
+Input
+This is the unordered list:
+
+• Dòng thứ hai ghi số lượng gói hàng lấy được k.
+
+Dòng đầu là số quả cân N(2 ≤ N ≤ 50)
+
+• Dòng thứ ba ghi k số là chỉ số những gói bị lấy.
+
+(1 ≤ mi ≤ 100)
+
+Giới hạn: 75% test có m < 1000.
+
+Dòng sau gồm N số m1 , m2 , … , mn là trọng lượng các quả cân
+
+Output
+Số cách cân có thể.
+
+BCCB
+
+input
+3
+1 1 2
+
+8B. CDKG Chia dãy không giảm
+
+output
+
+1 second, 256 megabytes
+
+4
+
+7D. QBSEQ Dãy con dài nhất có tổng chia hết
+cho K
+1 second, 256 megabytes
+Cho một dãy gồm n số nguyên dương A 1 , A 2 , . . . , A n và số nguyên
+dương k. Hãy tìm dãy con gồm nhiều phần tử nhất của dãy đã cho sao
+cho tổng các phần tử của dãy con này chia hết cho k.
+
+Input
+• Dòng đầu tiên chứa hai số n, k ghi cách nhau bởi ít nhất 1 dấu trống.(n ≤
+1000; k ≤ 50) • Các dòng tiếp theo chứa các số A 1 , A 2 , . . . , A n được
+3
+
+ghi theo đúng thứ tự (A i ≤ 10 )
+
+Output
+Ghi số lượng phần tử của dãy con dài nhất thoả mãn.
+
+Một cách chia dãy A thành các dãy con "được chấp nhận" nếu các dãy
+con này là các dãy không giảm và mỗi phần tử của dãy A thuộc đúng một
+dãy con.
+Yêu cầu: Bạn hãy chia dãy ban đầu thành ít dãy con nhất mà vẫn "được
+chấp nhận".
+
+Input
+
+5
+• Dòng đầu tiên ghi số N là số phần tử của dãy A . (N ≤ 10 )
+9
+• Dòng thứ hai ghi N số tự nhiên là các phần tử của dãy A . (A i ≤ 10 )
+
+Output
+Ghi một duy nhất là số lượng dãy con ít nhất thỏa mãn.
+
+input
+10
+5 2 3 4 9 10 5 6 7 3
+
+output
+
+input
+10 5
+1 6 11 5 15 10 20 2 4 9
+
+output
+
+3
+
+Chia được thành 3 dãy con (a1 , a5 , a6 ), (a2 , a3 , a4 , a7 , a8 , a9 ), (a10 )
+
+8C. LATDAT Lật đật lồng nhau
+
+8
+
+8A. CTNBULLS Bò cái và bò đực
+1 second, 256 megabytes
+Nông dân John muốn sắp xếp n con bò (bao gồm cả bò đực và bò cái)
+của ông ta trên 1 hàng .Ông ta biết rằng những con bò đực rất hung hăng
+– Nếu 2 con bò đực đứng quá gần nhau thì chúng sẽ trở nên hung dữ và
+bắt đầu húc nhau , vì thế chúng sẽ phá hỏng mất trật tự trên hàng mà ông
+ta vừa sắp xếp được.
+Theo kinh nghiệm lâu năm của mình , John biết được nếu ở giữa hai con
+bò đực có ít nhất K con bò cái thì sẽ ngăn chặn được việc chúng húc
+nhau (+_+)
+Vì thế, ông ta nhờ các Vcoders giúp đỡ để tính toán xem có bao nhiêu
+cách sắp xếp đàn bò của ông ta lại sao cho không có "chiến tranh" xảy ra
+giữa những chú bò (^_^), (Tất cả những con bò đực và những con bò cái
+đều giống nhau). Hai dãy (B1 . . . Bn ) và (A 1 … A n ) được cho là khác
+nhau nếu tồn tại một vị trí i(1 ≤ i ≤ n) sao cho A + i <> Bi .
+
+Input
+gồm 1 dòng duy nhất chứa 2 số n và k cách nhau 1 dấu cách
+
+(1 ≤ N ≤ 105 ; 0 ≤ k ≤ n)
+Output
+
+gồm duy nhất một số là kết quả theo modun 2111992
+
+input
+4 2
+
+output
+
+1 second, 256 megabytes
+Thầy X có một bộ sưu tập các con lật đật rỗng ruột. Lật đật với chiều rộng
+w1 và chiều cao h1 sẽ nằm trong được con lật đật chiều rộng w2 và
+chiều cao h2 nếu w1 < w2 và h1 < h2 . Để tiết kiệm diện tích trưng bày,
+thầy X sẽ lồng các con lật đật vào nhau để còn ít con nhất có thể.
+Yêu cầu: Tính số con lật đật ít nhất còn lại sau khi đã lồng các con vào
+nhau.
+
+Input
+• Dòng đầu ghi số nguyên m, 1 ≤ m ≤ 20000, số lượng lật đật ban đầu.
+• Dòng tiếp theo là 2m số nguyên w1 , h1 , w2 , h2 , . . . , wm , hm , là chiều
+rộng và chiều cao của con lật đật thứ i, 1 ≤ wi , hi ≤ 10000 .
+
+Output
+Ghi số con lật đật còn lại ít nhất có thể.
+
+input
+4
+20 30 10 10 30 20 40 50
+
+output
+2
+
+input
+3
+10 30 20 20 30 10
+
+output
+3
+
+6
+
+Giải thích output(C=bò cái , B:bò đực)
+
+test 1 có thể lồng 2 < 3 < 4 thành 1 con, tes 2: không có con nào có thể
+nằm trong con khác.
+
+CCCC
+
+8D. TRIANGLE Tam giác
+
+BCCC
+
+1 second, 256 megabytes
+
+CBCC
+CCBC
+CCCB
+
+Cho một tam giác được tạo bởi các số nguyên không âm như ví dụ sau:
+
+7
+
+3
+8
+2
+4
+
+8
+1
+
+7
+5
+
+0
+4
+
+2
+
+4
+6
+
+5
+
+(Figure 1)
+
+Hãy tính tổng lớn nhất các số trên đường đi từ đỉnh tam giác xuống một
+điểm nào đó ở đáy tam giác nào đó. Tại mỗi ô ta chỉ có đi thẳng xuống ô
+bên trái hoặc bên phải.
+
+Input
+Dòng đầu là số nguyên dương n là số dòng của tam giác
+
+(1 ≤ n ≤ 100)
+N dòng sau, dòng thứ i có i số mô tả tam giác.
+Output
+Tổng lớn nhất thu được trên đường đi.
+
+input
+5
+7
+3
+8
+2
+4
+
+Giờ giải lao, thầy Vinh cho lớp chuyên Tin chơi lò cò. Trên mặt đất, thầy
+vẽ 1 dãy gồm N ô được đánh số từ 1 đến N, ô thứ i thầy ghi giá trị ai. Ban
+đầu, các bạn sẽ ở vị trí ô số 0 với tổng điểm là 0. Mỗi nước, người chơi
+có thể nhảy sang phải tối thiểu là 1 bước và tối đa là K bước. Khi dừng lại
+ở 1 ô nào đó thì giá trị của ô đó sẽ được cộng vào tổng điểm. Bạn có thể
+dừng cuộc chơi bất cứ lúc nào.
+Yêu cầu: Hãy tìm cách chơi sao cho tổng điểm nhận được là nhiều nhất.
+
+Input
+
+- Dòng đầu tiên chứa 2 số N, K. (N ≤ 104 ; K ≤ 10)
+- Dòng thứ 2 chứa N số của dãy, mỗi số cách nhau 1 dấu cách. Mỗi số
+nằm trong khoảng [-1000, 1000]
+
+Output
+Số điểm lớn nhất có thể đạt được.
+
+input
+5 2
+-2 3 -6 -4 5
+
+output
+4
+
+8
+1 0
+7 4 4
+5 2 6 5
+
+Ta có thể đi theo thứ tự 0 -> 2 -> 4 -> 5. Số điểm đạt được là 0 + 3 - 4 + 5
+= 4.
+
+output
+
+9C. BABYLON Vườn treo Babylon
+
+30
+
+1 second, 256 megabytes
+
+9A. NKTICK Xếp hàng mua vé
+1 second, 256 megabytes
+Có N người sắp hàng mua vé dự buổi hoà nhạc. Ta đánh số họ từ 1 đến
+N theo thứ tự đứng trong hàng. Mỗi người cần mua một vé, song người
+bán vé được phép bán cho mỗi người tối đa hai vé. Vì thế, một số người
+có thể rời hàng và nhờ người đứng trước mình mua hộ vé. Biết ti là thời
+gian cần thiết để người i mua xong vé cho mình. Nếu người i+1 rời khỏi
+hàng và nhờ người i mua hộ vé thì thời gian để người thứ i mua được vé
+cho cả hai người là r i .
+
+Vườn treo Babylon (cũng được gọi là Vườn treo Semiramis) và những
+bức tường của Babylon (Iraq hiện nay) từng được coi là một trong Bảy kỳ
+quan của thế giới. Chúng được cho là do vua Nebuchadnezzar II xây
+dựng nên từ khoảng năm 600 TCN.
+Có n loại đá có dạng hình hộp chữ nhật. Mỗi loại đá có chiều dài, chiều
+rộng, và chiều cao nhất định. Trong mỗi loại đá và có vô số tảng đá giống
+hệt nhau. Các tảng đá có thể được xếp chồng lên nhau để tạo ra tòa tháp
+rất cao.
+
+Yêu cầu: Xác định xem những người nào cần rời khỏi hàng và nhờ người
+đứng trước mua hộ vé để tổng thời gian phục vụ bán vé là nhỏ nhất.
+
+Các tảng đá có thể được xoay tùy ý trước khi chồng lên nhau. Tuy nhiên,
+để đảm bảo an toàn, một tảng đá có thể chồng lên một tảng đá khác khi
+và chỉ khi cả hai chiều của nó là ngắn hơn (tại mặt phẳng tiếp xúc). Hãy
+tìm cách để sao cho tòa tháp cuối cùng thu được cao nhất có thể.
+
+Input
+
+Input
+
+• Dòng đầu tiên chứa số N (1 ≤ N ≤ 60000).
+• Dòng thứ 2 ghi N số nguyên dương t1 , t2 , . . . , tN . (1 ≤ ti ≤ 30000)
+
+Input gồm nhiều test, kết thúc bằng một dòng chứa một số 0. Mỗi test
+được mô tả như sau:
+Dòng đầu tiền chứa số nguyên dương n(1 ≤ n ≤ 200).
+
+• Dòng thứ ba ghi N-1 số nguyên dương r 1 , r 2 , . . . , r N−1 . (1 ≤ r i ≤
+30000)
+
+n dòng tiếp theo, mỗi dòng chứa ba số nguyên dương x, y, z mô tả
+chiều dài, chiều rộng và chiều cao của một loại đá.
+
+Output
+In ra tổng thời gian phục vụ nhỏ nhất.
+
+Output
+Với mỗi test, in ra chiều cao lớn nhất đạt được của tòa tháp.
+
+input
+
+input
+
+5
+2 5 7 8 4
+4 9 10 10
+
+5
+31 41
+26 53
+97 93
+84 62
+33 83
+1
+1 1 1
+0
+
+output
+18
+
+input
+4
+5 7 8 4
+50 50 50
+
+59
+58
+23
+64
+27
+
+output
+342
+1
+
+output
+24
+
+9B. NHAYCOC Nhảy cóc
+1 second, 256 megabytes
+
+9D. DIXUONG Đi xuống
+1 second, 256 megabytes
+
+Cho bảng h × w. Tìm đường đi có tổng lớn nhất từ hàng 1 đến hàng w. Từ
+ô (i, j) được đi qua một trong 3 ô (i +1,j+1); (i + 1, j); (i + 1, j – 1).
+
+Cho dãy n số nguyên a1 , a2 , … , an được gọi là lồi, nếu nó giảm nghiêm
+ngặt từ a1 đến ak (1 < k < n) nào đó, rồi tăng nghiêm ngặt tới an .
+
+Input
+
+Ví dụ: 10 5 4 2 -1 4 6 8 12 là một dãy lồi có chiều dài 9
+
+• Dòng đầu tiên chứa 2 số nguyên h và w, với h là số hàng và w là số cột,
+(1 <= h, w <= 100).
+
+Cho một dãy số nguyên tùy ý, bằng cách xóa bớt một số phần tử của dãy
+và giữ nguyên trình tự các phần tử còn lại, ta nhận được dãy con lồi.
+
+• Tiếp theo sẽ là h dòng, mỗi dòng chứa w giá trị – là giá trị các ô của
+bảng, gọi là m, (0 <= m <= 100)
+
+Yêu cầu: Hãy tìm độ dài của dãy con lồi dài nhất
+
+Output
+
+• Dòng đầu là n (n ≤ 105 )
+
+In ra một dòng chứa một số nguyên, là tổng lớn nhất thu được theo quy
+tắc đã nêu ở trên.
+
+input
+6
+3
+2
+1
+2
+2
+5
+
+5
+1
+1
+2
+2
+1
+2
+
+7
+3
+2
+1
+4
+7
+
+4
+1
+1
+5
+4
+5
+
+Input
+
+9
+
+• Dòng sau gồm N số, mỗi số là một số nguyên ai của dãy (−10 ≤ ai ≤
+109 , 1 ≤ i ≤ n)
+
+Output
+gồm một số nguyên là độ dài của dãy con lồi dài nhất. Giả sử dữ liệu đã
+cho luôn có lời giải.
+
+2
+1
+8
+3
+4
+1
+
+Subtask:
+3
+
+Sub 1: n ≤ 10 .
+5
+
+Sub 2: n ≤ 10 .
+
+output
+32
+
+input
+11
+10 5 8 4 2 -1 4 6 8 6 12
+
+output
+9
+
+Xóa bớt 2 số gạch chân: 10 5 8 4 2 -1 4 6 8 6 12
+
+AC. NHAHANG Nhà hàng
+1 second, 256 megabytes
+
+AA. WIRES Nối Điểm
+1 second, 256 megabytes
+Trên hai đuờng thẳng song song L1 và L2, người ta đánh dấu trên mỗi
+đường N điểm, các điểm trên đường thẳng L1 được đánh số từ 1 đến N,
+từ trái qua phải, còn các điểm trên đường thẳng L2 được đánh số bởi
+P[1], P[2], ..., P[N] cũng từ trái qua phải, trong đó P[1], P[2], …, P[N] là
+một hoán vị của các số 1, 2, ..., N. Hình vẽ dưới đây cho ví dụ từ 1 đến 9:
+
+Đề thi HSG12 tỉnh Đồng Nai năm 2011
+Tập đoàn kinh doanh nhà hàng Phát Đạt xem xét mở một loạt các nhà
+hàng dọc trên đường cao tốc Bắc Nam. Có n vị trí dọc trên đường được
+đề nghị mở nhà hàng. Vị trí thứ i cách đầu đường cao tốc là ai (km) và
+dựa vào các yếu tố mật độ dân, điều kiện cơ sở, … xác định được khả
+năng dự kiến mở là bi .
+Yêu cầu: Hãy xác định các vị trí mở nhà hàng sao cho tổng khả năng dự
+kiến mở là tối đa. Nhưng hai nhà hàng được chọn gần nhau nhất hoặc
+giữa nhà hàng đầu tiên được chọn và đầu đường cao tốc phải cách ít
+nhất là P (km)
+
+Input
+6
+Dòng đầu là hai số n và P (2 ≤ n ≤ 5000; 1 ≤ p ≤ 10 )
+N dòng tiếp theo, dòng thứ i trong n dòng là hai số ai và
+
+Ta gọi các số gán cho các điểm là số hiệu của chúng. Cho phép nối hai
+điểm trên 2 đường thẳng có cùng số hiệu .
+Yêu cầu : Tìm cách nối được nhiều cặp điểm nhất với điều kiện các đoạn
+nối không được cắt nhau.
+
+bi (1 ≤ ai ≤ 106 , 1 ≤ bi ≤ 105 )
+Output
+
+Input
+• Dòng Đầu tiên chứa số nguyên dương N (N ≤ 1000)
+
+(Chấm bài chỉ xuất dòng đầu)
+Dòng đầu ghi số T là tổng khả năng dự kiến. Nếu không mở được
+nhà hàng nào thì T = 0.
+
+• Dòng thứ hai chứa các số P[1], P[2], ...., P[N]
+
+Output
+• Ghi K là số lượng đoạn nối tìm được
+
+input
+6 30
+30 8
+70 5
+90 6
+145 3
+170 9
+195 5
+
+input
+9
+2 5 3 8 7 4 6 9 1
+
+output
+5
+
+output
+
+AB. DAYLOI Dãy con lồi
+1 second, 256 megabytes
+Đề thi Olympic 30.4
+
+23
+
+AD. XAUCON Xâu con
+
+1 second, 256 megabytes
+Đề thi tin học trẻ bảng C tỉnh Đồng Nai năm 2015
+Xâu a được gọi là xâu con của xâu b nếu a là một đoạn các kí tự liên tiếp
+′
+
+trong b. Ví dụ: ′ aba′ là xâu con của xâu ′ bbaba , nhưng không là xâu
+con của xâu ′ aabbaa′ .
+Yêu cầu: Cho hai xâu s1, s2. Tìm độ dài của xâu con chung ngắn nhất p
+của s1 và s2 với điều kiện p chỉ xuất hiện đúng một lần trong s1 và đúng
+một lần trong s2.
+
+Input
+Dòng đầu ghi xâu s1
+Dòng thứ hai ghi xâu s2
+Mỗi xâu dài không quá 5000 kí tự chỉ gồm các chữ cái ′ a′ …′ z ′ .
+
+Output
+Ghi độ dài của xâu con chung ngắn nhất p. Nếu không tồn tại p xuất
+− − 1.
+
+input
+abcabc
+cabbcab
+
+output
+3
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

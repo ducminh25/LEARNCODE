@@ -1,0 +1,240 @@
+	Dãy ước số chung lớn nhất 		Tên file: dayucln.*
+An mới bắt đầu học toán và cậu ta vẫn chưa biết gì về ước số chung lớn nhất. Cho nên cậu ta cần sự giúp đỡ của bạn để làm một vài phép toán. An có một dãy A gồm N số nguyên, được đánh số từ 1 đến N và An muốn tạo một mảng B gồm N+1 phần tử được đánh số từ 1 đến N+1 và các phần tử của mảng B có tính chất sau: UCLN(B[i], B[i + 1]) = A[i], ∀ 1 ≤ i ≤ N.
+Nếu như có nhiều kết quả thì bạn chỉ cần cho An biết mảng B có tổng các phần tử là nhỏ nhất (vì cậu ta chỉ mới bắt đầu học toán nên rất ngại các con số lớn).
+Dữ liệu vào: 
+	Dòng đầu tiên chứa một số nguyên T - số lượng test case (1 ≤  T ≤ 10). Tiếp theo là các test case:
+	Dòng đầu tiên của mỗi test case chứa một số nguyên dương N - số lượng phần tử của mảng A (2 ≤ N ≤ 105).
+	Dòng thứ hai chứa N số nguyên A1 A2 ... AN (1  ≤ Ai  ≤ 109)
+Dữ liệu ra: 
+	Với mỗi test case xuất trên một dòng chứa N+1 phần tử của mảng B (0 < Bi)
+Ví dụ:
+dayucln.inp	dayucln.out
+2
+3
+1 2 4
+3
+6 10 2	1 2 4 4
+6 30 10 2
+
+ 
+	Đếm các thừa số nguyên tố 	Tên file: COUNTPRD.* 
+Cho số nguyên dương N (2 ≤ N < 1014), hỏi có bao nhiêu số nguyên tố khác nhau trong phân tích N ra tích các thừa số nguyên tố.
+Ví dụ: 10 = 2*5 có 2 số nguyên tố khác nhau trong phân tích 10 ra tích các thừa số nguyên tố là: 2 và 5.
+Input: Vào từ file văn bản COUNTPRD.INP gồm một dòng chứa số nguyên N.
+Output: Đưa ra file văn bản COUNTPRD.OUT số các số nguyên tố.
+Ví dụ:
+COUNTPRD.INP	COUNTPRD.OUT
+10	2
+Bài 3. Biểu diễn N!				Tên file: analyse.py hoặc analyse.cpp
+Giai thừa N, ký hiệu N! là tích tất cả các số nguyên từ 1 đến N. Giai thừa N tăng rất nhanh, ví dụ 5!=120, 10!=3628800. Một cách để xác định số lớn như vậy, người ta chỉ ra số lần xuất hiện các số nguyên tố trong phân tích của nó ra thừa số nguyên tố. Ví dụ, số 825 có thể xác định bởi dãy (0 1 2 0 1) có nghĩa là  .
+Cho một số nguyên dương N  1000. Hãy tìm cách biểu diễn số N! dưới dạng số lần xuất hiện các số nguyên tố trong phân tích n! ra các thừa số nguyên tố.
+Dữ liệu vào từ file ANALYSE.INP gồm nhiều dòng, mỗi dòng chứa 1 số nguyên N (2N1000).
+Kết quả Ghi ra file ANALYSE.OUT mỗi dòng tương ứng với 1 dòng trong file dữ liệu vào là dãy số thể hiện biểu diễn dưới dạng phân tích thành số nguyên tố của n! (phần tử cuối cùng của dãy phải là số dương).
+Ví dụ:
+ANALYSE.INP	ANALYSE.OUT
+10
+3	8 4 2 1
+1 1 
+Bài 4. Đếm ước nguyên tố 		***Nhị thức Newton – Tổ hợp***			
+Tên file: CPRDIV.CPP
+Cho hai số nguyên dương M và N (1 ≤ M ≤ N ≤ 60000) và số S được xác định bằng công thức sau: S = n!/(m!(n−m)!). (tổ hợp chập m của n phần tử)
+Yêu cầu: Đếm số lượng ước nguyên tố của S.
+Input: gồm một dòng ghi hai số N và M cách nhau một dấu cách.
+Output: gồm một dòng ghi 1 số duy nhất là số lượng ước nguyên tố của S.	
+Ví dụ:
+CPRDIV.INP	CPRDIV.OUT
+	3	2
+Để giải bài toán này một cách hiệu quả và tránh bị TLE, ta cần tìm cách tính số lượng ước nguyên tố của   mà không cần phải tính giá trị của S trực tiếp vì N! có thể rất lớn.
+Cách tiếp cận là sử dụng phân tích số nguyên tố và tính số mũ của các số nguyên tố trong biểu thức trên. Cụ thể các bước như sau:
+	Phân tích số nguyên tố trong giai thừa:
+	Số mũ của một số nguyên tố ( p ) trong ( N! ) là tổng số bội của ( p ) trong các số từ 1 đến ( N ).
+	Số mũ của ( p ) trong ( M! ) và ( (N-M)! ) cũng được tính tương tự.
+	Số mũ của một số nguyên tố ( p ) trong ( S ):
+	Tính số mũ ( p ) trong ( N! ) trừ đi số mũ ( p ) trong ( M! ) và ( (N-M)! ).
+	Đếm số lượng các số mũ khác không:
+	Số lượng ước nguyên tố của ( S ) chính là số lượng các số mũ khác không cho tất cả các số nguyên tố nhỏ hơn hoặc bằng ( N ).
+Lý do đằng sau việc này là dựa trên tính chất của tổ hợp chập m của n phần tử. Biểu thức S = n!/(m!(n−m)!) có thể được viết lại như sau:
+S = (n × (n-1) × ... × (n-m+1)) / (m × (m-1) × ... × 1)
+Như vậy, các ước nguyên tố của S sẽ là các ước nguyên tố của các số từ m+1 đến n, trừ đi các ước nguyên tố của các số từ 1 đến m.
+Bài code sử dụng hai mảng c và c1 để đếm số lượng ước nguyên tố của các số từ m+1 đến n và từ 1 đến m, tương ứng. Sau đó, nó so sánh số lượng ước nguyên tố của hai khoảng số này và đếm số lượng ước nguyên tố của S.
+Nếu một ước nguyên tố xuất hiện nhiều hơn trong khoảng số từ m+1 đến n so với khoảng số từ 1 đến m, thì nó sẽ là ước nguyên tố của S. Ngược lại, nếu một ước nguyên tố xuất hiện nhiều hơn trong khoảng số từ 1 đến m so với khoảng số từ m+1 đến n, thì nó sẽ không là ước nguyên tố của S.
+Vì vậy, bài code sử dụng việc so sánh số lượng ước nguyên tố của hai khoảng số khác nhau để xác định số lượng ước nguyên tố của biểu thức S.
+
+Bài 5: Không nguyên tố			Tên file: KNTO.*
+Cho P là tập hợp các ước số dương không nguyên tố của số nguyên dương n. Hãy tìm số phần tử của tập hợp P.
+Input: KNTO.INP:
+	Một dòng duy nhất là giá trị của n (1 ≤ n ≤ 1014)
+Output: KNTO.OUT
+	Một dòng duy nhất là số phần tử của P
+Ví dụ:
+KNTO.INP	KNTO.OUT
+180	15
+20	4
+Ràng buộc
+	Subtask1: 40% test đầu tiên có n ≤ 106
+	Subtask2: 60% test còn lại không có ràng buộc gì 
+Bài 6: Ước số					Tên file: uocso.cpp
+Cho hai số nguyên dương a và b. Hãy đếm số lượng các ước của tích a * b
+Input: uocso.inp
+	Dòng 1 chứa số nguyên dương T (T ≤ 100)
+	T dòng tiếp theo, mỗi dòng chứa một cặp số a, b (1 ≤ a, b ≤ 109)
+Output: uocso.out
+	Gồm T dòng, mỗi dòng chứa kết quả của tích tương ứng của input
+Ví dụ: 
+uocso.inp	uocso.out
+2
+2 4
+6 7	4
+8
+Ràng buộc:
+	Subtask1: có 60% số test có T = 1
+	Subtask2: có 40% số test còn lại không có ràng buộc gì
+ 
+Bài 7: Phân số						Tên file: FRACTION.*
+Khi còn bé, các bạn học sinh học được cách trừ phân số bằng cách quy đồng mẫu số, rồi mới thực hiện phép trừ.
+5/4-9/12=15/12-9/12=6/12=1/2
+Nhưng một lần, Bờm tính thử hiệu hai phân số bằng cách lấy hiệu hai tử số và hiệu hai mẫu số và thấy thật ngạc nhiên là kết quả vẫn đúng.
+5/4-9/12=(5-9)/(4-12)=(-4)/(-8)=1/2
+Bờm thấy tính chất này thật kỳ diệu và Bờm muốn biết, với phân số b/n cho trước, có bao nhiêu cặp giá trị a ≥ 0 và m > 0 sao cho:
+a/m-b/n=(a-b)/(m-n)
+INPUT
+	Một dòng chứa hai số nguyên dương b và n cách nhau ít nhất một dấu cách (1 ≤ b, n ≤ 106)
+OUTPUT
+	Ghi ra một số nguyên là số lượng cặp (a, m) thỏa mãn yêu cầu.
+Ví dụ:
+INPUT	OUTPUT
+9 12	5
+Giải thích ví dụ:
+Có 5 cặp (a, m) thỏa mãn ứng với 5 phân số:
+0/24;5/20;8/16;8/8;5/4
+ 
+Bài 6: Bộ ba nguyên tố 						Tên file: DPRIME3.*
+Cho số tự nhiên N (N ≤ 109).
+Hãy lập trình tìm tất cả bộ ba số nguyên tố x, y, z thỏa mãn:
+{█(x<y<z≤N@x^2+y^2=z)┤
+INPUT
+	Một số nguyên dương N duy nhất
+OUTPUT
+	Gồm nhiều dòng, mỗi dòng chứa một bộ ba số nguyên tố tìm được. Trong trường hợp không tìm được bộ ba số nguyên tố thỏa mãn đề bài thì đưa ra -1.
+Ví dụ:
+INPUT	OUTPUT
+30	2 3 13
+2 5 29
+10	-1
+
+ 
+Bài 7: Số ước nguyên tố					Tên file: uocnto.*
+Hãy đếm trong đoạn [a, b] các số nguyên dương thỏa mãn yêu cầu: số lượng các ước của nó là một số nguyên tố.
+Input:
+	Dòng 1: chứa số T là số lượng các đoạn cần đếm 
+	Dòng 2: T dòng tiếp theo, mỗi dòng chứa một cặp số nguyên a và b
+Output:
+	Gồm T dòng, mỗi dòng là kết quả tương ứng với input
+Ví dụ:
+Uocnto.inp	Uocnto.out
+2
+2 5
+1 100	4
+32
+Ràng buộc
+	Subtask1: có 30% số điểm 1 ≤ a ≤ b ≤ 200 và T ≤ 100
+	Subtask2: có 30% số điểm 1 ≤ a ≤ b ≤ 2000 và T ≤ 1000
+	Subtask3: có 40% còn lại 1 ≤ a ≤ b ≤ 106 và T ≤ 105
+ 
+Bài 8: Tổng nhỏ nhất					Tên file: MINSUM.*
+Với hai số nguyên dương A, B cho trước. Ta dễ dàng tìm được ước chung lớn nhất G và bội chung nhỏ nhất L của hai số A và B.
+Bây giờ chúng ta hãy xét bài toán ngược của bài toán trên:
+“Cho biết trước ước chung lớn nhất G và bội chung nhỏ nhất L của hai số nguyên dương A và B.
+Rõ ràng, sẽ có rất nhiều cặp (A, B) nguyên dương có ước chung lớn nhất là G và bộ chung nhỏ nhất là L, tuy nhiên cũng có trường hợp chúng ta không thể tìm được giá trị A, B thỏa mãn. Vì vậy, hãy xác định giá trị nhỏ nhất của tổng A + B, hoặc đưa ra -1 nếu không tìm được cặp (A, B)”.
+INPUT: Hai số nguyên dương G và L (1 ≤ G ≤ L ≤ 109)
+OUTPUT: Số nguyên dương là tổng nhỏ nhất có thể. Trong trường hợp không tìm được hai số A và B thì đưa ra kết quả là -1.
+Ví dụ:
+MINSUM.INP	MINSUM.OUT
+2 10	12
+2 20	14
+3 5	-1
+Giải thích ví dụ:
+- Ở ví dụ thứ nhất: Chỉ có cặp (2, 10) thỏa mãn UCLN(2,10) = 2, BCNN(2,10) = 10. Nên tổng là 12
+- Ở ví dụ thứ hai: Có hai cặp (2, 20) và (4, 10) thỏa mãn, tổng nhỏ nhất có thể là 14.
+- Ở ví dụ thứ ba: không tìm được cặp nào thỏa mãn UCLN là 3 và BCNN là 5
+Ràng buộc 
+	40% số điểm tương ứng với số test có 1 ≤ G ≤ L ≤ 100;
+	60% số điểm còn lại không có ràng buộc gì
+Để giải quyết bài toán này, ta có thể sử dụng mối quan hệ giữa ước chung lớn nhất (GCD) và bội chung nhỏ nhất (LCM) của hai số A và B. Mối quan hệ này được mô tả bởi công thức:
+
+GCD(A, B) * LCM(A, B) = A * B
+Từ công thức này, ta có thể suy ra:
+A * B = G * L
+Vì A và B là các số nguyên dương, nên ta cần tìm các cặp (A, B) sao cho tích của chúng bằng G * L.
+Tuy nhiên, để tìm được cặp (A, B) có tổng nhỏ nhất, ta cần tìm các cặp (A, B) sao cho chúng gần nhau nhất.
+Một cách để làm điều này là sử dụng việc phân tích số G * L thành tích của các số nguyên tố. Sau đó, ta có thể chia các số nguyên tố này thành hai nhóm sao cho tích của các số nguyên tố trong mỗi nhóm gần nhau nhất.
+
+Trong đoạn code trên, ta đầu tiên kiểm tra xem L có chia hết cho G hay không. Nếu không, ta không thể tìm được cặp (A, B) thỏa mãn, nên ta đưa ra kết quả -1.
+
+Nếu L chia hết cho G, ta tính n = L / G. Sau đó, ta tìm các cặp (i, j) sao cho i * j = n và abs(i - j) nhỏ nhất. Cuối cùng, ta tính A = G * i và B = G * j, và đưa ra kết quả A + B.
+
+	Giải phương trình 					Tên file: SOLVE.*
+Cho phương trình:
+x^2 + S (x)*x – N = 0
+Trong đó x, N là những số nguyên dương, S(x) là tổng các chữ số của x.
+Yêu cầu: Cho trước giá trị N. Hãy tìm giá trị x nhỏ nhất thỏa mãn phương trình trên.
+Dữ liệu: Vào từ file văn bản SOLVE.INP có một số nguyên duy nhất N (1 <= N <= 10^18)
+Kết quả: Ghi ra file văn bản SOLVE.OUT một số nguyên duy nhất x nhỏ nhất thỏa mãn phương trình. Trong trường hợp không tìm được x thì ghi ra -1.
+Ví dụ:
+SOLVE.INP	SOLVE.OUT
+2	1
+4	-1
+Ràng buộc:
+	Có 40% số test ứng với 40% số điểm của bài có  
+	Có 30% số test khác ứng với 30% số điểm của bài có  
+	Có 30% số test cuối cùng không có ràng buộc gì
+ 
+Bài 9: Đếm số lượng nguyên tố	   		Tên file: COUNTPRI.*
+Cho M truy vấn, mỗi truy vấn gồm 2 giá trị l_i,r_i  (1≤l_i≤r_i≤10^6).
+Với mỗi truy vấn bạn phải trả lời câu hỏi: có bao nhiêu số nguyên tố thuộc đoạn [l_i,r_i].
+INPUT: COUNTPRI.INP
+	Dòng 1 chứa M (1 ≤ M ≤ 106)
+	M dòng tiếp theo, mỗi dòng chứa hai số li và ri.
+OUTPUT: COUNTPRI.OUT
+	Mỗi dòng chứa 1 câu trả lời tương ứng với truy vấn trong input.
+Ví dụ:
+COUNTPRI.INP	COUNTPRI.OUT
+3
+4 10
+7 20
+2 30	2
+5
+10
+Ràng buộc:
+	subtask1: 60% số điểm tương ứng 60% số test có 1 <= m<= 103 và 1 <= li <= ri <= 103
+	subtask2: 40% số điểm tương ứng 60% số test còn lại không có ràng buộc gì
+ 
+Bài 10: ĐOẠN NGUYÊN TỐ 				Tên file: TPRIME.***
+Cho một dãy số nguyên dương A=(a_1,a_2,…,a_n) (a_i≤10^6; 1≤i≤n). Với mỗi phần tử a_i bạn được phép tăng hoặc giảm một lượng tùy ý để được một số nguyên tố. Khi đó chi phí của bạn cần bỏ ra chính là lượng tăng hoặc giảm đó. 
+Yêu cầu: Hãy chọn ra một đoạn con gồm 𝑘 phần tử liên tiếp nhau của dãy 𝐴 sao cho tổng chi phí biến đổi mọi phần tử trong đoạn con đó thành các số nguyên tố là nhỏ nhất. 
+Dữ liệu: Vào từ file TPRIME.INP có cấu trúc như sau:
+- Dòng 1: Chứa hai số nguyên dương n,k (1≤k≤n≤10^5); 
+- Dòng 2: Chứa n số nguyên dương a_1,a_2,..,a_n  (a_i≤10^6  ∀i = 1,2,… ,n). 
+Kết quả: Ghi ra file TPRIME.OUTmột số nguyên duy nhất là tổng chi phí biến đổi nhỏ nhất tìm được.
+Ví dụ:
+TPRIME.INP	TPRIME.OUT
+4 2
+9 5 8 15	1
+
+ 
+Bài 11: MA TRẬN NGUYÊN TỐ 			Tên file: PRIMATR.***
+Cho một ma trận kích thước M x N, mỗi phần tử trong ma trận là một số nguyên dương. Chúng ta có thể thực hiện một thao tác biến đổi trên ma trận như sau: chọn 1 phần tử bất kỳ và tăng nó lên 1 đơn vị, mỗi phần tử trong ma trận có thể tăng với một số lần không hạn chế.
+Một ma trận được gọi là ma trận nguyên tố nếu thỏa mãn một trong 2 điều kiện sau: 
+	Hoặc ma trận có ít nhất 1 hàng chứa toàn bộ là số nguyên tố 
+	Hoặc ma trận có ít nhất 1 cột chứa toàn bộ là số nguyên tố. 
+Nhiệm vụ của bạn là đếm số thao tác biến đổi ít nhất để chuyển ma trận ban đầu sang ma trận nguyên tố.
+INPUT: PRIMATR.INP
+	Dòng đầu chứa hai số nguyên dương M và N (1 ≤ M, N ≤ 1000) 
+	M dòng tiếp theo, mỗi dòng chứa N số nguyên dương, các số nguyên dương có giá trị ≤ 106.
+OUTPUT: PRIMATR.OUT 
+	Một dòng duy nhất là số thao tác biến đổi ít nhất cần thực hiện.
+Ví dụ:
+PRIMATR.INP	PRIMATR.OUT
+4 2
+9 5 8 15	1
+

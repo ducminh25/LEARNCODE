@@ -1,0 +1,1148 @@
+Level 6 - Mang dem, doan con, bang con (video)
+
+00. XEM TÀI LIỆU - BÀI GIẢNG
+
+• C = 100 + ( p− 5) nếu p > 5
+Yêu cầu: Tính tổng số phí người trông xe thu được vào cuối tháng.
+
+1 s., 256 MB
+
+Input
+
+LINK TÀI LIỆU: https://docs.google.com/document/d/1eRXi8tDH4cvjtMDtmddODkQveDYwRmh/edit?
+usp=sharing&ouid=110550505667089977279&rtpof=true&sd=true
+
+Dòng đầu chứa một số nguyên dương K (0 < K ≤ 106)
+
+CÁCH NỘP BÀI: http://www.chuyentin.pro/2022/05/huong-dan-nop-codec-len-trang-cham.html
+
+Output
+
+K dòng tiếp theo, mỗi dòng chứa số hiệu một chiếc xe .
+Đưa ra một số nguyên là tổng số phí thu được.
+
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+input
+
+Input
+
+input
+
+7
+10102010
+10108888
+10102010
+10102010
+10102010
+10102010
+10102010
+
+5 3
+
+output
+
+output
+
+201
+
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+Output
+Ghi một số nguyên là diện tích s.
+
+15
+
+1C. PERMU Dãy liên tục
+1A. SNN Số nhỏ nhất
+1 second, 256 megabytes
+Cho n số nguyên a1 , a2 , … , an . Tìm số nguyên nhỏ nhất chỉ xuất hiện
+đúng một lần trong dãy.
+
+1 second, 256 megabytes
+Dãy số A 1 , A 2 , … , A N được gọi là dãy số liên tục nếu trong nó có mặt
+tất cả các số từ 1 đến N . Cho trước một dãy số A 1 , A 2 , … , A N . Hỏi
+phải thay bao nhiêu số trong dãy để được một dãy liên tục.
+
+Input
+
+Input
+• Dòng một ghi số nguyên n(1
+
+≤ n ≤ 100)
+
+• Dòng hai ghi n số nguyên a1 , a2 , … , an . (−100
+
+Dòng đầu ghi số nguyên dương N (N
+≤ ai ≤ 100)
+
+Output
+ghi số tự nhiên nhỏ nhất xuất hiện đúng một lần trong dãy. Nếu không có
+số nào xuất hiện đúng một lần thì xuất "khong".
+
+N
+
+dòng sau, dòng thứ i
+
+9
+
+(1 <= A i <= 10 )
+
+Chỉ một dòng duy nhất ghi số các số cần thay đổi để dãy đã cho trở thành
+dãy liên tục.
+
+input
+
+6
+1 -3 -5 1 -5 6
+
+3
+2
+1
+3
+
+-3
+
+ghi số A i
+
+Output
+
+input
+
+output
+
+(i = 1..N )
+
+6
+
+<= 10 )
+
+output
+
+input
+
+0
+
+5
+1 1 1 5 5
+
+input
+2
+2
+2
+
+output
+khong
+
+output
+
+1B. TRONGXE Trông xe
+
+1
+
+1 second, 256 megabytes
+Một bãi đỗ xe nhận trông xe trong vòng một tháng. Mỗi xe sẽ được gắn
+một số hiệu là một số nguyên dương T (10102010 ≤ T ≤ 10109999). Hai
+xe khác nhau sẽ được gắn hai số hiệu khác nhau.
+Một xe có thể ra vào bãi đỗ xe nhiều lần, mỗi lần vào bãi đỗ xe, người
+trông xe sẽ ghi vào sổ sách sốhiệu của chiếc xe đó.
+Cuối tháng dựa vào sổ ghi chép, người trông xe làm thống kê về số lần
+vào bãi đỗ xe của từng chiếc xe để tiến hành thu phí. Nếu một chiếc xe
+vào bãi đỗ xe p lần, cuối tháng chủ xe phải trả một lượng phí C được tính
+như sau:
+• C = 100 nếu p ≤ 5
+
+1D. CARD679 Chơi bài
+1 second, 256 megabytes
+Dương và Tùng cùng nhau chơi bài. Hau cậu bé không nắm rõ luật của
+trò chơi nên quyết định chơi theo cách riêng của mình. Có N quân bài,
+đánh số từ 1 đến N . Dương sẽ nhận được một số quân bài và Tùng
+nhận những quân còn lại. Người chơi sẽ phải tạo một dãy liên tiếp các
+quân bài dài nhất có thể (một quân bài đơn độc cũng được coi là dãy liên
+tiếp có độ dài 1).
+Ví dụ 2, 3, 4 là một dãy liên tiếp 3 quân bài, trong khi 3, 5, 7 không là một
+dãy liên tiếp.
+
+Người chơi tạo được dãy liên tiếp độ dài lớn hơn sẽ thắng cuộc. Trong
+trường hợp dãy liên tiếp của hai người có độ dài bằng nhau, người có
+quân bài N sẽ là người thắng cuộc.
+
+Input
+
+Dương và Tùng muốn biết được kết quả trò chơi ngay sau khi chia bài để
+không phải tốn công sắp xếp các quân bài. Bạn hãy giúp hai cậu bé này
+nhé!
+
+số lượng các kí tự, mỗi kí tự và số lượng xuất trên một dòng, theo thứ tự
+A – Z.
+
+xâu s dài không quá 255 kí tự
+
+Output
+
+input
+
+Input
+Dòng một ghi số nguyên dương chẵn N (1 ≤ N ≤ 105 ).
+N /2 dòng sau đó ghi các quân bài mà Dương có (các quân bài đảm
+bảo phân biệt và nằm trong đoạn [1, N ]). Tùng sẽ sở hữu mọi quân
+bài còn lại.
+
+Output
+Ghi ra "DUONG" hoặc "TUNG" tương ứng với trường hợp Dương hoặc
+Tùng thắng cuộc.
+
+AABCAEEF12AbA
+
+output
+A
+B
+C
+E
+F
+
+5
+1
+1
+2
+1
+
+2C. 2016 HSG9 DONGNAI B4. MAKHOA Tìm
+mã khóa
+
+input
+10
+1
+2
+3
+4
+5
+
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2017/03/e-thi-hoc-sinh-gioi-mon-tinbang-b-lop.html
+Trong một lần thám hiểm, Tom đã tìm thấy được một chiếc hộp bí mật. Để
+mở được chiếc hộp đó cần có mã khóa. Ở mặt trên và mặt dưới hộp Tom
+thấy hai dãy kí số S1 và S2 (gồm các kí tự từ 0 đến 9). Tom chắc một điều
+là hai dãy kí số này có liên quan đến mã số cần tìm. Sau một hồi suy nghĩ
+Tom cũng đã tìm ra quy luật để có được dãy mã khóa. Dãy mã khóa tìm
+theo các qui tắc sau:
+
+output
+TUNG
+
+input
+4
+2
+3
+
+• Gồm các kí tự số có mặt ở cả hai dãy kí số.
+
+output
+
+• Các kí tự số trong mã khóa chỉ xuất hiện duy nhất một lần.
+
+DUONG
+
+• Giá trị mã khóa nhận được là một số đạt giá trị lớn nhất.
+Yêu cầu: Cho hay dãy kí số. Hãy viết chương trình giúp Tom tìm ra mã
+khóa.
+
+Giải thích:
+ở test 1, Dương có các quân bài 1, 2, 3, 4, 5 và sở hữu 5 quân bài liên
+tiếp. Tùng có các quân bài còn lại 6, 7, 8, 9, 10 và cũng sở hữu 5 quân
+bài liên tiếp. Do Tùng có quân bài N nên thắng cuộc.
+Ở test 2, Dương có 2 quân bài liên tiếp 2, 3 trong khi Tùng có 2 quân bài
+1, 4 không liên tiếp nên Dương thắng cuộc.
+
+Input
+• Dòng đầu ghi dãy kí số S1 ít hơn 255 số.
+• Dòng thứ hai ghi dãy kí số S2 ít hơn 255 số.
+
+Output
+gồm dãy mã khóa cần tìm.
+
+2A. KTKHAC Đếm kí tự khác nhau
+1 second, 256 megabytes
+Nhập xâu s chỉ chứa các chữ cái viết hoa. Đếm xem s có bao nhiêu kí tự
+khác nhau.
+
+input
+19012304
+034012
+
+output
+43210
+
+Input
+Dòng 1: số test t
+
+2D. DISTANCE1911 Khoảng cách (2014 TS10
+PTNK B1)
+
+t dòng sau: mỗi dòng 1 xâu s ít hơn 255 kí tự
+
+Output
+
+1 second, 256 megabytes
+
+t dòng, mỗi dòng là kết quả 1 test tương ứng.
+
+Link đề (bài 1): http://www.chuyentin.pro/2021/11/e-thi-tuyen-sinh-lop-10chuyen-tin_27.html
+
+input
+2
+AABDDC
+NANGKHIEUTINHOC
+
+input
+
+output
+
+begin
+end
+
+4
+11
+
+output
+4
+
+2B. CHUCAI Đếm chữ cái
+1 second, 256 megabytes
+Nhập xâu S, xuất ra màn hình số lần xuất hiện các chữ cái tiếng anh viết
+hoa trong S.
+
+2E. 2016 TS10 HCM B1. KB Sự khác biệt
+1 second, 256 megabytes
+
+Link đề: http://www.chuyentin.pro/2017/05/e-thi-tuyen-sinh-lop-10-chuyentin_11.html
+
+input
+
+Output
+một số nguyên duy nhất là tổng số nấm lớn nhất mà Bờm có thể thu
+hoạch được
+
+input
+
+2
+aa
+
+4 3
+4 7
+10 15
+2 2
+5 1
+
+output
+1
+
+input
+
+output
+
+4
+haha
+
+11
+
+output
+
+3C. BIKM Bi khác màu
+
+2
+
+1 second, 256 megabytes
+
+input
+
+Bạn Nam lại xếp N viên bi thành một hàng thẳng. Viên bi thứ i trong dãy
+có màu là ai . Bây giờ, bạn Nam chỉ muốn các viên bi khác màu đứng
+cạnh nhau. Nếu hai viên bi có cùng màu mà khoảng cách của chúng trong
+hàng không vượt quá K , chúng sẽ bị xem là gây "chướng mắt".
+
+6
+friend
+
+output
+0
+
+Yêu cầu: Hãy giúp Nam tìm ra các màu có chứa cặp bi gây "chướng
+mắt".
+
+3A. DAYCON1034 Dãy con (2012 TS10 PTNK
+B4)
+
+Input
+• Dòng 1: Hai số tự nhiên cách nhau: N và
+4
+
+K (1 ≤ N ≤ 5.10 ; 1 ≤ K < N )
+
+1 second, 256 megabytes
+Xét dãy a gồm n số nguyên a1 , a2 , … , an và một số nguyên dương k.
+Yêu cầu: Tìm một đoạn gồm k phần tử liên tiếp trong dãy a có tổng lớn
+nhất.
+
+Input
+• Dòng đầu tiên của dữ liệu vào chứa hai số nguyên n và k ( 1≤ n ≤ 10^5,
+1 ≤ k ≤ 10^4)
+• Dòng thứ hai chứa n số nguyên của dãy a, mỗi phần tử có giá trị tuyệt
+đối không vượt quá 10^9.
+
+Output
+tổng của đoạn tìm được.
+
+input
+
+• N dòng sau, mỗi dòng ghi một số nguyên x i là màu của viên bi thứ i
+trong hàng (0
+
+6
+
+≤ xi ≤ 10 )
+
+Output
+Ghi một số nguyên là màu có giá trị lớn nhất mà chứa cặp bi gây "chướng
+mắt", hoặc -1 nếu như không có màu nào thỏa.
+
+input
+6 3
+7
+3
+4
+2
+3
+4
+
+output
+
+10 3
+2 -5 4 7 -8 3 6 -4 8 -1
+
+4
+
+output
+
+Các màu 3 và 4 có chứa cặp bi gây "chướng mắt". Màu 4 là màu có giá trị
+lớn nhất.
+
+10
+
+3D. 2017 HSG9 DANANG B3. CATGHEP Cắt
+xâu kí tự
+
+3B. LAZY Thu hoạch nấm
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Đang là giữa mùa đông và việc đi ra khỏi nhà là việc vô cùng khó khăn
+với Bờm. Ngày mai, bạn ấy được giao việc đi thu hoạch nấm trên khu đất
+nhà mình. Có thể coi khu đất có nấm mà Bờm phải thu hoạch là một đoạn
+thẳng trên trục số. Có n vị trí có nấm, vị trí thứ i ở điểm x i và có ci cây
+nấm.
+Vì trời rất lạnh nên Bờm muốn chọn 1 điểm xuất phát để từ đó thu hoạch
+nấm những điểm có khoảng cách không quá k so với vị trí mà Bờm chọn
+sao cho tổng số nấm thu được là nhiều nhất có thể.
+Yêu cầu: Hãy giúp Bờm tính xem tổng số nấm lớn nhất mà Bờm có thể
+thu hoạch được trong khoảng cách không quá k tính từ vị trí xuất phát mà
+Bờm đã chọn từ trước.
+
+Link đề: http://www.chuyentin.pro/2021/08/e-thi-hoc-sinh-gioi-mon-tin-hoclop-9.html
+
+input
+cbaabcd
+
+output
+3
+
+input
+abaabaabaaba
+
+output
+
+Input
+
+3
+5
+
+Dòng đầu là số n(n ≤ 10 ) và số k(k ≤ 2.10
+n dòng tiếp theo, mỗi dòng gồm 2 số ci và
+4
+
+6
+
+x i (0 < ci ≤ 10 ; 0 ≤ x i ≤ 10 )
+
+6
+
+)
+
+là số vị trí có nấm.
+
+cho biết có ci cây nấm ở điểm x i .
+
+3E. 2021 TS10 DANANG B2. Biến đổi
+1 second, 256 megabytes
+
+Link đề: http://www.chuyentin.pro/2021/06/e-thi-tuyen-sinh-10-chuyen-tinthanh.html
+
+input
+RRRRRRR
+
+output
+
+Bàn chân bên trái của Mập Ú có hình dạng như một cặp dấu ngoặc đơn
+mở ((, và bàn chân trước bên phải có hình dạng như một cặp dấu ngoặc
+đơn đóng )). Vị trí của Mập Ú có thể được diễn tả bởi một cặp x < y ,
+trong đó x là vị trí xâu ((, và y là vị trí xâu )). Cô lao công muốn đếm có
+bao nhiêu vị trí mà Mập Ú có thể đứng để phạt cậu ấy lao động chừng đó
+này cho chừa tội quậy phá. Hãy giúp cô ấy nhé!
+
+Input
+
+23456781
+
+Ghi xâu ngoặc đơn có độ dài là N (1 ≤ N ≤ 50 000).
+
+4A. DOANLT Đoạn liên tiếp
+1 second, 256 megabytes
+Cho số nguyên dương N và dãy a gồm N số nguyên. Bạn được cho m
+truy vấn, mỗi truy vấn cung cấp 2 số x, y.
+Yêu cầu: với mỗi truy vấn bạn phải tính tổng đoạn con liên tiếp từ a[x] đến
+a[y]
+
+Input
+Dòng đầu là số nguyên N (0 < n < 10^6)
+Dòng sau gồm n số nguyên a[1], a[2], ..., a[n]. (|a[i]|<=1000)
+Dòng tiếp theo là số nguyên dương m (0 < m <= 10^6)
+M dòng tiếp theo, mỗi dòng ghi 2 số x, y (1 ≤ x ≤ y ≤ n)
+
+Output
+Ghi số vị trí mà Mập Ú có thể đứng – chính là số cặp (x,y) khác nhau với
+x < y sao cho x là vị trí xuất hiện của (( và y là vị trí xuất hiện của xâu ))..
+
+input
+)((()())())
+
+output
+4
+
+Có 4 vị trí Mập Ú có thể đứng được
+27
+37
+3 10
+2 10
+
+Output
+Xuất m dòng, dòng thứ i là kết quả của truy vấn thứ i.
+
+4D. DEMHS Đếm học sinh
+
+input
+
+1 second, 256 megabytes
+
+6
+-1 8 -3 -1 8 -7
+2
+2 5
+4 6
+
+Thầy chủ nhiệm lớp chuyentin.pro xếp N học sinh đứng thành một dãy
+ngang. Mỗi học sinh có một ID giới tính: 1 nếu là nam, 2 nếu là nữ, và 3
+nếu là gay. Thầy nhờ bạn đếm số lượng học sinh mỗi loại có trong một
+đoạn bất kỳ dãy.
+
+output
+
+Input
+
+12
+0
+
+Dòng đầu tiên chứa N và Q (1 ≤ N ≤ 100 000, 1 ≤ Q ≤ 100,000).
+
+4B. ESEQ Chia cân bằng
+1 second, 1024 megabytes
+Cho dãy số nguyên a gồm n phần tử a[1], a[2], …, a[n], tìm số cặp chỉ số
+i, j thỏa mãn: a[1] + a[2] + … + a[i] = a[j] + a[j+1] + … + a[n] với 1 <= i < j
+<= N
+
+Q dòng tiếp theo, mỗi dòng ghi hai số a, b là một truy vấn (a≤b).
+
+Output
+Với mỗi truy vấn Q (a, b), in một dòng chứa ba số: số lượng học sinh
+nam, nữ và gay trong đoạn từ a đến b.
+
+input
+
+Input
+Dòng đầu là số nguyên dương N (2 <= N <= 10^3)
+Dòng tiếp theo chứa N số nguyên a[1], a[2], …, a[n] (|a[i]| < 10^9)
+
+input
+3
+1 0 1
+
+output
+3
+
+6
+2
+1
+1
+3
+2
+1
+1
+3
+2
+
+3
+
+6
+3
+4
+
+output
+
+I = 1, J = 3; I = 1, J = 2; I = 2, J = 3
+
+4C. DAUCHAN Dấu chân
+1 second, 256 megabytes
+Lớp trưởng Mập Ú của 10 Tin trong lúc quậy phá đã chạy vào hành lang
+mà cô lao công Khó Tính vừa lau xong. Cậu tìm mọi cách chối tội tuy
+nhiên dấu chân trên hành lang đã nói lên tất cả. Các dấu chân trên hành
+lang được biểu diễn bởi một xâu ngoặc đơn có độ dài N ví dụ:
+)((()())())
+
+Các dòng N tiếp theo chứa một số nguyên hoặc là 1, 2, hoặc 3 cho biết ID
+giới tính của học sinh thứ i.
+
+3 2 1
+1 0 0
+2 0 1
+
+4E. PARITY Đoạn cân bằng
+1 second, 256 megabytes
+Cho dãy số nguyên dương A = (a_1, a_2, …, a_n), một dãy con khác rỗng
+gồm các phần tử liên tiếp trong A được gọi là đoạn cân bằng của A nếu số
+số chẵn trong dãy con đúng bằng số số lẻ trong dãy con đó.
+Ví dụ với A = (1, 2, 3, 4, 6), có 4 đoạn cân bằng của A là: (1, 2); (1, 2, 3,
+4); (2, 3); (3, 4)
+
+Yêu cầu: đếm số lượng đoạn cân bằng của dãy A.
+
+Output
+
+Input
+
+một số nguyên duy nhất là lượng nước tối đa có thể đọng lại trên mái che.
+
+Dòng 1 ghi số nguyên dương n ≤ 10^5.
+Dòng 2 ghi n số nguyên dương a_1, a_2, …, a_n (a_i ≤ 10^9)
+
+Output
+ghi số đoạn cân bằng của dãy A.
+
+Scoring
+input
+5
+1 3 1 2 3
+
+output
+
+input
+
+3
+
+5
+1 2 3 4 6
+
+6A. TONGBANGCON Tổng bảng con
+
+output
+4
+
+1 second, 256 megabytes
+
+5A. TONGLT Tổng liên tiếp
+1 second, 256 megabytes
+Nhập số nguyên N. Sau đó nhập 1 dãy gồm N phần tử .Tìm chiều dài của
+dãy con có các số liên tiếp nhau mà tổng của chúng lớn nhất.
+
+Cho bảng A gồm m x n số nguyên và k truy vấn. Mỗi truy vấn dạng x[1]
+y[1] x[2] y[2] (x[1] ≤ x[2]; y[1] ≤ y[2]).
+Yêu cầu: với mỗi truy vấn, hãy tính tổng các số nguyên trong bảng con có
+góc trái trên là x[1] y[1] và góc phải dưới là x[2] y[2].
+
+Input
+Dòng đầu ghi 2 số nguyên dương m n. (1 ≤ m, n ≤ 1000)
+
+Input
+Dòng đầu là số nguyên N (0 < n < 10^6)
+
+m dòng sau, mỗi dòng ghi n số nguyên của bảng a. (a[i] ≤ 10^12)
+
+Dòng sau gồm n số nguyên a1, a2, ..., an. (|ai|<1000)
+
+Dòng tiếp theo ghi số nguyên dương k (1 ≤ k ≤ 10^5)
+
+Output
+
+k dòng tiếp theo, mỗi dòng ghi 4 số nguyên x[1] y[1] x[2] y[2] (1 ≤ x[1] ≤
+x[2] ≤ m; 1 ≤ y[1] ≤ y[2] ≤ n)
+
+Vị trí bắt đầu và chiều dài của dãy con tìm được, nếu có nhiều đoạn thì
+xuất đoạn đầu tiên tìm được.
+
+Output
+xuất k dòng, mỗi dòng là đáp án của một truy vấn.
+
+input
+6
+-1 8 -3 -1 8 -7
+
+input
+
+output
+2 4
+
+5B. DIFF Độ lệch lớn nhất (2013 TS10 DANANG
+B2)
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2021/02/e-thi-tuyen-sinh-lop-10-chuyentin_70.html
+
+input
+
+4
+1
+9
+1
+1
+3
+1
+2
+3
+
+6
+9
+9
+9
+9
+
+1
+9
+9
+9
+
+1
+9
+9
+1
+
+4
+3
+2
+1
+
+1
+2
+3
+4
+
+1 2 2
+1 3 4
+5 4 5
+
+output
+28
+64
+3
+
+3 bảng con cần tính tổng như sau:
+
+5
+2 1 3 4 5
+
+output
+4
+
+5C. WATER Nước đọng
+1 second, 256 megabytes
+Giraffe mới được bổ nhiệm làm thị trưởng thành phố, vấn đề đầu tiên cậu
+cần giải quyết là tình trạng ngập lụt trong thành phố hiện đang trở nên
+ngày một nghiêm trọng hơn. Vì vậy, Giraffe quyết định xây dựng một hệ
+thống mái che cho toàn bộ thành phố.
+Mái che được chia ra làm N phần bằng nhau, độ cao của mỗi phần là
+h_1,h_2,…,h_n. Khi trời mưa, một phần nước sẽ đọng lại trên mái và một
+phần sẽ thoát ra ngoài theo hai bên trái và phải của mái che. Do đó, thành
+phố sẽ không còn phải chịu lụt như trước nữa.
+Yêu cầu: Nhằm mục đích bảo trì mái che, Giraffe muốn nhờ bạn viết
+chương trình tính lượng nước lớn nhất có thể đọng lại trên mái che.
+
+Input
+Dòng đầu tiên chứa số nguyên dương N (N <=10^5)
+Dòng thứ hai gồm N số nguyên dương h_1,h_2,…,h_n (h_i ≤ 10^5).
+
+6B. BONUS Phần thưởng (2011 VOI A B1)
+1 second, 256 megabytes
+Link đề (bài 1): http://www.chuyentin.pro/2021/09/e-thi-hoc-sinh-gioi-quocgia-thpt-mon.html
+
+input
+4
+1
+9
+1
+1
+
+3
+9
+9
+9
+9
+
+1
+9
+9
+9
+
+1
+9
+9
+14
+
+7B. BANBE Bạn bè (2016 HSG9 DONGNAI
+BIENHOA B4)
+
+output
+86
+
+1 second, 256 megabytes
+
+6C. BANGSO Bảng số (2009 TS10 HCM B2)
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2017/05/e-thi-tuyen-sinh-lop-10-chuyentin_92.html
+
+input
+6
+5
+7
+9
+8
+4
+3
+
+5
+6
+7
+9
+8
+5
+4
+
+Link đề: http://www.chuyentin.pro/2017/03/e-thi-hoc-sinh-gioi-lop-9-montin-hoc_7.html
+Cho hai xâu kí tự S1, S2 gồm các chữ cái hoa và thường 'A'...'Z', 'a' ... 'z'.
+Hai xâu này được gọi là bạn bè nếu chúng được cấu tạo cùng các chữ
+cái (không phân biệt hoa thường). Yêu cầu: kiểm tra 2 xâu S1, S2 có là
+bạn bè hay không?
+
+Input
+7
+8
+8
+7
+2
+2
+
+4
+6
+3
+6
+4
+3
+
+Dòng đầu ghi xâu S1
+
+6
+5
+5
+4
+5
+4
+
+Dòng hai ghi xâu S2
+Độ dài mỗi xâu không quá 255 kí tự.
+
+Output
+
+output
+
+nếu 2 xâu là bạn bè dòng đầu xuất 'YES', dòng hai ghi các kí tự cấu tạo
+nên 2 xâu đó (viết hoa) theo thứ tự 'A' 'Z', ngược lại xuất 'NO'.
+
+71
+2 1
+
+input
+
+6D. CHONQUA Chọn quà (2022 HSG9 HCM)
+1 second, 256 megabytes
+
+aAbbbccccb
+aabCCCaaaaa
+
+output
+
+Link đề: http://www.chuyentin.pro/2022/03/e-thi-hoc-sinh-gioi-lop-9-montin-hoc_29.html
+
+YES
+ABC
+
+input
+
+input
+
+7 6 4
+......
+.*.*.*
+......
+.*.*..
+..*...
+..*...
+*.....
+
+aAbbbccccb
+aabCCCaaaaadd
+
+output
+NO
+
+7C. DOANPHU Đoạn phủ (2017 TS10 HCM B2)
+
+output
+
+1 second, 256 megabytes
+
+2
+
+Link đề (bài 2): http://www.chuyentin.pro/2017/06/e-thi-tuyen-sinh-lop-10chuyen-tin_7.html
+
+7A. NHOMSO Nhóm só
+
+input
+
+1 second, 256 megabytes
+Cho dãy N số a1 , a2 , … , aN . Cần tạo các nhóm, mỗi nhóm gồm 2
+phần tử sao cho phần tử này gấp đôi phần tử kia. Mỗi phần tử chỉ thuộc
+tối đa 1 nhóm.
+Yêu cầu: Hãy tìm số nhóm tối đa có thể tạo được.
+
+output
+
+Input
+Dòng đầu ghi số nguyên T là số lượng test (1
+gồm:
+Dòng đầu ghi số nguyên N (1
+
+5
+2 5
+4 7
+6 10
+11 7
+3 4
+
+≤ T ≤ 100)
+
+. Mỗi test
+
+6
+
+7D. NEXTNUM Số tiếp theo
+
+≤ N ≤ 100)
+
+Dòng thứ hai ghi N số nguyên dương
+
+1 second, 256 megabytes
+
+6
+
+a1 , a2 , … , aN (1 ≤ ai ≤ 10 )
+
+Output
+với mỗi test ghi số nhóm tối đa tạo được.
+
+input
+2
+2
+1 2
+3
+1 2 4
+
+Cho trước số nguyên A có N chữ số, xuất ra số nguyên B thỏa yêu cầu
+sau:
+- B thu được bằng cách hoán vị các chữ số trong A.
+- B là số nhỏ nhất lớn hơn A.
+
+Input
+Dòng đầu tiên ghi số T là số test (0 ≤ T ≤ 100)
+T dòng tiếp theo, mỗi dòng ghi một số A (A ≤ 10^1000)
+
+output
+
+Output
+
+1
+1
+
+T dòng tương ứng là số B tương ứng với số A. Nếu không tìm được số B
+thì xuất BIGGEST.
+
+Input
+
+input
+
+Dòng đầu tiên là số T – số lượng test (T ≤ 100). T nhóm dòng tiếp theo,
+mỗi dòng tương ứng một yêu cầu
+
+3
+123
+279134399742
+987
+
+- Dòng đầu là 2 số nguyên dương d và N (d ≤ 10^6, N ≤ 5.10^4)
+- Dòng thứ 2 chứa N số nguyên dương biểu diễn dãy số, các số không
+lớn hơn 10^9.
+
+output
+132
+279134423799
+BIGGEST
+
+Output
+T dòng là kết quả các test tương ứng theo thứ tự.
+
+input
+
+8A. CAPSO Cặp số
+1 second, 1024 megabytes
+Cho dãy n số nguyên dương a1 , a2 , … , an và số nguyên dương S. Hãy
+đếm xem có bao nhiêu cặp phần tử (ai , aj )(i < j) thỏa mãn
+ai + aj = s .
+
+Input
+Dòng đầu là số nguyên dương n(n
+
+6
+
+≤ 10 )
+
+và s(s
+
+N dòng sau, dòng thứ i là số nguyên dương ai (ai
+
+6
+
+≤ 10 )
+
+1
+4 6
+2 1 2 1 4 1
+
+output
+4
+
+8D. CATXAU Cắt xâu (2018 TS10 DANANG B1)
+1 second, 256 megabytes
+
+6
+
+≤ 10 )
+
+Output
+số cặp (ai , aj ) thỏa đề bài.
+
+Link đề: http://www.chuyentin.pro/2021/02/e-thi-tuyen-sinh-lop-10-chuyentin_33.html
+
+input
+
+input
+
+5 4
+1 3 1 2 2
+
+abcbdete
+
+output
+
+output
+
+3
+
+3
+
+8E. JROBOT Robot nhảy (2013 TS10 HCM B1)
+
+input
+
+1 second, 256 megabytes
+
+7 6
+1 2 4 3 4 5 3
+
+Link đề: http://www.chuyentin.pro/2017/05/e-thi-tuyen-sinh-lop-10-chuyentin_13.html
+
+output
+4
+
+input
+
+Giới hạn:
+sub 1: 70% test có n ≤ 10^3;
+sub2: 30% test có n ≤ 10^6
+
+8B. BANG Bảng vuông (2005 TS10 PTNK B4)
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2021/10/e-thi-tuyen-sinh-lop-10-chuyentin.html
+
+input
+3
+1 1 0
+1 2 1
+1 1 2
+
+output
+6
+
+8C. DIVSEQ1201 Chia dãy
+1 second, 256 megabytes
+Cho một dãy số nguyên dương, đếm số lượng dãy con liên tiếp có tổng
+chia hết cho d. Hai dãy con được gọi là khác nhau nếu ít nhất một trong
+hai điểm đầu hoặc điểm cuối hai dãy con đó trong dãy đã cho là khác
+nhau.
+Ví dụ với d = 4, dãy (2, 1, 2, 1, 4, 1) có 4 dãy con thỏa mãn là (1, 2, 1), (1,
+2, 1, 4), (4), (2, 1, 4, 1).
+d = 2, dãy (1, 1, 1, 1) có 4 dãy con thỏa mãn.
+
+3
+2
+5
+6
+2
+
+4
+4 6 8
+7 13 4
+8 9 10
+2
+
+output
+4
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

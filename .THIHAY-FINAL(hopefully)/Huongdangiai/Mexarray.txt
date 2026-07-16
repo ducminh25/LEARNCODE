@@ -1,0 +1,22 @@
+Với mỗi phần tử trong mảng, hãy xác định xem nó nằm trong ràng buộc MEX, ràng buộc min, thuộc cả hai, hay không thuộc ràng buộc nào.
+
+* Nếu một phần tử nằm trong phạm vi của một ràng buộc min (có giá trị k), nó bắt buộc phải >= k, và lý tưởng nhất là nên bằng k (để ràng buộc này được thỏa mãn ngay lập tức).
+* Nếu một phần tử nằm trong phạm vi của một ràng buộc MEX (có giá trị k), nó bắt buộc phải != k, và lý tưởng nhất là nên < k (để giúp việc thỏa mãn ràng buộc dễ dàng hơn).
+
+
+Khi đó:
+* Trường hợp 1: Không thuộc ràng buộc nào.
+    Nếu một phần tử không nằm trong phạm vi của bất kỳ ràng buộc nào, giá trị của nó không quan trọng, bạn có thể gán nó bằng bất kỳ giá trị nào.
+
+* Trường hợp 2: Thuộc cả hai ràng buộc (MEX và min).
+    Nếu một phần tử thuộc về cả ràng buộc MEX và ràng buộc min, nó trở nên "vô dụng" đối với cả hai (không giúp thỏa mãn điều kiện cần thiết nhất của bên nào). Tuy nhiên, ta vẫn phải gán nó một giá trị sao cho vừa != k (cho MEX) vừa >= k (cho min). Ví dụ, ta có thể gán nó bằng k+1.
+
+* Trường hợp 3: Chỉ thuộc ràng buộc min.
+    Tối ưu nhất là gán nó bằng k.
+
+* Trường hợp 4: Chỉ thuộc ràng buộc MEX.
+    Đây là những phần tử còn lại. Để một ràng buộc MEX được thỏa mãn (có kết quả là k), đoạn đó phải chứa tất cả các phần tử từ 0 đến k-1. Những phần tử thuộc TH2 và TH3 đều có giá trị lớn hơn hoặc bằng k, nên chúng không đóng góp vào việc tạo ra tập hợp {0, ..., k-1}.
+    Do đó, gánh nặng này dồn lên các phần tử "chỉ thuộc MEX". Ràng buộc MEX phải chứa ít nhất k phần tử loại này (nếu không sẽ không đủ chỗ điền từ 0 đến k-1, vì nếu mượn chỗ của ràng buộc min sẽ vi phạm tính chất min).
+    Cách gán: Gán giá trị i mod k cho phần tử thứ i trong nhóm các phần tử này (nếu một ràng buộc MEX chứa k phần tử loại này, giá trị của chúng sẽ là [0, 1, ..., k-1], có thể bị dịch chuyển vị trí nhưng vẫn đủ bộ).
+
+Độ phức tạp: O(nq) hoặc O(n+q) cho mỗi test case.

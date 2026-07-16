@@ -1,0 +1,143 @@
+Buổi 1
+
+Statement
+is not
+available
+on
+English
+language
+
+A. BẦU CỬ
+1 second, 1024 megabytes
+
+English
+language
+
+C. XÂU CON
+1 second, 1024 megabytes
+Cho xâu kí tự S chỉ gồm các chữ cái tiếng anh thường. Tìm xâu con liên
+tiếp của S có độ dài dài nhất, xâu con chỉ gồm các kí tự giống nhau và
+xuất hiện ít nhất hai lần trong S. Lưu ý: hai lần xuất hiện này ở hai vị trí
+khác nhau nhưng có thể giao nhau.
+
+Input
+Vào từ file văn bản XAUCON.INP gồm:
+● Dòng đầu chứa số T là số bộ test (T ≤ 10);
+● Tiếp theo là T dòng, mỗi dòng chứa một xâu kí tự là một test (độ dài xâu
+không quá 105).
+
+Output
+Ghi ra file XAUCON.OUT gồm T dòng là kết quả của T test, ghi ra độ dài
+của xâu con dài nhất tìm được hoặc ghi số 0 nếu không tồn tại xâu con
+nào thỏa mãn.
+Ràng buộc:
+● Có 25% điểm có độ dài xâu không quá 100;
+Statement
+is not
+available
+on
+English
+language
+
+B. GRID
+1 second, 1024 megabytes
+
+● Có 25% điểm tiếp theo có độ dài xâu không quá 1000.
+● 50% điểm còn lại không còn ràng buộc gì thêm.
+
+input
+2
+bcaca
+xyyzyy
+
+output
+1
+2
+
+Statement
+is not
+available
+on
+English
+language
+
+D. RECTANGLE
+1 second, 1024 megabytes
+(Đề chính thức thi chọn đội tuyển quốc gia năm 2022-2023)
+
+input
+4
+.S..
+...S
+....
+..S.
+
+output
+4
+
+Statement
+is not
+available
+on
+
+● T dòng tiếp theo là T bộ test, mỗi bộ gồm hai số nguyên tố A1 và A2
+12
+
+(A1, A2 ≤ 10 ).
+
+Output
+Ghi ra tệp văn bản PSEQ.OUT gồm T dòng, mỗi dòng ghi kết quả một test
+là số lượng số trong dãy nguyên tố tìm được. Trong trường hợp không
+tồn tại đáp án thì in ra -1.
+
+input
+2
+5 7
+11 37
+
+output
+2
+-1
+
+E. VĂN NGHỆ
+1 second, 1024 megabytes
+
+input
+6
+3
+4
+3
+6
+5
+6
+4
+
+2
+0
+3
+8
+9
+0
+8
+
+output
+33
+
+F. DÃY NGUYÊN TỐ
+1 second, 1024 megabytes
+Một dãy số nguyên được gọi là dãy nguyên tố nếu tất cả các phần tử đều
+nguyên tố và chênh lệch giữa bất kì 2 phần tử kề nhau nào cũng nguyên
+tố.
+Yêu cầu: Cho một dãy số chỉ gồm 2 số nguyên tố là A1 và A2. Bạn hãy
+biến đổi dãy ban đầu thành một dãy nguyên tố sao cho dãy đó có ít nhất 2
+phần tử, A1 vẫn là phần tử đầu tiên của dãy và A2 là phần tử cuối của
+dãy, đồng thời số lượng số trong dãy nguyên tố tìm được là ít nhất.
+
+Input
+Dữ liệu: Vào từ tệp văn bản PSEQ.INP có cấu trúc:
+● Dòng đầu chứa số nguyên T là số bộ test (T ≤ 10).
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

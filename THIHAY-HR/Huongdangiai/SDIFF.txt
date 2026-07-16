@@ -1,0 +1,21 @@
+Phân tích đề bài: Ta cần đếm số lượng đoạn con liên tiếp [L, R] sao cho chênh lệch giữa phần tử lớn nhất và nhỏ nhất trong đoạn không vượt quá T: max - min <= T. 
+Do N <= 5.10^6, thuật toán bắt buộc phải có độ phức tạp O(N) để ăn full subtask.
+
+Thuật toán: Sử dụng kỹ thuật 2 con trỏ (Two Pointers) kết hợp với Hàng đợi đơn điệu (Monotonic Deque) để quản lý Max/Min trong cửa sổ trượt.
+
+Sinh dữ liệu: Tạo mảng w theo công thức w[i] = (p * i + q) % m.
+
+Hai con trỏ: Cố định biên phải j chạy từ 1 đến N. Duy trì biên trái i (ban đầu i=1) sao cho đoạn [i, j] là đoạn dài nhất thỏa mãn điều kiện.
+
+Hàng đợi đơn điệu:
+- Dùng deque qmin lưu chỉ số các phần tử có giá trị tăng dần. Đầu qmin là chỉ số của min trong đoạn [i, j].
+- Dùng deque qmax lưu chỉ số các phần tử có giá trị giảm dần. Đầu qmax là chỉ số của max trong đoạn [i, j].
+
+Xử lý tại mỗi bước j:
+- Cập nhật qmin, qmax với phần tử mới w[j] (loại bỏ phần tử cuối vi phạm tính đơn điệu).
+- Co ngắn đoạn: Trong khi (w[qmax.front()] - w[qmin.front()] > T):
+	Tăng i lên.
+	Loại bỏ chỉ số ở đầu qmin, qmax nếu chỉ số đó < i (nằm ngoài đoạn đang xét).
+- Tính kết quả: Tại mỗi bước j, số đoạn thỏa mãn kết thúc tại j là (j - i + 1). Cộng giá trị này vào biến kết quả.
+
+Độ phức tạp: O(N).

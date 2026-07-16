@@ -1,0 +1,545 @@
+Thầy Nam - Số học - mức dễ - 1
+Output:
+Statement
+is not
+available
+on
+English
+language
+
+23
+
+Statement
+is not
+available
+on
+English
+language
+
+A. Câu 2 - TS Lam Sơn - 2024
+1 second, 1024 megabytes
+
+C. Số nguyên tố ghép – MPRIME
+
+Cho 2 số nguyên dương a, b. Hãy đếm trong đoạn [a,b] có bao nhiêu số
+có số lượng ước dương là một số nguyên tố.
+
+Input
+
+1 second, 1024 megabytes
+Xét dãy A các số nguyên tố 2, 3, 5, 7, 11, 13, 17, 19,...
+
+Vào từ file CAU22024.INP gồm:
+Dòng 1 chứa số T là số test
+T dòng tiếp theo, mỗi dòng chứa 2 số a, b là một test
+
+Output
+Ghi ra file CAU22024.OUT gồm T dòng mỗi dòng là kết quả 1 test.
+Ví dụ:
+
+và dãy B gồm các số thu được từ dãy A bằng cách ghép hai số liên tiếp
+trong A: 23, 57, 1113, 1719, ...
+Trong dãy B có những phần tử là số nguyên tố. Chẳng hạn 23, 3137,
+8389, 157163... Các số nguyên tố trong dãy B gọi là số nguyên tố ghép.
+Yêu cầu: Cho trước số nguyên dương K ≤ 500, hãy tìm số nguyên tố
+ghép thứ K
+
+Input
+
+Input:
+
+Vào từ file MPRIME.INP gồm 1 dòng duy nhất ghi số nguyên dương K
+
+2
+
+Output
+
+27
+
+MPRIME.OUT gồm 1 số duy nhất là số nguyên tố ghép thứ K.
+
+1 100
+
+Ví dụ:
+
+Output:
+
+Input:
+
+5
+
+2
+
+32
+
+Output:
+
+Ràng buộc:
+
+3137
+
+40% số điểm có a ≤ b ≤ 200;T ≤ 102
+30% số điểm có a ≤ b ≤ 2000;T ≤ 103
+
+Statement
+is not
+available
+on
+English
+language
+
+30% số điểm có a ≤ b ≤ 106;T ≤ 105
+
+Statement
+is not
+available
+on
+English
+language
+
+B. SỐ ĐẸP - CÂU 2 - 2023
+1 second, 1024 megabytes
+Số đẹp là số có tổng bình phương các chữ số của nó là một số nguyên tố.
+Ví dụ: 23 là một số đẹp vì 22+32 = 13 là một số nguyên tố.
+Cho số nguyên dương N, yêu cầu tìm số đẹp thứ N.
+
+Input
+Vào từ file CAU22023.INP gồm một dòng chứa số nguyên dương N.
+
+(N ≤ 10000).
+Output
+
+D. COUNTPRD
+1 second, 1024 megabytes
+Cho số nguyên dương N (2 ≤ N < 1010), hỏi có bao nhiêu số nguyên tố
+khác nhau trong phân tích N ra tích các thừa số nguyên tố. Ví dụ: 10 =
+2*5 . Có 2 số nguyên tố khác nhau trong phân tích 10 ra tích các thừa số
+nguyên tố là: 2 và 5.
+
+Input
+Vào từ file văn bản COUNTPRD.INP gồm một dòng chứa số nguyên N.
+
+Output
+Đưa ra file văn bản COUNTPRD.OUT số các số nguyên tố.
+Ví dụ:
+Input:
+
+Ghi ra file CAU22023.OUT một số là số đẹp thứ N.
+
+10
+
+Ví dụ:
+
+Output:
+
+Input:
+
+2
+
+6
+
+on
+English
+language
+
+Statement
+is not
+available
+on
+English
+language
+
+E. TPRIMEFAC
+1 second, 1024 megabytes
+Một số nguyên dương S được gọi là số TPRIMEFAC nếu nó có ít nhất 3
+thừa số nguyên tố khác nhau trong phân tích S thành tích các thừa số
+nguyên tố. Biết số 30 là số TPRIMEFAC đầu tiên. Yêu cầu: cho số nguyên
+dương N, tìm số TPRIMEFAC thứ N.
+
+Input
+Cho trong tệp TPRIMEFAC.INP có cấu trúc: Dòng đầu tiên ghi số T (T ≤
+104) là số lượng test; T dòng tiếp theo, mỗi dòng chứa một số nguyên
+dương N (1 ≤ N ≤ 104)
+
+Output
+Ghi ra tệp TPRIMEFAC.OUT gồm T dòng, mỗi dòng ghi số TPRIMEFAC
+thứ N tìm được tương ứng với số cho trong tệp Input.
+Ví dụ:
+
+G. TNUM
+1 second, 1024 megabytes
+Một số nguyên dương có đúng 3 ước số nguyên dương khác nhau được
+gọi là số TNUM. Cho trước một dãy N (1 <= N <= 105) số nguyên dương,
+xác định các số đã cho có phải là số TNUM hay không?
+
+Input
+Cho trong tệp TNUM.INP có cấu trúc như sau:
+- Dòng đầu tiên ghi số N.
+- Dòng tiếp theo ghi N số nguyên a1, a2, ..., an cách nhau bởi một dấu
+cách (1 ≤ ai ≤ 1012)
+
+Output
+Ghi ra tệp TNUM.OUT gồm N dòng, dòng thứ i ghi YES nếu số thứ i là số
+TNUM, ngược lại thì ghi NO
+Ví dụ:
+Input:
+3
+
+2
+
+456
+
+1
+
+Output:
+
+2
+
+YES
+
+Output:
+
+NO
+
+30
+
+NO
+
+42
+Statement
+is not
+available
+on
+English
+language
+
+Statement
+is not
+available
+on
+English
+language
+
+H. Số nguyên tố đặc biệt
+
+F. CPRDIV
+1 second, 1024 megabytes
+Cho hai số nguyên dương M và N (1 ≤ M ≤ N ≤ 60000) và số S được xác
+định bằng công thức sau: S = n!/(m!(n−m)!).
+Yêu cầu: Đếm số lượng ước nguyên tố của S.
+
+Input
+Vào từ Tệp CPRDIV.INP gồm một dòng ghi hai số N và M cách nhau một
+dấu cách.
+
+1 second, 1024 megabytes
+Hải là người yêu thích các số nguyên tố chính vì vậy cậu ta thường tìm ra
+những số nguyên tố có tính chất đặc biệt. Hải đã phát hiện ra có những
+số nguyên tố mà tổng các chữ số của nó cũng là số nguyên tố. Ví dụ: số
+67 có tổng hai chữ số của nó bằng 13 cũng là một số nguyên tố. Hải gọi
+những số nguyên tố như vậy là số nguyên tố đặc biệt. Yêu cầu: Cho hai
+số nguyên l,r hãy cho biết trong đoạn từ l đến r có những số nguyên tố
+đặc biệt nào?
+
+Input
+
+7
+
+Ghi ra tệp CPRDIV.OUT gồm một dòng ghi 1 số duy nhất là số lượng ước
+nguyên tố của S.
+
+Từ tệp SNTDB.INP gồm hai số nguyên dương l,r (1 ≤ l ≤ r ≤ 10 ) trên
+một dòng và cách nhau một dấu cách. Dữ liệu vào luôn đảm bảo có bài
+toán có nghiệm.
+
+Ví dụ:
+
+Output
+
+Output
+
+Input:
+
+Ghi vào tệp SNTDB.OUT các số nguyên tố đặc biệt từ l đến r. Các số in ra
+theo thứ tự tăng dần và cách nhau một dấu cách.
+
+73
+
+Ví dụ:
+
+Output:
+
+Input:
+
+2
+
+10 50
+Output:
+Statement
+is not
+available
+
+11 23 29 41 43 47
+
+Statement
+is not
+available
+on
+English
+language
+
+T dòng, mỗi dòng ghi một số là số lượng số nguyên tố đẹp trong đoạn
+[L,R], tương ứng theo thứ tự trong file input. Dòng thứ i trong file output là
+kết quả của cặp số [L,R] ở dòng i+1 trong file input tương ứng.
+Ví dụ:
+Input:
+3
+
+I. Số đẹp 1
+
+1 10
+
+1 second, 1024 megabytes
+
+2 30
+
+Minh là một bạn đam mê toán học. Minh định nghĩa "N là số đẹp nếu tổng
+các chữ số của N bằng tổng các chữ số của tất cả các thừa số nguyên tố
+được phân tích ra từ N".
+
+20 50
+
+Để thử thách trình độ toán học của các bạn trong lớp. Minh đố các bạn
+trong lớp giải một bài toán cụ thể như sau: Hãy đếm các số đẹp trong
+đoạn [a, b].
+Ví dụ 1: N = 94 là số đẹp vì: 94 = 2 x 47
+- Tổng các chữ số của N là: 9 + 4 = 13
+- Tổng các chữ số của các thừa số nguyên tố của N là: 2+4+7=13
+Ví dụ 2: N=4937775 là số đẹp vì: 4937775 = 3 x5 x5 x 65837
+- Tổng các chữ số của N là: 4+9+3+7+7+7+5=42
+- Tổng các chữ số của các thừa số nguyên tố của N là:
+3+5+5+6+5+8+3+7=42
+
+Output:
+1
+3
+3
+Ràng buộc:
+- 20% số test có T = 1; L,R ≤ 20
+- 20% số test tiếp theo có T = 1; L,R ≤ 103
+- 30% số test tiếp theo có 1 ≤ T ≤ 10. ; L,R ≤ 105
+6
+
+- 30% số test cuối cùng có 1 ≤ T ≤ 100; 0 < L,R ≤ 3.10
+
+Yêu cầu: Em hãy giúp các bạn trong lớp viết chương trình giải bài toán
+của Minh nhé!
+
+.
+
+Statement
+is not
+available
+on
+English
+language
+
+Input
+Vào từ tệp SODEP.INP Một dòng duy nhất là 2 số nguyên a, b
+
+(1 ≤ a ≤ b ≤ 106).
+Output
+
+K. Số đặc biệt (SPNUM)
+
+Ghi ra file SODEP.OUT số lượng số đẹp tìm được.
+
+1 second, 1024 megabytes
+
+Ví dụ:
+Input:
+
+Số đặc biệt là một số nguyên dương có tính chất sau:
+
+1 50
+
+- Số đó là một số nguyên tố;
+
+Output:
+
+- Ở dạng nhị phân chứa đúng k bít 1.
+
+18
+
+Yêu cầu: cho trước n, k. Hãy xác định có bao nhiêu số đặc biệt không
+vượt quá n và ở dạng nhị phân chứa đúng k bit 1.
+Statement
+is not
+available
+on
+English
+language
+
+Input
+vào từ tệp văn bản SPNUM.INP gồm 1 dòng duy nhất chứa hai số nguyên
+dương n,k.
+
+Output
+Ghi vào tệp văn bản SPNUM.OUT một số là kết quả tìm được.
+Ví dụ:
+
+J. Nguyên tố 5
+
+Input:
+
+1 second, 1024 megabytes
+
+100 4
+
+An rất yêu thích số nguyên tố, đồng thời cũng rất yêu thích số 5. An định
+nghĩa số nguyên tố đẹp là số nguyên tố và có tổng các chữ số của nó
+chia hết cho 5. An rất muốn biết trong đoạn [L,R] có bao nhiêu số nguyên
+tố đẹp. Em hãy lập trình giúp An thực hiện công việc trên.
+
+Input
+Đọc dữ liệu vào từ tệp PRIME5.INP
+- Dòng đầu tiên chứa số nguyên dương T ≤100 là số lượng test trong file.
+- T dòng tiếp theo, mỗi dòng chứa hai số nguyên dương L, R (L ≤ R) theo
+thứ tự, phân tách nhau bởi dấu cách.
+
+Output
+Ghi kết quả ra tệp PRIME5.OUT
+
+Output:
+7
+
+Statement
+is not
+available
+on
+English
+language
+
+L. SỐ CHÍNH PHƯƠNG
+1 second, 1024 megabytes
+
+Minh và Tiến cùng chơi một trò chơi với các số nguyên như sau: - Ban
+đầu, Minh có một số P = 1. - Có N lượt chơi, ở mỗi lượt, Tiến đọc một số
+nguyên K, nhiệm vụ của Minh là phải nhân số P với K, được bao nhiêu lại
+gán cho P, sau đó trả lời ngay số P hiện tại có phải số chính phương hay
+không. Học dốt toán nên Minh cần các bạn lập chương trình trả lời giúp.
+
+Input
+Vào từ file SQR.INP:
+- Dòng đầu tiên chứa số nguyên N (1≤N≤5.10
+
+5
+
+).
+
+- Tiếp theo là N dòng, mỗi dòng ghi một số nguyên là số mà Tiến đã đọc.
+6
+
+Các số nguyên này nằm giữa 1 và 10 .
+
+3
+
+Statement
+is not
+available
+on
+English
+language
+
+N. NGUYÊN TỐ ĐẸP
+1 second, 1024 megabytes
+
+Output
+Ghi ra file văn bản SQR.OUT: Gồm N dòng là kết quả mỗi lượt chơi. Ghi
+"YES" nếu kết quả là số chính phương và "NO" trong trường hợp ngược
+lại.
+Ví dụ:
+Input:
+7
+2
+3
+6
+
+Statement
+is not
+available
+on
+English
+language
+
+15
+35
+21
+64
+Output:
+
+O. BỘ 3 NGUYÊN TỐ
+
+NO
+
+1 second, 1024 megabytes
+
+NO
+YES
+NO
+NO
+YES
+YES
+
+Statement
+is not
+available
+on
+English
+language
+
+M. TỔNG ƯỚC
+1 second, 1024 megabytes
+Cho số nguyên dương n, Yêu cầu đếm trong đoạn từ 1 đến n xem có bao
+nhiêu số có tổng các ước dương là một số nguyên tố.
+
+Input
+
+Vào từ tệp văn bản SPRIME.INP gồm một số nguyên dương n (n≤10
+
+8
+
+)
+
+Output
+Ghi ra tệp văn bản SPRIME.OUT gồm một số nguyên duy nhất là số các
+số tìm được như yêu cầu.
+Ví dụ:
+Input:
+10
+Output:
+
+Statement
+is not
+available
+on
+English
+language
+
+P. Thừa số nguyên tố nhỏ nhất
+1 second, 1024 megabytes
+
+Statement
+is not
+available
+on
+English
+language
+
+Q. ĐẾM ƯỚC
+1 second, 1024 megabytes
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

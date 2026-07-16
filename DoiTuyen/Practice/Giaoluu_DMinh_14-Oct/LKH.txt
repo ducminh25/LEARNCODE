@@ -1,0 +1,18 @@
+LAPKEHOACH
+Tiến Minh là một vận động viên cầu lông chuyên nghiệp. Trong một hệ thống thi đấu cầu lông quốc gia, ban tổ chức có n giải đấu đánh số từ 1 đến n. 
+Giải đấu thứ i được tổ chức vào ngày thứ ai (ngày Ban tổ chức ra quyết định là ngày thứ 1) và mỗi vận động viên tham gia được cộng điểm thường là bi. 
+Để đảm bảo sức khỏe, huấn luyện viên quyết định hai giải đấu mà Tiến Minh chọn tham dự phải cách xa nhau ít nhất là k ngày (|ai - aj| > k nếu Tiến Minh tham dự cả giải thứ i và giải thứ j).
+
+Yêu cầu: Hãy viết chương trình giúp Tiến Minh chọn lựa các giải thi đấu sao cho tổng số điểm thưởng là nhiều nhất.
+
+Dữ liệu vào gồm các dòng dữ liệu sau:
+- Dòng đầu tiên là hai số nguyên n và k cách nhau một dấu trống (space) (1 <= n <= 10^5 , 1 <= k <= 100)
+
+- Dòng thứ hai chứa n số nguyên a1 ,a2 ,...,an (1 < ai < 10^9) là ngày thi đấu của các giải 1, 2,...,n; mỗi số cách nhau một dấu trống (space). 
+Dữ liệu cho đảm bảo ai < a2 < a3 < . . . < an.
+
+- Dòng thứ ba chứa n số nguyên b1, b2 ,...,bn (1 < bi < 10^4 ) là số điểm thưởng của các giải 1, 2, ..., n; mỗi số cách nhau một dấu trống (space).
+
+Kết quả: một số nguyên duy nhất là tổng số điểm thưởng lớn nhất mà Tiến Minh có thể nhận được.
+
+Ví dụ: input: 5 2 \n 1 2 3 4 5 \n 1 5 1 5 1 --> output: 10

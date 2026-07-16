@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <style>
+        @import "f149.css";
+    </style>
+    <meta charset="UTF-8">
+    <title>F149.html</title>
+</head>
+
+<body>
+        <h2>Đăng kí mua vé trực tuyến</h2>
+        <form action="" method="post">
+        <ol type="I" start="1">
+            <li>
+                <strong>Thông tin cá nhân</strong>
+                <p>
+                    <label>Họ và tên:</label>
+                    <input type="text" id="name" name="ho_ten">
+                </p>
+                <p>
+                    <label>Số điện thoại:</label>
+                    <input type="tel" id="phonenumber" name="sdt">
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input type="email" id="mail" name="email">
+                </p>
+            </li>
+
+            <br> <li>
+                <strong>Thông tin hành trình</strong>
+                <p>
+                    <label>Ga đi:</label>
+                    <select name="ga_di">
+                        <option value="HaNoi">Hà Nội</option>
+                        <option value="DaNang">Đà Nẵng</option>
+                        <option value="SaiGon">Sài Gòn</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Ga đến:</label>
+                    <select name="ga_den">
+                        <option value="SaiGon">Sài Gòn</option>
+                        <option value="DaNang">Đà Nẵng</option>
+                        <option value="HaNoi">Hà Nội</option>
+                    </select>
+                </p>
+                <p> 
+                    <input type="radio" id="mot_chieu" name="loai_ve" value="1">
+                    <label for="mot_chieu">Một chiều</label>
+                    
+                    <input type="radio" id="khu_hoi" name="loai_ve" value="2">
+                    <label for="khu_hoi">Khứ hồi</label>
+                </p>
+                <p>
+                    <label>Ngày đi:</label><br>
+                    <input type="date" name="ngay_di">
+                </p>
+                <p>
+                    <label>Ngày về:</label><br>
+                    <input type="date" name="ngay_ve">
+                </p>
+            </li>
+        </ol>
+
+        <p>
+            <input type="submit" value="Đặt vé">
+            <input type="reset" value="Huỷ bỏ">
+        </p>
+    </form>
+
+</body>
+</html>

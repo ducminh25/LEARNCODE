@@ -1,0 +1,71 @@
+Cho một bảng kích thước n cột, m dòng. Các cột được đánh số từ 1 tới n, các hàng được đánh số từ 1 tới m. Người ta tô màu các cột từ trên xuống dưới: cột thứ i sẽ được tô
+hi màu đỏ và tiếp đến m - hi màu trắng.
+Yêu cầu: Hãy xác định hình chữ nhật đơn sắc, có diện tích lớn nhất nằm trong bảng đã cho và có cạnh song song với cạnh của bảng.
+
+Input:
+· Dòng đầu chứa 2 số nguyên dương m, n (m, n <= 10^6)
+· Dòng tiếp theo chứa n số h1, h2, h3, ... , hn (0 <= hi <= m)
+Output: 
+· Một số nguyên duy nhất là diện tích hình chữ nhật lớn nhất tìm được.
+
+Sample input:
+6 8
+1 2 3 5 3 4 3 1
+Sample output:
+15
+
+Giải thích: input sẽ khởi tạo một hình chữ nhật với kích thước 6 * 8 ô vuông (chiều dài nằm ngang).
+Lần lượt từng cột từ trái sang phải, tô màu từ trên xuống dưới 1 ô màu đỏ (ở cột 1), 2 ô màu đỏ (ở cột 2), 3 ô màu đỏ (ở cột 3), 5 ô màu đỏ (ở cột 4)...
+==> Tìm được ô vuông đơn sắc lớn nhất có kích thước 3 * 5 (= 15). Ở Sample, ô chữ nhật này có màu đỏ.
+Tuy nhiên, ô lớn nhất, theo đề bài, là đơn sắc, nên có thể là màu trắng, tuỳ test.
+
+
+// maxArea với các ô màu đỏ. Ô màu trắng chạy tương tự.
+Iteration 0: h = 1
+Stack: [0]
+Max Area: 0
+
+Iteration 1: h = 2
+Stack: [0, 1]
+Max Area: 0
+
+Iteration 2: h = 3
+Stack: [0, 1, 2]
+Max Area: 0
+
+Iteration 3: h = 5
+Stack: [0, 1, 2, 3]
+Max Area: 0
+
+Iteration 4: h = 3
+Stack: [0, 1, 2] (Pop 3)
+Width: 1
+Max Area: 5 (height 5)
+Stack: [0, 1, 2, 4]
+Max Area: 6 (height 3, width 2)
+
+Iteration 5: h = 4
+Stack: [0, 1, 2, 4, 5]
+Max Area: 6
+
+Iteration 6: h = 3
+Stack: [0, 1, 2, 4] (Pop 5)
+Width: 1
+Max Area: 6
+Stack: [0, 1, 2, 4, 6]
+Max Area: 9 (height 3, width 3)
+
+Iteration 7: h = 1
+Stack: [0, 1, 2, 4] (Pop 6)
+Width: 2
+Max Area: 9
+Stack: [0, 1, 2, 4, 7]
+Max Area: 10 (height 2, width 5)
+
+Iteration 8: h = 0
+Stack: [0, 1, 2, 4] (Pop 7)
+Width: 8
+Max Area: 10
+Stack: [0, 1, 2] (Pop 4)
+Width: 6
+Max Area: 15 (height 3, width 5)

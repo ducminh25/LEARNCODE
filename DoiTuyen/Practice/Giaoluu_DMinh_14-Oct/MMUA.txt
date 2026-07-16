@@ -1,0 +1,14 @@
+MMUA
+Tỉnh Quảng Ninh có n ngôi làng khác nhau, các ngôi làng được đánh số thứ tự từ 1 đến n, giữa các ngôi làng được xây dựng hệ thống đường đi sao cho giữa hai ngôi làng bất kỳ luôn có đường đi và không có hai ngôi làng nào có nhiều hơn một con đường nối trực tiếp. 
+Khi mùa bão tràn về, nếu mực nước dâng cao lên x đơn vị (đo độ dài) thì những tuyến đường có độ cao nhỏ hơn x sẽ bị ngập trong nước, tỉnh Quảng Ninh có thể bị chia cắt thành nhiều vùng và người dân trong mỗi vùng sẽ bị cô lập không thể đi đến các vùng khác. 
+
+Yêu cầu: Hiện nay độ cao của mực nước tại tinh Quảng Ninh vừa đo được là x đơn vị, bạn hãy tính xem tỉnh này đang bị chia cắt thành bao nhiêu vùng. Biết rằng một vùng bao gồm các làng có đường đi lại với nhau nhưng không có đường đi đến các làng ở vùng khác. Một làng không có đường đi đến tất cả các làng khác cũng được xem là một vùng.
+
+Dữ liệu vào: 
+- Dòng đầu tiên gồm ba số nguyên dương n, m, x, lần lượt là số làng, số tuyến đường và độ cao của nước (1 <= n <= 10^5 ; 1 <= m <= 2*10^5 ; 1 <= x <= 10^9).
+- Trong m dòng tiếp theo, mỗi dòng ghi 3 số nguyên u, v, c, trong đó c là độ cao của tuyến đường nối 2 làng và v (1 <= u, v <= n; 1 <= c <= 10^9).
+
+Dữ liệu ra: một số nguyên duy nhất là kết quả bài toán.
+
+Ví dụ: input: 5 7 5 \n 1 2 2 \n 1 3 5 \n 1 4 4 \n 1 5 1 \n 2 3 6 \n 3 4 3 \n 4 5 5 --> output: 2
+Giải thích test ví dụ: Các tuyến đường (1, 2), (1, 4), (1, 5), (3, 4) bị ngập. Do vậy, còn 2 vùng là (4, 5) và (1, 2, 3).

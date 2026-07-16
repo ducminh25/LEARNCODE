@@ -1,0 +1,286 @@
+Bài 1. Dãy số thực					Tên file: SEQREAL.***
+Nhập vào dãy n số thực. 
+Sau đó: 
+-	Tính tổng dãy, 
+-	tổng các số âm, 
+-	tổng các số dương 
+-	tổng các số ở vị trí chẵn
+-	tổng các số ở vị trí lẻ.
+Input:
+- Dòng đầu chứa số nguyên dương n (1 <= n <= 100)
+- Dòng 2 gồm n số thực a1, a2, ..., an.
+Output:
+- Dòng 1 chứa kết quả của câu 1 gồm: tổng dãy, tổng các số âm, tổng các số dương, tổng các số vị trí chẵn, tổng các số vị trí lẻ (các giá trị cách nhau 1 dấu cách và lấy 2 chữ số phần thập phân).
+Ví dụ:
+Input	Output
+5
+-1.00 4.00 -3.00 2.00 5.00	7.00 -4.00 11.00 6.00 1.00
+
+Bài 2. Giá trị Min max				Tên file: MINMAX.***
+Nhập vào dãy n số. Hãy in ra số lớn nhất, bé nhất của dãy.
+input
+- Dòng 1: chứa giá trị n (1 <= n <= 100)
+- Dòng 2: chứa n số thực a1, a2, ..., an
+output:
+- Một dòng duy nhất ghi hai số là giá trị lớn nhất và giá trị nhỏ nhất của dãy.
+ví dụ
+input	output
+6
+3.40 -4.50 1.20 4.70 0.00 -2.10	4.70 -4.50
+
+Bài 3. Trung bình cộng					Tên file: TBC.***
+Nhập vào một dãy gồm n số thực. Sau đó thực hiện các nhiệm vụ sau:
+- Tính trung bình cộng các phần tử trong dãy
+- Tìm phần tử trong dãy chêch lệch với giá trị trung bình cộng là nhỏ nhất
+Input:
+- Dòng đầu chứa số nguyên dương n (1 <= n <= 100)
+- Dòng 2 gồm n số thực a1, a2, ..., an.
+Output:
+- Dòng 1: chứa giá trị TBC của dãy số
+- Dòng 2: giá trị của phần tử chênh lệch với giá trị trung bình cộng là nhỏ nhất.
+Ví dụ
+Input	Output
+5
+-1.00 4.00 -3.00 2.00 5.00	1.40
+2.00
+Bài 4. Tìm vị trí						Tên file: POS.***
+Cho dãy số gồm n số thực. Sau đó:
+- Tìm số âm đầu tiên trong dãy
+	- Tìm số dương cuối cùng trong dãy
+	- Vị trí đầu tiên và vị trí cuối cùng của phần tử x trong dãy.
+Input:
+- Dòng đầu chứa số nguyên dương n và x (1 <= n <= 100)
+- Dòng 2 gồm n số thực a1, a2, ..., an.
+Output:
+- Dòng 1: giá trị của số âm đầu tiên trong dãy, giá trị của số dương cuối cùng trong dãy
+- Dòng 2: vị trí đầu tiên và cuối cùng của phần tử x trong dãy
+Ví dụ
+Input	Output
+7 2.00
+-1.00 4.00 -3.00 2.00 -5.00 2.00 -1.00	-1.00 2.00
+4 6
+Bài 5. Sắp xếp dãy số						Tên file: ARRSORT.***
+Nhập vào dãy số thực. In ra dãy đã được sắp xếp tăng dần, giảm dần.
+input:
+- Dòng 1 chứa giá trị n (1 <= n <= 1000)
+- Dòng 2 chứa n số thực a1, a2, ..., an
+output:  
+- Dòng 1 là dãy a sau khi được sắp xếp tăng dần
+- Dòng 2 là dãy a sau khi được sắp xếp giảm dần
+ví dụ
+INPUT	OUTPUT
+4
+3.00 2.00 4.00 1.00	1.00 2.00 3.00 4.00
+4.00 3.00 2.00 1.00 
+
+Bài 6. Số nguyên tố							Tên file: PRIME.***
+Cho dãy số gồm N phần tử A1, A2, ..., AN. Hãy đếm và tính tổng các số nguyên tố trong dãy.
+INPUT:
+- Dòng 1 là số N (1 <= n <= 100)
+- Dòng 2 là N số A1, A2, ..., AN
+OUTPUT:
+- Số lượng số nguyên tố và tổng của chúng trong dãy số
+Ví dụ
+INPUT	OUTPUT
+6
+1 2 4 3 5 6	3 10
+Bài 7. Số đẹp							Tên file: PNUMBER.***
+Người phương Đông quan niệm số đẹp là các số tự nhiên chỉ chứa hai số 6 hoặc 8. 
+Ví dụ: 6, 8, 66, 68, 86, 88, 886, 668, …. là những số đẹp, 468, 5, 728… không phải là những số đẹp.
+Cho trước một dãy N (1 <= N <= 100) số nguyên  A1, A2, …, AN. Nhiệm vụ của bạn là đếm xem trong dãy có bao nhiêu số đẹp.
+Input:
+-	Dòng đầu tiên nhập số N
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Đưa ra kết quả là số lượng các số đẹp trong dãy.
+Ví dụ:
+Input	Output
+5
+6   67   8   88   48	3
+Bài 8. Bộ ba số							Tên file: BOBASO.***
+Cho một dãy số gồm n phần tử A1, A2, …, An. 
+Hãy đếm số lượng bộ ba số trong n số, sao cho ba số đó tạo thành ba cạnh một tam giác, đồng thời tìm chu vi lớn nhất của một trong các tam giác đó.
+Input:
+-	Dòng 1 là số N (1 <= n <= 100)
+-	Dòng 2 là N số A1, A2, ..., AN
+OUTPUT:
+-	Số lượng số lượng bộ ba và tổng chu vi lớn nhất thoản mãn đề bài
+Ví dụ:
+INPUT	OUTPUT
+4
+1 2 4 3	1 9
+Bài 9. Tìm cặp số 1						Tên file: capso1.***
+Cho dãy số gồm N phần tử nguyên A1, A2, ..., AN (1 <= n <= 103) và số nguyên X. Hãy đếm cặp số liên tiếp có tổng bằng X.
+Input:
+-	Dòng đầu tiên nhập số N, X
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là số lượng cặp số liên tiếp có tổng bằng X.
+Ví dụ
+Input	Output
+5 7
+6 1 9 -2 9	3
+Bài 10. Tìm cặp số 2						Tên file: capso2.***
+Cho dãy số gồm N phần tử nguyên A1, A2, ..., AN (1 <= n <= 103) và số nguyên X. Hãy đếm cặp số (có thể không liên tiếp) có tổng bằng X.
+Input:
+-	Dòng đầu tiên nhập số N, X
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là số lượng cặp số có tổng bằng X
+Ví dụ
+Input	Output
+5 7
+9 6 -2 9 1	3
+Bài 11. Tìm cặp số 3						Tên file: capso3.***
+Cho dãy số gồm N phần tử nguyên A1, A2, ..., AN (1 <= n <= 103). Hãy đếm cặp số (có thể không liên tiếp) có tổng bằng là một số nguyên tố.
+Input:
+-	Dòng đầu tiên nhập số N
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là số lượng cặp số liên tiếp có tổng là một số nguyên tố
+Ví dụ
+Input	Output
+5
+9 6 -2 9 1	3
+Giải thích: có 3 cặp số có tổng là 1 số nguyên tố là:
+	1.	 9 + (-2) = 7		2.	 6 + 1 = 7		3.  (-2) + 9 = 7
+Bài 12. Song nguyên tố					Tên file: dprime.***
+Số nguyên tố là số nguyên dương chỉ có hai ước là 1 và chính nó. 
+Số nguyên x là số song nguyên tố là số thỏa mãn đồng thời hai điều kiện sau:
+-	x là số nguyên tố.
+-	Tổng các chữ số của x là một số nguyên tố.
+Yêu cầu: Cho trước một dãy số nguyên gồm n phần tử. Hãy đếm số lượng số song nguyên tố có trong dãy.	
+INPUT
+-	Dòng 1: chứa số nguyên dương n (n ≤ 1000)
+-	Dòng 2: chứa n số nguyên a1, a2, … ,an (|ai| ≤ 109)
+OUTPUT
+-	Dòng 1: chứa số lượng số song nguyên tố trong dãy
+-	Dòng 2: chứa các số song nguyên tố trong dãy theo thứ tự từ trái sang phải
+Ví dụ:
+INPUT	OUTPUT
+5
+7 6 23 17 11	3
+7 23 11
+Bài 13. Đoạn con 1						Tên file: DOANCON1.***
+Cho dãy số gồm N phần tử A1, A2, ..., AN (1 <= n <= 106). Hãy tìm một đoạn con liên tiếp tăng dài nhất.
+Input:
+-	Dòng đầu tiên nhập số N
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là độ dài đoạn con tăng liên tiếp dài nhất
+Ví dụ
+Input	Output
+5
+6   67   8   48   88	3
+Bài 14. Đoạn con  2						Tên file: DOANCON2.***
+Cho dãy số gồm N phần tử A1, A2, ..., AN (1 <= n <= 106). Hãy tìm một đoạn con liên tiếp dài nhất các phần tử đan dấu nhau.
+Input:
+-	Dòng đầu tiên nhập số N
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là độ dài đoạn con đan dấu liên tiếp dài nhất
+Ví dụ
+Input	Output
+5
+6   67   -8   48   88	3
+Bài 15. Đoạn con 3						Tên file: DOANCON3.***
+Cho dãy số gồm N phần tử A1, A2, ..., AN (1 <= n <= 105). Hãy tìm một đoạn con liên tiếp các phần tử có tổng lớn nhất.
+Input:
+-	Dòng đầu tiên nhập số N
+-	Dòng tiếp theo nhập các số A1, A2, …, AN
+Output:
+-	Một số duy nhất là tổng lớn nhất của các giá trị các phần tử liên tiếp nhau
+Ví dụ
+Input	Output
+5
+-6   67   -8   48   -88	107
+13
+3 4 -8 1 2 -1 4 5 1 -13 3 4 -3	12
+Bài 16. Tích các thừa số nguyên tố			Tên file: PHANTICH.***
+Cho số nguyên dương N (2 <= N <=10^9) , hãy phân tích N ra tích các thừa số nguyên tố.
+INPUT
+-	Một dòng duy nhất chứa số n.
+OUTPUT
+-	Mỗi dòng ghi một thừa số nguyên tố và số mũ tương ứng cách nhau bởi dấu cách.
+-	Các thừa số nguyên tố in ra theo thứ tự tăng dần.
+-	Mỗi thừa số nguyên tố (cùng số mũ của nó) ở một dòng.
+Ví dụ:
+INPUT	OUTPUT
+4	2 2
+168	2 3
+3 1
+7 1
+Giải thích test 2:  168 = 23 * 31 * 71
+Bài 17. Tần số							tên file: TANSO.***
+Cho dãy A gồm N số nguyên A1, A2, …, AN. Tần số của một số là số lần xuất hiện của số đó trong dãy A.
+Ví dụ: dãy số 1 1 2 2 2 1 3 7, thì số 1 có tần số bằng 3, số 2 có tần số bằng 3, số 3 và 7 có tần số bằng 1.
+Nhiệm vụ của bạn là viết chương trình với dãy A1, A2, …, AN, hãy đưa ra tần số xuất hiện của mỗi phần tử
+INPUT
+-	Dòng 1 chứa số nguyên dương N (1 ≤ N ≤ 100.000)
+-	Dòng 2 chứa N số nguyên A1, A2, …, AN (với -100 ≤ Ai ≤ 100)
+OUPUT
+-	Đưa ra tần số xuât hiện của mỗi số trong dãy theo thứ tự tăng dần
+Ví dụ:
+INPUT	OUTPUT
+10
+1 -1 2 7 2 2 -1 3 7 7	-1 2
+1 1
+2 3
+3 1
+7 3
+Bài 18. Đĩa CD								Tên file: CD.***
+Bạn An có N file nhạc đuôi mp3, có dung lượng lần lượt là A1, A2, ..., AN.
+Bạn An muốn ghi một số file nhạc đó vào một chiếc đĩa CD có dung lượng là S.
+Hãy giúp bạn An cần chọn ra nhiều file nhạc nhất để ghi vào đĩa CD.
+Input: 
+-	Dòng 1 chứa hai số N (1 <= N <= 100) và S cách nhau 1 dấu cách
+-	Dòng 2 chứa các số A1, A2, ..., AN.
+Output: 
+-	Số lượng file nhạc nhiều nhất để ghi vào đĩa CD.
+Ví dụ:
+CD.INP	CD.OUT	Giải thích
+5 16
+9 4 4 12 7	3	- Có thể ghi nhiều nhất là 3 file nhạc có dung lượng lần lượt là 4 4 và 7
+Bài 19. Bài tập về nhà				Tên file: HOMEWORK.***
+Bạn An được thầy giáo giao cho N bài tập về nhà, mỗi bài tập có mức độ khó khác nhau được đánh giá bởi giá trị a[i]. 
+Để làm được bài tập thứ i thì bạn An cần phải có kỹ năng lớn hơn hoặc bằng mức độ khó a[i]. Mỗi khi làm được bài độ khó là a[i] thì kỹ năng giải bài của cậu được tăng thêm một lượng là a[i]. Ban đầu kỹ năng làm bài của bạn An là S.
+Hãy cho biết bạn An có thể làm được tối đa bao nhiêu bài tập.
+INPUT: 
+-	Dòng 1 chứa N và S (1 <=  N <= 100, S <= 1000)
+-	Dòng 2 chứa N số nguyên a[1], a[2], ..., a[N]
+Output: 
+•	Một số nguyên duy nhất là số lượng bài tập lớn nhất làm được.
+Ví dụ
+INPUT	OUTPUT
+5 2
+18 2 5 14 3	3
+Bài 20. Chăn bò							Tên file: COW.***
+Đàn bò của Bờm có n con, Bờm dùng sơn vẽ số nguyên dương lên người những con bò này sao cho tổng giá trị của các số này bằng S. 
+Một buổi sáng, Bờm thả n con bò ra để chăn, tối về Bờm thấy đàn bò của mình có n + 2 (tức là thừa ra 2 con) con bò trở về chuồng, thì ra 2 con bò của Phú ông đã đi lạc vào đàn bò của Bờm. Biết tin Phú ông đền đòi bò của mình về, Phú ông không thể nhớ được 2 con bò của mình khi mà ông cũng có thói quen vẽ số nguyên dương lên người những con bò giống như Bờm. 
+Sau đó Bờm nghĩ ra một cách, đó là chọn ra n con bò trong n + 2 con sao cho tổng giá trị các số trên n con bò này bằng S, 2 con bò còn lại sẽ theo Phú ông về.
+Bạn hãy giúp Bờm tìm ra n con bò của mình.
+INPUT
+•	Dòng 1 chứa hai số nguyên dương n và S (n ≤ 1000, S ≤ 109)
+•	n + 2 dòng tiếp theo chứa n + 2 số thể hiện các số được vẽ trên n + 2 con bò, trong đó có n con bò của Bờm và 2 con bò của Phú ông.
+•	Dữ liệu của INPUT luôn tìm được n con bò của Bờm
+OUTPUT
+•	Gồm n dòng chứa n số nguyên dương thể hiện các số nguyên dương được vẽ trên n con bò của Bờm.
+Ví dụ:
+INPUT	OUTPUT
+7 100
+8 
+6 
+5 
+1 
+37
+30 
+28 
+22 
+36	8 
+6 
+5 
+1 
+30 
+28 
+22
+

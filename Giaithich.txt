@@ -1,0 +1,56 @@
+Bài 1. DISTANCE
+Vì số lượng chữ số lớn nên ta dùng xâu để lưu input.
+Viết hàm d(a, b) để tính khoảng cách giữa 2 kí tự số.
+Duyệt 2 xâu và tính khoảng cách từng cặp kí tự số ở 2 xâu và cộng lại.
+Cách tính khoảng cách của cặp kí tự số:
+- Đổi kí tự a, b thành số x, y.
+- Để tính khoảng cách giữa 2 số này ta có 3 cách:
+	+ res = |x - y|
+	+ res = x - y
+	+ res = y - x
+- Ta lấy giá trị nhỏ nhất của 3 cách.
+
+-----------------------------------------------------------------------
+Bài 2. MEXARRAY
+
+-----------------------------------------------------------------------
+Bài 3. SDIFF
+Điều kiện: đếm số đoạn con liên tiếp (subarray) sao cho:
+max (w[L], ..., w[R]) - min (w[L], ..., w[R]) <= T, với dãy w được sinh theo công thức.
+
+Ta cần đếm tất cả các đoạn [l, r] thỏa mãn điều kiện trên.
+Tức là: với mỗi vị trí r, ta cần biết xa nhất có thể mở rộng về trái để vẫn đảm bảo điều kiện.
+
+Ta có thể làm điều đó bằng hai deque:
+dqMax: lưu chỉ số các phần tử theo thứ tự giảm dần (để tìm max nhanh)
+dqMin: lưu chỉ số các phần tử theo thứ tự tăng dần (để tìm min nhanh)
+
+Thuật toán sliding window (trượt cửa sổ) với deque:
+1. Khởi tạo l = 0, ans = 0.
+2. Duyệt r từ 0 đến n - 1:
+- Cập nhật hai deque để chèn w[r]:
+	+ Xóa phần tử nhỏ hơn w[r] ở cuối dqMax, rồi thêm r vào.
+	+ Xóa phần tử lớn hơn w[r] ở cuối dqMin, rồi thêm r vào.
+- Trong khi hiệu w[dqMax.front()] - w[dqMin.front()] > T, ta tăng l:
+	+ Nếu dqMax.front() < l thì pop_front.
+	+ Nếu dqMin.front() < l thì pop_front.
+- Sau khi ổn định (tức là đoạn [l, r] hợp lệ), thì:
+	+ Có (r - l + 1) đoạn con kết thúc tại r.
+- Cộng dồn vào ans.
+Độ phức tạp thời gian O(n).
+
+-----------------------------------------------------------------------
+Bài 4. LOCKOUT
+
+-----------------------------------------------------------------------
+Bài 5. LATDAT
+Sort dãy búp bê tăng dần theo w, ta được một dãy có thứ tự, tức là chỉ có búp bê sau mới có thể lồng vào búp bê trước.
+Bài toán trở thành Chia dãy búp bê thành các dãy con tăng dài nhất, mỗi phần tử thuộc 1 dãy con. Tìm cách chia thành ít dãy nhất.
+==> Tìm dãy con không tăng dài nhất. Output là độ dài của dãy đó. Chứng minh bằng nguyên lý Dirichlet.
+Do ta đã sort dãy tăng dần theo w (a[i].w <= w[j].w) nên tiêu chí w là cố định.
+--> ta cần ưu tiên sort h giảm dần (để a[i].h >= a[j].h với i < j).
+Lúc này ta sẽ được một dãy có thứ tự để tìm dãy con không tăng dài nhất.
+Kết quả bài toán khi đó là độ dài dãy con tăng dài nhất của dãy a[].
+
+Tìm LIS theo h để độ dài chuỗi lồng tối đa --> res (trong code)
+Nguyên lý Dirichlet --> ít dãy tăng nhất = độ dài dãy giảm dài nhất

@@ -1,0 +1,104 @@
+SỞ GIÁO DỤC VÀ ĐÀO TẠO THANH HÓA
+
+ĐỀ THI GIAO LƯU	ĐỀ THI KHẢO SÁT ĐỘI TUYỂN HSG CẤP TỈNH NĂM HỌC 2024-2025
+Môn thi: Tin học – THPT Ngày thi: .../.../2024
+Thời gian làm bài: 150 phút (không kể thời gian giao đề)
+(Đề thi có 03 trang)
+
+	Tên bài	File chương trình	File dữ liệu vào	File kết quả
+Bài 1	Ăn chay	ANCHAY.*	ANCHAY.INP	ANCHAY.OUT
+Bài 2	Xâu con liên tiếp	XCLT.*	XCLT.INP	XCLT.OUT
+Bài 3	Tìm tổng ước	TONGUOC.*	TONGUOC.INP	TONGUOC.OUT
+Bài 4	Xâu đặc biệt	XDB.*	XDB.INP	XDB.OUT
+Bài 5	Dự tiệc	DUTIEC.*	DUTIEC.INP	DUTIEC.OUT
+Dấu (*) trong file chương trình biểu thị đuôi file tùy thuộc vào ngôn ngữ lập trình sử dụng
+Hãy lập trình giải các bài toán sau:
+Câu 1. Ăn chay (6 điểm)
+Hiện nay, phong trào ăn chay vì môi trường và sức khỏe đang diễn ra hết sức rầm rộ. Hưởng ứng phòng trào ăn chay, mỗi tuần Bờm cũng thực hiện ăn chay vào hai ngày cuối tuần (Thứ 7 và Chủ nhật). Vậy nếu Bờm thực hiện chế độ ăn chay bắt đầu từ ngày thứ n thì sau m ngày Bờm đã ăn chay bao nhiêu ngày?
+Dữ liệu vào từ tệp ANCHAY.INP gồm một dòng chứa 2 số nguyên dương n và m.
+Kết quả ghi ra tệp ANCHAY.OUT một số nguyên duy nhất là số ngày Bờm đã ăn chay.
+Ví dụ:
+
+ANCHAY.INP	ANCHAY.OUT
+3 8	2
+Ràng buộc: 2  n  8 (n=8 tương ứng với ngày Chủ nhật)
+-	Có 70% test tương ứng với 70% điểm có 1  m 108
+-	Có 30% test tương ứng với 30% điểm có 109  m 1012
+Câu 2. Xâu con liên tiếp (5 điểm)
+Cho xâu S chỉ gồm các kí tự tiếng Anh in thường (từ 'a' đến 'z'). Hãy tìm xâu con liên tiếp dài nhất không có 2 kí tự liên tiếp giống nhau. Nếu có nhiều xâu con thỏa mãn thì đưa ra xâu con có thứ tự từ điển lớn nhất.
+Dữ liệu: Vào từ file văn bản XCLT.INP gồm một dòng chứa xâu kí tự S có độ dài không vượt quá 105.
+Kết quả: Ghi ra file văn bản XCLT.OUT xâu con tìm được.
+Ví dụ:
+
+XCLT.INP	XCLT.OUT
+zzaabcctech	ctech
+Ràng buộc:
+-	Có 50% số test ứng với 50% số điểm của bài có độ dài xâu S ≤ 500.
+-	Có 50% số test ứng với 50% số điểm của bài có độ dài xâu S ≤ 105
+ 
+Câu 3: Tìm tổng ước (4 điểm)
+Bài toán tìm ước chung lớn nhất là bài toán cơ bản trong Tin học, nhưng để tìm chính xác và nhanh khi dữ liệu lớn thì không phải ai cũng biết. Để kiểm tra khả năng thuần thục và nhanh nhạy khi tìm ước chung lớn nhất thầy giáo đã đưa ra bài toán như sau:
+ 
+Cho dãy A gồm n số nguyên dương
+ 
+a1, a2 ,..., an . Ứng với mỗi số nguyên dương
+ 
+
+ 
+ai (i  1; n) bạn hãy cho biết tổng các ước số dương của nó.
+Dữ liệu: Vào từ file văn bản TONGUOC.INP:
+-	Dòng thứ 1 chứa số nguyên n
+-	Dòng thứ 2 chứa n số nguyên a1, a2, …, an
+Kết quả: Đưa ra file văn bản TONGUOC.OUT gồm n số, số thứ i là tổng các ước số dương của ai
+Ví dụ:
+
+TONGUOC.INP	TONGUOC.OUT
+4
+2 4 10 9	3 7 18 13
+Ràng buộc:
+-	Có 15% số test ứng với 15% số điểm của bài có n ≤ 104 và ai ≤103
+-	Có 25% số test ứng với 25% số điểm của bài có n ≤ 105 và ai ≤105
+-	Có 35% số test ứng với 35% số điểm của bài có n ≤ 105 và ai ≤106
+-	Có 25% số test ứng với 25% số điểm của bài có n ≤ 106; ai ≤109 và ai=ai-1+1
+
+Câu 4: Xâu đặc biệt (3 điểm)
+Yên và Định là hai học sinh giỏi bộ môn Tin học. Yên có một nhóm chữ cái tiếng Anh mà bạn ấy yêu thích, ghép các chữ cái này lại ta được xâu a. Định cũng vậy, Định có nhóm chữ cái tiếng Anh yêu thích của riêng mình, ghép các chữ cái yêu thích của Định ta được xâu b. Khi lấy hai nhóm chữ cái yêu thích của Yên và Định so sánh với nhau thì thấy tất cả chúng đều là chữ cái in thường và không có chữ cái nào cùng thuộc cả hai nhóm.
+Yên và Định gọi xâu x là xâu đặc biệt nếu trong xâu x thỏa mãn:
+-	Các kí tự trong xâu x hoặc là chữ cái yêu thích của Yên hoặc là chữ cái yêu thích của Định hoặ là dấu cách
+-	Số lượng chữ cái thuộc nhóm chữ cái yêu thích của Yên bằng số lượng chữ cái thuộc nhóm yêu thích của Định.
+Yêu cầu: Với một xâu S chỉ gồm các chữ cái in thường và dấu cách cho trước. Hãy cho biết có bao nhiêu xâu con liên tiếp của S là xâu đặc biệt theo cách gọi của Yên và Định.
+Dữ liệu vào từ file XDB.INP gồm 3 dòng:
+-	Dòng 1: Chứa xâu a (gồm các chữ cái tiếng Anh in thường yêu thích của Yên)
+-	Dòng 2: Chứa xâu b (gồm các chữ cái tiếng Anh in thường yêu thích của Định)
+-	Dòng 3: Chứa xâu S.
+Kết quả ghi ra file XDB.OUT số lượng xâu con liên tiếp của S là xâu đặc biệt.
+ 
+Ví dụ:
+
+XDB.INP	XDB.OUT	Giải thích
+ab fd
+abfe agfdaa	4	Có 4 xâu thỏa mãn là xâu bf; da; fdaa và xâu
+có một dấu cách
+Ràng buộc:
+-	Có 30% số test ứng với 30% số điểm của bài cho xâu S có độ dài ≤ 102
+-	Có 30% số test ứng với 30% số điểm của bài cho xâu S có độ dài ≤ 104
+-	Có 40% số test ứng với 40% số điểm của bài cho xâu S có độ dài ≤ 105
+Câu 5: Dự tiệc (2 điểm)
+Khi đi dự tiệc, người ta thường thích ngồi chung bàn với những người quen biết để dễ sinh hoạt, trò chuyện. Chủ nhân của một bữa tiệc muốn tất cả các thực khách đến dự đều vui vẻ, ông yêu cầu nhà hàng chuẩn bị một số bàn tiệc để mỗi nhóm khách sẽ ngồi chung một bàn và mỗi bàn có không quá một nhóm khách. Nhà hàng đáp ứng yêu cầu đó nên đã bố trí m bàn, bàn thứ i có ai ghế ngồi (mỗi khách chỉ ngồi một ghế). Khi bắt đầu vào tiệc, có n nhóm khách đến dự, nhóm thứ j có bj người. Để khách dự tiệc cùng nhóm được ngồi trong cùng một bàn như yêu cầu, nhà hàng xử lí linh động bằng cách kê thêm ghế cho những bàn thiếu và lấy bớt ghế đi với những bàn thừa. Những bàn không xếp khách ngồi thì các ghế sẽ giữ nguyên.
+Yêu cầu: Bạn hãy giúp nhà hàng tìm phương án bố trí khách ngồi sao cho tổng số các ghế kê thêm và các ghế lấy bớt đi là ít nhất. Biết rằng tất cả khách đều phải được xếp dự tiệc. Dữ liệu: Vào từ tệp văn bản DUTIEC.INP, gồm 03 dòng:
+-	Dòng thứ nhất gồm hai số nguyên dương m, n (0 < n ≤ m ≤ 104);
+-	Dòng thứ hai ghi m số nguyên a1, a2,..,am (0 ≤ ai ≤ 100, i = 1...m);
+-	Dòng thứ ba ghi n số nguyên b1, b2,..,bn (0 ≤ bj ≤ 100, j =1...n).
+Kết quả: Ghi ra tệp văn bản DUTIEC.OUT một số nguyên duy nhất là tổng số lượng ít nhất các ghế đã chuyển ra và xếp vào của tất cả các bàn.
+Ví dụ:
+
+DUTIEC.INP	DUTIEC.OUT
+4  3
+5  6  9 10
+6  8  3	3
+Rằng buộc:
+-	Có 50% số test tương ứng với 50% số điểm có n = m.
+-	Có 50% số test tương ứng với 50% số điểm còn lại không có rằng buộc gì thêm.
+
+- - - - - - - - - - - - - - - - - - - - - - - Hết - - - - - - - - - - - - - - - - - - - - - - - -
+Họ và tên thí sinh:…………………………………………………… SBD:……………………… Giám thị coi thi không giải thích gì thêm.

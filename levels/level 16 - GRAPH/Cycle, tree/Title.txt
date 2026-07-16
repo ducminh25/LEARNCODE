@@ -1,0 +1,10 @@
+Title
+Câu 5 (3.0 điểm). DU LỊCH
+Gia đình bạn An lên kế hoạch tổ chức chuyến đi du lịch tại các thành phố của nước Đức, để xem các trận đấu bóng đá cũng như thăm các địa danh thắng cảnh của thành phố. Nước Đức có n thành phố và m con đường hai chiều. An đánh dấu các thành phố từ 1 đến n. Đầu tiên gia đình An sẽ bay đến thành phố 1. Từ thành phố 1 có thể có đường để đi tới được các thành phố khác hoặc không có đường để đi tới đó. Mỗi con đường nối 2 thành phố bất kì đều có thu phí.
+Công việc mà gia đình giao cho An là xác định có đường đi từ Thành phố 1 tới thành phố k (1 ≤ k ≤ n) hay không; nếu có thì tìm đường đi có chi phí tối thiểu nhất. Rất nhanh chóng An đã có đáp án cho gia đình.
+Yêu cầu: Hãy xác định chi phí tối thiểu để có thể đi từ thành phố 1 tới mỗi thành phố, nếu không có đường đi đưa ra -1
+Dữ liệu vào gồm:
+	- Dòng đầu tiên chứa số nguyên n,m (1 ≤ n ≤ 10^5; 1 ≤ m ≤ 5*10^5) 
+	- m dòng tiếp theo, mỗi dòng chứa 3 số nguyên u,v,w (1 ≤ u, v ≤ n; 1 ≤ w ≤ 10^6)  mô tả 1 con đường nối 2 thành phố u,v với chi phí w để đi qua.
+Kết quả:  Một hàng gồm n số nguyên, số thứ i ứng với chi phí tối thiểu với thành phố i.
+          Các số trên cùng dòng cách nhau bằng một dấu cách trống.

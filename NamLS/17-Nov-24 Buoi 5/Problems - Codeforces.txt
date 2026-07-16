@@ -1,0 +1,205 @@
+Buổi 4
+
+Statement
+is not
+available
+on
+English
+language
+
+A. LẠI TỔNG 0
+2 seconds, 1024 megabytes
+Cho 4 dãy số nguyên:
+
+Ghi ra file văn bản LAIDAYSO.OUT gồm một số duy nhất là kết quả tìm
+được.
+Ràng buộc:
+- Có 50% số điểm có n ≤ 50;
+- Có 50% số điểm còn lại không còn ràng buộc gì thêm.
+
+input
+6
+1 2 3 5 7 10
+
+output
+4
+
+a1, a2, ..an.
+b1, b2, ..bn.
+
+Statement
+is not
+available
+on
+English
+language
+
+c1, c2, ..cn.
+d1, d2, ..dn.
+Yêu cầu: đếm số bộ i, j, k, t sao cho ai + bj + ck + dt = 0.
+
+Input
+Vào từ file LAITONG0.INP gồm:
+
+C. XÓA CHỮ
+
+- Dòng đầu tiên ghi số nguyên dương N (N ≤ 2500)
+- N dòng tiếp theo, mỗi dòng ghi bốn số tương ứng với các số trong danh
+sách A, B, C, D; Các số này có trị tuyệt đối không quá 109.
+
+1 second, 1024 megabytes
+Unscaled image:
+
+Output
+Ghi ra file LAITONG0.OUT một số nguyên duy nhất là số bộ số tìm được
+
+input
+6
+-45 22 42 -16
+-41 -27 56 30
+-36 53 -37 77
+-36 30 -75 -46
+26 -38 -10 62
+-32 -54 -6 45
+
+output
+5
+
+Statement
+is not
+available
+on
+English
+language
+
+B. LẠI DÃY SỐ
+1 second, 1024 megabytes
+Cho dãy số nguyên a1, a2, ..an.
+Yêu cầu: Đếm tất cả các chỉ số p của dãy số trên thỏa mãn điều kiện tồn
+tại 3 số i, j, k sao cho: ap = ai + aj + ak, với 1 ≤ i, j, k < p; i, j, k không nhất
+thiết phải khác nhau.
+
+Input
+Vào từ file văn bản LAIDAYSO.INP gồm:
+• Dòng đầu tiên chứa số nguyên dương n (1 ≤ n ≤ 5000)
+• Dòng thứ hai chứa dãy số a1, a2, ..an ( | ai | ≤ 105 với mọi i =1..n).
+
+Output
+
+Statement
+is not
+available
+on
+English
+language
+
+D. CHÊNH LỆCH
+
+1 second, 1024 megabytes
+
+78
+Output:
+15
+Ràng buộc:
+4
+
+Có 50% số test ứng với 50% số điểm có N ≤ 10 ;
+Có 50% số test còn lại ứng với 50% số điểm không có ràng buộc gì
+thêm.
+
+Statement
+is not
+available
+on
+English
+language
+
+Statement
+is not
+available
+on
+English
+language
+
+F. DS
+1 second, 1024 megabytes
+
+E. TRÒ CHƠI MARIO
+1 second, 1024 megabytes
+Trò chơi Mario bao gồm nhân vật hoạt hình Mario và các cây nấm được
+thiết kế trên một trục số nằm ngang. Có N cây nấm, cây thứ i đặt ở vị trí
+có tọa độ Xi và chứa Wi sức mạnh. Mario đang đứng ở vị trí X, có thể di
+chuyển theo chiều dương hay âm của trục số tùy ý. Nếu đi qua cây nấm i,
+nó sẽ ăn cây nấm đó và sẽ được tăng thêm Wi sức mạnh, đồng thời cây
+nấm i sẽ biến mất. Yêu cầu: Thực hiện một lượt chơi để Mario ăn được
+nhiều sức mạnh nhất, biết rằng mỗi lượt chơi thì Mario chỉ có thể di
+chuyển khoảng cách tối đa bằng K.
+
+Cho hai dãy số nguyên độ dài n là A = (a1, a2, ..., an) và B =
+
+(b1, b2, ..., bn). Ta thành lập bảng C kích thước n × n trong đó Cij =
+ai + bj sau đó mang tất cả n2 phần tử trong bảng C xếp theo thứ tự
+không giảm để được dãy D.
+Yêu cầu: Hãy cho biết giá trị k phần tử đứng đầu dãy D.
+
+Input
+Vào từ file DS.INP gồm:
+• Dòng đầu tiên chứa hai số nguyên dương n và k
+(1≤n≤105, 1≤k≤min(n2, 105)).
+9
+
+Input
+
+• Dòng thứ hai chứa n số nguyên ai(|ai|≤10 ).
+
+Vào từ tệp văn bản MARIO.INP gồm 2 dòng:
+
+• Dòng thứ ba chứa n số nguyên bi(|bi|≤10
+
+Dòng thứ nhất chứa ba số nguyên N, X và K (1 ≤ N ≤ 105, |X| ≤ 106,
+1 ≤ K ≤ 109);
+Dòng thứ i trong N dòng tiếp theo chứa 2 số nguyên Xi và Wi (|Xi| ≤
+
+106, 1 ≤ Wi ≤ 109).
+
+9
+
+).
+
+Output
+In ra file DS.OUT gồm k số đứng đầu dãy D theo thứ tự không giảm cách
+nhau bởi dấu cách.
+Ràng buộc:
+3
+
+Output
+
+- Subtask 1 (40% số điểm): n ≤ 10
+
+Ghi ra tệp văn bản MARIO.OUT một số nguyên duy nhất là tổng sức
+mạnh tối đa Mario ăn được từ các cây nấm sau một lượt chơi.
+
+- Subtask 2 (60% số điểm): Không có ràng buộc gì thêm.
+
+Ví dụ:
+
+input
+
+Input:
+
+3 3
+1 7 11
+2 4 6
+
+437
+09
+41
+
+output
+3 5 7
+
+55
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

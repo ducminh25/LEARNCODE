@@ -1,0 +1,1436 @@
+Level 3 (video)
+
+00. XEM TÀI LIỆU - BÀI GIẢNG
+
+output
+15
+
+1 s., 256 MB
+LINK TÀI LIỆU - BÀI GIẢNG:
+https://docs.google.com/document/d/13uni2Et3c_8Q3fbRmvVJZNwEQI0vK4G/edit?
+usp=sharing&ouid=110550505667089977279&rtpof=true&sd=true
+CÁCH NỘP BÀI: http://www.chuyentin.pro/2022/05/huong-dan-nop-codec-len-trang-cham.html
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+Input
+
+1C. LECHAN Số vị trí lẻ có giá trị chẵn
+1 second, 256 megabytes
+Cho dãy số a gồm n số nguyên nguyên a1 , a2 , … , an . Xuất ra các số
+nằm ở vị trí lẻ (a1 , a3 , a5 , . . . ) nhưng có giá trị chẵn trong dãy a.
+
+Input
+Dòng đầu là số n.
+Dòng sau gồm n số a1 , a2 , … , an .
+
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+Output
+
+Output
+
+Ghi vị trí các số thỏa đề bài, xuất theo thứ tự tăng dần.
+
+Ghi một số nguyên là diện tích s.
+
+input
+
+input
+5 3
+
+7
+2 1 3 4 2 3 1
+
+output
+
+output
+
+15
+
+1 5
+
+1A. NHIETDO Nhiệt độ trong tuần
+
+1D. CPHUONG411 Hàm kiểm tra số chính
+phương
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Cho nhiệt độ mỗi ngày trong tuần, tính và đưa ra màn hình nhiệt độ trung
+bình của tuần (yêu cầu 1) và số lượng ngày trong tuần có nhiệt độ cao
+hơn nhiệt độ trung bình (yêu cầu 2).
+
+Cho dãy số a gồm n số tự nhiên a1 , a2 , … , an . Liệt kê tất cả các phần
+tử có giá trị là số chính phương trong dãy số.
+
+Input
+
+Input
+
+Gồm 7 dòng, mỗi dòng là nhiệt độ ti một ngày (0
+
+≤ ti ≤ 100)
+
+Output
+Dòng 1 là nhiệt độ trung bình, làm tròn 2 chữ số thập phân. Dòng 2 là số
+ngày lớn có nhiệt độ lớn hơn trung bình.
+
+Dòng đầu: số tự nhiên n(n
+
+Dòng sau: n số a1 , a2 , … , an . (0
+
+input
+
+Output
+
+input
+5
+2 4 9 7 3
+
+output
+2
+3
+
+output
+36.00
+3
+
+1E. HAMTOANLE Kiểm tra số toàn lẻ
+1 second, 256 megabytes
+
+1B. TONGDS Tổng dãy số
+
+Số toàn lẻ là số có các chữ số là số lẻ. Cho dãy số a gồm n số tự nhiên
+a1 , a2 , … , an , tìm các bộ ba số toàn lẻ liên tiếp nhau?
+
+1 second, 256 megabytes
+Cho dãy n số tự nhiên a1 , a2 , a3 , … , an . Tính tổng các số lẻ trong dãy
+số đó.
+
+Input
+Dòng đầu là số tự nhiên n
+
+Output
+Một số nguyên là tổng các số lẻ trong dãy số.
+
+Input
+Dòng đầu: số tự nhiên n(n
+
+≤ 1000)
+
+Dòng sau: n số a1 , a2 , … , an . (0
+
+.
+
+≤ 100
+
+Dòng sau gồm n số tự nhiên a1 , a2 , … , an (|ai |
+
+5
+5 8 2 9 1
+
+< ai < 100)
+
+Chỉ số các phần tử có giá trị là số chính phương, mỗi phần tử trên 1
+dòng.
+
+33
+34
+35
+36
+37
+38
+39
+
+input
+
+< 100)
+
+≤ 100)
+
+.
+
+.
+
+< ai ≤ 1000)
+
+Output
+Vị trí các số thuộc bộ ba. Mỗi bộ ba trên 1 dòng.
+
+input
+5
+21 13 159 117 3
+
+.
+
+output
+
+input
+
+2 3 4
+3 4 5
+
+4
+0
+2
+4
+4
+
+2A. DOICHO Đổi chỗ Min Max
+
+3
+5
+2
+0
+
+output
+
+1 second, 256 megabytes
+Cho dãy số a có n phần tử nguyên dương. Viết chương trình đổi chỗ 2
+phần tử lớn nhất và nhỏ nhất cho nhau. Nếu có nhiều phần tử lớn nhất và
+nhỏ nhất thì đổi chỗ phần tử lớn nhất có chỉ số nhỏ nhất và phần tử nhỏ
+nhất có chỉ số lớn nhất.
+
+6
+
+2D. HORSE Ngựa truyền tin
+1 second, 256 megabytes
+
+Input
+Dòng 1: số nguyên dương n(n
+Dòng 2
+
+: n
+
+≤ 100)
+
+.
+
+số nguyên dương a1 , a2 , . . . , an . (ai
+
+≤ 100)
+
+.
+
+Output
+Mảng a sau khi đổi chỗ.
+
+input
+9
+4 3 3 4 5 6 8 6 8
+
+output
+4 3 8 4 5 6 3 6 8
+
+Có 2 phần tử a[7] và a[9] đều có giá trị lớn nhất là 8, theo yêu cầu đề ta
+chọn a[7] .
+Có 3 phần tử có giá trị nhỏ nhất là a[2]
+ta chọn a[5] .
+
+= a[3] = a[5]
+
+, theo yêu cầu đề
+
+Đổi chỗ a[7] và a[5] ta được dãy số mới.
+
+2B. SUMMIN Tổng bé nhất
+1 second, 256 megabytes
+Cho dãy số nguyên a
+
+= (a 1 , a 2 , . . . , a n )
+
+.
+
+Yêu cầu tìm 2 số nguyên liên tiếp trong dãy a
+đối của tổng là bé nhất.
+
+: ap , ap+1
+
+có giá trị tuyệt
+
+Tin tức tình báo thu được cho thấy quân địch sắp mở cuộc tấn công quy
+mô. Trạm tiền đồn biên giới cử người phóng ngựa về thủ đô báo cáo tình
+hình và xin tiếp viện. Giữa tram tiền đồn và thủ đô có bố trí N − 2 trạm
+ngựa cách đều nhau, ở đó lính cờ (người cầm cờ hiệu đưa tin) có quyền
+trao đổi ngựa mới trong trạm. Ngựa của trạm i có thể phi tới trạm kế tiếp
+sau thời gian T [i] giờ. Mỗi con ngựa đều đủ khỏe để có thể đi một mạch
+tới tận thủ đô.
+Yêu cầu: Hãy xác định khoảng thời gian ngắn nhất tin tức tình báo được
+đưa về tới thủ đô.
+
+Input
+Dòng đầu là số nguyên N (N
+
+6
+
+.
+
+≤ 10 )
+
+Dòng 2 là n số nguyên T [i] .
+
+Input
+Gồm 2 dòng
+
+Output
+
+Dòng 1: Chứa số nguyên n(2
+
+≤ n ≤ 10000)
+
+.
+
+Dòng 2: Chứa n số a1 , a2 , . . . , an theo đúng thứ tự cách nhau một dấu
+cách (|ai | ≤ 10000) .
+
+Output
+
+Gồm 1 dòng duy nhất là giá trị cần tìm.
+
+input
+5
+2 4 3 1 5
+
+Dòng 1: Ghi tổng tìm được.
+
+output
+
+Dòng 2: Ghi hai vị trí p và p + 1 có giá trị tuyệt đối của tổng nhỏ nhất,
+nếu có nhiều cặp (p, p + 1) thỏa đề bài thì xuất cặp (p, p + 1) lớn nhất.
+
+7
+
+2E. 2019 HSG9 DONGNAI B3. TREES Cắt cây
+
+input
+
+1 second, 256 megabytes
+
+5
+2 3 9 -2 3
+
+Link đề: http://www.chuyentin.pro/2019/10/e-thi-hoc-sinh-gioi-lop-9-montin-tinh.html
+
+output
+1
+4 5
+
+Trên đường về nha, Tèo nhìn thầy hai bên đường có rất nhiều cây mới
+trồng.
+
+2C. TRAM195 Trạm xe điện
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2022/08/tram195-xe-ien.html
+
+Mỗi cây có một độ cao nhất định và không đều nhau, nhìn không vừa ý
+Tèo. Tèo có dự định gửi một bức thư đến Ban quản lý cây xanh để đề
+nghị làm cho hàng cây đẹp hơn bằng cách cắt tỉa bớt độ cao của một số
+cây để tất cả các cây có độ cao bằng nhau.
+Ban quản lý sau khi nhận được đề nghị của Tèo cũng thấy hợp lý và họp
+lại để bàn cách thực hiện. Họ đang băng khoăn không biết sau khi cắt tỉa
+thì phần cây đã cắt xuống có vượt quá khả năng xử lý hay không.
+Yêu cầu: Hãy tính toán tổng độ dài của phần đã cắt xuống.
+
+Chữ số 0 tính 4 điểm.
+
+Input
+Dòng đầu ghi số nguyên N là số cây đã được trồng (1
+
+6
+
+≤ N ≤ 10 )
+
+Dòng tiếp theo ghi N số nguyên dương là độ cao của mỗi cây, không
+vượt quá 1000 .
+
+Yêu cầu: hãy giúp trang website tính điểm thưởng cho n khách từ mã hóa
+đơn được nhập vào.
+
+Input
+Dòng 1 ghi một số nguyên dương N (1
+
+Output
+Ghi tổng độ dài phần cây đã cắt xuống.
+
+dòng tiếp theo, các số x(0
+
+N
+
+4
+
+≤ N ≤ 10 )
+8
+
+< x < 10 )
+
+Output
+
+input
+
+n
+
+5
+1 2 3 4 5
+
+điểm thưởng tương ứng
+
+input
+
+output
+
+3
+32145
+3652014
+9632142
+
+10
+
+input
+
+output
+
+5
+5 5 5 5 5
+
+9
+16
+13
+
+output
+0
+
+3A. LOHONG Lỗ hổng chữ số
+
+3C. THOIGIAN Giải mã thời gian (2014 TS10
+HCM B3)
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Lớp của Bờm tuy không phải là lớp chuyên nhưng phong trào học Toán –
+Tin rất sôi động. Thầy giáo của Bờm rất tâm huyết, luôn tìm các bài toán
+hay, mới, lạ, đặc biệt là bài toán quy luật để dạy trò. Một hôm, thầy giáo
+đến lớp thật sớm trước tiết toán, viết lên bảng một dãy có quy luật sau:
+
+Link đề: http://www.chuyentin.pro/2017/05/e-thi-tuyen-sinh-lop-10-chuyentin.html
+
+42 –> 1, 1337 –> 0, 669 –> 3, 1882 –> 4, 688 –> 5, 12345 –> 1, 123 –> 0,
+456 –> 2, 789 –> 3. Và thầy đố cả lớp rằng: 45678 –> ?
+Bằng một cái đầu rất nhạy bén Toán Tin, nhất là những bài toán Tin logic,
+Bờm đã kiếm được lời giải trên … Google ngay khi về đến nhà. Chật vật
+một hồi, cậu đã tìm ra quy luật của bài toán: chuyển số "lỗ hổng" trong
+các chữ số của số đã cho và biểu diễn chúng (không có chữ số 0 ở đầu).
+Chữ số 1, 2, 3, 5 và 7 không có lỗ hổng nào; các chữ số 0, 4, 6, 9 có một
+"lỗ hổng" và đặc biệt chữ số 8 có đến 2 lỗ hổng.
+Hôm sau Bờm rất tự tin mở rộng bài toán bằng cách thêm vào một vài số
+nữa đến đố bạn các lớp bên cạnh. Bạn đọc hãy giúp các bạn ấy giải bài
+này để Bờm không được dịp "kiêu" nhé.
+
+input
+13 10
+
+output
+20:06
+
+input
+6 0
+
+output
+1:11
+
+3D. TTCHAN Số thứ tự chẵn
+1 second, 256 megabytes
+
+Input
+gồm một số nguyên duy nhất n(1
+
+9
+
+≤ n ≤ 10 )
+
+Output
+một số nguyên duy nhất là số lỗ hổng của số đã cho
+
+Cho dãy số a gồm n số nguyên dương a1 , a2 , … , an . Xuất ra giá trị các
+số ở vị trí chẵn a2 , a4 , a6 , . . .
+
+Input
+Dòng đầu là số n.
+
+input
+45678
+
+Dòng sau gồm n số a1 , a2 , … , an .
+
+output
+
+Output
+
+4
+
+Giá trị các số ở vị trí chẵn a2 , a4 , a6 , . . .
+
+3B. 2020 HSG9 DONGNAI BIENHOA B3.
+TICHDIEM Tích điểm
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2020/01/e-thi-hoc-sinh-gioi-lop-9-montin-hoc.html
+Một trang bán hàng Online thực hiện chương trình tích điểm thưởng cho
+khách mua hàng. Điểm thưởng được tính dựa vào các chữ số mã hóa
+đơn khách mua hàng như sau:
+Chữ số không chia hết cho 3 tính 2 điểm.
+Chữ số chẵn chia hết cho 3 và khác 0 tính 3 điểm.
+Chữ số lẻ chia hết cho 3 tính 1 điểm.
+
+input
+7
+2 1 3 4 2 3 1
+
+output
+1 4 3
+
+3E. DOTUOI Nhận dạng độ tuổi
+1 second, 256 megabytes
+Trong sân bay vừa mới lắp đặt thiết bị nhận dạng độ tuổi của khác. Thiết
+bị có khả năng nhận dạng, phân loại độ tuổi từ trẻ mới sinh đến người già
+thành k loại, số loại không quá 100, các loại được đánh số từ 1 đến k .
+Hằng ngày, thiết bị nhận dạng ghi nhận N khách, khi một khách đi qua,
+thiết bị nhận dạng và ghi lại số loại tuổi của khách.
+
+Yêu cầu: Hãy cho biết số lần ghi nhận liên tiếp nhiều nhất của cùng một
+loại tuổi.
+
+Input
+Dòng đầu tiên là số nguyên N (1
+
+5
+
+< N ≤ 10 )
+
+dòng tiếp theo, mỗi dòng chứa một số nguyên, số của loại tuổi theo
+thứ tự nhận dạng được.
+N
+
+Output
+Số lượng lớn nhất của cùng một loại tuổi liên tiếp nhận được.
+
+input
+4
+2
+3
+2
+4
+6
+6
+7
+
+5
+8
+5
+3
+
+output
+22
+
+input
+10
+1
+4
+4
+5
+5
+5
+4
+5
+5
+4
+
+4C. THAYDOI Thay đổi mảng
+1 second, 256 megabytes
+Cho mảng a có n phần tử và 2 số nguyên k, x . Lần lượt thực hiện các
+thao tác sau:
+
+output
+
+1)
+
+Tạo mảng b gồm các phần tử có giá trị chẵn trong mảng a.
+
+2)
+
+Xóa phần tử có chỉ số k trong mảng b.
+
+3)
+
+Thêm phần tử có giá trị x vào đầu mảng b.
+
+4)
+
+Dịch chuyển xoay vòng mỗi phần tử trong mảng b qua trái một vị trí.
+
+3
+
+4A. SEQ Dãy số (2015 HSG9 DANANG)
+1 second, 256 megabytes
+
+Input
+Dòng đầu gồm 3 số n, k, x
+Dòng sau gồm n số a1 , a2 , … , an
+
+Link đề: http://www.chuyentin.pro/2021/08/e-thi-hoc-sinh-gioi-lop-9-montin-hoc.html
+
+input
+
+Output
+Xuất mảng b mỗi câu trên một dòng.
+
+input
+
+4
+-2 5 3 6
+
+7 3 3
+4 2 3 3 5 10 2
+
+output
+
+output
+
+6
+
+4
+4
+3
+4
+
+input
+3
+2 3 4
+
+2
+2
+4
+2
+
+10 2
+2
+2 2
+2 3
+
+4D. XEPGACH Xếp gạch
+
+output
+
+1 second, 256 megabytes
+
+N
+
+4B. CUUCHUOI Cứu chuối
+1 second, 256 megabytes
+Tèo tham gia một tổ chức thu mua chuối giúp người nông dân. Cậu sử
+dụng một phần mềm đặc biệt để định giá cho mỗi buồng chuỗi. Dựa trên
+bức ảnh chụp mỗi buồng chuối, phần mềm sẽ đưa ra 2 giá trị ước tính
+P 1 và P 2 . Nếu chênh lệnh giữa P 1 và P 2 là bé hơn hoặc bằng X , thì
+phần mềm sẽ chọn giá cao hơn. Nếu chênh lệch giữa P 1 và P 2 lớn hơn
+X , phần mềm sẽ trả về giá trị thứ ba P 3 là giá mua của buồng chuối đó.
+Yêu cầu: tính tổng giá trị của tất cả các buồng chuối.
+
+Input
+Dòng đầu tiên ghi số nguyên N (1
+Dòng thứ hai ghi số nguyên X(1
+N
+
+≤ N ≤ 20)
+
+≤ X ≤ 10)
+
+, số lượng buồng chuối.
+
+Dòng đầu ghi hai số nguyên P 1 và P 2(1
+thứ hai ghi P 3(1 ≤ P 3 ≤ 100)
+
+hoặc
+
+≤ P 1, P 2 ≤ 100)
+
+, và dòng
+
+≤ P 1, P 2 ≤ 100)
+
+Output
+Ghi tổng giá trị của tất cả các buồng chuối.
+
+Yêu cầu: đưa ra số lần di chuyển ít nhất của các viên gạch sao cho từ
+các chồng gạch có độ cao khác nhau trở thành các chồng gạch có độ cao
+bằng nhau; lần lượt từng viên một cho đến khi hoàn thành công việc.
+
+Input
+Dòng đầu tiên là số chồng gạch n(1
+
+.
+
+khối dòng sau mô tả các giá trị phần mềm định giá, mỗi khối có thể là:
+
+Một dòng ghi hai số nguyên P 1 và P 2(1
+
+Minh rất thích trò chơi xếp các chiếc hộp có hình viên gạch. Minh đặt các
+viên gạch chồng lên nhau và xây thành nhiều chồng có độ cao khác nhau.
+Minh khoe với chị rằng "Chị trông, em đã xây được một bức tường". Chị
+Minh trả lời: "Em phải xếp các viên gạch có độ cao giống nhau mới được
+gọi là một bức tường". Sau khi nghe chị nó như vậy, nó cân nhắc một tí
+và cho rằng ý kiến đó là đúng. Vì vậy em bắt đầu tiến hành sắp xếp lại
+các chồng gạch lần lượt từng chiếc một cho đến khi hoàn thành công
+việc. Khi công việc đã hoàn tất. Minh mệt lả và muốn có bạn nào giúp
+Minh di chuyển các viên gạch với số lần ít nhất.
+
+6
+
+≤ n ≤ 10 )
+
+Dòng tiếp theo lần lượt là các số nguyên hi , độ cao của chồng gạch thứ
+i. (1 ≤ h i ≤ 100, i = 1. . n) .
+
+Output
+Một số nguyên dương duy nhất là số lần di chuyển các viên gạch ít nhất.
+Nếu không thể xếp được thì ghi −1.
+
+input
+6
+5 2 4 1 7 5
+
+M dòng tiếp theo:Dòng thứ I ghi N ký tự trong tập từ 'a' đến'z' với ký tự
+thứ j là điểm ảnh ở dòng i, cột j của bức ảnh thứ hai
+
+output
+5
+
+Output
+Ghi ra số vị trí điểm ảnh khác nhau giữa hai bức ảnh
+
+4E. CHIA11 Chia mảng tỉ lệ 1:1
+1 second, 256 megabytes
+Tìm cách chia dãy số nguyên không âm a1 , a2 , . . . , an , n > 1 cho trước
+thành hai đoạn có tổng các phần tử trong mỗi đoạn bằng nhau.
+
+Input
+Dòng đầu gồm số n(n
+
+output
+
+3
+
+< 10 )
+
+Dòng sau gồm n số là các phần tử mảng a. (0
+
+input
+2 3
+aaa
+bbb
+aaa
+abc
+
+9
+
+≤ ai ≤ 10 )
+
+2
+
+Output
+
+5C. CHEO1 Duyệt đường chéo
+
+Số lượng các phần tử trong đoạn đầu (từ a1 a2 …). Nếu không có cách
+chia xuất 0.
+
+1 second, 256 megabytes
+Cho bảng vuông A n*n phần tử. Tính tổng các phần tử ở đường chéo phụ
+(đường chéo từ phải qua trái)
+
+input
+7
+1 2 3 4 5 9 6
+
+Input
+
+output
+
+dòng đầu ghi số nguyên dương n (1 <= n <= 1000)
+
+5
+
+Output
+tổng các phần tử trên đường chéo phụ
+
+5A. DUYETBANG Duyệt bảng
+1 second, 256 megabytes
+Cho bảng amxn có các phần tử là số thực. Tìm các phần tử của bảng có
+giá trị nhỏ hơn k
+
+Input
+Dòng đầu gồm 3 số m, n, k (1 <= m, n <= 1000; |k| <=10^9)
+m dòng sau, mỗi dòng n số ghi các phần tử của bàng
+
+input
+4
+3
+2
+3
+5
+
+6
+4
+4
+7
+
+4
+6
+5
+2
+
+5
+8
+6
+3
+
+output
+20
+
+5 + 6 + 4 + 5 = 20
+
+Output
+Xuất số lượng các phần tử thỏa đề bài theo mẫu ví dụ
+
+5D. CHEO2 Duyệt đường chéo chính
+
+input
+
+1 second, 256 megabytes
+
+3 5 4
+3 5 3 6 3
+-2 4 6 2 -4
+2 6 4 1 -2
+
+Cho bảng vuông A gồm nxn phần tử. Tìm phần tử lớn nhất trên đường
+chéo chính. Nếu có nhiều phần tử có giá trị lớn nhất thì xuất phần tử đầu
+tiên.
+
+output
+
+Input
+
+9
+
+dòng đầu ghi số nguyên dương n
+
+5B. DIFFER Điểm khác nhau
+1 second, 256 megabytes
+Smile rất chơi trò chơi tìm điểm khác nhau giữa hai bức ảnh, cậu thường
+gặp trò chơi này trong các tạp chí cũ của bố. Biết được sở thích của
+Smile, bố cậu đã download phiên bản điện tử của trò chơi này trên máy
+tính cho Smile chơi thử. Smile nhận thấy rằng mọi việc đều phức tạp hơn
+với trò chơi trên máy tính.Cậu chỉ có một thời gian nhất định để chơi,
+chưa kể đến việc kích thước của bức ảnh sẽ lớn dần lên sau mỗi màn
+chơi. Bạn hãy giúp Smile chơi trò này nhé!
+Mỗi bức ảnh được biểu diễn bởi 1 bảng m x n điểm ảnh. Mỗi điểm ảnh
+được biểu thị bằng 1 chữ cái 'a' ... 'z'.
+Cho 2 bức ảnh kích thước m x n. Đếm xem có bao nhiêu vị trí (i, j) mà
+điểm ảnh ở vị trí này của 2 bức ảnh là khác nhau.
+
+Input
+Dòng 1:Ghi hai số nguyên M và N là số dòng và cột của bức ảnh (1 < M,N
+<= 1000).
+M dòng tiếp theo:Dòng thứ i ghi N ký tự trong tập từ 'a' đến'z' với ký tự
+thứ j là điểm ảnh ở dòng i, cột j của bức ảnh thứ nhất
+
+Output
+vị trí phần tử lớn nhất thỏa đề bài
+
+input
+4
+3
+2
+3
+5
+
+6
+4
+4
+7
+
+4
+6
+5
+2
+
+5
+8
+6
+3
+
+output
+a33
+
+Các phần tử trên đường chéo chính gồm: a[1][1] = 3, a[2][2] = 4, a[3][3] =
+5, a[4][4] = 3. Phần tử lớn nhất là a[3][3]
+
+5E. BANGDX Bảng đối xứng
+1 second, 256 megabytes
+Cho một bảng kích thước 5 × 5, gồm 24 ô ghi số 0 và một ô duy nhất ghi
+số 1. Các hàng được đánh số 1-5 từ trên xuống, các cột được đánh số 15 từ trái sang phải. Mỗi thao tác, bạn được phép áp dụng một trong hai
+biến đổi sau trên bảng:
+
+1) Đổi chỗ hai hàng kề nhau.
+2) Đổi chỗ hai cột kề nhau.
+Một bảng gọi là đối xứng nếu số 1 duy nhất nằm ở chính giữa bảng, tức
+là nằm ở ô (3, 3).
+Yêu cầu: Đếm số lượng tối thiểu các thao tác cần thiết để từ bảng ban
+đầu ta được một bảng đối xứng.
+
+Input
+Gồm 5 dòng, mỗi dòng ghi 5 số nguyên là các số ghi trong mỗi ô của
+bảng. Luôn đảm bảo rằng bảng sẽ gồm 24 số 0 và một số 1.
+
+Output
+Ghi một số nguyên duy nhất - số lượng tối thiểu các thao tác cần thiết để
+làm cho bảng đối xứng.
+
+input
+0
+0
+0
+0
+0
+
+0
+0
+0
+0
+0
+
+0
+0
+0
+0
+0
+
+0
+0
+0
+0
+0
+
+0
+1
+0
+0
+0
+
+Bessie dự định cả ngày sẽ nhai cỏ xuân và ngắm nhìn cảnh xuân trên
+cánh đồng của nông dân John, cánh đồng này được chia thành các ô
+vuông nhỏ với R(1 <= R <= 100) hàng và C (1 ≤ C ≤ 100) cột.
+Bessie ước gì có thể đếm được số khóm cỏ trên cánh đồng.
+Mỗi khóm cỏ trên bản đồ được đánh dấu bằng một ký tự '#' hoặc là 2 ký
+tự '#' nằm kề nhau (trên đường chéo thì không phải). Cho bản đồ của
+cánh đồng, hãy nói cho Bessie biết có bao nhiêu khóm cỏ trên cánh đồng.
+
+Input
+
+output
+
+Dòng 1
+
+3
+
+Dòng 2..R + 1: Dòng i + 1 mô tả hàng i của cánh đồng với C ký
+
+: 2
+
+số nguyên cách nhau bởi dấu cách: R và C
+
+tự, các ký tự là '#' hoặc '.' .
+
+6A. DEMTAU Đếm tàu
+1 second, 256 megabytes
+
+Output
+Một số nguyên cho biết số lượng khóm cỏ trên cánh đồng.
+
+input
+5 6
+.#....
+..#...
+..#..#
+...##.
+.#....
+
+output
+5
+
+Bản đồ một vùng biển hình chữ nhật gồm m dòng, n cột. Trên biển có
+các con tàu hình chữ nhật chứa các kí tự 1, vùng nước được biểu thị qua
+các kí tự 0. Biết rằng các con tàu không dính nhau. Hãy đếm số lượng
+tàu. Ví dụ, hình bên có 5 tàu.
+
+Cánh đồng này có 5 khóm cỏ: một khóm ở hàng đầu tiên, một khóm tạo
+bởi hàng thứ 2 và thứ 3 ở cột thứ 2, một khóm là 1 ký tự nằm riêng rẽ ở
+hàng 3, một khóm tạo bởi cột thứ 4 và thứ 5 ở hàng 4, và một khóm cuối
+cùng ở hàng 5.
+
+6C. HANGCOT Duyệt Hàng – cột
+1 second, 256 megabytes
+Cho bảng m*n số nguyên
+1. Tính tổng các phần tử ở hàng thứ k
+
+Input
+
+2. Đếm số phần tử chẵn ở cột k
+
+Dòng đầu gồm 2 số m, n. (m, n ≤ 1000)
+M dòng sau, mỗi dòng n số ai j biểu diễn vùng biển.
+
+3. Tìm hàng có tổng lớn nhất.
+4. Kiểm tra cột k có toàn số chẵn không?
+
+Output
+
+Input
+
+Số tàu đếm được
+
+Dòng đầu: 3 số m, n, k (1 <= m, n, k <= 1000)
+
+input
+4
+1
+0
+1
+1
+
+9
+1
+0
+1
+1
+
+1
+0
+0
+0
+
+1
+0
+0
+0
+
+Output
+0
+0
+0
+1
+
+0
+0
+0
+1
+
+1
+1
+0
+0
+
+1
+1
+0
+0
+
+Ghi đáp án mỗi câu 1 dòng
+
+1
+1
+0
+1
+
+input
+3 5 2
+3 -4 3 6 3
+-2 4 6 2 -4
+2 6 4 1 -2
+
+output
+5
+
+output
+
+6B. VBGRASS Bãi cỏ ngon nhất
+1 second, 256 megabytes
+
+ế
+
+6
+3
+1
+yes
+
+6D. VOTE Bỏ phiếu (2021 HSG9 HANOI B2)
+4 seconds, 256 megabytes
+
+http://www.chuyentin.pro/2021/01/e-thi-hoc-sinh-gioi-tin-hoc-lop-9thanh.html
+
+input
+0
+0
+0
+X
+0
+
+X
+0
+X
+0
+X
+
+0
+X
+0
+X
+X
+
+Output
+tổng 2 đường chéo
+
+LINK ĐỀ (bài 2):
+
+5
+X
+X
+0
+0
+0
+
+• N dòng sau, mỗi dòng số là các số nguyên aij thuộc bảng A (|aij | ≤
+1000)
+
+X
+X
+0
+0
+0
+
+input
+4
+3
+2
+3
+5
+
+6
+4
+4
+7
+
+4
+6
+5
+2
+
+5
+8
+6
+3
+
+output
+35
+
+Giải thích: 3 + 4 + 5 + 3 + 5 + 6 + 4 + 5 = 35
+
+output
+2 3
+3 4
+
+7D. HANGCAY Hàng cây
+1 second, 256 megabytes
+
+7A. DTRON Đường tròn (2018 TS10 HCM B1)
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2018/06/e-thi-tuyen-sinh-lop-10-chuyentin.html
+
+Đề thi tuyển sinh lớp 10 chuyên tin tỉnh Đồng Tháp
+Dọc theo tuyến đường tỉnh lộ, người ta trồng một hàng cây để tạo bóng
+mát. Có tất cả n cây được đánh số từ 1 đến n theo hướng từ đầu tuyến
+đường đến cuối tuyến đường, cây thứ i có chiều cao ai (i = 1 … n).
+Theo các nhà nghiên cứu, một cây có chiều cao bằng k là lí tưởng nhất vì
+nếu chiều cao thấp hơn thì chưa đủ tán để tạo bóng mát còn nếu chiều
+cao cao hơn sẽ rất dễ ngã đổ khi trời mưa giông.
+
+input
+3 7
+8
+10
+7
+
+Yêu cầu:
+a) Hãy cho biết trong hàng cây hiện tại có bao nhiêu cây đạt chiều cao lí
+tưởng ?
+
+output
+2
+
+7B. DSTANG Dãy số tăng
+1 second, 256 megabytes
+
+b) Tìm số cây đạt chiều cao lí tưởng nhiều nhất liên tiếp nhau dọc theo
+tuyến đường.
+
+Input
+Dòng thứ nhất ghi hai số nguyên dương
+5
+
+Cho dãy số a gồm n số nguyên nguyên a1 , a2 , … , an . Dãy a gọi là dãy
+tăng nếu số sau luôn lớn hơn hoặc bằng số trước (ai+1 ≥ ai ) Kiểm tra
+dãy số có tăng dần không?
+
+Input
+
+n, k(1 ≤ n ≤ 10 , 1 ≤ k ≤ 100)
+
+.
+
+Dòng thứ hai ghi n số nguyên
+5
+
+a1 , a2 , … , an (1 ≤ ai ≤ 10 , i = 1, … n)
+
+.
+
+Output
+
+Dòng đầu là số n.
+Dòng sau gồm n số a1 , a2 , … , an
+
+Output
+Xuất TRUE nếu dãy số là tăng, ngược lại xuất FALSE
+
+input
+
+Dòng thứ nhất ghi số cây đạt chiều cao lý tưởng
+Dòng thứ hai ghi số cây đạt chiều cao lý tưởng nhiều nhất liên tiếp nhau.
+
+input
+10 7
+9 7 8 7 7 7 5 8 7 7
+
+output
+
+7
+2 1 3 4 2 3 1
+
+6
+3
+
+output
+FALSE
+
+8A. BS Bảng số (2022 TS10 PHUYEN B1)
+
+input
+
+1 second, 256 megabytes
+
+5
+1 3 4 5 6
+
+Link đề (bài 1): http://www.chuyentin.pro/2022/06/e-thi-tuyen-sinh-lop-10chuyen-tin-tinh_15.html
+
+output
+
+input
+
+TRUE
+
+3
+
+7C. TONGCHEO Tổng hai đường chéo
+1 second, 256 megabytes
+Cho bảng vuông A n*n phần tử. Tính tổng các phần tử trên 2 đường chéo
+chính phụ lớn nhất.
+
+Input
+• Dòng đầu là số tự nhiên n. (n <=100)
+
+output
+1 2 3
+7 8 9
+6 5 4
+
+input
+4
+
+output
+1 2 3 4
+9 10 11 12
+16 15 14 13
+8 7 6 5
+
+8B. YENNGUA Phần tử yên ngựa
+1 second, 256 megabytes
+
+Centered unscaled image.
+
+Cho bảng A kích thước MxN. Phần tử A i,j được gọi là phần tử yên ngựa
+nếu nó là phần tử nhỏ nhất trong hàng của nó đồng thời là phần tử lớn
+nhất trong cột của nó. Ví dụ trong bảng số sau đây:
+
+8D. TABLE467 Tạo bảng (2004 TS10 PTNK B2)
+1 second, 256 megabytes
+
+15 3 9
+
+Link đề: http://www.chuyentin.pro/2021/11/e-thi-tuyen-sinh-lop-10-chuyentin.html
+
+55 4 6
+76 1 2
+thì phần tử A 2,2 chính là phần tử yên ngựa. Cho một bảng số kích thước
+MxN. Tìm một phần tử yên ngựa trong bảng đó?
+
+Input
+• Dòng đầu là 2 số nguyên dương m, n(m, n
+
+2
+
+.
+
+≤ 10 )
+
+• M dòng sau, mỗi dòng n số nguyên là các phần tử của bảng.
+3
+
+(|ai,j | ≤ 10 )
+
+Output
+ghi vị trí các phần tử yên ngựa tìm được gồm hàng và cột của nó. Mỗi
+phần tử trên một dòng. Nếu có không xuất ra NO
+
+input
+3 3
+15 3 9
+55 4 6
+76 1 2
+
+output
+2 2
+
+8C. RECT537 Hình chữ nhật
+1 second, 256 megabytes
+Trên giấy kẻ ô khổ N x N có vẽ một số hình chữ nhật. Mỗi hình chữ nhật
+được tạo ra từ các ô nguyên vẹn, các hình chữ nhật khác nhau không
+chồng lên nhau và không tiếp xúc nhau
+Cho mảng A có kích thước N x N, trong đó A[i,j]=0 nếu ô [i,j] thuộc một
+hình chữ nhật nào đó, còn A[i,j] =1 trong trường hợp ngược lại. Hãy viết
+chương trình xác định số các hình chữ nhật có trong bảng.
+
+Input
+- Dòng đầu tiên ghi số nguyên dương N (N<=250).
+- N dòng tiếp theo mỗi dòng ghi N số 0 hoặc 1 là các phần tử của mảng,
+mỗi số viết cách nhau ít nhất một dấu cách
+
+Output
+Số lượng hình chữ nhật
+
+input
+7
+0
+1
+0
+0
+1
+1
+1
+
+1
+1
+1
+1
+1
+1
+1
+
+1
+0
+0
+0
+1
+1
+1
+
+1
+0
+0
+0
+1
+1
+1
+
+output
+4
+
+1
+0
+0
+0
+1
+0
+0
+
+1
+1
+1
+1
+1
+0
+0
+
+1
+1
+1
+1
+1
+0
+0
+
+input
+4
+1
+5
+9
+5
+
+2
+6
+8
+4
+
+3
+7
+7
+3
+
+4
+8
+6
+2
+
+output
+4
+8 12 16 15
+21 28 31 25
+27 34 31 23
+18 20 16 11
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

@@ -1,0 +1,1866 @@
+Level 16 - Graph 1
+
+00. XEM TÀI LIỆU - BÀI GIẢNG
+1 s., 256 MB
+
+output
+5
+
+LINK TÀI LIỆU:
+https://docs.google.com/document/d/14UuLKbIZP1CNGLl64xmTpRGpCC
+nGcao_/edit?
+usp=sharing&ouid=110550505667089977279&rtpof=true&sd=true
+CÁCH NỘP BÀI: http://www.chuyentin.pro/2022/05/huong-dan-nop-codec-len-trang-cham.html
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+1B. ONEPATH Tìm một đường đi
+1 second, 256 megabytes
+Đường đi đơn là đường đi mà các đỉnh hoàn toàn phân biệt (pi <> pj ).
+Ví dụ, đồ thị sau có đúng 2 đường đi đơn từ đỉnh 1 đến đỉnh 6 là
+1− > 3− > 4− > 6 và 1− > 2− > 3− > 4− > 6 . (Trong các bài
+sau, nếu không nói cụ thể thì "đường đi" tức chỉ đường đi đơn).
+
+Input
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+Output
+Ghi một số nguyên là diện tích s.
+
+input
+
+Cho đồ thị G = (V, E) và 2 đỉnh s, f . Tìm một đường đi từ s -> f .
+
+5 3
+
+Input
+
+output
+
+Dòng 1 chứa số đỉnh n, số cạnh m của đồ thị, đỉnh xuất phát s , đỉnh
+
+15
+
+5
+
+kết thúc f (n, m ≤ 10 ; 1 ≤ s, f ≤ n)
+m dòng tiếp theo, mỗi dòng có dạng hai số nguyên dương u, v cách
+nhau một dấu cách, thể hiện có cạnh (cung) nối từ đỉnh u đến đỉnh v
+
+1A. DENDUOC Đỉnh đến được
+1 second, 256 megabytes
+
+trong đồ thị m dòng tiếp theo, mỗi dòng có dạng hai số nguyên
+dương u, v cách nhau một dấu cách, thể hiện có cạnh (cung) nối từ
+đỉnh u đến đỉnh v trong đồ thị
+
+Đồ thị vô hướng n đỉnh, m cạnh là một tập hợp gồm các đỉnh được đánh
+số 1, 2, …, n và m cạnh, mỗi cạnh (u, v) nối giữa đỉnh u và đỉnh v.
+Cho đồ thị G. Đường đi P = (p0, p1, …, pk) đi qua k+1 đỉnh p0, p1, … ,
+pk và k cạnh (p0, p1), (p1, p2), … , (pk-1, pk) đi từ đỉnh p0 đến đỉnh pk. Kí
+hiệu p0-> pk. P0 gọi là đỉnh đầu, pk gọi là đỉnh cuối, p1, …, pk-1 gọi là
+đỉnh trong.
+Đỉnh u gọi là đến được từ s nếu có đường đi P = (s, p1, …, pk, u) từ s
+đến u.
+
+Output
+Đường đi từ s -> f , nếu không có xuất −1. Nếu có nhiều thì xuất đường
+đi có thứ tự từ điển nhỏ nhất.
+Subtask: 8/10 test có n
+
+output
+1 2 3 4 6
+
+1C. ZEROPATH Phân tích số
+1 second, 256 megabytes
+
+Subtask: 75% test có n ≤103 .
+• Dòng 1 chứa số đỉnh n, số cạnh m của đồ thị, đỉnh xuất phát s. (1 ≤ n ≤
+5
+
+10 , 1 ≤ m ≤ 10
+
+5
+
+, 1 ≤ s ≤ n)
+
+• m dòng tiếp theo, mỗi dòng có dạng hai số nguyên dương u, v cách
+nhau một dấu cách, thể hiện có cạnh nối từ đỉnh u đến đỉnh v trong đồ thị
+
+Output
+Số lượng các đỉnh có thể đến được từ s (tính cả đỉnh s).
+
+input
+8
+1
+1
+2
+2
+4
+7
+
+6 1
+2
+3
+3
+4
+6
+8
+
+.
+
+6 1 6
+2
+3
+3
+4
+6
+8
+
+Yêu cầu: Cho đồ thị vô hướng G = (V, E) và đỉnh s. Tìm số lượng các
+đỉnh có thể đến từ s.
+
+Input
+
+3
+
+input
+8
+1
+1
+2
+3
+4
+7
+
+Ví dụ đồ thị trên gồm 8 đỉnh và 6 cạnh sau. Có một đường đi từ đỉnh 1
+đến đỉnh 6 là: 1 - > 2 ->4->6. Từ đỉnh 1 có thể đến được các đỉnh 1, 2, 3,
+4, 6.
+
+≤ 10
+
+Mỗi một số nguyên dương đều có thể biểu diễn dưới dạng tích của 2 số
+nguyên dương X, Y sao cho X ≤ Y . Nếu như trong phân tích này ta thay
+X bởi X-1 còn Y bởi Y+1 thì sau khi tính tích của chúng ta thu được hoặc
+là một số nguyên dương mới hoặc là số 0 .
+Ví dụ: Số 12 có 3 cách phân tích 1*12 ,3*4 , 2*6. Cách phân tích thứ nhất
+cho ta tích mới là 0: (1-1)*(12+1) = 0 , cách phân tích thứ hai cho ta tích
+mới 10: (3-1)*(4+1) = 10 , còn cách phân tích thứ ba cho ta 7: (2-1)*
+(6+1)=7 . Nếu kết quả là khác 0 ta lại lặp lại thủ tục này đối với số thu
+được . Rõ ràng áp dụng liên tiếp thủ tục trên, cuối cùng ta sẽ đến được số
+0 , không phụ thuộc vào việc ta chọn cách phân tích nào để tiếp tục
+Yêu cầu: Cho trước số nguyên dương N, hãy đưa ra tất cả các số
+nguyên dương khác nhau có thể gặp trong việc áp dụng thủ tục đã mô tả
+đối với N.
+
+Input
+ghi số nguyên dương N. (1 ≤ N ≤ 10
+
+5
+
+)
+
+Output
+Gồm 2 dòng
+• Dòng đầu tiên ghi K là số lượng số tìm được
+• Dòng tiếp theo chứa K số tìm được theo thứ tự tăng dần bắt đầu từ số
+0.
+Lưu ý: Có thể có số xuất hiện trên nhiều đường biến đổi khác nhau ,
+nhưng nó chỉ được tính một lần trong kết quả .
+
+input
+Centered unscaled image.
+
+12
+
+output
+
+2A. CTDON Tìm chu trình đơn từ 1 đỉnh
+
+6
+0 3 4 6 7 10
+
+1 second, 256 megabytes
+
+1D. CONNECT Các thành phần liên thông
+
+Cho đồ thị G.
+Đường đi P = (p0 , p1 , … , pk ) đi qua k + 1 đỉnh p0 , p1 , … , pk và k
+cạnh (p0 , p1 ), (p1, p2), … , (pk−1 , pk ) đi từ đỉnh p0 đến đỉnh pk
+
+1 second, 256 megabytes
+Đồ thị vô hướng gọi là liên thông nếu giữa 2 đỉnh bất kì đều tồn tại
+đường đi. Ví dụ: đồ thị (a) sau là liên thông
+
+Chu trình là đường đi có p0 = pk . Chu trình đơn là đường đi đơn có p0 =
+pk . Ví dụ đồ thị sau có 2 chu trình là 1 > 2 > 3 > 1 và
+1 > 2 > 4 > 6 > 1
+
+Bài toán: Cho đồ thị có hướng G = (V , E) và đỉnh s . Tìm một chu trình
+đơn bất kì trong G bắt đầu từ s và kết thúc ở s .
+
+Input
+Dòng đầu ghi 3 số n
+5
+
+Centered unscaled image.
+
+Nếu đồ thị G không liên thông, thì nó được hợp từ hai hay nhiều đồ thị
+con liên thông. Các đồ thị con này đôi một không có đỉnh chung. Các đồ
+thị con liên thông rời nhau như vậy gọi là thành phần liên thông của đồ thị
+đang xét. Ví dụ:đồ thị (b) sau có 2 thành phần liên thông. THLT 1 gồm các
+đỉnh: 1, 2, 3, 4, 5, 6. TPLT 2 gồm các đỉnh 7, 8.
+
+m
+
+5
+
+6
+
+≤ 10 ; m ≤ 10 )
+
+• m dòng tiếp theo mỗi dòng chứa hai số nguyên dương u, v thể hiện có
+cạnh nối từ đỉnh u tới đỉnh v trong đồ thị.
+
+Output
+gồm nhiều dòng, mỗi dòng liệt kê các dỉnh thuộc một thành phần liên
+thông.
+
+input
+
+output
+1 4 5
+2 3 6 7
+8 9 10 11 12
+
+Giải thích: đồ thị đã cho như sau:
+
+5
+
+dòng tiếp theo, mỗi dòng có dạng hai số nguyên dương u, v, thể
+
+Output
+Dòng 1: xuất số k là số lượng đỉnh thuộc chu trình. Nếu không có chu
+trình thỏa đề thì xuất k = 0.
+Nếu k <> 0 xuất dòng 2 gồm k + 1 số thể hiện chu trình, bắt đầu từ
+s và kết thúc ở s . Nếu có nhiều chu trình thì xuất một chu trình bất kì.
+
+Input
+
+12 10
+1 4
+2 3
+3 6
+4 5
+6 7
+8 9
+8 10
+9 11
+11 8
+11 12
+
+là số đỉnh, số cạnh của đồ thị và đỉnh
+
+hiện có cung nối từ đỉnh u đến đỉnh v trong đồ thị
+
+Yêu cầu: Cho đồ thị vô huớng G = (V, E) gồm n đỉnh và m cạnh. Hãy liệt
+kê các thành phần liên thông của dồ thị
+
+• Dòng 1 chứa hai số nguyên dương n và m(n
+
+m s
+
+s (n, m ≤ 10 ; 1 ≤ s ≤ 10 )
+
+input
+8
+1
+2
+2
+3
+3
+4
+6
+7
+
+8 1
+2
+3
+4
+1
+5
+6
+1
+8
+
+output
+3
+1 2 3 1
+
+2B. ADS Quảng cáo
+1 second, 256 megabytes
+Nhân dịp Tết sắp đến công ty Jelly-for-Kids quyết định tăng cường việc
+quảng bá sản phẩm đến người tiêu dùng. Vì thế giám đốc marketing, ông
+Fruit-Jelly muốn gửi đi số lượng nhân viên tối đa có thể, làm nhiệm vụ tiếp
+thị tại đại lý trong thành phố
+Trong thành phố có m con đường, n đại lý bán kẹo (đánh số từ 1 đến n).
+Mỗi con đường chỉ nối trực tiếp giữa 2 đại lý, và được ký hiệu bằng chỉ số
+của 2 đại lý mà nó nối. Đồng thời, giữa 2 đại lý bất kỳ có không quá 1 con
+đường nối chúng
+Ông Fruit-Jelly nghĩ rằng, ông ta sẽ quản lý nhân viên dễ hơn nếu xếp
+mỗi người tiếp thị trên những hành trình có tính chất thứ tự. Tức là những
+đại lý bán kẹo trên hành trình đó thỏa các điều kiện sau
+
+• Có đường nối trực tiếp giữa 2 đại lý liên tiếp nhau trên hành trình
+• Từ một đại lý bất kỳ trong hành trình có thể đi qua tất cả các đoạn
+đường trong hành trình đó rồi trở về nơi xuất phát mà không đi qua đoạn
+đường nào quá một lần
+• Hành trình phân công cho mỗi nhân viên phải có ít nhất một đoạn đường
+chưa có nhân viên nào khác đi tiếp thị.
+• Mỗi nhân viên chỉ di chuyển trên hành trình mà anh ta được phân công.
+Hãy tính số lượng nhân viên tối đa mà ông Fruit-Jelly có thể xếp việc, và
+hành trình cụ thể mà mỗi người được xếp.
+
+Input
+• Dòng đầu là 2 số tự nhiên N và M (N ≤ 2000; M ≤ 5000)
+• Trong M dòng tiếp theo, mỗi dòng ghi 2 số nguyên mô tả một đoạn
+đường, mỗi đoạn đường được mô tả bởi chỉ số của 2 đại lý mà nó nối.
+
+Output
+Dòng đầu tiên ghi Q là số lượng nhân viên tối đa tìm được
+
+input
+5 2 4
+2
+1 2
+2 1
+10
+1 3
+2 5
+3 4
+4 2
+4 5
+5 4
+5 3
+5 1
+4 3
+3 5
+
+output
+
+input
+5
+1
+2
+4
+3
+1
+2
+
+• Nếu có, trong AT dòng tiếp theo, mỗi dòng ghi số hiệu một phòng theo
+thứ tự trên hành trình bắt đầu từ nhà của chuột. Nếu có nhiều hành trình
+thỏa đề thì xuất hành trình có thứ tự từ điển nhỏ nhất.
+
+2
+1
+2
+3
+4
+3
+5
+
+6
+2
+4
+5
+5
+3
+3
+
+output
+
+2D. KCYCLE Chu trình độ dài k
+
+2
+
+2 s., 256 MB
+
+2C. NEWTON Ngôi nhà của newton
+1 second, 256 megabytes
+Trong toà nhà của Newton gồm N phòng đánh số từ 1 đến N, có một con
+mèo và một con chuột, mỗi con chiếm một phòng riêng làm nhà của mình,
+mèo phòng pm, chuột phòng pc, không có cửa từ phòng pm sang phòng
+pc. Với hai phòng A và B bất kỳ, từ A sang B, có thể có/không có cửa,
+nhưng nếu có, Newton quy định rất rõ cửa là của mèo hay của chuột, nếu
+là của mèo/chuột thì chuột/mèo không được đi. Từ A sang B có thể có cả
+hai loại cửa hoặc chỉ có một loại cửa cho một trong hai con hoặc không
+có cửa, các cửa đều chỉ đi một chiều, cửa từ phòng A sang phòng B chỉ
+có thể đi được từ A sang B.
+Hãy trả lời cho chuột hai vấn đề sau (ai trả lời tốt nhất thì họ hàng chuột
+không bao giờ đến nhà quấy nhiễu):
+1. Trong quá trình dạo chơi trong nhà, tại những phòng nào chuột có thể
+gặp mèo (các cuộc dạo chơi của cả hai con đều xuất phát từ nhà của
+mình).
+2. Có hay không hành trình của chuột qua ít nhất hai phòng khác nhau từ
+nhà nó và quay về nhà nó sao cho trên hành trình không bao giờ gặp
+mèo. Nếu có, hãy ghi ra các đỉnh thuộc hành trình đó.
+
+Input
+• Dòng thứ nhất ghi ba số n pm pc (N ≤ 100).
+• Dòng thứ hai ghi số mm là số cửa mèo có thể đi qua.
+• mm dòng tiếp theo, mỗi dòng ghi hai số A, B cho biết có cửa cho mèo
+(một chiều) từ phòng A sang phòng B.
+• Dòng tiếp theo ghi số mc là số cửa chuột có thể đi qua.
+• mc dòng tiếp theo, mỗi dòng ghi hai số A, B cho biết có cửa cho chuột
+(một chiều) từ phòng A sang phòng B.
+
+Output
+• Dòng thứ nhất ghi số NH là số phòng mà chuột có thể gặp mèo,
+• Nếu NH > 0, tiếp theo là NH dòng, mỗi dòng ghi số hiệu một phòng; theo
+thứ tự tăng dần.
+• Sau đó là một dòng ghi số AT là số phòng khác nhau trên hành trình
+theo yêu cầu ở phần 2, nếu không có thì ghi số 0;
+
+ể
+
+Cho đồ thị vô hướng G gồm n đỉnh được đánh thứ tự 1. . n và m cạnh.
+Mỗi đỉnh có cạnh kề với ít nhất k đỉnh khác trong đồ thị.
+Yêu cầu: Tìm trong đồ thị này một chu trình đơn có độ dài ít nhất là
+k + 1. Một chu trình đơn độ dài d (d > 1) trong đồ thị là dãy các đỉnh
+phân biệt v1 , v2 , … , vd với vd và v1 là 2 đỉnh kề nhau.
+
+Input
+Dòng đầu: gồm 3 số n, m, k(3
+
+5
+
+≤ n, m ≤ 10 , 2 ≤ k ≤ n − 1)
+
+m dòng sau: mỗi dòng chứa 2 số ai , bi biểu diễn cạnh thứ i của đồ thị
+(1 ≤ ai , bi ≤ n, ai <> bi )
+
+Output
+Dòng đầu: chứa số nguyên r là độ dài chu trình tìm được (r ≥ k+1).
+Dòng thứ hai: in r đỉnh v1 , v2 , … , vr (1
+tìm được.
+
+≤ vi ≤ n)
+
+biểu diễn chu trình
+
+Dữ liệu đảm bảo luôn có đáp án. Nếu có nhiều đáp án thì xuất 1 đáp án
+bất kỳ.
+
+input
+3
+1
+2
+3
+
+3 2
+2
+3
+1
+
+output
+3
+1 2 3
+
+input
+4
+4
+1
+1
+1
+2
+2
+
+6 3
+3
+2
+3
+4
+3
+4
+
+output
+4
+3 4 1 2
+
+3A. KTTREE Kiểm tra cây
+1 second, 256 megabytes
+Cây (tree) là đồ thị vô hướng, liên thông, không có chu trình đơn.
+Yêu cầu: Cho đồ thị vô hướng G = (V , E), cho biết đồ thị có phải là
+một cây không?
+
+Input
+Dòng đầu ghi số t là số lượng test (t
+mỗi bộ test có cấu trúc như sau:
+
+≤ 10)
+
+. Các dòng sau ghi t bộ test,
+
+• Dòng đầu ghi 2 số nguyên dương n, m. (n
+• M dòng sau, mỗi dòng ghi hai số u
+
+v
+
+≤ 100; m ≤ 1000)
+
+là một cạnh của đồ thị.
+
+Yêu cầu: tìm số lượng tối thiểu các nhóm có thể lập?
+
+Input
+Dòng đầu: chứa số nguyên n(1
+
+N dòng sau, dòng thứ i chứa số nguyên pi (1 ≤ pi ≤ nhoặcpi = −1) .
+Mỗi pi biểu thi người quản lý trực tiếp của công nhân thứ i. Nếu pi = −1
+thì công nhân thứ i không có người quản lý trực tiếp.
+
+Output
+
+input
+
+với mỗi test, xuất 1 nếu đồ thị là cây, ngược lại xuất 0.
+
+5
+-1
+1
+2
+1
+-1
+
+input
+4
+2
+3
+3
+5
+
+output
+3
+
+output
+
+Giải thích: Có thể chia thành 3 nhóm (1) (2, 4) (3, 5)
+
+0
+
+3D. TRAM Trạm tàu điện
+
+3B. TREE1207 Tạo cây
+
+2 s., 256 MB
+
+1 second, 256 megabytes
+Cây (tree) là đồ thị vô hướng, liên thông, không có chu trình đơn.
+Bài toán: Cho đồ thị vô hướng G = (V , E), cho biết phải xóa đi ít nhất
+bao nhiêu cạnh và thêm vào ít nhất bao nhiêu cạnh để đồ thị là một cây?
+
+Input
+• Dòng đầu gồm 2 số n, m là số đỉnh và số cạnh. (n,
+• M dòng sau, mỗi dòng là 2 số u
+
+v
+
+5
+
+m <= 10 )
+
+biểu diễn 1 cạnh.
+
+Output
+Ghi 2 số nguyên x y là số cạnh ít nhất cần xóa và số cạnh ít nhất cần
+thêm để thỏa yêu cầu đề bài.
+
+input
+5
+1
+1
+2
+4
+
+≤ n ≤ 2000)
+
+số lượng tối thiểu các nhóm có thể lập.
+
+Output
+
+1
+5
+1
+1
+2
+4
+
+Hôm nay, nhà máy tổ chức một bữa tiệc. Việc này đòi hỏi phải chia n
+công nhân thành các nhóm sao cho: mỗi công nhân phải thuộc về đúng
+một nhóm và trong một nhóm, không tồn tại hai công nhân A, B mà A là
+cấp trên của B.
+
+Hệ thống tàu điện ngầm của thành phố XYZ gồm n trạm được đánh số từ
+1 đến n, kết nối với nhau bởi n đoạn đường ray, mỗi đoạn kết nối đúng
+hai trạm và không đi qua bất kỳ trạm nào khác. Ngoài ra, với hệ thống tàu
+điện ngầm này, người ta có thể đi từ một trạm đến một trạm khác bất kì
+dọc theo các đoạn đường ray. Các đoạn này có thể được sử dụng để di
+chuyển theo cả hai hướng. Giữa hai trạm không có nhiều hơn một đoạn
+đường ray.
+Hệ thống tàu điện ngầm này có đúng một “chu trình”. “Chu trình” là một
+tập các trạm phân biệt p1 , p2 , . . , pk mà 2 trạm pi và pi+1 có đoạn
+đường ray nối với nhau, đoạn pk và p1 có đoạn đường ray nối với nhau.
+Yêu cầu: xác định khoảng cách (theo số đoạn đường ray) từ “chu trình”
+đến trạm xa nó nhất.
+
+Input
+
+4
+2
+3
+3
+5
+
+- Dòng đầu tiên chứa số nguyên n(3
+
+≤ n ≤ 3000)
+
+.
+
+- n dòng sau: mô tả của các đoạn đường ray. Mỗi dòng chứa một cặp số
+nguyên x i , yi (1 ≤ x i , yi ≤ n) biểu diễn đoạn đường từ trạm x i trạm
+yi .
+
+output
+
+Output
+
+1 1
+
+3C. PARTY Dự tiệc
+3 s., 256 MB
+Một nhà máy có n công nhân được đánh số từ 1 đến n. Mỗi công nhân
+hoặc là không có người quản lý hoặc có một người quản lý trực tiếp. Một
+công nhân A được gọi là cấp trên của công nhân B nếu thỏa ít nhất một
+trong các điều kiện sau
+
+In khoảng cách từ “chu trình” đến trạm xa nó nhất (theo số đoạn đường
+ray). Nếu tất cả các trạm đều nằm trong “chu trình”, xuất khoảng cách xa
+nhất là 0.
+
+input
+4
+1
+4
+4
+1
+
+3
+3
+2
+2
+
+- Công nhân A là người quản lý trực tiếp công nhân B
+
+output
+
+- Công nhân B được quản lý trực tiếp bởi công nhân C mà công nhân A là
+cấp trên của công nhân C
+
+0 0 0 0
+
+Nhà máy không có tình trạng quản lý vòng tròn. Tức một công nhân
+không thể quản lý cấp trên của anh ta.
+
+• Dòng đầu chứa 3 số nguyên dương n, k, m. Trong đó: n là số địa điểm
+trong thành phố, k là số địa điểm cần dừng chân; m là số đoạn đường
+
+input
+6
+1
+3
+6
+2
+1
+3
+
+nối các địa điểm tham quan. (n
+
+2
+4
+4
+3
+3
+5
+
+5
+
+5
+
+≤ 10 ; m ≤ 10 ; 1 < k ≤ 10)
+
+• Dòng thứ 2: số đầu tiên là S , k số nguyên còn lại là danh sách các địa
+điểm cần dừng chân theo trình tự cho trước.
+• M dòng tiếp theo, mỗi dòng cho biết chỉ số 2 địa điểm có đường nối
+trực tiếp.
+
+output
+
+Output
+
+0 0 0 1 1 2
+
+• Dòng đầu ghi số p là số đoạn đường ít nhất cần tìm.
+
+4A. BFS Tìm đường đi ngắn nhất
+1 second, 256 megabytes
+Đường đi đơn là đường đi mà các đỉnh hoàn toàn phân biệt
+(pi <> pj ). Ví dụ, đồ thị sau có đúng 2 đường đi đơn từ đỉnh 1 đến đỉnh
+6 là 1 –> 2 –> 4 –> 6 và 1 –> 3 –> 2 –> 4 –> 6. (Trong các bài sau, nếu
+không nói cụ thể thì "đường đi" tức chỉ đường đi đơn).
+
+Cho đồ thị có hướng G
+
+= (V , E)
+
+và 2 đỉnh s, f .
+
+Yêu cầu: Tìm một đường đi xuất phát từ s và kết thúc ở f mà qua ít cạnh
+nhất.
+
+Input
+• Dòng 1 chứa 4 số nguyên dương n, m, s, f . Trong đó n, m là số đỉnh
+và số cạnh của đồ thị, s là đỉnh xuất phát s, đỉnh kết thúc f . (0 ≤ m,
+
+• Dòng thứ hai gồm p + 1 số mô tả các dịa điểm của chuyến tham quan.
+Số đầu là và số cuối là s .
+
+input
+7
+1
+1
+1
+1
+1
+2
+2
+3
+4
+4
+5
+6
+
+3 11
+4 2 6
+2
+4
+5
+6
+3
+7
+7
+5
+7
+6
+7
+
+output
+6
+1 4 1 2 1 6 1
+
+Tồn tại cách đi từ 1 lần lượt qua danh sách các điểm cho trước rồi sau đó
+trở về 1 là: 1 > 4 > 7 > 2 > 7 > 6 > 1. Vậy Bình đã đi qua 6 đoạn đường.
+Các cách khác đều phải đi qua không ít hơn 6 đoạn đường.
+
+5
+
+n ≤ 10 ; 1 ≤ s, f ≤ n)
+
+4C. MOVE Bảo tồn động vật hoang dã
+
+• m dòng tiếp theo, mỗi dòng có dạng hai số nguyên dương u, v cách
+nhau một dấu cách, thể hiện có cung nối từ đỉnh u đến đỉnh v trong đồ thị
+
+Output
+• Dòng 1 ghi số lượng đỉnh thuộc đường đi, nếu không có xuất 0.
+• Nếu dòng 1 khác 0, xuất các đỉnh thuộc đường đi từ s –> f , cách nhau
+bởi khoảng trắng.
+
+input
+8
+1
+1
+2
+2
+4
+7
+
+6 1 6
+2
+3
+3
+4
+6
+8
+
+1 second, 256 megabytes
+Một khu bảo tồn động vật có n địa điểm và các đường đi hai chiều nối các
+địa điểm đó, địa điểm thứ i có nhiệt độ là ti, giữa hai địa điểm bất kỳ có
+nhiều nhất là một đường đi nối chúng.
+Người ta muốn di chuyển một loài động vật quý hiếm từ địa điểm A tới
+địa điểm B , tuy nhiên nếu chênh lệch về nhiệt độ giữa hai địa điểm liên
+tiếp trên đường đi là quá cao thì loài động vật này rất có thể bị chết.
+bf{Yêu cầu:} Hãy chỉ ra một hành trình mà độ lệch nhiệt độ lớn nhất giữa
+hai địa điểm liên tiếp bất kỳ trên đường đi là cực tiểu.
+
+Input
+• Dòng 1: Chứa ba số N , A , B
+
+(2 ≤ n ≤ 200; A ≤ B)
+
+output
+
+• Dòng 2: Chứa n số tự nhiên t1 ,
+
+4
+1 2 4 6
+
+• Các dòng tiếp theo, mỗi dòng chứa hai số nguyên dương u, v cho biết
+giữa hai địa điểm u và v có đường đi nối chúng.
+
+4B. TOUR Tham quan
+1 second, 256 megabytes
+Đề thi Olympic 30.4 năm 2010
+Một thành phố có n địa điểm tham quan được đánh số từ 1 tới n. Giữa
+hai địa điểm có thể có một đoạn đường 2 chiều nối trực tiếp với nhau và
+giữa 2 địa điểm bất kỳ luôn có đường đi. Bình đang ở địa điểm S muốn
+thực hiện chuyến tham quan theo một trình tự các địa điểm cần dừng
+chân nhất định rồi trở về S .
+Yêu cầu: Bạn hãy giúp Bình thực hiện chuyến tham quan theo trình tự
+các điểm cần đến đã được chọn trước sao cho số đoạn đường đi qua là ít
+nhất.
+
+Input
+
+t2 ,
+
+..., tn
+
+(∀i : 0 ≤ ti ≤ 20000)
+
+Output
+• Dòng 1: Ghi độ lệch nhiệt độ lớn nhất giữa hai địa điểm liên tiếp bất kỳ
+trên đường đi tìm được, nếu không tồn tại đường đi thì dòng này ghi số
+−1.
+• Trong trường hợp tìm được đường đi thì dòng 2 ghi hành trình tìm
+được, bắt đầu từ địa điểm A , tiếp theo là những địa điểm đi qua, kết thúc
+là địa điểm B . Các địa điểm phải được liệt kê theo đúng thứ tự đi qua trên
+hành trình
+Các số trên một dòng của Input/ Output file được ghi cách nhau một dấu
+cách.
+
+input
+
+5A. SCONNECT Các thành phần liên thông
+mạnh
+
+7 1 4
+20 22 29 30 24 27 26
+1 2
+1 3
+1 4
+2 4
+2 5
+3 4
+3 6
+4 5
+4 6
+5 7
+6 7
+
+1 second, 256 megabytes
+Liên thông mạnh: Đồ thị có hướng G gọi là liên thông mạnh (Strongly
+connected) nếu luôn tồn tại đường đi giữa 2 đỉnh bất kỳ của đồ thị. Ví dụ,
+đồ thị hình a) là đồ thị liên thông mạnh.
+Thành phần liên thông mạnh: Nếu đồ thị G không liên thông mạnh, thì
+G có thể chứa các đồ thị con liên thông mạnh. Các đồ thị con liên thông
+mạnh rời nhau gọi là thành phần liên thông mạnh của đồ thị G. Ví dụ hình
+b là đồ thị không liên thông mạnh (từ đỉnh 2 không thể đến đỉnh 1), đồ thị
+này bao gồm 4 thành phần liên thông mạnh là (7, 6, 5) (4, 3, 2) (11, 10, 9,
+8) (1)
+
+output
+2
+1 2 5 7 6 3 4
+
+Bài toán: Cho đồ thị có hướng G = (V , E) gồm n đỉnh và m cung. Hãy
+liệt kê các thành phần liên thông mạnh của đồ thị.
+
+Input
+
+4D. MTWALK Leo núi
+1 second, 256 megabytes
+Cho một bản đồ kích thước N x N , mỗi ô mang giá trị là độ cao của ô đó.
+Bác John và bò Bessie đang ở ô trên trái (dòng 1, cột 1) và muốn đi đến
+cabin (dòng N , cột N ). Họ có thể đi sang phải, trái, lên trên và xuống
+dưới nhưng không thể đi theo đường chéo. Hãy giúp bác John và bò
+Bessie tìm đường đi sao cho chênh lệch giữa điểm cao nhất và thấp nhất
+trên đường đi là nhỏ nhất.
+
+Input
+• Dòng 1: Chứa số N . (2
+
+≤ N ≤ 100)
+
+• N dòng tiếp theo, mỗi dòng chứa N số nguyên, mỗi số cho biết cao độ
+của một ô. (0
+
+≤
+
+độ
+
+cao ≤ 110).
+
+Output
+Một số nguyên là chênh lệch cao độ nhỏ nhất.
+
+Scoring
+Subtask: 40% test có N
+
+input
+5
+1
+1
+4
+8
+4
+
+1
+2
+4
+0
+3
+
+3
+2
+0
+2
+0
+
+6
+5
+3
+3
+2
+
+output
+2
+
+Giải thích
+xx...
+.xx..
+..x..
+..x..
+..xxx
+
+8
+5
+3
+4
+1
+
+≤ 10.
+
+5
+
+5
+
+Dòng 1 chứa hai số nguyên dương n ≤ 10 và m ≤ 2.10
+m dòng tiếp theo mỗi dòng chứa hai số nguyên dương u,v thể hiện có
+cung nối từ đỉnh u tới đỉnh v trong đồ thị.
+
+Output
+Gồm nhiều dòng, mỗi dòng liệt kê các đỉnh thuộc một thành phần liên
+thông mạnh. Các số trên một dòng của Input/Output files được/phải ghi
+cách nhau ít nhất một dấu cách
+
+input
+11 15
+1 2
+1 8
+2 3
+3 4
+4 2
+4 5
+5 6
+6 7
+7 5
+8 9
+9 4
+9 10
+10 8
+10 11
+11 8
+
+output
+7 6 5
+4 3 2
+11 10 9 8
+1
+
+5C. GIAINHAT Giải Nhất
+1 second, 256 megabytes
+
+5B. MESSAGE Nhắn tin
+1 second, 256 megabytes
+Một khoá học có N học viên đánh số từ 1 tới N , mỗi học viên có thể biết
+số điện thoại của một vài học viên khác. Học viên A có thể nhắn tin cho
+học viên B nếu như học viên A biết số điện thoại của học viên B . Lưu ý
+rằng việc biết số điện thoại ở đây không phải quan hệ đối xứng: Có thể
+học viên A biết số điện thoại của học viên B nhưng học viên B hoàn
+toàn không biết số điện thoại của học viên A .
+Thầy giáo nắm được tất cả số điện thoại của các học viên trong hồ sơ
+của truờng, hỏi khi thầy giáo muốn nhắn tin tới tất cả các học viên trong
+khoá, thầy giáo sẽ phải nhắn trực tiếp tới một số ít nhất các học viên nào
+để thông điệp đó đến được tất cả các học viên khác.
+
+Input
+• Dòng 1 chứa hai số nguyên dương n, m
+
+5
+
+≤ 10 .
+
+• M dòng tiếp theo, mỗi dòng chứa hai số nguyên dương cho ta thông tin:
+học viên biết số điện thoại của học viên
+
+Output
+• Dòng 1: Ghi số là số học sinh được thầy giáo nhắn tin trực tiếp khi cần
+• Dòng 2: Ghi số hiệu của các học sinh được thầy giáo nhắn tin trực tiếp
+Các số trên một dòng của Input/Output Files được/phải ghi cách nhau ít
+nhất một dấu cách.
+
+Kỳ thi VOI2050 có N thí sinh tham dự. Ban tổ chức cũng thay đổi cách
+thức xét giải. Kỳ thi bây giờ có N giải: giải nhất, giải nhì, giải ba, giải tư,
+…, giải N và mỗi thí sinh sẽ đạt giải ứng với số điểm của mình xét từ cao
+đến thấp. Các thí sinh cùng điểm sẽ đạt cùng giải, vì thế có những giải
+gồm nhiều thí sinh và có những giải sẽ không có thí sinh nào. Chẳng hạn
+nếu có hai thí sinh cùng điểm đạt giải ba, thì thí sinh có điểm thấp tiếp
+theo sẽ đạt giải năm, không có thí sinh giải tư.
+Bạn X của đội tuyển trường LTV đã hoàn thành xong bài thi của mình.
+Bạn chỉ có một ước muốn nhỏ nhoi là giành giải Nhất. Tuy nhiên, bản
+thân bạn cũng biết điều đó quá ư là xa vời. Vì vậy khi nộp bài thi, bạn X
+đã lén cài một đoạn mã độc nhằm thay đổi kết quả chấm của ban tổ chức.
+Đoạn mã bạn viết là một tập M lệnh, mỗi lệnh gồm 2 số nguyên A B sẽ
+thay đổi kết quả của các thí sinh đang được giải A thành giải B .
+Bạn X định sử dụng tập lệnh này để đạt được mục đích của mình. Ví dụ
+nếu tập lệnh của bạn hiện có 2 lệnh: 4 1 và 3 4. Nếu bạn X đạt giải ba,
+bạn sẽ chạy lệnh 2 trước, sau đó đến lệnh 1 để trở thành thí sinh đạt giải
+Nhất.
+Tuy nhiên, điều bạn X lo lắng là bạn không biết mình sẽ đạt giải mấy và
+tập M lệnh hiện tại liệu có thể giúp bạn hoàn thành ước muốn hay
+không? Em hãy giúp bạn bổ sung thêm một số ít nhất các lệnh để dù cho
+bạn X đạt bất kì giải nào đều có thể biến đổi thành giải Nhất.
+
+Input
+• Dòng 1: 2 số nguyên dương N , M
+
+input
+12 15
+1 4
+2 5
+3 1
+4 3
+4 8
+5 4
+5 6
+6 2
+7 4
+8 10
+9 11
+10 7
+11 8
+11 12
+12 9
+
+output
+2
+2 9
+
+4
+
+(1 ≤ N , M , T ≤ 10 )
+
+• M dòng tiếp theo, dòng thứ i ghi hai số A i
+
+Bi
+
+của câu lệnh thứ i .
+
+Output
+Ghi 1 số nguyên dương duy nhất là số câu lệnh cần thêm. Nếu không cần
+thêm ghi 0.
+
+input
+6
+1
+2
+4
+6
+
+4
+3
+3
+5
+5
+
+output
+2
+
+5D. DULICH Du lịch 2015
+1 second, 256 megabytes
+Nghỉ hè, thầy Vinh quyết định cho đội tuyển Tin đến tỉnh X du lịch. Tỉnh
+có N địa điểm du lịch đánh số từ 1 đến N được nối với nhau bởi các con
+đường một chiều. Giữa hai địa điểm chỉ có nhiều nhất một con đường. Họ
+phải xuất phát từ khách sạn ở địa điểm 1 đi theo các con đường một
+chiều để đến thăm địa điểm khác và quay trở về địa điểm 1 để nghỉ ngơi.
+
+Đội tuyển rất háo hức muốn thăm nhiều địa điểm khác nhau của thành
+phố X xinh đẹp, tuy nhiên việc phải đi theo các con đường một chiều và
+quay về địa điểm xuất phát khiến số địa điểm bị giới hạn. Vì vậy đội tuyển
+đã xin phép thầy được chọn một con đường và đi ngược chiều đúng một
+lần với mong muốn sẽ tham quan được nhiều địa điểm hơn.
+Tất nhiên thầy cho phép nhưng yêu cầu các bạn phải cho thầy biết số địa
+điểm khác nhau được thăm nhiều nhất là bao nhiêu nếu đi theo cách của
+các bạn.
+
+Input
+• Dòng đầu ghi 2 số nguyên dương N và M , cho biết số lượng địa điểm
+và số lượng đường một chiều (1
+
+5
+
+≤ N , M ≤ 10 ).
+
+• M dòng sau, mỗi dòng ghi 2 số nguyên dương X, Y mô tả một con
+đường một chiều. Từ địa điểm X đến địa điểm Y .
+
+Vấn đề đặt ra là cần phải xác định tất cả các khớp và cầu của đồ thị G.
+
+Input
+5
+
+• Dòng 1: chứa hai số n, m (1 ≤ n, m ≤ 10 )
+
+Output
+Ghi một số duy nhất cho biết số lượng tối đa các địa điểm khác nhau đội
+tuyển có thể tham quan.
+
+Output
+
+input
+7
+1
+3
+2
+2
+3
+3
+3
+6
+7
+4
+
+• M dòng tiếp theo, mỗi dòng ghi số hiệu hai đỉnh u và v: thể hiện giữa
+đỉnh u và đỉnh v có một cạnh nối chúng.
+• Dòng 1: ghi số khớp (P) và số cầu (Q) của đồ thị.
+
+10
+2
+1
+5
+4
+7
+5
+6
+5
+2
+7
+
+• P dòng tiếp theo, mỗi dòng ghi số hiệu một khớp tìm được.
+• Q dòng tiếp theo, mỗi dòng ghi số hiệu hai đỉnh tương ứng với một cầu
+liên thuộc với hai đỉnh đó.
+
+input
+
+output
+6
+
+Họ có thể đi theo tuyến đường 1, 2, 4, 7, 2, 5, 3, 1. Họ đi ngược 1 lần ở
+con đường 3 5.
+
+13 15
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+4 11
+5 9
+5 10
+6 7
+8 11
+8 12
+9 10
+9 13
+11 12
+
+output
+
+6A. KHOPCAU Khớp và cầu
+1 second, 256 megabytes
+Xét đơn đồ thị vô hướng G = (V, E) có n đỉnh và m cạnh. Người ta định
+nghĩa
+• Khớp: Một đỉnh gọi là khớp nếu như xóa đỉnh đó sẽ làm tăng số thành
+phần liên thông của đồ thị.
+• Cầu: Một cạnh được gọi là cầu nếu xóa cạnh đó sẽ làm tăng số thành
+phần liên thông của đồ thị.
+Ví dụ, đồ thị sau có 4 cầu là: (1, 3) (2, 4) (2, 5), (9, 13) và 5 khớp là 3, 4,
+5, 9, 2.
+
+5 4
+2
+3
+4
+5
+9
+3 1
+4 2
+5 2
+13 9
+
+6B. TRAIXUAN2016 Trại xuân 2016
+1 second, 256 megabytes
+BTC Trại Xuân LTV đang thiết lập một hệ thống đường đi giữa n lều trại
+được đánh số từ 1 đến n. Hệ thống đường đi được thiết lập sao cho giữa
+2 lều trại bất kỳ luôn có một đường đi qua một hoặc nhiều con đường trực
+tiếp giữa hai trại. Mỗi con đường cho phép di chuyển giữa hai lều trại theo
+cả hai chiều.
+BTC đưa ra khái niệm độ dính kết giữa hai trại A và trại B được xác định
+bằng số lượng các con đường mà nếu bỏ đi một trong số chúng (các con
+đường khác vẫn di chuyển bình thường) sẽ không thể di từ trại A đến trại
+B.
+BTC nhận thấy rằng, trong điều kiện thời tiết xấu, tổng độ dính kết giữa
+các cặp trại phải đạt đến một giá trị nhất định thì hệ thống đường đi này
+mới được gọi là thuận tiện.
+Yêu cầu: Lớp 10 Tin hãy giúp BTC tính tổng độ dính kết giữa mọi cặp trại
+nhé!.
+
+Input
+• Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 100)
+• Dòng thứ hai chứa số nguyên m là số lượng các con đường (1 ≤ m ≤
+5000)
+• Mỗi dòng trong số m dòng tiếp theo chứa thông tin về một con đường,
+bao gồm hai số nguyên dương trong khoảng từ 1 đến n: chỉ số của hai
+trại được nối bởi con đường này.
+
+Output
+In ra 1 số nguyên duy nhất là tổng độ dính kết giữa mọi cặp trại (A, B) (với
+A < B).
+
+• Trong m dòng tiếp theo, mỗi dòng chứa hai sô u và v xác định một cung
+của đồ thị
+
+Output
+số T tìm được.
+
+input
+5
+1
+1
+3
+4
+
+4
+2
+3
+4
+5
+
+output
+
+input
+
+6
+
+5
+5
+1
+4
+4
+3
+3
+
+input
+2
+2
+5
+2
+1
+
+5
+1
+2
+1
+3
+4
+
+output
+
+5
+2
+3
+3
+4
+5
+
+output
+
+10
+
+1
+
+6C. CRITICAL Thành phố trọng yếu
+
+7A. TPLT Liệt kê thành phần liên thông
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+Đất nước Hạnh Phúc có N thành phố được nối với nhau bởi M đường nối
+hai chiều. Giữa hai thành phố bất kỳ chỉ có nhiều nhất một con đường.
+Chính quyền nước này đưa ra một tiêu chí để đánh giá độ quan trọng của
+mỗi thành phố, theo đó độ quan trọng của một thành phố X được tính
+bằng số cặp thành phố A và B mà để di chuyển từ A đến B (và ngược lại)
+bắt buộc phải đi qua thành phố X.
+
+Đồ thị vô hướng gọi là liên thông nếu giữa 2 đỉnh bất kì đều tồn tại
+đường đi. Ví dụ: đồ thị (a) sau là liên thông
+
+Bạn hãy lập trình tính độ quan trọng trung bình của tất cả các thành phố.
+
+Input
+• Dòng đầu tiên chứa hai số nguyên N, M
+
+Output
+
+Nếu đồ thị G không liên thông, thì nó được hợp từ hai hay nhiều đồ thị
+con liên thông. Các đồ thị con này đôi một không có đỉnh chung. Các đồ
+thị con liên thông rời nhau như vậy gọi là thành phần liên thông của đồ
+thị đang xét. Ví dụ: đồ thị (b) sau có 2 thành phần liên thông. THLT 1 gồm
+các đỉnh: 1, 2, 3, 4, 5, 6. TPLT 2 gồm các đỉnh 7, 8.
+
+Gồm một số thực duy nhất là độ quan trọng trung bình của các thành phố,
+làm tròn đến 2 chữ số thập phân.
+
+Yêu cầu: Cho đồ thị vô hướng G có n đỉnh, m cạnh. Hãy đếm số thành
+phần liên thông của G và số đỉnh thuộc thành phần liên thông lớn nhất.
+
+4
+
+5
+
+(1 ≤ N ≤ 2.10 , 0 ≤ M ≤ 2.10 ).
+
+• M dòng tiếp theo mỗi dòng chứa 2 số nguyên u, v (1≤ u,v ≤ N) mô tả một
+đường nối.
+
+Input
+
+input
+5
+1
+2
+3
+4
+5
+
+• Dòng 1: số đỉnh n và số cạnh m (0
+
+5
+2
+3
+4
+5
+3
+
+5
+
+6
+
+< n < 10 , 0 < m < 10 )
+
+• M dòng sau, mỗi dòng gồm 2 số x, y biểu diễn cạnh nối từ đỉnh x đến
+đỉnh y
+
+Output
+Hai số p q là số thành phần liên thông và số đỉnh thuộc thành phần liên
+thông lớn nhất.
+
+output
+1.40
+
+Độ quan trọng của các thành phố 1, 2, 3, 4, 5 lần lượt là 0, 3, 4, 0, 0. Độ
+quan trọng của thành phố 3 là 4 vì có 4 cặp thành phố mà khi di chuyển
+đến nhau cần đi qua thành phố 3: (1,4), (1,5), (2,4), (2,5).
+
+6D. CTDON260 Chu trình đơn
+1 second, 256 megabytes
+Cho một đồ thị vô hướng gồm n đỉnh và m cạnh.
+Yêu cầu: Hãy đếm số cặp đỉnh T không kề nhau sao cho sau khi thêm
+cung nối hai cặp đỉnh đó sẽ tạo ra duy nhất một chu trình đơn chứa cung
+đó.
+
+Input
+• Dòng đầu hai số n và m (1 ≤ n, m ≤ 105 ),
+
+input
+8
+1
+1
+2
+2
+3
+4
+7
+
+7
+2
+3
+3
+4
+5
+6
+8
+
+output
+2 6
+
+7B. COLDWAT Nước lạnh
+1 second, 256 megabytes
+
+Mùa hè oi ả ở Wisconsin đã khiến cho lũ bò phải đi tìm nước để làm dịu đi
+cơn khát. Các đường ống dẫn nước của nông dân John đã dẫn nước
+lạnh vào một tập N nhánh (đánh số từ 1..N ) từ một cái bơm đặt ở
+chuồng bò.
+Khi nước lạnh chảy qua các ống, sức nóng mùa hè sẽ làm nước ấm lên.
+Bessie muốn tìm chỗ có nước lạnh nhất để cô bò có thể tận hưởng mùa
+hè một cách thoải mái nhất.
+Bessie đã vẽ sơ đồ toàn bộ các nhánh ống nước và nhận ra rằng nó là
+một đồ thị dạng cây với gốc là chuồng bò và ở các điểm nút ống thì có
+chính xác 2 nhánh con đi ra từ nút đó. Một điều ngạc nhiên là các nhánh
+ống này đều có độ dài là 1.
+Cho bản đồ các ống nước, hãy cho biết khoảng cách từ chuồng bò tới tất
+cả các nút ống và ở các phần cuối đường ống.
+"Phần cuối" của một đường ống, có thể là đi vào một nút ống hoặc là bị
+bịt, được gọi theo số thứ tự của đường ống. Bản đồ có C nút ống, được
+mô tả bằng 3 số nguyên: là "phần cuối" của ống Ei và 2 ống nhánh đi ra
+từ đó là B1 và B2 . Đường ống số 1 nối với chuồng bò; khoảng cách từ
+phần cuối của đường ống này tới chuồng bò là 1.
+i
+
+i
+
+Input
+• Dòng đầu là hai số nguyên n và x . x là điểm bắt đầu (cũng là điểm kết
+thúc của tour) (3 ≤ n ≤ 50000; 1 ≤ x ≤ n)
+• n − 1 dòng tiếp theo, mỗi dòng gồm hai số i và j
+hai điểm i và j có một đường nối trực tiếp
+
+(1 ≤ i, j ≤ n)
+
+, giữa
+
+Output
+Số lượng các đoạn đường đi qua một lần trong tour, kể cả đường nối
+thêm.
+
+input
+7
+3
+4
+6
+3
+4
+4
+
+3
+1
+2
+4
+5
+7
+3
+
+output
+4
+
+Input
+• Dòng 1: 2 số nguyên cách nhau bởi dấu cách: N và C
+(3 ≤ N ≤ 99999; N lẻ)
+
+(1 ≤ C ≤ N )
+
+• C dòng sau, dòng thứ i mô tả nút ống i với ba số nguyên Ei , B1 , và
+i
+
+B2
+
+i
+
+(1 ≤ Ei ≤ N ; 2 ≤ B 1 , B 2
+i
+
+i
+
+≤ N)
+
+Output
+Dòng 1..N : Dòng i chứa 1 số nguyên là khoảng cách từ chuồng tới
+"phần cuối" của ống thứ i .
+
+input
+
+7D. PWALK Dạo chơi đồng cỏ
+
+5 2
+3 5 4
+1 2 3
+
+1 second, 256 megabytes
+Có N con bò, để thuận tiện ta đánh số từ 1 → N , đang ăn cỏ trên N
+đồng cỏ, để thuận tiện ta cũng đánh số các đồng cỏ từ 1 → N . Biết rằng
+con bò i đang ăn cỏ trên đồng cỏ i .
+
+output
+1
+2
+2
+3
+3
+
+Một vài cặp đồng cỏ được nối với nhau bởi 1 trong N − 1 con đường 2
+chiều mà các con bò có thể đi qua. Con đường i nối 2 đồng cỏ A i và Bi
+và có độ dài là Li .
+Các con đường được thiết kế sao cho với 2 đồng cỏ bất kỳ đều có duy
+nhất 1 đường đi giữa chúng. Như vậy các con đường này đã hình thành 1
+cấu trúc cây.
+Các chú bò rất có tinh thần tập thể và muốn được thăm thường xuyên. Vì
+vậy lũ bò muốn bạn giúp chúng tính toán độ dài đường đi giữa Q cặp
+đồng cỏ (mỗi cặp được mô tả là 2 số nguyên p1, p2).
+
+Input
+Ống 1 luôn cách chuồng 1 đoạn là 1. Ống 2 và 3 nối với ống 1 nên
+khoảng cách sẽ là 2. Ống 4 và 5 nối với ống 3 nên khoảng cách sẽ là 3.
+
+7C. KDL Khu du lịch
+1 second, 256 megabytes
+Khu du lịch sinh thái Nam Cát Tiên có n điểm tham quan, các điểm được
+đánh số từ 1 đến n. Ban quản lý thiết lập hệ thống giao thông đến tất cả
+các điểm sao cho giữa hai điểm tham quan bất kỳ có duy nhất một đường
+đi trực tiếp hoặc gián tiếp qua trung gian một số điểm khác. Với một tour
+du lịch từ điểm bắt đầu, đi đến tất cả các điểm tham quan rồi quay về
+điểm bắt đầu, chi phí độ dài đường đi lớn do mỗi đường đi giữa hai điểm
+tham quan phải đi qua hai lần. BQL quyết định xây dựng thêm một đường
+đi nối giữa hai điểm tham quan nào đó để tạo thành một chu trình, trong
+đó điểm bắt đầu phải nằm trên chu trình. Với cách này, những đoạn
+đường đi trên chu trình chỉ đi qua một lần cho một tour
+Yêu cầu: Hãy xác định vị trí thiết lập thêm một đường đi sao cho số
+lượng các đoạn đường đi qua một lần là nhiều nhất. Một đoạn đường là
+đường nối trực tiếp giữa hai điểm tham quan.
+
+• Dòng 1: 2 số nguyên cách nhau bởi dấu cách: N và Q
+(1 ≤ N ≤ 1000; 1 ≤ Q ≤ 1000)
+
+• Dòng 2 .. N : Dòng i + 1 chứa 3 số nguyên cách nhau bởi dấu cách:
+A i , B i , và Li (1 ≤ A i ≤ N ; 1 ≤ B i ≤ N ; 1 ≤ Li ≤ 10, 000)
+• Dòng N + 1 .. N + Q: Mỗi dòng chứa 2 số nguyên khác nhau cách
+nhau bởi dấu cách mô tả 1 yêu cầu tính toán độ dài 2 đồng cỏ mà lũ bò
+muốn đi thăm qua lại p1 và p2 (1 ≤ p1 ≤ N ; 1 ≤ p2 ≤ N ).
+
+Output
+Dòng 1 .. Q: Dòng i chứa độ dài đường đi giữa 2 đồng cỏ ở yêu cầu thứ
+i.
+
+input
+4
+2
+4
+1
+1
+3
+
+2
+1 2
+3 2
+4 3
+2
+2
+
+output
+
+input
+
+2
+7
+
+4
+1
+2
+3
+4
+2
+5
+6
+7
+
+Giải thích
+Yêu cầu 1: Con đường giữa đồng cỏ 1 và 2 có độ dài là 2.
+Yêu cầu 2: Đi qua con đường nối đồng cỏ 3 và 4, rồi tiếp tục đi qua con
+đường nối 4 và 1, và cuối cùng là con đướng nối 1 và 2, độ dài tổng cộng
+là 7.
+
+8A. TACHTINH Tách tỉnh
+
+4 5 8 8
+4
+3
+4
+7
+5
+6
+8
+8
+
+output
+22
+
+Lớp trưởng đi 1− > 4 và lớp phó đi 2−
+chung 4− > 7− > 8 .
+
+1 second, 256 megabytes
+Một tỉnh miền núi có n huyện, các huyện đánh số từ 1 đến n. Huyện thứ
+k có số dân là ak . Do nằm trong vùng đồi núi hiểm trở nên hệ thống giao
+thông khó khăn, giữa hai huyện bấy kỳ trong tỉnh có duy nhất một đường
+đi trực tiếp hoặc gián tiếp qua trung gian nhiều huyện khác.
+
+> 3− > 4
+
+. Sau đó, họ đi
+
+8C. THIDAU Thi đấu
+1 second, 256 megabytes
+
+Yêu cầu: để giảm bớt khó khăn trong việc quản lý dân, trung ương quyết
+định tách tỉnh thành hai tỉnh mới với yêu cầu các huyện trong mỗi tỉnh
+phải tồn tại đường đi liên thông nhau và tổng số dân trong hai tỉnh sau khi
+tách có độ chênh lệch thấp nhất.
+
+Input
+Dòng đầu ghi số nguyên dương N (2
+Dòng tiếp theo ghi N số nguyên
+
+5
+
+≤ N ≤ 10 )
+
+3
+
+a1 , a2 , … , an (1 ≤ ak ≤ 10 , k : 1..n)
+
+dòng tiếp theo, mỗi dòng gồm hai số i và j , đường đi nối trực
+tiếp giữa hai huyện i và j .
+n − 1
+
+Chọn đội tuyển QG luôn là một việc khó khăn. Sau các hình thức kiểm tra,
+thi tuyển, thầy Vinh quyết định cho n học sinh của mình thi đấu đối kháng.
+
+Output
+Số dân chênh lệch giữa hai tỉnh.
+
+Thầy Vinh thiết lập M trận đấu, mỗi trận có hai học sinh thi đấu đối kháng
+với nhau.
+Để thêm phần rắc rối, thầy Vinh muốn chia các học sinh của mình thành
+hai nhóm sao cho chỉ các học sinh ở nhóm khác nhau mới thi đấu với
+nhau.
+
+input
+6
+5
+3
+6
+4
+2
+4
+
+3 1 7 4 16
+5
+4
+1
+1
+5
+
+Nhưng kế hoạch thi đấu đã được lập và không thể thay đổi, thầy Vinh chỉ
+có thể chia các học sinh thành hai đội sao cho các học sinh trong cùng
+một đội phải đối mặt với nhau trong một trận đấu diễn ra càng muộn càng
+tốt.
+
+output
+4
+
+8B. XEOM Đi xe ôm
+1 second, 256 megabytes
+
+Yêu cầu: Cho trước M trận thi đấu, hãy xác định số thứ tự của trận đầu
+tiên mà hai học sinh trong cùng một nhóm phải đối mặt với nhau, nếu đã
+chia nhóm theo cách tốt nhất có thể (để gặp nhau muộn nhất). Dữ liệu
+input đảm bảo luôn xảy ra một trận đấu như vậy.
+
+Input
+
+Lớp trưởng Mập Ú và lớp phó Còi Cọc của lớp 10 Tin sáng nào cũng đi
+xe ôm đến trường. Thành phố Biên Hòa có N nút giao thông được đánh
+số từ 1 đến N , có M con đường hai chiều nối giữa các nút giao thông.
+Nhà lớp trưởng ở nút 1, nhà lớp phó ở nút 2 và trường học ở nút N .
+
+Dòng đầu tiên chứa số nguyên N là số lượng học sinh
+5
+
+(1 ≤ N ≤ 10 )
+
+5
+
+Lớp trưởng mất X tiền, lớp phó mất Y tiền khi đi xe ôm qua một con
+đường nối giữa hai nút giao thông. Tuy nhiên, nếu cả hai đang ở cùng
+một nút giao thông, họ có thể đi chung một xe qua nút kế tiếp và sẽ mất
+P tiền cho cả hai.
+Yêu cầu: em hãy chỉ cho họ một cách đi tốn ít tiền nhất và cho biết số tiền
+đó là bao nhiêu?
+
+Input
+4
+
+.
+dòng sau, dòng thứ i ghi hai số nguyên dương uv mô tả một con
+
+M . (1 ≤ X, Y , P , N , M ≤ 4.10 ; N ≥ 3)
+M
+
+[1, N ]
+
+đường hai chiều nối giữa nút giao thông thứ u và thứ v. Đảm bảo
+luôn có đường đi từ nút 1, 2 đến nút N .
+
+Output
+Ghi một số nguyên xác định số tiền tối thiểu để cả hai bạn đi đến trường.
+
+: cho biết học sinh X thi đấu với học sinh Y .
+
+Output
+Số thứ tự của trận đầu tiên theo yêu cầu.
+
+input
+
+Dòng đầu tiên chứa 5 số nguyên dương X, Y , P , N , và
+
+,
+
+Dòng thứ hai của đầu vào chứa số nguyên M (1 ≤ M ≤ 3.10 ) , số
+lượng trận đấu.
+Mỗi dòng trong số M dòng tiếp theo cho biết trận đấu theo thứ tự
+diễn ra. Mỗi dòng chứa hai số nguyên X Y khác nhau trong khoảng
+
+6
+8
+1
+3
+5
+1
+1
+4
+2
+2
+
+2
+4
+6
+3
+6
+5
+4
+6
+
+output
+
+output
+
+6
+
+0
+
+8D. MKJUMPS Quân mã di chuyển
+1 second, 256 megabytes
+
+Quân mã là một quân cờ được sử dụng trong trò chơi đánh cờ. Bàn cờ là
+một mảng gồm những phần tử hình vuông. Mỗi khi quân mã di chuyển. Vị
+trí di chuyển đến là hai hàng và một cột hay hai cột và một hàng tính từ vị
+trí xuất phát. Vì vậy, một con mã bắt đầu từ vị trí hàng r, cột c – được kí
+hiệu là (r, c) , có thể di chuyển đến các vị trí (r − 2, c − 1),
+(r − 2, c + 1), (r − 1, c − 2), (r − 1, c + 2), (r + 1, c − 2),
+(r + 1, c + 2), (r + 2, c − 1) hoặc (r + 2, c + 1). Dĩ nhiên con mã sẽ
+không thể di chuyển tới vị trí không nằm trên bàn cờ.
+Giả sử bàn cờ không phải hình vuông, nhưng thay vào đó là gồm những
+hàng, với số lượng ô khác nhau. Ô bắt đầu của một hàng cũng có thể
+nằm ở những vị trị khác nhau.
+Cho trí ban đầu của con mã là ở trên cùng bên trái – đánh dấu ∗. Tìm một
+cách đi để quân mã đi qua được nhiều ô nhất, với điều kiện không được
+thăm một ô nào nhiều hơn một lần và không được phép di chuyển tới
+những vùng nằm ngoài của bàn cờ. Xuất ra số lượng các ô quân mã
+chưa đi đến được theo cách đi đó.
+
+Input
+Gồm một dòng duy nhất bắt đầu với số nguyên n(1
+xác định số lượng hàng.
+
+≤ n ≤ 10)
+
+,–
+
+Sau đó là n cặp số nguyên, mỗi cặp tương ứng với một hàng. Trong
+đó, số nguyên đầu tiên xác định số ô vuông bị bỏ qua ở đầu của hàng
+và số nguyên thứ hai là số ô vuông của hàng đó.
+Số hàng, số cột tối đa là 10 . Do đó mọi cấu hình của bàn cờ sẽ đều
+phải nằm trong hình vuông 10 × 10.
+
+Output
+Ghi số lượng ô quân mã không thể đến thăm.
+
+input
+7 0 3 0 3 0 4 0 4 1 3 1 7 4 4
+
+output
+4
+
+input
+3 0 3 0 3 0 3
+
+output
+1
+
+input
+2 0 1 2 1
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

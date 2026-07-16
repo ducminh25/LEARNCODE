@@ -1,0 +1,20 @@
+DAYDB
+Cho dãy số nguyên A gồm N phần tử a1, a2, ..., aN. Một dãy con liên tiếp của A được gọi là dãy đặc biệt nếu nó có nhiều hơn một phần tử và phần tử đầu của dãy con bằng phần tử cuối của dãy con.
+
+Yêu cầu: Hãy tìm dãy đặc biệt có tổng lớn nhất trong A.
+Dữ liệu vào gồm:
+- Dòng đầu là số nguyên dương N, là số phần tử của dãy A.
+- Dòng thứ hai ghi dãy số a1, a2, ..., aN.
+Kết quả: một dòng chứa tổng của dãy đặc biệt tìm được.
+
+Ví dụ: input: 6 \n 2 2 2 3 10 3 --> output: 16
+
+Giải thích: Có nhiều dãy đặc biệt như:
+- Dãy từ a[1] đến a[2]: Tổng bằng 4.
+- Dãy từ a[1] đến a[3]: Tổng bằng 6.
+- Dãy từ a[2] đến a[3]: Tổng bằng 4.
+- Dãy từ a[4] đến a[6]: Tổng bằng 16.
+Vậy dãy đặc biệt có tổng lớn nhất là 16.
+
+Subtask 1 (60% số test): 2 <= N <= 10^4 và -10^6 <= ai <= 10^6.
+Subtask 2 (40% số test): 2 <= N <= 10^5 và 0 <= ai <= 10^6.

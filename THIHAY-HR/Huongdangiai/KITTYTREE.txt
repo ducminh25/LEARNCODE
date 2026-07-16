@@ -1,0 +1,19 @@
+Phân tích đề bài: Đề bài yêu cầu tìm số lượng "lá" tối thiểu cần loại bỏ để không còn đỉnh buồn. Theo quy tắc loại bỏ lá: khi xóa một lá, cha của nó có thể trở thành lá mới và tiếp tục bị xóa. Điều này đồng nghĩa với việc nếu một đỉnh u bị xóa, toàn bộ cây con bên dưới nó (các hậu duệ) cũng sẽ bị xóa. Do đó, bài toán quy về: Đếm tổng số nút thuộc các cây con bị loại bỏ. Một nút u bị loại bỏ nếu bản thân nó vi phạm điều kiện "buồn" hoặc tổ tiên của nó đã bị loại bỏ. Điều kiện "đỉnh u làm đỉnh v buồn" (v là tổ tiên u): dist(v, u) > a[u].
+
+Thuật toán: Sử dụng BFS (hoặc DFS) kết hợp tư tưởng Quy hoạch động (tương tự thuật toán Kadane tìm dãy con có tổng lớn nhất) trên cây.
+
+Quy hoạch động trạng thái dist[u]:
+- Gọi dist[u] là khoảng cách lớn nhất từ một tổ tiên bất kỳ nào đó đến u.
+- Khi đi từ u xuống con v với trọng số cạnh w: dist[v] = max(0, dist[u] + w).
+- Giải thích: Nếu đoạn đường tích lũy trước đó cộng thêm w ra kết quả âm, ta reset về 0 (coi như bắt đầu xét từ chính v), vì ta cần tìm đường đi có tổng trọng số lớn nhất để kiểm tra khả năng vi phạm.
+
+Kiểm tra điều kiện và đánh dấu xóa:
+- Tại mỗi nút u, kiểm tra: Nếu dist[u] > a[u], nút u vi phạm (trọng lượng đường đi từ một tổ tiên nào đó lớn hơn giá trị cho phép a[u]).
+- Khi u vi phạm, ta gán dist[u] = inf (vô cùng).
+- Trạng thái inf này sẽ lan truyền xuống tất cả các con cháu. Nếu cha có dist là inf, thì con cũng nhận dist là inf.
+
+Tính kết quả:
+- Biến ans đếm số lượng nút bị xóa.
+- Tăng ans lên 1 nếu nút u đang xét thỏa mãn điều kiện bị xóa (hoặc dist[u] > a[u] hoặc dist[u] đã là inf từ trước).
+
+Độ phức tạp: O(N). Duyệt qua mỗi đỉnh và cạnh đúng một lần bằng BFS.

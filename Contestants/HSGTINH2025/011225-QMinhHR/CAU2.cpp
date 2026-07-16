@@ -1,0 +1,78 @@
+#include<bits/stdc++.h>
+using namespace std;
+long long a[2000005];
+long long m1[2000005],m2[2000005],s1[2000005],s2[2000005];
+int main()
+{
+    ios_base::sync_with_stdio();
+    cin.tie();cout.tie();
+    freopen("CAU2.inp","r",stdin);
+    freopen("CAU2.out","w",stdout);
+    long long n,k,i,j,vt,dem=0,ma=0,kq=LLONG_MAX,dem1,dem2;
+    cin>>n>>k;
+    for(i=1;i<=n;i++)
+    {
+        cin>>a[i];
+        ma=max(ma,a[i]);
+    }
+    if(k==0)
+    {
+        for(i=1;i<=n;i++)
+        {
+            dem=dem+(ma-a[i]);
+        }
+        cout<<dem;
+    }
+    else
+    {
+        if(k==-1)
+        {
+            ma=a[1];
+            for(i=1;i<=n;i++)
+            {
+                if(ma>=a[i])
+                {
+                    dem=dem+(ma-a[i]);
+                }
+                else
+                {
+                    vt=i;
+                    break;
+                }
+            }
+            ma=0;
+            for(i=vt;i<=n;i++)
+            {
+                ma=max(ma,a[i]);
+            }
+            for(i=vt;i<=n;i++)
+            {
+                dem=dem+(ma-a[i]);
+            }
+            cout<<dem;
+        }
+        else
+        {
+            m1[0]=0;
+            for(i=1;i<=n;i++)
+            {
+                s1[i]=s1[i-1]+a[i];
+                m1[i]=max(m1[i-1],a[i]);
+            }
+            m2[n+1]=0;
+            for(i=n;i>=1;i--)
+            {
+                s2[i]=s2[i+1]+a[i];
+                m2[i]=max(m2[i+1],a[i]);
+            }
+            kq=m1[n]*n-s1[n];
+           for(i=1;i<=n-1;i++)
+           {
+               dem1=m1[i]*i-s1[i];
+               dem2=m2[i+1]*(n-i)-s2[i+1];
+               kq=min(kq,dem1+dem2);
+           }
+           cout<<kq;
+        }
+    }
+}

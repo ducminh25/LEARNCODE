@@ -1,0 +1,234 @@
+12/7/24, 5:32 PM
+
+Problems - Codeforces
+
+Buổi 2
+input
+Statement
+is not
+available
+on
+English
+language
+
+A. COCACOLA
+
+2
+abcd
+xyba
+a
+b
+
+output
+YES
+NO
+
+1 second, 1024 megabytes
+Statement
+is not
+available
+on
+English
+language
+
+Cửa hàng cạnh nhà Khang đang có khuyến mãi như sau: nếu có K vỏ
+chai cocacola thì người ta sẽ đổi cho một chai mới. Hiện tại Khang có N
+chai còn nguyên, Em quyết định mời hết bạn bè đến nhà để uống bằng
+hết và tận dụng khuyến mãi của cửa hàng để uống được càng nhiều càng
+tốt.
+Yêu cầu: Tính xem Khang và các bạn có thể uống được tối đa bao nhiêu
+chai cocacola.
+
+C. THI ĐẤU LẬP TRÌNH
+
+Input
+Vào từ file COCACOLA.INP gồm một dòng chứa hai số nguyên dương N
+và K (N≤109, 2≤K≤109).
+
+Output
+Ghi ra file văn bản COCACOLA.OUT gồm một số là kết quả tìm được.
+Ví dụ:
+Input:
+93
+Output:
+13
+
+1 second, 1024 megabytes
+Để chuẩn bị cho kì thi chọn học sinh giỏi cấp tỉnh, Sở Giáo dục tổ chức N
+lượt thi đấu lập trình đối kháng giữa hai đội A và B. Có N học sinh lần lượt
+vào tham gia thi đấu, học sinh thứ i (i = 1..N) có thời gian đã học lập trình
+là X[i] và có chỉ số thông minh là Y[i]. Lần lượt từng học sinh từ 1 đến N
+sẽ tham gia vào các cuộc thi, mỗi khi đến lượt học sinh thứ i (i=1..N), ban
+tổ chức sẽ tổ chức một lượt thi cho tất cả các học sinh đánh số từ 1 tới i,
+họ sẽ xếp lại đội hình cho cả 2 đội, sao cho đội A gồm [i/2] học sinh có
+thời gian học lập trình nhiều hơn và số còn lại ở bên đội B, nếu i lẻ thì đội
+B sẽ có nhiều hơn 1 người (với i = 1 thì đội A có 0 học sinh, đội B có 1
+học sinh). Ban tổ chức muốn biết sau mỗi lượt chia đội thi đấu như vậy thì
+độ chênh lệch của tổng chỉ số thông minh giữa 2 đội là bao nhiêu.
+Yêu cầu: Giúp ban tổ chức tính độ chênh lệch như mô tả trên sau mỗi
+lượt thi đấu.
+
+Statement
+is not
+available
+on
+English
+language
+
+B. GHÉP XÂU ĐỐI XỨNG
+1 second, 1024 megabytes
+Hà có hai xâu kí tự X và Y chỉ gồm các kí tự là các chữ cái tiếng anh
+thường. Em muốn tìm trong xâu kí tự X một xâu con liên tiếp khác rỗng
+(gọi là X1) và tìm trong xâu kí tự Y một xâu con liên tiếp khác rỗng (gọi là
+Y1). Sau đó ghép 2 xâu X1 và Y1 lại với nhau (tức là xâu X1+Y1) thì
+được một xâu mới là xâu đối xứng.
+
+Input
+Vào từ file văn bản THIDAU.INP gồm:
+5
+
+● Dòng đầu chứa số N là số học sinh (N ≤ 10 );
+● Dòng thứ i trong N dòng tiếp theo ghi hai số nguyên dương X[i] và Y[i]
+(các số X[i] khác nhau đôi một, X[i] ≤ 109, Y[i] ≤ 1000).
+
+Output
+Ghi ra file THIDAU.OUT gồm N dòng, dòng thứ i (i=1..N) là độ chênh lệch
+tìm được sau lượt đấu thứ i.
+Ràng buộc:
+● Có 1/2 số điểm có N ≤ 100;
+● 1/2 số điểm còn lại không còn ràng buộc gì thêm.
+
+Yêu cầu: Xác định xem Hà có làm được việc như mô tả trên hay không.
+
+input
+
+Input
+
+5
+2
+1
+5
+3
+8
+
+Vào từ file PALIN.INP gồm:
+● Dòng đầu là số nguyên dương T là số test (T ≤ 1000);
+● Tiếp theo là T bộ test, mỗi test gồm 2 dòng, dòng đầu chứa xâu X, dòng
+thứ hai chứa xâu Y (độ dài xâu X, Y không quá 1000);.
+
+Output
+Ghi ra file văn bản PALIN.OUT gồm T dòng là kết quả của T test, ghi ra
+YES nếu Hà thực hiện được như mô tả, ngược lại thì ghi NO.
+
+https://codeforces.com/group/R6Hls6q0kP/contest/561726/problems
+
+3
+7
+5
+1
+15
+
+output
+3
+4
+5
+4
+9
+
+1/2
+
+12/7/24, 5:32 PM
+
+Problems - Codeforces
+
+output
+
+Statement
+is not
+available
+on
+English
+language
+
+2.236
+
+Statement
+is not
+available
+on
+English
+language
+
+D. TRUYỀN TIN
+1 second, 1024 megabytes
+Thành phố Thanh Hóa được mô phỏng như mặt phẳng tọa độ 2 chiều. Có
+N trạm truyền tin được xây dựng trong thành phố, trạm thứ i (i=1..N) có
+tọa độ là xi, yi. Phạm vi phủ sóng của một trạm là tập hợp tất cả các điểm
+trên mặt phẳng có khoảng cách với trạm đó không quá một số thực r. Nếu
+phạm vi phủ sóng của hai trạm A, B (A, B = 1..N) bất kì có điểm chung thì
+hai trạm này được coi là có giao tiếp được với nhau. Ngoài ra, nếu A giao
+tiếp được với B mà B giao tiếp được với C thì A cũng giao tiếp được với C
+(với mọi A, B, C = 1..N).
+
+E. TRỌNG SỐ
+1 second, 1024 megabytes
+
+Yêu cầu: Tìm số thực r nhỏ nhất sao cho mọi cặp trạm truyền tin đều có
+thể giao tiếp được với nhau.
+
+Input
+Vào từ tệp văn bản TRUYENTIN.INP có cấu trúc:
+● Dòng đầu chứa số nguyên N (N ≤ 1000).
+● Dòng thứ i trong N dòng tiếp theo ghi hai số nguyên không âm
+
+xi, yi(xi, yi≤109).
+
+input
+
+Output
+
+Ràng buộc:
+
+2
+3
+5
+2
+7
+
+● Có 1/2 số điểm có N ≤ 100.
+
+output
+
+● 1/2 số điểm còn lại không còn ràng buộc gì thêm.
+
+9
+4
+
+Ghi ra tệp văn bản TRUYENTIN.OUT gồm một số thực là số r tìm được
+theo yêu cầu, làm tròn đến 3 chữ số thập phân.
+
+1
+4 3
+3
+11
+
+input
+4
+1
+2
+4
+6
+
+1
+6
+3
+8
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+https://codeforces.com/group/R6Hls6q0kP/contest/561726/problems
+
+2/2
+
+

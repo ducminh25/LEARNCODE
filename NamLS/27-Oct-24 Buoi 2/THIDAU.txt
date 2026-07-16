@@ -1,0 +1,23 @@
+Để chuẩn bị cho kì thi chọn học sinh giỏi cấp tỉnh, Sở Giáo dục tổ chức N lượt thi đấu lập trình đối kháng giữa hai đội A và B. Có N học sinh lần lượt vào tham gia thi đấu, học sinh thứ i (i = 1...N) có thời gian đã học lập trình là X[i] và có chỉ số thông minh là Y[i]. Lần lượt từng học sinh từ 1 đến N sẽ tham gia vào các cuộc thi, mỗi khi đến lượt học sinh thứ i (i=1...N), ban tổ chức sẽ tổ chức một lượt thi cho tất cả các học sinh đánh số từ 1 tới i, họ sẽ xếp lại đội hình cho cả 2 đội, sao cho đội A gồm [i/2] học sinh có thời gian học lập trình nhiều hơn và số còn lại ở bên đội B, nếu i lẻ thì đội B sẽ có nhiều hơn 1 người (với i = 1 thì đội A có 0 học sinh, đội B có 1 học sinh). Ban tổ chức muốn biết sau mỗi lượt chia đội thi đấu như vậy thì độ chênh lệch của tổng chỉ số thông minh giữa 2 đội là bao nhiêu.
+Yêu cầu: Giúp ban tổ chức tính độ chênh lệch như mô tả trên sau mỗi lượt thi đấu.
+Input:
+● Dòng đầu chứa số N là số học sinh (N <= 10^5);
+● Dòng thứ i trong N dòng tiếp theo ghi hai số nguyên dương X[i] và Y[i] (các số X[i] khác nhau đôi một, X[i] <= 10^9, Y[i] <= 1000).
+Output: gồm N dòng, dòng thứ i (i=1...N) là độ chênh lệch tìm được sau lượt đấu thứ i.
+
+Ví dụ:
+INPUT:
+5
+2 3
+1 7
+5 5
+3 1
+8 15
+--> OUTPUT:
+3
+4
+5
+4
+9
+
+(Sử dụng cấu trúc dữ liệu priority_queue, sao cho luôn đảm bảo điều kiện của đề bài về sắp xếp đội đấu)

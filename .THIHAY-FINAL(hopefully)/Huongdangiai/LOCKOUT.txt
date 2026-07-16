@@ -1,0 +1,25 @@
+Phân tích đề bài: Dãy "tốt" là dãy không tồn tại cặp chỉ số i < j mà a[j] - a[i] = 1. Điều này nghĩa là: Trong dãy con được chọn, nếu có hai giá trị là x và x+1, thì không được phép xếp x đứng trước x+1. Suy ra: Tất cả các phần tử có giá trị x+1 được chọn phải nằm ở vị trí trước tất cả các phần tử có giá trị x được chọn. Các cặp giá trị không liên tiếp (ví dụ x và x+2) không ảnh hưởng đến nhau.
+
+Thuật toán: Sử dụng Quy hoạch động (DP) trên miền giá trị kết hợp với Kỹ thuật 2 con trỏ.
+
+Tiền xử lý:
+- Gom nhóm các vị trí (index) xuất hiện của từng giá trị x vào danh sách vh[x].
+
+Quy hoạch động:
+- Duyệt giá trị val từ N giảm dần về 0.
+- Gọi tập hợp các trạng thái DP hiện tại là các cặp {vị trí_cuối, chi_phí_min}.
+	vị trí_cuối: Là chỉ số (index) của phần tử cuối cùng được giữ lại thuộc lớp giá trị trước đó (tức là val + 1).
+	chi_phí_min: Số lượng phần tử tối thiểu cần loại bỏ tính đến thời điểm này.
+
+Xử lý tại mỗi bước val:
+- Nếu giá trị val không xuất hiện trong mảng ban đầu:
+	Chuỗi ràng buộc bị đứt đoạn. Ta chỉ cần giữ lại chi phí nhỏ nhất trong các trạng thái DP cũ và reset vị trí về -1 (nghĩa là giá trị val-1 tiếp theo có thể đặt ở bất kỳ đâu).
+- Nếu giá trị val có xuất hiện:
+	Ta cần tìm một điểm cắt "j" trong danh sách vị trí của val.
+	Quy tắc: Giữ lại các số val+1 nằm trước vị trí thứ j của val, và giữ lại các số val bắt đầu từ vị trí thứ j trở đi.
+	Sử dụng 2 con trỏ để khớp các trạng thái từ lớp val+1 sang lớp val sao cho điều kiện về chỉ số được thỏa mãn (index_trước < index_sau).
+	Cập nhật lại danh sách trạng thái DP mới cho lớp val.
+
+Kết quả: Là giá trị chi phí nhỏ nhất trong danh sách DP sau khi duyệt xong về 0.
+
+Độ phức tạp: O(t*N) (t là số testcase), do mỗi vị trí trong mảng chỉ được duyệt qua một lần nhờ kỹ thuật 2 con trỏ trong vòng lặp DP.

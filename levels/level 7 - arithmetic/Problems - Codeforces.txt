@@ -1,0 +1,1170 @@
+Level 7 - Số học (video)
+
+00. XEM TÀI LIỆU - BÀI GIẢNG
+1 s., 256 MB
+LINK TÀI LIỆU:
+https://docs.google.com/document/d/13vQ2Yt9we9ZmYIcbCuArYIaQC5m
+LsBrP?rtpof=true&usp=drive_fs
+CÁCH NỘP BÀI: http://www.chuyentin.pro/2022/05/huong-dan-nop-codec-len-trang-cham.html
+Cho chiều dài cd và chiều rộng cr. Tính diện tích hình chữ nhật s.
+
+w[i] = a
+
+Input
+3 số n, a, m
+
+5
+
+(1 <= n, a, m <= 10 )
+
+Output
+tổng dãy số
+
+input
+5 4 9
+
+output
+
+Một dòng gồm 2 số nguyên cd, cr(0 < cd, cr <= 10^6)
+
+28
+
+Ghi một số nguyên là diện tích s.
+
+mod m + 1
+
+Tính tổng của dãy số này.
+
+Input
+Output
+
+i
+
+dãy số tạo được là: 5, 8, 2, 5, 8.
+
+2A. TIMUOC Đếm số lượng ước số
+
+input
+5 3
+
+1 second, 256 megabytes
+
+output
+
+Cho số nguyên dương N. Đếm số lượng các ước số dương của N.
+
+15
+
+Input
+
+1A. 2013 THTB QG B1. SQUARES Đếm hình
+vuông
+
+số nguyên dương N (N <= 10^12)
+
+Output
+số lượng ước số dương của N.
+
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2021/07/e-thi-tin-hoc-tre-bang-b-quocgia-nam_82.html
+
+input
+10
+
+output
+
+input
+
+4
+
+3
+
+các ước của 10 là 1, 2, 5, 10.
+
+output
+14
+
+2B. CANDI Chia kẹo
+1C. KCHUSO Tìm k chữ số cuối cùng
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Hiệp có N cái kẹo và cậu định cho N-1 người bạn nhưng chỉ có x (x ≥ 1)
+bạn nhận. Cậu quyết định sẽ chia cho mỗi bạn N div (x+1) cái kẹo và cậu
+giữ số kẹo còn lại. Rõ ràng Hiệp rất thông minh vì như vậy trong một số
+trường hợp cậu ta sẽ có nhiều kẹo hơn các bạn. Ví dụ với N = 4 và chỉ có
+x = 2 người nhận. Mỗi người bạn sẽ nhận được 4 div (2+1) = 1 cái kẹo và
+Hiệp sẽ được 2 cái kẹo còn lại.
+
+Cho ba số nguyên dương M, N , K. Tìm K chữ số cuối cùng của M^N.
+
+Input
+ba số nguyên dương M, N , K. (0 < K ≤ 9, 0 ≤ M, N ≤ 10^6)
+
+Output
+
+Yêu cầu: Tính xem có bao nhiêu số x trong khoảng từ 1 đến N – 1 thỏa
+mã điều kiện: nếu có x bạn đến thì Hiệp chỉ nhận được số kẹo bằng các
+bạn.
+
+K chữ số cuối của M^N.
+
+input
+
+Input
+
+1 10 2
+
+Số nguyên dương N (2 ≤ N ≤ 10^12)
+
+output
+
+Output
+
+01
+
+Kết quả của bài toán
+
+2^10 = 1024, hai chữ số cuối là 24
+
+1D. 2016 THTB QG B1. Lưới tam giác
+1 second, 256 megabytes
+
+input
+4
+
+output
+2
+
+Link đề: http://www.chuyentin.pro/2021/07/e-thi-tin-hoc-tre-bang-b-quocgia-nam.html
+
+input
+24
+
+input
+4
+
+output
+
+output
+
+7
+
+27
+
+Trong ví dụ 2 các giá trị x là: 1, 2, 3, 5, 7, 11, 23
+
+1E. TAOMANG Tạo mảng theo công thức
+
+2C. KTNT Kiểm tra số nguyên tố
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Em được cho trước số nguyên dương n, hai số nguyên dương a, m. Hãy
+xác định dãy w[1], w[2], … , w[n] theo công thức:
+
+N là nguyên tố là số nếu N > 1 và chỉ đúng có hai ước 1 và N. Cho số
+nguyên dương n và dãy a gồm n số nguyên dương. Hãy cho biết trong
+dãy a có bao nhiêu số nguyên tố?
+
+Input
+Dòng đầu ghi số nguyên dương n (n < 10^5).
+
+output
+101
+
+Dòng sau ghi n số nguyên a_1, a_2, ..., a_n. (a_i ≤ 10^9)
+
+input
+
+Output
+
+77 9
+
+Số lượng số nguyên tố.
+
+output
+
+input
+
+7 11
+
+3
+2 3 5
+
+3A. TSTN Thừa số nguyên tố
+
+output
+
+1 second, 256 megabytes
+
+3
+
+Cho số nguyên dương N. Hãy in ra biểu diễn số N bởi tích của các số
+nguyên tố.
+
+input
+5
+1 6 8 9 10
+
+Input
+
+output
+
+số nguyên dương N (N<=10^10)
+
+0
+
+Output
+các thừa số nguyên tố theo thứ tự tăng dần
+
+2D. DAUGIA Đấu giá
+1 second, 256 megabytes
+Sở giao thông Hà Nội quyết định bán đấu giá các biển số xe đẹp để lấy
+tiền ủng hộ đồng bào lũ lụt miền Trung. Một biển số xe được gọi là đẹp
+nếu nó thỏa mãn các điều kiện sau:
+
+input
+100
+
+output
+2 2 5 5
+
+input
+
+• Là một số nguyên dương T mà A ≤ T ≤ B trong đó A, B là hai số nguyên
+dương cho trước;
+
+101
+
+•T là một số nguyên tố;
+
+output
+
+• T là một số đối xứng (đọc T từ trái qua phải thu được kết quả giống như
+đọc T từ phải qua trái).
+
+101
+
+3B. ORIGIN Gốc của số nguyên
+
+Ví dụ 12321 là một số đối xứng.
+Yêu cầu: Cho hai số nguyên dương A và B, hãy tìm số lượng các biển số
+xe đẹp.
+
+Input
+hai số nguyên dương A và B(10^4 ≤ A < B <= 10^5)
+
+Output
+số lượng biển số xe đẹp tìm được
+
+1 second, 256 megabytes
+
+input
+28
+
+output
+26
+
+3C. 2015 THTB DONGNAI B1. UOCNT Ước
+nguyên tố
+
+input
+11111 22222
+
+output
+
+1 second, 256 megabytes
+
+23
+
+2E. 2019 HSG9 DONGNAI B4.Ước nguyên tố
+1 second, 256 megabytes
+
+Link đề: http://www.chuyentin.pro/2021/10/e-thi-tin-hoc-tre-bang-b-tinhong-nai.html
+Cho một số nguyên dương n (n ≤ 10^18). Đếm xem n có bao nhiêu ước
+số nguyên tố.
+
+Link đề http://www.chuyentin.pro/2019/10/e-thi-hoc-sinh-gioi-lop-9-montin-tinh.html
+
+Ví dụ: n = 100 có hai ước số nguyên tố là 2 và 5.
+
+Trong các bài toán số học, số nguyên tố luôn gây cho Tèo sự thích thú và
+mong muốn chinh phục thật nhanh. Hôm nay, thầy giáo đố Tèo bằng cách
+ghi lên bảng hai số nguyên dương M và N, sau đó yêu cầu Tèo hãy tìm số
+nguyên tố P gần N nhất thỏa điều kiện P là ước của M.
+
+số nguyên dương n.
+
+Input
+Output
+số lượng ước số nguyên tố của n.
+
+Input
+
+input
+
+ghi hai số nguyên M và N (1 ≤ N ≤ 10^3; 1 ≤ M ≤ 10^6)
+
+100
+
+Output
+
+output
+
+Dòng duy nhất ghi kết quả tìm được, nếu không tìm được kết quả thỏa thì
+ghi -1; nếu có nhiều kết quả thì ghi tất cả theo thứ tự tăng dần.
+
+2
+
+input
+35 10
+
+3D. TSNT1262 Thừa số nguyên tố (2020 HSG9
+DANANG B3)
+
+output
+7
+
+input
+101 25
+
+1 second, 256 megabytes
+Link đề (bài 3): http://www.chuyentin.pro/2021/08/e-thi-hoc-sinh-gioi-lop-9mon-tin-hoc_28.html
+
+input
+4
+1 2 4 10
+
+output
+
+input
+
+3
+
+1 10
+
+output
+
+4A. 2020 TS10 DANANG B1. Số mũ lớn nhất
+1 second, 256 megabytes
+
+2
+3
+5
+7
+
+Link đề: http://www.chuyentin.pro/2021/08/e-thi-tuyen-sinh-lop-10-chuyentin.html
+
+5B. TWINS Số nguyên tố sinh đôi
+
+input
+
+1 second, 256 megabytes
+
+6
+
+Trong lý thuyết số, hai số nguyên tố p và q được gọi là cặp số sinh đôi
+nếu q – p = 2.
+
+output
+4
+
+Ví dụ, các cặp số (3, 5), (5,7), (11, 13), (17, 19) là các cặp sinh đôi.
+
+4B. CHUSO0 Đếm chữ số 0 tận cùng của N!
+1 second, 256 megabytes
+Cho số nguyên dương N. Hãy đếm số lượng chữ số 0 tận cùng của N!.
+Ví dụ: N=10, ta có 10! = 3628800, có 2 chữ số 0 tận cùng.
+
+Trong trường hợp tổng quát với số nguyên dương k cho trước, cặp số
+nguyên tố p và q được gọi là sinh đôi (tổng quát) nếu q – p = k.
+Ví dụ, với k = 4 cặp số nguyên tố (3, 7) được gọi là sinh đôi tổng quát.
+Trong tập số tự nhiên là bài toán phức tạp không kém việc xác định số
+lượng cặp sinh đôi theo định nghĩa thông thường.
+
+số nguyên dương N (N ≤ 10^5)
+
+Yêu cầu: cho n và k. Hãy xác định số cặp sinh đôi tổng quát trong phạm vi
+từ 1 đến n.
+
+Output
+
+Input
+
+số lượng chữ số 0 tận cùng của N!.
+
+2 số nguyên n và k (1 ≤ N, K ≤ 10^6)
+
+Input
+
+Output
+
+input
+
+số cặp sinh đôi tổng quát
+
+10
+
+output
+
+input
+
+2
+
+17 2
+
+output
+
+4C. TIMK Tìm số
+
+3
+
+1 second, 256 megabytes
+
+5C. MPRIME Số nguyên tố ghép
+
+Cho hai số nguyên dương N và M. Hãy tìm số nguyên dương K lớn nhất
+sao cho N! chia hết cho M^K.
+
+1 second, 256 megabytes
+Xét dãy A các số nguyên tố
+
+Input
+một dòng duy nhất chứa 2 số nguyên dương N, M (2 ≤ N, M ≤ 10^9)
+
+Output
+
+2, 3, 5, 7, 11, 13, 17, 19,...
+và dãy B gồm các số thu được từ dãy A bằng cách ghép hai số liên tiếp
+trong A:
+
+số nguyên K tìm được
+
+input
+
+23, 57, 1113, 1719, ...
+
+6 6
+
+output
+
+Trong dãy B có những phần tử là số nguyên tố. Chẳng hạn 23, 3137,
+8389, 157163...
+
+2
+
+Các số nguyên tố trong dãy B gọi là số nguyên tố ghép.
+Yêu cầu: Cho trước số nguyên dương, hãy tìm số nguyên tố ghép thứ K.
+
+4D. 2006 TS10 PTNK B4. DIVISORS Đếm ước
+1 second, 256 megabytes
+Link đề: http://www.chuyentin.pro/2021/10/e-thi-tuyen-sinh-lop-10-chuyentin_21.html
+
+Input
+Gồm 1 số nguyên dương K duy nhất. (K ≤ 500)
+
+Output
+In ra 1 số nguyên dương duy nhất là số nguyên tố ghép thứ K.
+
+input
+
+input
+
+4
+
+2
+
+output
+
+output
+
+7
+
+3137
+
+5A. PNUMBER Sàng nguyên tố
+
+5D. PRIME Con thuyền nguyên tố
+
+1 second, 256 megabytes
+
+1 second, 256 megabytes
+
+Hãy tìm tất cả các số nguyên tố trong đoạn [A,B] .
+
+Input
+Gồm 2 số nguyên A và B cách nhau bởi 1 dấu cách ( 1 ≤ A ≤ B ≤ 2.10^6 )
+
+Output
+Ghi ra tất cả các số nguyên tố trong đoạn [A,B]. Mỗi số trên 1 dòng .
+
+Cho bảng a gồm m hàng, n cột, ô a[i][j] ghi 1 chữ số tự nhiên 0 … 9. Với
+mỗi vị trí (i, j) trên bảng, ta lấy chữ số a[i][j] và có thể nối thêm các chữ số
+bên phải, hoặc nối thêm các chữ số bên dưới, hoặc nối thêm các chữ số
+theo đường chéo phải – dưới để được các số mới không quá 6 chữ số.
+Đếm số lượng số nguyên tố tạo được trên bảng này và tổng tất cả chúng.
+
+Input
+Dòng đầu ghi 2 số m, n (1 ≤ m, n ≤ 1500)
+
+m dòng sau, mỗi dòng ghi n số là các số tự nhiên a[i][j] (0 ≤ a[i][j] ≤ 9)
+
+Output
+Ghi số lượng và tổng tất các các số nguyên tố tạo được. Chú ý: các số
+nguyên tố được tạo theo cách khác nhau vẫn có cùng giá trị .
+
+output
+4
+24
+
+6B. UCLN Tìm ước chung lớn nhất
+
+input
+4
+1
+6
+0
+5
+
+5
+2
+7
+9
+4
+
+3
+8
+8
+3
+
+4
+9
+7
+2
+
+1 second, 256 megabytes
+
+5
+0
+6
+1
+
+Cho N số nguyên dương a1, a2, …, an. Tìm ước số chung lớn nhất của N
+số trên
+
+Input
+
+output
+
+• Dòng đầu ghi số nguyên dương N (N
+
+19 1547
+
+Có 19 số nguyên tố tạo được là: 2, 2, 3, 3, 5, 5, 7, 7, 17, 23, 43, 61, 67,
+71, 79, 83, 89, 97, 883
+
+≤ 10)
+
+• Dòng sau ghi N số nguyên dương a1, a2, …, an (ai
+
+9
+
+≤ 10 )
+
+Output
+ghi UCLN của N số nguyên dương.
+
+5E. NUMBER789 Số đẹp
+1 second, 256 megabytes
+Số nguyên dương x được gọi là đẹp nếu ước nguyên tố lớn nhất của nó
+không vượt quá k. Hãy đếm xem có bao nhiêu số không vượt quá n là số
+đẹp.
+
+input
+3
+18 24 60
+
+output
+6
+
+Input
+Gồm một dòng duy nhất chứa hai số nguyên n và k (1 ≤ n ≤ 5000000;1 ≤
+k ≤ 1000)
+
+Output
+Ghi ra đáp số trên một dòng duy nhất.
+
+input
+
+6C. PHANSO871 Phân số (2015 TS10 HCM B3)
+1 second, 256 megabytes
+Link đề (bài 3): http://www.chuyentin.pro/2017/05/e-thi-tuyen-sinh-lop-10chuyen-tin_23.html
+
+input
+
+10 3
+
+3.2
+
+output
+
+output
+
+6
+
+16 5
+
+input
+
+input
+
+10 4
+
+0.999
+
+output
+
+output
+
+6
+
+999 1000
+
+input
+
+7A. COSO667 Đổi cơ số
+
+15 3
+
+output
+
+1 second, 256 megabytes
+
+7
+
+Trong cuộc sống hàng ngày, chúng ta hay sử dụng hệ thập phân để đếm,
+tính toán
+
+input
+
+Hệ thập phân (hệ cơ số 10) sử dụng tập kí hiệu gồm 10 chữ số: 0, 1, 2, 3,
+4, 5, 6, 7, 8, 9. Mỗi đơn vị ở một hàng bất kì có giá trị bằng 10 đơn vị của
+hàng kế cận bên phải.
+
+5 20
+
+output
+4
+
+Ngoài hệ thập phân, chúng ta còn có các hệ cơ số R khác.
+Hệ cơ số R sử dụng tập kí hiệu gồm R chữ số: 0, 1, 2, …, R-1. Mỗi đơn vị
+ở một hàng bất kì có giá trị bằng R đơn vị của hàng kế cận bên phải.
+
+input
+123456 123
+
+output
+
+Ví dụ:
+
+23854
+
+• Hệ nhị phân (hệ cơ số 2) chỉ dùng hai kí hiệu là chữ số 0 và chữ số 1.
+Mỗi đơn vị ở một hàng bất kì có giá trị bằng 2 đơn vị của hàng kế cận bên
+phải.
+
+6A. UCBC Tìm UCLN và BCNN
+1 second, 256 megabytes
+Tìm UCLN và BCNN của 2 số nguyên dương m và n.
+
+Input
+2 số m và n (0
+
+9
+
+Cách đổi từ hệ thập phân sang hệ cơ số R
+
+<= m, n <= 10 )
+
+Output
+Dòng đầu là ước chung lớn nhất
+Dòng thứ hai là bội chung nhỏ nhất.
+
+input
+
+• Hệ thập lục phân (hệ cơ số mười sáu, hệ hexa) sử dụng các kí hiệu: 0,
+1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, trong đó A, B, C, D, E, F có các giá
+trị tương ứng là 10, 11, 12, 13, 14, 15 trong hệ thập phân. Mỗi đơn vị ở
+một hàng bất kì có giá trị bằng 16 đơn vị của hàng kế cận bên phải.
+
+Muốn đổi một số tử hệ thập phân sang hệ cơ số R. Ta lấy số đó chia cho
+R nhiều lần, cho đến khi được thương là 0. Lưu lại các số dư và viết
+ngược từ cuối để ra kết quả.
+Ví dụ:
+Đổi số 55 từ hệ cơ số 10 sang hệ cơ số 2, kết quả được 110111.
+
+12 8
+
+ố
+
+7D. HECOSO Hệ cơ số
+1 second, 256 megabytes
+Hệ cơ số R sử dụng R chữ số 0, 1, …, R để tính toán. Ví dụ: hệ cơ số 10
+(thập phân) sử dụng 10 chữ số 0, 1, 2, …, 9 để tính toán. Hệ cơ số 5 sử
+dụng 5 chữ số 0, 1, 2, … 4 để tính toán. Người ta dùng các chữ cái A, B,
+… để chỉ các chữ số lớn hơn 9. Ví dụ: hệ thập cơ số 16 (thập lục phân)
+sử dụng 16 chữ số 0, 1, 2…, 9, A, B, C, D, E, F để tính toán. Phép cộng
+trừ trong các hệ cơ số khác cũng giống như trong hệ thập phân. Nếu kết
+quả vượt quá chữ số lớn nhất thì ta chuyển sang hàng tiếp theo.
+Ví dụ: trong hệ cơ số 5
+Viết chương trình mô tả cách đổi cơ số từ hệ thập phân sang hệ cơ số R.
+
+Input
+6
+
+số tự nhiên n, R (1 < N < 10 ; 1 < R < 10)
+
+Output
+số n trong hệ cơ số R.
+
+input
+55 2
+
+Centered scaled image.
+
+Yêu cầu: Cho 3 số A, B, R (A > B). Hãy tính kết quả A + B, A – B trong hệ
+cơ số R.
+
+output
+110111
+
+Input
+Dòng đầu ghi số t là số bộ test (t < 10)
+
+7B. CAUDO Tạo câu đố (2020 HSG9 HCM B1)
+
+T dòng sau, mỗi dòng ghi 3 số A, B, R. (A, B có tối đa 9 chữ số, R <= 16)
+
+1 second, 256 megabytes
+
+Output
+
+Link đề (bài 1) : http://www.chuyentin.pro/2020/06/e-thi-hoc-sinh-gioi-tinhoc-lop-9-thanh.html
+
+T dòng, mỗi dòng ghi 2 số là kết quả của 1 test
+
+input
+
+input
+
+1
+4143 1234 5
+
+4
+
+output
+
+output
+
+O O A O O
+
+10432 2404
+
+input
+
+7E. FIBO Dãy fibonacci
+
+18
+
+1 second, 256 megabytes
+
+output
+
+Dãy số Fibonacci được xác định bởi công thức sau:
+
+A O O A O
+
+f0 = 0
+
+7C. COSO1 Đổi cơ số 1
+
+f1 = 1
+
+1 second, 256 megabytes
+
+fn = fn−1 + fn−2
+
+Muốn đổi một cơ số R về hệ thập phân ta làm như sau:
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+a1 a2 … an R
+
+= a1 . R
+
+n−1
+
++ a2 . R
+
+n−2
+
++ ⋯ + an . R
+
+Một số phần tử đầu tiên của dãy số Fibonacci 0, 1, 1, 2, 3, 5, 8, ...
+0
+
+Input
+số nguyên dương n (n ≤ 50)
+
+Ví dụ: đổi số 1101112 sang hệ cơ số 10
+5
+
+X = 1.2
+
+4
+
++ 1.2
+
+3
+
++ 0.2
+
+2
+
+1
+
++ 1.2
+
++ 1.2
+
+0
+
++ 1.2
+
+Output
+
+= 32 + 16 + 4 + 0 + 2 + 1 = 55
+
+Số Fibonacci thứ n.
+
+Đổi số
+5
+
+AA12F B 16 = 10.16
+
+4
+
++ 10.16
+
++ 1.16
+
+3
+
++ 2.16
+
+2
+
+1
+
++ 15.16
+
+Input
+Input: Dòng đầu ghi số test T, T nhóm dòng sau, mỗi nhóm gồm 2 dòng
+Dòng đầu ghi số A
+Dòng sau ghi cơ số R (R <= 16, A có tổi đa 9 chữ số, các chữ số đúng
+theo hệ cơ số R)
+
+Output
+Output: ghi số A trong hệ thập phân
+
+2
+110111
+2
+AA12FB
+16
+
+0
+
++ 11.16
+
+Yêu cầu: cho 2 số A và R. Hãy đổi số A trong hệ cơ số R sang hệ thập
+phân.
+
+input
+
+= 1114597910
+
+input
+
+6
+
+output
+8
+
+7F. TONGFIBO Biểu diễn tổng các số Fibonaci
+1 second, 256 megabytes
+Cho số tự nhiên N và dãy số Fibonaci: 0, 1, 1, 2, 3, 5, 8, 13 ....
+Yêu cầu: biểu diễn N thành tổng của của ít nhất các số Fibonaci khác
+nhau?
+
+Input
+số tự nhiên N (N ≤ 10^6)
+
+Output
+các số Fibonacci theo thứ tự từ lớn đến nhỏ có tổng bằng N
+
+output
+55
+11145979
+
+với n ≥ 2
+
+input
+16
+
+Input
+
+output
+
+1 số nguyên dương duy nhất là số N
+
+13 3
+
+Output
+
+8A. RGC Căn bậc 2 (2021 TS10 NGHEAN B1)
+1 second, 256 megabytes
+Link đề (bài 1): http://www.chuyentin.pro/2021/06/e-thi-tuyen-sinh-lop-10chuyen-tin-tinh_6.html
+
+1 số nguyên duy nhất là tổng S
+
+input
+5
+
+output
+2
+
+input
+
+input
+
+2
+18
+4
+
+10
+
+output
+
+output
+
+3 2
+2 1
+
+3
+
+8D. TRIBO Dãy Tribonacci
+
+input
+
+1 second, 256 megabytes
+
+2
+7
+8
+
+Dãy số tribonacci được định nghĩa như sau:
+
+output
+
+a0 = 0, a1 = 0, a2 = 1;
+
+1 7
+2 2
+
+an = an−1 + an−2 + an−3 , n ≥ 3.
+
+8B. NTTD Số nguyên tố tương đương
+1 second, 256 megabytes
+
+Các phần tử ban đầu của dãy là: 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149,
+274, 504, 927, 1705, 3136, 5768, 10609, 19513, 35890, 66012, 121415,
+223317, 410744, 755476, 1389537, 2555757, 4700770, 8646064, …
+Cho số n, tìm số tribonacci đầu tiên lớn hơn hoặc bằng n.
+
+Hai số tự nhiên được gọi là Nguyên tố tương đương nếu chúng có chung
+các ước số nguyên tố.
+
+Input
+
+Yêu cầu: Cho trước hai số tự nhiên N, M. Hãy viết chương trình kiểm tra
+xem các số này có là nguyên tố tương đương với nhau hay không.
+
+Mỗi test gồm một dòng chứa số nguyên n (0 ≤ n ≤ 10^9).
+
+Input
+
+Với mỗi test, in ra số tribonacci tìm được.
+
+gồm nhiều test, số lượng test không quá 100.
+
+Output
+
+Số nguyên dương N, M (2 ≤ M, N ≤ 10^9)
+
+input
+
+Output
+xuất 'true' nếu tương đương, ngược lại xuất 'false'
+
+input
+75 15
+
+1
+2
+3
+4
+5
+
+output
+
+output
+
+true
+
+1
+2
+4
+4
+7
+
+Giải thích: cùng có các ước nguyên tố là 3 và 5.
+
+8C. RESCUE Giải cứu công chúa
+8E. HPRIME Số nguyên tố
+
+1 second, 256 megabytes
+Ở vương quốc LTV xa xôi có một chàng trai chăn cừu nghèo tên là JATC.
+Chàng đem lòng yêu nàng công chúa xinh đẹp và nàng cũng có tình cảm
+với chàng. Tuy nhiên, do thân phận chàng hèn kém, tình yêu của họ bị
+nhà vua ngăn cấm. Chàng buồn rầu, đau khổ, ngày đêm tìm cách thể hiện
+bản lĩnh của mình để nhà vua chấp nhận nhưng chẳng ăn thua.
+Do nhà vua đắc tội với các vị thần, một hôm, các thần quyết định trừng
+phạt ông bằng cách cho một con nhân sư đến bắt cóc công chúa. Để giải
+cứu công chúa, nhà vua đã phái hàng nghìn binh lính đến chiến đấu với
+nhân sư nhưng đều thất bại. Được tin, JATC lòng như lửa đốt, ngày đêm
+luyện tập võ công quyết tâm đi đánh nhân sư giải cứu công chúa.
+Vượt qua bao gian nan, cuối cùng chàng cũng đã đến hang ổ của nhân
+sư. Chàng xông lên, tay đánh, chân đạp, quyết liều chết cứu công chúa
+về. Tuy nhiên, nhân sư không vừa đâu, vừa nhảy lên chàng đã ăn một tát
+của nhân sư ngã lăn ra đất. Quyết không đầu hàng, chàng lao đến cấu,
+xé, cắn, cào. Trông thấy tình cảnh đó, nhân sư cảm thấy thương hại
+chàng. Nó đề nghị, sẽ thả công chúa ra ngay nếu như chàng trả lời được
+một câu đố của nó mà không cần phải đánh nhau. Sau một hồi suy nghĩ,
+chàng đã nhận lời. Câu đố của nhân sư như sau: đặt f(x) là hàm trả về số
+lượng ước của x, tính
+s = f(1)%2 + f(2)%2 + ... + f(n)%2 (% là phép toán mod)
+Do ngày đêm luyện tập võ công mà không trau dồi kiến thức nên chàng
+không tài nào giải được câu đố trên. Là một lập trình viên siêu hạng, các
+bạn hãy giúp JATC giải cứu công chúa nhé.
+
+ố
+
+1 second, 256 megabytes
+Cho hai số nguyên dương n và h, hãy liệt kê tất cả các số nguyên tố trong
+phạm vi từ 1 tới n có tổng các chữ số bằng h.
+
+Input
+ghi hai số nguyên dương n ≤ 10^6 và h ≤ 60.
+
+Output
+Dòng 1 ghi số k là số những số nguyên tố trong phạm vi từ 1 tới n có tổng
+các chữ số bằng h.
+k dòng tiếp theo, mỗi dòng ghi một số nguyên tố thỏa mãn yêu cầu dề ra,
+các số guyên tố phải duợc liệt kê theo thứ tự tăng dần.
+
+input
+500 16
+
+output
+7
+79
+97
+277
+349
+367
+439
+457
+
+8F. THANTHIEN Số thân thiện
+1 second, 256 megabytes
+Số tự nhiên có rất nhiều tính chất thú vị. Ví dụ với số 23, số đảo ngược
+của nó là 32. Hai số này có ước chung lớn nhất là 1. Những số như thế
+được gọi là số thân thiện, tức là số 23 được gọi là số thân thiện, số 32
+cũng được gọi là số thân thiện.
+Hãy nhập vào 2 số nguyên a,b. Hãy đếm xem trong khoảng từ a đến b (kể
+cả a và b) có bao nhiêu số thân thiện.
+
+Input
+Dòng đầu ghi số nguyên dương t là số test (1 ≤ t ≤ 1000)
+T dòng sau, mỗi dòng gồm 2 số L, R (1 <= L <= R <= 10^5)
+
+Output
+Gồm t dòng, mỗi dòng ghi 1 số nguyên duy nhất là số số phong phú trong
+đoạn [L, R].
+
+input
+
+Input
+
+1
+1 50
+
+Bao gồm một dòng chứa 2 số a, b (10 ≤ a ≤ b ≤ 30000)
+
+output
+
+Output
+
+9
+
+Bao gồm một dòng là kết quả của bài toán.
+
+12, 18, 20, 24, 30, 36, 40, 42, 48
+
+input
+
+8H. CHIAHET Chia hết (2020 TS10 NGHEAN
+B2)
+
+20 30
+
+output
+
+1 second, 256 megabytes
+
+3
+
+8G. NKABD Số phong phú
+1 second, 256 megabytes
+Trong số học, số phong phú là các số mà tổng các ước số của số đó
+(không kể chính nó) lớn hơn số đó. Ví dụ, số 12 có tổng các ước số
+(không kể 12) là 1 + 2 + 3 + 4 + 6 = 16 > 12. Do đó 12 là một số phong
+phú.
+
+Link đề (bài 2): http://www.chuyentin.pro/2020/07/e-thi-tuyen-sinh-lop-10chuyen-tin-tinh.html
+
+input
+1 15 3 5
+
+output
+7
+
+Bạn hãy lập trình đếm xem có bao nhiêu số phong phú trong đoạn [L,R].
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+

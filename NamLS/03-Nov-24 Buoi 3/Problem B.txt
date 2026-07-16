@@ -1,0 +1,20 @@
+Problem B
+Ban tổ chức đưa ra trò chơi gấp giấy. Cho một tờ giấy hình vuông có kích thước N * N, được kẻ thành lưới các ô vuông đơn vị, mỗi ô vuông được BTC ghi sẵn số 0 hoặc 1. Mỗi người tham gia được ban tổ chức yêu cầu gấp tờ giấy một lần theo đường kẻ ngang và một lần theo đường kẻ dọc. Theo nếp gấp đó sẽ chia tờ giấy thành 4 phần. Người thắng cuộc là người tìm được cách gấp tờ giấy mà phần có ít số 1 nhất (trong 4 phần của tờ giấy sau khi gấp) là nhiều nhất so với các cách gấp khác.
+
+Yêu cầu: Bạn hãy tìm một cách gấp giấy thỏa mãn yêu cầu của ban tổ chức sao cho bạn là người thắng cuộc.
+Input:
+• Dòng thứ nhất chứa một số nguyên dương N (2 <= N <= 250).
+• Tiếp theo là n dòng, mỗi dòng ghi n số: Số 0 hoặc số 1, tương ứng với các số được ghi trên tờ giấy. Các số ghi trên cùng một dòng cách nhau một kí tự trắng.
+Output: gồm một dòng ghi một số nguyên là số lượng số 1 trên phần giấy có ít số 1 nhất của cách gấp tìm được.
+
+Sample:
+input:
+6
+1 0 1 0 0 1
+0 1 0 0 0 1
+1 0 0 0 0 0
+0 1 1 0 0 1
+0 1 0 0 1 0
+1 0 1 0 0 0
+output:
+3

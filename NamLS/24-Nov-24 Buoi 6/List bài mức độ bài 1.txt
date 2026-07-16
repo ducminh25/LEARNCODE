@@ -1,0 +1,663 @@
+11/24/24, 6:37 PM
+
+Problems - Codeforces
+
+Thầy Nam - Bài tổng hợp - mức độ bài 1 - số 3
+input
+Statement
+is not
+available
+on
+English
+language
+
+3
+1 -3
+12 -6
+-50 -100
+
+output
+1
+
+A. PHÉP ĐỒNG DƯ
+Statement
+is not
+available
+on
+English
+language
+
+1 second, 1024 megabytes
+Cho biểu thức: T=2+5+8+⋯+(3×n-1)
+Yêu cầu: Xác định số dư R=T mod 2023
+Trong đó: mod là phép toán chia lấy phần dư;
+
+Input
+
+C. NHỮNG CON RÙA
+
+Vào từ file DONGDU.INP chứa duy nhất 1 số nguyên dương n (1 ≤ n ≤
+1018)
+
+1 second, 1024 megabytes
+
+Output
+Ghi vào file DONGDU.OUT duy nhất một số nguyên dương R là kết quả
+tìm được theo yêu cầu bài toán.
+Ràng buộc:
+- 80% có 1≤n≤ 106;
+- 20% còn lại không còn ràng buộc khác.
+
+input
+2
+
+output
+Ràng buộc: |1|, |b|, |c|
+
+7
+
+≤ 10^{18}
+
+input
+Statement
+is not
+available
+on
+English
+language
+
+2
+3 3 4
+10 20 30
+
+output
+0
+36
+
+B. PHƯƠNG TRÌNH BẬC NHẤT
+
+Statement
+is not
+available
+on
+English
+language
+
+1 second, 1024 megabytes
+Cho N (1 ≤ N ≤ 20) phương trình bậc nhất có dạng: ax + b = 0 (a ≠ 0), hai
+số nguyên a, b (|a|, |b| ≤ 1012) được gọi là hệ số của phương trình, x là
+ẩn số.
+Yêu cầu: Hãy đếm số lượng phương trình có nghiệm nguyên dương,
+đồng thời nghiệm đó là số nguyên tố.
+
+D. TRẠI HÈ
+
+Input
+
+1 second, 1024 megabytes
+
+Vào từ file PTBACNHAT.INP theo cấu trúc sau:
+- Dòng thứ nhất chứa số nguyên dương N;
+- N dòng tiếp theo, mỗi dòng chứa 2 số nguyên a và b, cách nhau một
+khoảng trắng
+
+Output
+Ghi ra file PTBACNHAT.OUT một số nguyên là số lượng phương trình có
+nghiệm thỏa mãn yêu cầu bài toán.
+
+Sau khi học sinh đã đăng kí danh sách tham gia trại hè. Nhà trường cần
+đặt phòng khách sạn theo nhu cầu của học sinh. Theo thông tin đăng kí
+nhận được thì có a học sinh muốn ở phòng riêng (một mình một phòng)
+và có b học sinh không có yêu cầu gì, tùy theo sắp xếp của nhà trường.
+Biết rằng mỗi phòng chỉ ở tối đa 3 học sinh.
+Yêu cầu: Hãy tính số lượng phòng ít nhất mà nhà trường cần đặt.
+
+Input
+Từ tệp văn bản TRAIHE.INP gồm hai số nguyên a,b (a,b
+
+≤ 109);
+
+Output
+
+https://codeforces.com/group/R6Hls6q0kP/contest/568284/problems
+
+1/5
+
+11/24/24, 6:37 PM
+
+Problems - Codeforces
+
+Ghi vào tệp văn bản TRAIHE.OUT một số nguyên duy nhất là kết quả của
+bài toán.
+
+input
+
+input
+
+2
+101
+11
+
+1 4
+
+output
+
+output
+
+YES
+NO
+
+3
+
+Statement
+is not
+available
+on
+English
+language
+
+Statement
+is not
+available
+on
+English
+language
+
+E. XÚC XẮC
+
+G. MẬT THƯ
+
+1 second, 1024 megabytes
+
+1 second, 1024 megabytes
+
+Giờ ra chơi, các bạn học sinh lớp học thầy Nam chơi trò chơi rất nhàm
+chán như sau: mỗi người lần lượt tung xúc xắc, nếu ai tung vào số 6 thì
+sẽ được chơi tiếp (tung lại), còn không thì sẽ đến lượt người khác. Trung
+ghi lại tất cả các số xúc xắc mà mọi người tung được rồi đố người bạn
+thân Hỏa Anh Tú xem đã có tất cả bao nhiêu người chơi. Biết rằng xúc
+xắc có 6 mặt, đánh số từ 1 đến 6 và mỗi người chỉ tham gia chơi nhiều
+nhất một lần.
+
+Trong hội trại năm nay, Hà được lớp giao nhiệm vụ tham gia trò chơi giải
+mật thư tìm kho báu. Mật thư có n kí tự chỉ gồm hai loại kí tự là 'A' và 'B'.
+Trong mật thư nếu số lần chuỗi con "AA" xuất hiện nhiều hơn số lần xuất
+hiện của chuỗi con "BB" thì đáp án của mật thư là số lần xuất hiện chuỗi
+con "AA" và ngược lại.
+
+Input
+
+Yêu cầu: Hãy giúp Hà tìm ra một số lớn nhất có thể là đáp án của mật
+thư nếu nó không bị ướt.
+
+Vào từ file XUCXAC.INP gồm một dòng là dãy số xúc xắc tung được, viết
+liền nhau như một xâu kí tự (độ dài không quá 105);
+
+Output
+
+Hà vô tình làm ướt mật thư nên một số kí tự có thể bị nhòe mực, lúc này
+kí tự nào bị nhòe thì kí tự đó sẽ chuyển thành kí tự '*'.
+
+Input
+Từ tệp văn bản MATTHU.INP gồm:
+
+Ghi ra file văn bản XUCXAC.OUT gồm một số là số người đã chơi hoặc in
+ra -1 nếu dãy số không hợp lệ.
+
+input
+
++ Dòng đầu tiên chứa số nguyên dương n là độ dài của mật thư (1 ≤ n ≤
+106).
+
+3662123
+
++ Dòng thứ hai chứa n kí tự 'A', 'B' hoặc '*' được ghi liên tiếp không chứa
+dấu cách.
+
+output
+
+Output
+
+5
+
+Ghi vào tệp văn bản MATTHU.OUT chỉ gồm một số nguyên duy nhất là
+đáp án của bài toán.
+
+input
+
+Statement
+is not
+available
+on
+English
+language
+
+5
+AABBB
+
+output
+2
+
+input
+
+F. LẠI XÓA SỐ
+
+4
+A*BB
+
+1 second, 1024 megabytes
+Giờ ra chơi, Hà viết lên bảng một số tự nhiên N rồi đố Thế xóa đi 1 chữ số
+rồi viết lại đúng một chữ số khác trước để số N sau đó có tất cả các chữ
+số giống nhau (chấp nhận cả số toàn chữ số 0). Thế loay hoay chưa biết
+xử lí thế nào nên trước tiên phải nhờ các bạn trả lời giúp là có thể thực
+hiện được theo yêu cầu của Hà không.
+
+output
+2
+
+Statement
+is not
+available
+on
+English
+language
+
+Input
+Vào từ file LAIXOASO.INP gồm:
+- Dòng đầu chứa số T là số test (T ≤ 20);
+5
+
+- T dòng tiếp theo, mỗi dòng chứa một số tự nhiên N (không quá 10 chữ
+số)
+
+Output
+Ghi ra file văn bản LAIXOASO.OUT gồm T dòng, mỗi dòng ghi YES nếu
+có thể thực hiện được theo yêu cầu của Thắng, ghi NO nếu ngược lại.
+
+https://codeforces.com/group/R6Hls6q0kP/contest/568284/problems
+
+H. SỐ NHỎ NHẤT
+1 second, 1024 megabytes
+Cho số nguyên dương n.
+
+2/5
+
+11/24/24, 6:37 PM
+
+Problems - Codeforces
+
+Yêu cầu: Hãy tìm số nguyên dương m nhỏ nhất sao cho tổng các chữ số
+của m đúng bằng n và các chữ số của m phân biệt (không có chữ số nào
+xuất hiện nhiều hơn 1 lần).
+
+on
+English
+language
+
+Input
+
+J. SẮP XẾP SỐ
+
+Vào từ file văn bản SONN.INP gồm một dòng chứa số nguyên dương n
+(1≤ n ≤ 45).
+
+Output
+Ghi ra file văn bản SONN.OUT số nguyên dương m tìm được.
+
+1 second, 1024 megabytes
+Cho một số nguyên dương N có 4 chữ số.
+Yêu cầu: Hãy sắp xếp lại các chữ số của N để được số lớn nhất mà chia
+hết cho 5, nếu không tìm được số chia hết cho 5 thì ghi ra -1.
+
+input
+25
+
+Input
+
+output
+
+Vào từ file văn bản SXSO.INP gồm một số nguyên dương N có 4 chữ số.
+
+1789
+
+Output
+Ghi ra file SXSO.OUT gồm một số duy nhất là kết quả của bài toán.
+
+input
+44
+
+input
+
+output
+
+2014
+
+23456789
+
+output
+4210
+
+input
+11
+
+output
+
+Statement
+is not
+available
+on
+English
+language
+
+29
+
+Statement
+is not
+available
+on
+English
+language
+
+I. ĐỘI HÌNH
+1 second, 1024 megabytes
+Học sinh trường XYZ vinh dự được chọn tham gia biểu diễn trong lễ khai
+mạc Hội khỏe Phù Đổng tỉnh ZZZ. Để đội hình biểu diễn đồng đều, đẹp,
+Ban tổ chức muốn chọn những em học sinh có chiều cao bằng nhau trong
+n học sinh của trường XYZ.
+Yêu cầu: Hãy giúp Ban tổ chức chọn ra một nhóm học sinh có chiều cao
+bằng nhau với số lượng nhiều nhất, nếu có nhiều nhóm có số lượng bằng
+nhau thì chọn nhóm có chiều cao lớn nhất.
+
+K. TỈ LỆ CHỌI
+1 second, 1024 megabytes
+Trong kỳ thi tuyển sinh vào lớp 10 năm học 2024-2025 của trường THPT
+chuyên Lam Sơn có tuyển sinh 9 môn chuyên: Toán, Vật lí, Hóa học, Sinh
+học, Tin học, Ngữ văn, Lịch sử, Địa lí, Tiếng Anh được ký hiệu lần lượt từ
+1 đến 9.
+Có tất cả N thí sinh đăng ký dự thi, mỗi thí sinh được đăng ký dự thi một
+hoặc hai môn chuyên gọi là môn chuyên 1 (bắt buộc) và môn chuyên 2
+(tự chọn, ghi 0 nếu không đăng ký). Tất cả 9 môn chuyên đều có chỉ tiêu
+tuyển sinh bằng nhau là M học sinh mỗi môn. Gọi tỉ lệ chọi của mỗi môn
+là tổng số thí sinh dự thi của môn đó chia cho chỉ tiêu (M).
+Yêu cầu: Hãy tính tỉ lệ chọi của từng môn.
+
+Input
+
+Input
+
+Vào từ file văn bản TLCHOI.INP gồm:
+
+Vào từ file văn bản DOIHINH.INP gồm:
+
+• Dòng đầu tiên chứa số 2 số nguyên dương M (1<M<50) và N
+(1<N<2000).
+
+• Dòng 1: Số nguyên n (1 ≤ n ≤ 105) là số lượng học sinh của trường
+XYZ.
+• Dòng 2: Chứa n số nguyên h1, h2, .., hn (1 ≤ hi ≤ 250) là chiều cao của
+các học sinh trường XYZ, các số cách nhau một khoảng trắng.
+
+Output
+Ghi ra file văn bản DOIHINH.OUT hai số nguyên là chiều cao và số lượng
+học sinh được chọn, hai số cách nhau một khoảng trắng.
+
+input
+
+• Dòng thứ 2 chứa N cặp số nguyên (N*2 số nguyên, các số phân biệt
+bằng dấu cách), mỗi cặp gồm 2 số x, y là đăng kí dự thi của mỗi thí sinh
+(x thuộc [1,9] là ký hiệu môn chuyên 1 (bắt buộc), y thuộc [0,9] là ký hiệu
+môn chuyên 2 (tự chọn, nếu học sinh không đăng ký thì môn 2 ghi 0)).
+
+Output
+Ghi ra File văn bản TLCHOI.OUT gồm một dòng duy nhất ghi 9 số thực là
+tỉ lệ chọi của 9 môn thi (các số làm tròn đến 1 chữ số sau dấu thập phân
+và cách nhau một dấu cách theo thứ tự từ môn 1 đến 9).
+
+6
+156 161 158 161 159 161
+
+input
+
+output
+
+2 12
+3 6 4 0 2 2 1 7 4 1 9 8 7 8 2 7 6 5 2 8 1 5 4 3
+
+161 3
+
+output
+1.5 2.0 1.0 1.5 1.0 1.0 1.5 1.5 0.5
+
+Statement
+is not
+available
+
+https://codeforces.com/group/R6Hls6q0kP/contest/568284/problems
+
+3/5
+
+11/24/24, 6:37 PM
+
+Problems - Codeforces
+on
+English
+language
+
+Statement
+is not
+available
+on
+English
+language
+
+L. TỔNG BẰNG K
+1 second, 1024 megabytes
+Cho dãy số nguyên dương 1,2 ,… ,N và số nguyên dương K (1 ≤ N, K ≤
+1018).
+Yêu cầu: Đếm số cặp (a, b) trong dãy số đã cho sao cho a + b = K. Cặp
+(a, b) và (b, a) được coi là một cặp.
+
+Input
+Vào từ tệp văn bản TONGBANGK.INP một dòng duy nhất chứa hai số N
+và K viết cách nhau một dấu cách.
+
+Output
+Đưa ra tệp văn bản TONGBANGK.OUT một số duy nhất là kết quả của
+bài toán.
+Ràng buộc:
+3
+
+- Có 75% số test có 1 ≤ N,K ≤ 10 ;
+- Có 17% số test có 103<N,K≤106;
+- Có 8% số test có 106<N,K≤1018.
+
+input
+7 8
+
+N. VACCINE
+1 second, 1024 megabytes
+Các nhà nghiên cứu đang tìm một vắc xin để chống lại một loại vi rút nguy
+hiểm có tên là RTU. Họ đã nghiên cứu được N vắc xin, mỗi vắc xin chứa
+một loại vi rút yếu, sẽ được tiêm vào người để tạo ra kháng thể giúp cơ
+thể chống lại vi rút RTU. Các nhà nghiên cứu cần tìm một vắc xin tốt nhất
+trong N loại đã nghiên cứu được. Việc tính toán độ tương tác giữa các
+Axit Ribonucleic (viết tắt RNA) của các loại vi rút có trong vắc xin với vi rút
+RTU là rất cần thiết cho việc này. Một RNA bao gồm bốn loại phân tử:
+Guanine (G), Adenine (A), Cytosine (C), và Uracil (U).
+Bạn được cho cấu trúc RNA của vi rút RTU và của N vi rút có trong N vắc
+xin đang nghiên cứu. Cấu trúc RNA có dạng là một xâu kí tự chỉ gồm các
+kí tự 'G', 'A', 'C', 'U' tương ứng là các loại phân tử như trên. Biết rằng, vi
+rút trong vắc xin nào có sự tương tác cao hơn với vi rút RTU thì loại vắc
+xin đó tốt hơn.
+Độ tương tác giữa hai vi rút có cấu trúc RNA là s1 và s2 được tính như
+sau:
+• Một phân tử Guanine (là kí tự 'G') trong s1 và một phân tử Cytosine (là
+kí tự 'C') trong s2 cho ta một đơn vị tương tác.
+• Một phân tử Cytosine (là kí tự 'C') trong s1 và một phân tử Guanine (là
+kí tự 'G') trong s2 cho ta một đơn vị tương tác.
+• Bất kì cặp phân tử nào khác mô tả trên của s1 và s2 không cho một đơn
+vị tương tác nào. Độ tương tác giữa s1 và s2 sẽ được tính bằng tổng độ
+tương tác giữa tất cả các cặp phân tử giữa hai cấu trúc RNA.
+Yêu cầu: Cho cấu trúc RNA của vi rút RTU và của N vi rút có trong N vắc
+xin. Bạn hãy tìm vắc xin tốt nhất trong số đó.
+
+output
+3
+
+Input
+Vào từ file VACCINE.INP gồm:
+Statement
+is not
+available
+on
+English
+language
+
+M. LẠI ƯỚC SỐ CHUNG
+1 second, 1024 megabytes
+Ước số chung đặc biệt của hai số nguyên dương a và b là số nguyên
+dương d sao cho a chia hết cho d, b chia hết cho d và tổng các chữ số
+của d là lớn nhất.
+Yêu cầu: Hãy tìm ước số chung đặc biệt của hai số a và b.
+
+Input
+Vào từ tệp văn bản LAIUOCCHUNG.INP một dòng duy nhất chứa hai số
+nguyên a, b cách nhau bởi một dấu cách (1≤ a, b ≤ 109).
+
+Output
+
+• Dòng đầu chứa số N là số vắc xin (N ≤ 1000);
+• Dòng thứ hai chứa một xâu kí tự chỉ gồm các kí tự 'G', 'A', 'C', 'U' là RNA
+của vi rút RTU (độ dài xâu không quá 1000).
+• N dòng tiếp theo, mỗi dòng chứa một xâu kí tự chỉ gồm các kí tự 'G', 'A',
+'C', 'U' là RNA của N vi rút có trong N vắc xin (độ dài mỗi xâu không quá
+1000).
+
+Output
+Ghi ra file văn bản VACCINE.OUT gồm một số nguyên dương là thứ tự
+của vắc xin tốt nhất tìm được, nếu có nhiều vắc xin tốt như nhau thì in ra
+số thứ tự nhỏ nhất.
+
+input
+2
+ACGGU
+UAUAAGAG
+AGCAAA
+
+output
+2
+
+ghi vào tệp văn bản LAIUOCCHUNG.OUT số nguyên dương duy nhất là
+tổng các chữ số của ước số chung đặc biệt tìm được.
+Statement
+is not
+available
+on
+English
+language
+
+input
+220 440
+
+output
+10
+
+Statement
+is not
+available
+
+https://codeforces.com/group/R6Hls6q0kP/contest/568284/problems
+
+O. TỔNG ĐỘ DÀI
+1 second, 1024 megabytes
+
+4/5
+
+11/24/24, 6:37 PM
+
+Problems - Codeforces
+
+Cho N đoạn thẳng trên trục số với các điểm đầu xi và độ dài di (|xi|, di là
+9
+những số nguyên không vượt quá 10 ). Tính tổng độ dài trên trục số bị
+phủ bởi N đoạn trên. Ví dụ: Có 3 đoạn x1 = -5, d1 = 10; x2 = 0, d2 = 6; x3
+= -100, d3 = 10 thì tổng độ dài trên trục số bị phủ bởi 3 đoạn trên là 21.
+
+Input
+vào từ tệp văn bản TONGDD.INP gồm:
+- Dòng 1 ghi số nguyên dương N (1 ≤ N ≤ 104);
+- Dòng thứ i trong n dòng tiếp theo ghi tọa độ điểm đầu và độ dài của
+đoạn thẳng thứ i.
+
+1 second, 1024 megabytes
+Có n đoạn thẳng, đoạn thứ i có độ dài di. Bạn cần chọn ra 4 đoạn thẳng
+để có thể xếp thành một hình chữ nhật. Giả sử 4 đoạn thẳng mà bạn chọn
+có độ dài lần lượt là a,b,c,d (a ≤ b ≤ c ≤ d), khi đó có thể xếp được thành
+một hình chữ nhật nếu a=b và c=d. Bạn xếp được hình chữ nhật có diện
+tích càng lớn sẽ càng được điểm cao.
+Yêu cầu: Cho d1, d2, .., dn là độ dài của n đoạn thẳng. Hãy tìm cách
+chọn 4 đoạn thẳng để xếp được thành một hình chữ nhật có diện tích lớn
+nhất.
+
+Input
+
+Output
+Ghi ra tệp văn bản TONGDD.OUT ghi một số là tổng độ dài trên trục số bị
+phủ bởi N đoạn thẳng đã cho.
+
+Vào từ file văn bản HCN.INP:
+- Dòng thứ nhất ghi một số nguyên dương n (n ≤ 300000);
+9
+
+- Dòng tiếp theo chứa n số nguyên dương d1, d2, .., dn (di≤10 ).
+
+input
+4
+-5 10
+0 7
+-100 10
+-98 5
+
+Output
+
+output
+
+input
+
+22
+
+5
+5 3 1 5 1
+
+Ghi ra file văn bản HCN.OUT trên một dòng, một số nguyên duy nhất là
+diện tích của hình chữ nhật xếp được (ghi -1 nếu không tồn tại cách chọn
+nào xếp được hình chữ nhật).
+
+output
+Statement
+is not
+available
+on
+English
+language
+
+5
+
+input
+4
+1 2 3 4
+
+output
+
+P. HÌNH CHỮ NHẬT
+
+-1
+
+Codeforces (c) Copyright 2010-2024 Mike Mirzayanov
+The only programming contests Web 2.0 platform
+
+https://codeforces.com/group/R6Hls6q0kP/contest/568284/problems
+
+5/5
+
+
